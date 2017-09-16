@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="DruidBalance" icon="spell_nature_starfall" key="Balance" name="平衡" order="0">
+      <talent column="1" icon="spell_nature_abolishmagic" key="762" name="強化憤怒" tier="0">
+        <rank description="使你憤怒和星火術的施法時間縮短0.1秒。" lvl="1"/>
+        <rank description="使你憤怒和星火術的施法時間縮短0.2秒。" lvl="2"/>
+        <rank description="使你憤怒和星火術的施法時間縮短0.3秒。" lvl="3"/>
+        <rank description="使你憤怒和星火術的施法時間縮短0.4秒。" lvl="4"/>
+        <rank description="使你憤怒和星火術的施法時間縮短0.5秒。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_arcane03" key="2238" name="生生不息" tier="0">
+        <rank description="使你的週期性法術造成的傷害和治療效果提高1%。" lvl="1"/>
+        <rank description="使你的週期性法術造成的傷害和治療效果提高2%。" lvl="2"/>
+        <rank description="使你的週期性法術造成的傷害和治療效果提高3%。" lvl="3"/>
+        <rank description="使你的週期性法術造成的傷害和治療效果提高4%。" lvl="4"/>
+        <rank description="使你的週期性法術造成的傷害和治療效果提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_sentinal" key="783" name="月光" tier="1">
+        <rank description="使你月火術、星火術、星殞術、憤怒、治療之觸、滋補術、癒合和回春術所消耗的法力降低3%。" lvl="1"/>
+        <rank description="使你月火術、星火術、星殞術、憤怒、治療之觸、滋補術、癒合和回春術所消耗的法力降低6%。" lvl="2"/>
+        <rank description="使你月火術、星火術、星殞術、憤怒、治療之觸、滋補術、癒合和回春術所消耗的法力降低9%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_staff_01" key="1822" name="自然威嚴" tier="1">
+        <rank description="使你憤怒、星火術、星殞術、滋補術和治療之觸造成致命一擊的機率提高2%。" lvl="1"/>
+        <rank description="使你憤怒、星火術、星殞術、滋補術和治療之觸造成致命一擊的機率提高4%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_nature_starfall" key="763" name="強化月火術" tier="1">
+        <rank description="使你月火術所造成的傷害和致命一擊機率提高5%。" lvl="1"/>
+        <rank description="使你月火術所造成的傷害和致命一擊機率提高10%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_nature_thorns" key="782" name="刺藤" tier="2">
+        <rank description="使你的荊棘術、糾纏根鬚造成的傷害提高25%，樹人造成的傷害提高5%。此外，你的樹人對目標造成傷害以及當你在樹皮術啟動的狀態下受到攻擊時，有5%的機率使目標暈眩3秒。" lvl="1"/>
+        <rank description="使你的荊棘術、糾纏根鬚造成的傷害提高50%，樹人造成的傷害提高10%。此外，你的樹人對目標造成傷害以及當你在樹皮術啟動的狀態下受到攻擊時，有10%的機率使目標暈眩3秒。" lvl="2"/>
+        <rank description="使你的荊棘術、糾纏根鬚造成的傷害提高75%，樹人造成的傷害提高15%。此外，你的樹人對目標造成傷害以及當你在樹皮術啟動的狀態下受到攻擊時，有15%的機率使目標暈眩3秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_naturesblessing" key="789" name="自然之賜" requires="1822" tier="2">
+        <rank description="你的任何非週期性法術造成致命一擊後有33%的機率獲得自然的賜福，使你的施法速度提高20%，持續3秒。" lvl="1"/>
+        <rank description="你的任何非週期性法術造成致命一擊後有66%的機率獲得自然的賜福，使你的施法速度提高20%，持續3秒。" lvl="2"/>
+        <rank description="你的任何非週期性法術造成致命一擊後有100%的機率獲得自然的賜福，使你的施法速度提高20%，持續3秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_natureguardian" key="2240" name="自然光采" requires="1822" tier="2">
+        <rank description="使你的月火術和回春術的持續時間延長3秒，癒合的持續時間延長6秒，蟲群和生命之花的持續時間延長2秒。" lvl="1"/>
+      </talent>
+      <talent column="3" icon="spell_nature_naturetouchgrow" key="764" name="自然延伸" tier="2">
+        <rank description="I使你平衡系法術和精靈之火(野性)的射程延長10%，並使你平衡系法術造成的威脅值降低15%。" lvl="1"/>
+        <rank description="使你平衡系法術和精靈之火(野性)的射程延長20%，並使你平衡系法術造成的威脅值降低30%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_purge" key="792" name="復仇" tier="3">
+        <rank description="使你星火術、星殞術、月火術和憤怒法術的致命一擊傷害加成提高20%。" lvl="1"/>
+        <rank description="使你星火術、星殞術、月火術和憤怒法術的致命一擊傷害加成提高40%。" lvl="2"/>
+        <rank description="使你星火術、星殞術、月火術和憤怒法術的致命一擊傷害加成提高60%。" lvl="3"/>
+        <rank description="使你星火術、星殞術、月火術和憤怒法術的致命一擊傷害加成提高80%。" lvl="4"/>
+        <rank description="使你星火術、星殞術、月火術和憤怒法術的致命一擊傷害加成提高100%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_starfire" key="784" name="星空專注" tier="3">
+        <rank description="當你施放星火術、休眠和颶風時，因受到傷害性攻擊而損失的施法時間縮短23%，並且使你的總法術加速提高1%。" lvl="1"/>
+        <rank description="當你施放星火術、休眠和颶風時，因受到傷害性攻擊而損失的施法時間縮短46%，並且使你的總法術加速提高2%。" lvl="2"/>
+        <rank description="當你施放星火術、休眠和颶風時，因受到傷害性攻擊而損失的施法時間縮短70%，並且使你的總法術加速提高3%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_lunarguidance" key="1782" name="月神引導" tier="4">
+        <rank description="使你的法術能量提高相當於你總智力的4%。" lvl="1"/>
+        <rank description="使你的法術能量提高相當於你總智力的8%。" lvl="2"/>
+        <rank description="使你的法術能量提高相當於你總智力的12%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_insectswarm" key="788" name="蟲群" tier="4">
+        <rank description="敵人被飛蟲圍繞，攻擊命中率降低3%，在12秒內受到總計點自然傷害。" lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="8" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_nature_insectswarm" key="2239" name="強化蟲群" requires="788" tier="4">
+        <rank description="使你的憤怒法術對受你蟲群影響的目標造成的傷害提高1%，並使你的星火術法術對受你月火術影響的目標造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你的憤怒法術對受你蟲群影響的目標造成的傷害提高2%，並使你的星火術法術對受你月火術影響的目標造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你的憤怒法術對受你蟲群影響的目標造成的傷害提高3%，並使你的星火術法術對受你月火術影響的目標造成致命一擊的機率提高3%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_dreamstate" key="1784" name="夢境" tier="5">
+        <rank description="每5秒恢復相當於你智力4%的法力，此效果在施法時同樣有效。" lvl="1"/>
+        <rank description="每5秒恢復相當於你智力7%的法力，此效果在施法時同樣有效。" lvl="2"/>
+        <rank description="每5秒恢復相當於你智力10%的法力，此效果在施法時同樣有效。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_moonglow" key="790" name="月怒" tier="5">
+        <rank description="使你星火術、月火術和憤怒所造成的傷害提高3%。" lvl="1"/>
+        <rank description="使你星火術、月火術和憤怒所造成的傷害提高6%。" lvl="2"/>
+        <rank description="使你星火術、月火術和憤怒所造成的傷害提高10%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_druid_balanceofpower" key="1783" name="魔力之衡" tier="5">
+        <rank description="使你所有法術的命中機率提高2%，並且受到的所有法術傷害降低3%。" lvl="1"/>
+        <rank description="使你所有法術的命中機率提高4%，並且受到的所有法術傷害降低6%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_forceofnature" key="793" name="梟獸形態" tier="6">
+        <rank description="德魯伊變身為梟獸形態。在此形態下，由裝備獲得的護甲值提高370%，在昏迷時受到的傷害降低15%，並使半徑0碼範圍內所有小隊和團隊成員的法術致命一擊機率提高5%。在此形態下單體法術的致命一擊有一定的機率立即恢復相當於你2%的總法力。梟獸形態下無法施放治療和復活的法術。&lt;br/&gt;&lt;br/&gt;變身可以解除施法者身上的所有變形和移動限制效果。" lvl="1"/>
+        <spell castTime="0">
+          <power cost="13" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_druid_improvedmoonkinform" key="1912" name="強化梟獸形態" requires="793" tier="6">
+        <rank description="你的梟獸光環可同時使受影響的目標獲得1%的加速效果，並且使你獲得相當於10%精神的法術傷害。" lvl="1"/>
+        <rank description="你的梟獸光環可同時使受影響的目標獲得2%的加速效果，並且使你獲得相當於20%精神的法術傷害。" lvl="2"/>
+        <rank description="Y你的梟獸光環可同時使受影響的目標獲得3%的加速效果，並且使你獲得相當於30%精神的法術傷害。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_nature_faeriefire" key="1785" name="強化精靈之火" tier="6">
+        <rank description="你的精靈之火法術可同時令目標被法術攻擊命中的機率提高1%，並使你的傷害法術對受精靈之火影響的目標造成的致命一擊機率提高1%。" lvl="1"/>
+        <rank description="你的精靈之火法術可同時令目標被法術攻擊命中的機率提高2%，並使你的傷害法術對受精靈之火影響的目標造成的致命一擊機率提高2%。" lvl="2"/>
+        <rank description="你的精靈之火法術可同時令目標被法術攻擊命中的機率提高3%，並使你的傷害法術對受精靈之火影響的目標造成的致命一擊機率提高3%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_owlkinfrenzy" key="1913" name="梟化狂亂" requires="793" tier="7">
+        <rank description="使你在梟獸形態下受到攻擊時，有5%的機率進入狂亂狀態，使你造成的傷害提高10%，並使你施放平衡系法術時免疫因受到傷害性攻擊而損失施法時間，同時每2秒恢復2%的基礎法力，持續10秒。" lvl="1"/>
+        <rank description="使你在梟獸形態下受到攻擊時，有10%的機率進入狂亂狀態，使你造成的傷害提高10%，並使你施放平衡系法術時免疫因受到傷害性攻擊而損失施法時間，同時每2秒恢復2%的基礎法力，持續10秒。" lvl="2"/>
+        <rank description="使你在梟獸形態下受到攻擊時，有15%的機率進入狂亂狀態，使你造成的傷害提高10%，並使你施放平衡系法術時免疫因受到傷害性攻擊而損失施法時間，同時每2秒恢復2%的基礎法力，持續10秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_druid_twilightswrath" key="1786" name="塞納留斯之怒" tier="7">
+        <rank description="你的星火術可從你的法術傷害加成額外獲得4%的效果，同時你的憤怒可從你的法術傷害加成額外獲得2%的效果。" lvl="1"/>
+        <rank description="你的星火術可從你的法術傷害加成額外獲得8%的效果，同時你的憤怒可從你的法術傷害加成額外獲得4%的效果。" lvl="2"/>
+        <rank description="你的星火術可從你的法術傷害加成額外獲得12%的效果，同時你的憤怒可從你的法術傷害加成額外獲得6%的效果。" lvl="3"/>
+        <rank description="你的星火術可從你的法術傷害加成額外獲得16%的效果，同時你的憤怒可從你的法術傷害加成額外獲得8%的效果。" lvl="4"/>
+        <rank description="你的星火術可從你的法術傷害加成額外獲得20%的效果，同時你的憤怒可從你的法術傷害加成額外獲得10%的效果。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_druid_eclipse" key="1924" name="蝕星蔽月" tier="8">
+        <rank description="當你的星火術造成致命一擊時，你有33%的機率使憤怒造成的傷害提高40%。當你的憤怒造成致命一擊時，你有19.8%的機率使你的星火術造成致命一擊的機率提高40%。每個效果可持續15秒，並且各自擁有獨立的30秒冷卻時間，但兩種效果不會同時觸發。" lvl="1"/>
+        <rank description="當你的星火術造成致命一擊時，你有66%的機率使憤怒造成的傷害提高40%。當你的憤怒造成致命一擊時，你有39.6%的機率使你的星火術造成致命一擊的機率提高40%。每個效果可持續15秒，並且各自擁有獨立的30秒冷卻時間，但兩種效果不會同時觸發。" lvl="2"/>
+        <rank description="當你的星火術造成致命一擊時，你有100%的機率使憤怒造成的傷害提高40%。當你的憤怒造成致命一擊時，你有60%的機率使你的星火術造成致命一擊的機率提高40%。每個效果可持續15秒，並且各自擁有獨立的30秒冷卻時間，但兩種效果不會同時觸發。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_typhoon" key="1923" name="颱風" requires="793" tier="8">
+        <rank description="你召喚一個猛烈的颱風，被颱風襲擊的敵方目標將受到400點自然傷害且被擊退，同時暈眩6秒。" lvl="1"/>
+        <spell castTime="0" cooldown="20000" maxRange="30">
+          <power cost="25" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_druid_forceofnature" key="1787" name="自然之力" tier="8">
+        <rank description="召喚3個樹人來攻擊目標敵人，持續30秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30">
+          <power cost="12" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="3" icon="ability_druid_galewinds" key="1925" name="極速強風" tier="8">
+        <rank description="使你的颶風和颱風法術造成的傷害提高15%，並使你的颶風術施法距離延長2碼。" lvl="1"/>
+        <rank description="使你的颶風和颱風法術造成的傷害提高30%，並使你的颶風術施法距離延長4碼。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_druid_earthandsky" key="1928" name="大地新月" tier="9">
+        <rank description="使你法術造成的傷害提高1%。此外，你的憤怒和星火術有100%的機率對目標造成大地新月的效果，此效果可使目標受到的法術傷害提高4%，持續12秒。" lvl="1"/>
+        <rank description="使你法術造成的傷害提高2%。此外，你的憤怒和星火術有100%的機率對目標造成大地新月的效果，此效果可使目標受到的法術傷害提高9%，持續12秒。" lvl="2"/>
+        <rank description="使你法術造成的傷害提高3%。此外，你的憤怒和星火術有100%的機率對目標造成大地新月的效果，此效果可使目標受到的法術傷害提高13%，持續12秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_starfall" key="1926" name="星殞術" tier="10">
+        <rank description="你從空中召喚一陣星雨落在施法者周圍0碼範圍內的所有目標身上，每顆墜落的星體可造成111到129點秘法傷害，並對其周圍0碼範圍內的所有敵人造成20點秘法傷害。最多可召喚20顆星體，持續10秒。變身為動物形態或者騎乘坐騎將取消此效果。任何使你喪失角色控制權的效果將抑止星殞術的效果。" lvl="1"/>
+        <spell castTime="0" cooldown="90000">
+          <power cost="35" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+   	<tree bgImage="DruidFeralCombat" icon="ability_racial_bearform" key="FeralCombat" name="野性戰鬥" order="1">
+      <talent column="1" icon="ability_hunter_pet_hyena" key="796" name="兇暴" tier="0">
+        <rank description="使你槌擊、揮擊、爪擊、掃擊和割碎技能所消耗的怒氣或能量降低1點。" lvl="1"/>
+        <rank description="使你槌擊、揮擊、爪擊、掃擊和割碎技能所消耗的怒氣或能量降低2點。" lvl="2"/>
+        <rank description="使你槌擊、揮擊、爪擊、掃擊和割碎技能所消耗的怒氣或能量降低3點。" lvl="3"/>
+        <rank description="使你槌擊、揮擊、爪擊、掃擊和割碎技能所消耗的怒氣或能量降低4點。" lvl="4"/>
+        <rank description="使你槌擊、揮擊、爪擊、掃擊和割碎技能所消耗的怒氣或能量降低5點。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_druid_demoralizingroar" key="795" name="野性侵略" tier="0">
+        <rank description="使你挫志咆哮的攻擊強度減弱效果提高8%，並使凶猛撕咬所造成的傷害提高3%。" lvl="1"/>
+        <rank description="使你挫志咆哮的攻擊強度減弱效果提高16%，並使凶猛撕咬所造成的傷害提高6%。" lvl="2"/>
+        <rank description="使你挫志咆哮的攻擊強度減弱效果提高24%，並使凶猛撕咬所造成的傷害提高9%。" lvl="3"/>
+        <rank description="使你挫志咆哮的攻擊強度減弱效果提高32%，並使凶猛撕咬所造成的傷害提高12%。" lvl="4"/>
+        <rank description="使你挫志咆哮的攻擊強度減弱效果提高40%，並使凶猛撕咬所造成的傷害提高15%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_ambush" key="799" name="野性本能" tier="1">
+        <rank description="使你揮擊技能造成的傷害提高10%，並在你潛行時降低敵人偵測到你的機率。" lvl="1"/>
+        <rank description="使你揮擊技能造成的傷害提高20%，並在你潛行時降低敵人偵測到你的機率。" lvl="2"/>
+        <rank description="使你揮擊技能造成的傷害提高30%，並在你潛行時降低敵人偵測到你的機率。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_ravage" key="805" name="野蠻暴怒" tier="1">
+        <rank description="使你爪擊、掃擊、割碎(獵豹形態)、割碎(熊形態)，以及槌擊技能造成的傷害提高10%。" lvl="1"/>
+        <rank description="使你爪擊、掃擊、割碎(獵豹形態)、割碎(熊形態)，以及槌擊技能造成的傷害提高20%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="inv_misc_pelt_bear_03" key="794" name="厚皮" tier="1">
+        <rank description="使你從布甲和皮甲裝備獲得的護甲值提高4%。" lvl="1"/>
+        <rank description="使你從布甲和皮甲裝備獲得的護甲值提高7%。" lvl="2"/>
+        <rank description="使你從布甲和皮甲裝備獲得的護甲值提高10%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_spiritwolf" key="807" name="野性迅捷" tier="2">
+        <rank description="你在獵豹形態下的移動速度提高15%，並使你在獵豹形態、熊形態或巨熊形態下的閃躲機率提高2%。" lvl="1"/>
+        <rank description="你在獵豹形態下的移動速度提高30%，並使你在獵豹形態、熊形態或巨熊形態下的閃躲機率提高4%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_druid_tigersroar" key="1162" name="求生本能" tier="2">
+        <rank description="啟動時，此技能使你在熊形態、獵豹形態或巨熊形態的生命力上限暫時增加30%，持續20秒。在效果解除之後，這些生命力會被扣除。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="inv_misc_monsterclaw_04" key="798" name="鋒利獸爪" tier="2">
+        <rank description="使你在獵豹、熊或巨熊形態下的致命一擊機率提高2%。" lvl="1"/>
+        <rank description="使你在獵豹、熊或巨熊形態下的致命一擊機率提高4%。" lvl="2"/>
+        <rank description="使你在獵豹、熊或巨熊形態下的致命一擊機率提高6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_vampiricaura" key="802" name="撕碎攻擊" tier="3">
+        <rank description="使你的撕碎技能所消耗的能量減少9點，並使割裂技能所消耗的怒氣減少1點。" lvl="1"/>
+        <rank description="使你的撕碎技能所消耗的能量減少18點，並使割裂技能所消耗的怒氣減少2點。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_hunter_pet_cat" key="803" name="猛獸攻擊" tier="3">
+        <rank description="使你在獵豹、熊和巨熊形態下的近戰攻擊強度提高，其數值相當於你目前等級的50%再加上你目前裝備武器上7%的攻擊強度。此外，你的終結技可提供每個連擊點數7%的機率讓你的下一個基礎施法時間低於10秒的自然系法術變成瞬發。" lvl="1"/>
+        <rank description="使你在獵豹、熊和巨熊形態下的近戰攻擊強度提高，其數值相當於你目前等級的100%再加上你目前裝備武器上14%的攻擊強度。此外，你的終結技可提供每個連擊點數13%的機率讓你的下一個基礎施法時間低於10秒的自然系法術變成瞬發。" lvl="2"/>
+        <rank description="使你在獵豹、熊和巨熊形態下的近戰攻擊強度提高，其數值相當於你目前等級的150%再加上你目前裝備武器上20%的攻擊強度。此外，你的終結技可提供每個連擊點數20%的機率讓你的下一個基礎施法時間低於10秒的自然系法術變成瞬發。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_racial_cannibalize" key="801" name="原始狂怒" requires="798" tier="3">
+        <rank description="使你在熊和巨熊形態下對目標造成致命一擊後，有50%的機率額外獲得5點怒氣，而在獵豹形態時可增加連擊點數的技能造成致命一擊後有50%的機率再獲取一個額外的連擊點數。" lvl="1"/>
+        <rank description="使你在熊和巨熊形態下對目標造成致命一擊後，有100%的機率額外獲得5點怒氣，而在獵豹形態時可增加連擊點數的技能造成致命一擊後有100%的機率再獲取一個額外的連擊點數。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_druid_primalprecision" key="1914" name="原始精準" requires="798" tier="3">
+        <rank description="使你的熟練技能提高5點，並且當你的終結技未命中時，可獲得相當於該終結技40%的能量消耗作為補償。" lvl="1"/>
+        <rank description="使你的熟練技能提高10點，並且當你的終結技未命中時，可獲得相當於該終結技80%的能量消耗作為補償。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_druid_bash" key="797" name="野蠻衝撞" tier="4">
+        <rank description="使你重擊跟突襲的昏迷效果持續時間延長0.5秒，重擊的冷卻時間縮短15秒。" lvl="1"/>
+        <rank description="使你重擊跟突襲的昏迷效果持續時間延長1秒，重擊的冷卻時間縮短30秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_hunter_pet_bear" key="804" name="野性衝鋒" tier="4">
+        <rank description="教你學會野性衝鋒(熊形態)和野性衝鋒(獵豹形態)。&lt;br/&gt;&lt;br/&gt;野性衝鋒(熊形態) - 向目標衝鋒使其無法移動，並中斷施放中的法術，持續4秒。此技能只能在熊形態和巨熊形態下使用。15秒冷卻時間。&lt;br/&gt;&lt;br/&gt;野性衝鋒(獵豹形態) - 令你躍向敵人的後方，使其暈眩3秒。30秒冷卻時間。" lvl="1"/>
+      </talent>
+      <talent column="3" icon="ability_druid_healinginstincts" key="1792" name="培育天性" tier="4">
+        <rank description="你治療法術的治療效果提高相當於35%的敏捷值，並使你在獵豹形態下受到的治療效果提高10%。" lvl="1"/>
+        <rank description="使你治療法術的治療效果提高相當於70%的敏捷值，並使你在獵豹形態下受到的治療效果提高20%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_bullrush" key="2242" name="自然反應" tier="5">
+        <rank description="提高你在熊形態或巨熊形態下的閃躲機率2%，並且在熊形態或巨熊形態下每次閃躲可使你產生1點怒氣。" lvl="1"/>
+        <rank description="提高你在熊形態或巨熊形態下的閃躲機率4%，並且在熊形態或巨熊形態下每次閃躲可使你產生2點怒氣。" lvl="2"/>
+        <rank description="提高你在熊形態或巨熊形態下的閃躲機率6%，並且在熊形態或巨熊形態下每次閃躲可使你產生3點怒氣。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_blessingofagility" key="808" name="野性之心" requires="803" tier="5">
+        <rank description="使你的智力提高4%。另外，在熊或巨熊形態下，你的耐力提高2%，而在獵豹形態下，你的攻擊強度提高2%。" lvl="1"/>
+        <rank description="使你的智力提高8%。另外，在熊或巨熊形態下，你的耐力提高4%，而在獵豹形態下，你的攻擊強度提高4%。" lvl="2"/>
+        <rank description="使你的智力提高12%。另外，在熊或巨熊形態下，你的耐力提高6%，而在獵豹形態下，你的攻擊強度提高6%。" lvl="3"/>
+        <rank description="使你的智力提高16%。另外，在熊或巨熊形態下，你的耐力提高8%，而在獵豹形態下，你的攻擊強度提高8%。" lvl="4"/>
+        <rank description="使你的智力提高20%。另外，在熊或巨熊形態下，你的耐力提高10%，而在獵豹形態下，你的攻擊強度提高10%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_druid_enrage" key="1794" name="適者生存" tier="5">
+        <rank description="所有屬性提高2%，並使你受到近戰攻擊的致命一擊機率降低2%，同時令你在熊形態和巨熊形態下從布甲和皮甲裝備獲得的護甲值提高11%。" lvl="1"/>
+        <rank description="所有屬性提高4%，並使你受到近戰攻擊的致命一擊機率降低4%，同時令你在熊形態和巨熊形態下從布甲和皮甲裝備獲得的護甲值提高22%。" lvl="2"/>
+        <rank description="所有屬性提高6%，並使你受到近戰攻擊的致命一擊機率降低6%，同時令你在熊形態和巨熊形態下從布甲和皮甲裝備獲得的護甲值提高33%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_unyeildingstamina" key="809" name="獸群領袖" tier="6">
+        <rank description="在獵豹、熊或巨熊形態下，使半徑0碼範圍內所有小隊與團隊成員的遠程和近戰攻擊造成致命一擊的機率提高5%。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_nature_unyeildingstamina" key="1798" name="強化獸群領袖" requires="809" tier="6">
+        <rank description="使你的獸群領袖同時能讓隊友在近戰或遠程攻擊造成致命一擊時恢復他們總生命力的2%。此治療效果每6秒只能發動一次。此外，此治療效果發動時可使你獲得總法力的4%。" lvl="1"/>
+        <rank description="使你的獸群領袖同時能讓隊友在近戰或遠程攻擊造成致命一擊時恢復他們總生命力的4%。此治療效果每6秒只能發動一次。此外，此治療效果發動時可使你獲得總法力的8%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_druid_primaltenacity" key="1793" name="原始堅毅" tier="6">
+        <rank description="使你受到的恐懼效果持續時間縮短10%，在獵豹形態下昏迷時受到的所有傷害降低10%。" lvl="1"/>
+        <rank description="使你受到的恐懼效果持續時間縮短20%，在獵豹形態下昏迷時受到的所有傷害降低20%。" lvl="2"/>
+        <rank description="使你受到的恐懼效果持續時間縮短30%，在獵豹形態下昏迷時受到的所有傷害降低30%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_challangingroar" key="2241" name="獸群守護者" requires="809" tier="7">
+        <rank description="使你在熊形態和巨熊形態下的攻擊強度提高2%，並且受到的傷害降低4%。" lvl="1"/>
+        <rank description="使你在熊形態和巨熊形態下的攻擊強度提高4%，並且受到的傷害降低8%。" lvl="2"/>
+        <rank description="使你在熊形態和巨熊形態下的攻擊強度提高6%，並且受到的傷害降低12%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_druid_predatoryinstincts" key="1795" name="猛獸天性" tier="7">
+        <rank description="在獵豹形態下近戰攻擊造成的致命一擊傷害提高3%，且受到範圍性攻擊效果的傷害降低10%。" lvl="1"/>
+        <rank description="在獵豹形態下近戰攻擊造成的致命一擊傷害提高7%，且受到範圍性攻擊效果的傷害降低20%。" lvl="2"/>
+        <rank description="在獵豹形態下近戰攻擊造成的致命一擊傷害提高10%，且受到範圍性攻擊效果的傷害降低30%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_druid_infectedwound" key="1919" name="感染之傷" tier="7">
+        <rank description="你的撕碎、槌擊和割碎攻擊使目標受到感染之傷，令其移動速度降低16%，攻擊速度降低6%，持續12秒。" lvl="1"/>
+        <rank description="你的撕碎、槌擊和割碎攻擊會使目標受到感染之傷，令其移動速度降低34%，攻擊速度降低14%，持續12秒。" lvl="2"/>
+        <rank description="你的撕碎、槌擊和割碎攻擊會使目標受到感染之傷，令其移動速度降低50%，攻擊速度降低20%，持續12秒。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_kingofthejungle" key="1921" name="叢林之王" tier="8">
+        <rank description="當你在熊形態和巨熊形態使用狂怒技能時，你造成的傷害提高5%，並且你的猛虎之怒技能可以立即恢復20點能量。此外，熊形態、獵豹形態和巨熊形態的法力消耗降低20%。" lvl="1"/>
+        <rank description="當你在熊形態和巨熊形態使用狂怒技能時，你造成的傷害提高10%，並且你的猛虎之怒技能可以立即恢復40點能量。此外，熊形態、獵豹形態和巨熊形態的法力消耗降低40%。" lvl="2"/>
+        <rank description="當你在熊形態和巨熊形態使用狂怒技能時，你造成的傷害提高15%，並且你的猛虎之怒技能可以立即恢復60點能量。此外，熊形態、獵豹形態和巨熊形態的法力消耗降低60%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_mangle2" key="1796" name="割碎" requires="809" tier="8">
+        <rank description="割碎目標造成傷害，同時使目標受到流血效果時承受額外的傷害，持續12秒。此技能只能在獵豹形態或者巨熊形態下使用。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_druid_mangle2" key="1920" name="強化割碎" requires="1796" tier="8">
+        <rank description="使你的割碎(熊形態)的技能冷卻時間縮短0.5秒，割碎(獵豹形態)技能的能量消耗降低2點。" lvl="1"/>
+        <rank description="使你的割碎(熊形態)的技能冷卻時間縮短1秒，割碎(獵豹形態)技能的能量消耗降低4點。" lvl="2"/>
+        <rank description="使你的割碎(熊形態)的技能冷卻時間縮短1.5秒，割碎(獵豹形態)技能的能量消耗降低6點。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_primalagression" key="1918" name="碎裂撕扯" tier="9">
+        <rank description="使你的槌擊和撕碎技能對流血目標造成的傷害提高4%，並使你的兇猛撕咬對流血目標的致命一擊機率提高5%。" lvl="1"/>
+        <rank description="使你的槌擊和撕碎技能對流血目標造成的傷害提高8%，並使你的兇猛撕咬對流血目標的致命一擊機率提高10%。" lvl="2"/>
+        <rank description="使你的槌擊和撕碎技能對流血目標造成的傷害提高12%，並使你的兇猛撕咬對流血目標的致命一擊機率提高15%。" lvl="3"/>
+        <rank description="使你的槌擊和撕碎技能對流血目標造成的傷害提高16%，並使你的兇猛撕咬對流血目標的致命一擊機率提高20%。" lvl="4"/>
+        <rank description="使你的槌擊和撕碎技能對流血目標造成的傷害提高20%，並使你的兇猛撕咬對流血目標的致命一擊機率提高25%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_druid_rake" key="2266" name="原始淌血" requires="1918" tier="9">
+        <rank description="使你割裂和撕扯技能的週期性傷害可造成致命一擊。" lvl="1"/>
+      </talent>
+      <talent column="1" icon="ability_druid_berserk" key="1927" name="狂暴" tier="10">
+        <rank description="啟動之後，此技能使你的割碎(熊形態)技能可擊中最多3名目標且不具冷卻時間，並且使你所有獵豹形態技能的能量消耗降低50%。此技能可持續15秒。無法在啟動狂暴後使用猛虎之怒。&lt;br/&gt;&lt;br/&gt;狂暴可立即解除恐懼效果，並使你在持續時間內免疫恐懼。" lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+    </tree>
+    <tree bgImage="DruidRestoration" icon="spell_nature_healingtouch" key="Restoration" name="恢復" order="2">
+      <talent column="0" icon="spell_nature_regeneration" key="821" name="強化野性印記" tier="0">
+        <rank description="使你野性印記和野性賜福的效果提高20%，並且所有屬性提高1%。" lvl="1"/>
+        <rank description="使你野性印記和野性賜福的效果提高40%，並且所有屬性提高2%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_healingwavegreater" key="823" name="自然集中" tier="0">
+        <rank description="使你在施放治療之觸、憤怒、糾纏根鬚、颶風術、滋補術、癒合和寧靜時，因受到傷害性攻擊而損失的施法時間縮短23%。" lvl="1"/>
+        <rank description="使你在施放治療之觸、憤怒、糾纏根鬚、颶風術、滋補術、癒合和寧靜時，因受到傷害性攻擊而損失的施法時間縮短46%。" lvl="2"/>
+        <rank description="使你在施放治療之觸、憤怒、糾纏根鬚、颶風術、滋補術、癒合和寧靜時，因受到傷害性攻擊而損失的施法時間縮短70%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_blessingofstamina" key="822" name="激怒" tier="0">
+        <rank description="使你有20%的機率在變身為熊形態和巨熊形態時獲得10點怒氣，變身為獵豹形態時可維持最多20點能量。此外，使你在梟獸狀態下的總智力提高2%。" lvl="1"/>
+        <rank description="使你有40%的機率在變身為熊形態和巨熊形態時獲得10點怒氣，變身為獵豹形態時可維持最多40點能量。此外，使你在梟獸狀態下的總智力提高4%。" lvl="2"/>
+        <rank description="使你有60%的機率在變身為熊形態和巨熊形態時獲得10點怒氣，變身為獵豹形態時可維持最多60點能量。此外，使你在梟獸狀態下的總智力提高6%。" lvl="3"/>
+        <rank description="使你有80%的機率在變身為熊形態和巨熊形態時獲得10點怒氣，變身為獵豹形態時可維持最多80點能量。此外，使你在梟獸狀態下的總智力提高8%。" lvl="4"/>
+        <rank description="使你有100%的機率在變身為熊形態和巨熊形態時獲得10點怒氣，變身為獵豹形態時可維持最多100點能量。此外，使你在梟獸狀態下的總智力提高10%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_healingtouch" key="824" name="強化治療之觸" tier="1">
+        <rank description="使你治療之觸的施法時間縮短0.1秒，並使你在所有形態下造成的物理傷害增加2%。" lvl="1"/>
+        <rank description="使你治療之觸的施法時間縮短0.2秒，並使你在所有形態下造成的物理傷害增加4%。" lvl="2"/>
+        <rank description="使你治療之觸的施法時間縮短0.3秒，並使你在所有形態下造成的物理傷害增加6%。" lvl="3"/>
+        <rank description="使你治療之觸的施法時間縮短0.4秒，並使你在所有形態下造成的物理傷害增加8%。" lvl="4"/>
+        <rank description="使你治療之觸的施法時間縮短0.5秒，並使你在所有形態下造成的物理傷害增加10%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_eyeoftheowl" key="841" name="微妙" tier="1">
+        <rank description="使你恢復系法術產生的威脅值降低10%，並且令你的助益法術、月火術以及蟲群被驅散的機率降低10%。" lvl="1"/>
+        <rank description="使你恢復系法術產生的威脅值降低20%，並且令你的助益法術、月火術以及蟲群被驅散的機率降低20%。" lvl="2"/>
+        <rank description="使你恢復系法術產生的威脅值降低30%，並且令你的助益法術、月火術以及蟲群被驅散的機率降低30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_wispsplode" key="826" name="自然變形" tier="1">
+        <rank description="使你所有變身法術所消耗的法力降低10%。" lvl="1"/>
+        <rank description="使你所有變身法術所消耗的法力降低20%。" lvl="2"/>
+        <rank description="使你所有變身法術所消耗的法力降低30%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_windwalkon" key="829" name="激化" tier="2">
+        <rank description="
+			'使你在施法時仍保持17%的法力恢復速度，並使你的狂怒技能立即產生4點怒氣。" lvl="1"/>
+        <rank description="使你在施法時仍保持33%的法力恢復速度，並使你的狂怒技能立即產生7點怒氣。" lvl="2"/>
+        <rank description="使你在施法時仍保持50%的法力恢復速度，並使你的狂怒技能立即產生10點怒氣。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_crystalball" key="827" name="清晰預兆" tier="2">
+        <rank description="德魯伊施放的每個傷害和治療法術，以及自動攻擊均有一定的機率使其進入節能施法狀態。該狀態可以讓你的下一個傷害法術、治療法術或攻擊技能所消耗的法力、怒氣或能量降低100%。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_druid_mastershapeshifter" key="1915" name="變身大師" requires="826" tier="2">
+        <rank description="使德魯伊處於變身後的各種形態時，皆獲得一種獨特的效果。&lt;br/&gt;&lt;br/&gt;熊形態 - 物理傷害提高2%。&lt;br/&gt;&lt;br/&gt;獵豹形態 - 致命一擊機率提高2%。&lt;br/&gt;&lt;br/&gt;梟獸形態 - 法術傷害提高2%。&lt;br/&gt;&lt;br/&gt;生命之樹形態 - 治療效果提高2%。" lvl="1"/>
+        <rank description="使德魯伊處於變身後的各種形態時，皆獲得一種獨特的效果。&lt;br/&gt;&lt;br/&gt;熊形態 - 物理傷害提高4%。&lt;br/&gt;&lt;br/&gt;獵豹形態 - 致命一擊機率提高4%。&lt;br/&gt;&lt;br/&gt;梟獸形態 - 法術傷害提高4%。&lt;br/&gt;&lt;br/&gt;生命之樹形態 - 治療效果提高4%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_elunesgrace" key="843" name="寧靜之魂" tier="3">
+        <rank description="使你治療之觸、滋補術和寧靜所消耗的法力降低2%。" lvl="1"/>
+        <rank description="使你治療之觸、滋補術和寧靜所消耗的法力降低4%。" lvl="2"/>
+        <rank description="使你治療之觸、滋補術和寧靜所消耗的法力降低6%。" lvl="3"/>
+        <rank description="使你治療之觸、滋補術和寧靜所消耗的法力降低8%。" lvl="4"/>
+        <rank description="使你治療之觸、滋補術和寧靜所消耗的法力降低10%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_nature_rejuvenation" key="830" name="強化回春術" tier="3">
+        <rank description="使你回春術的效果提高5%。" lvl="1"/>
+        <rank description="使你回春術的效果提高10%。" lvl="2"/>
+        <rank description="使你回春術的效果提高15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_ravenform" key="831" name="自然迅捷" requires="829" tier="4">
+        <rank description="啟動之後，你的下一個基礎施法時間低於10秒的自然法術將成為瞬發法術。" lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="1" icon="spell_nature_protectionformnature" key="828" name="自然賜福" tier="4">
+        <rank description="使你所有治療法術的效果提高2%。" lvl="1"/>
+        <rank description="使你所有治療法術的效果提高4%。" lvl="2"/>
+        <rank description="使你所有治療法術的效果提高6%。" lvl="3"/>
+        <rank description="使你所有治療法術的效果提高8%。" lvl="4"/>
+        <rank description="使你所有治療法術的效果提高10%。" lvl="5"/>
+      </talent>
+      <talent column="3" icon="spell_nature_tranquility" key="842" name="強化寧靜" tier="4">
+        <rank description="使你寧靜法術造成的威脅值降低50%，並使其冷卻時間縮短30%。" lvl="1"/>
+        <rank description="使你寧靜法術造成的威脅值降低100%，並使其冷卻時間縮短60%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_druid_empoweredtouch" key="1788" name="強力之觸" tier="5">
+        <rank description="你的治療之觸可從你的治療加成中獲得額外20%的效果，滋補術可從你的治療加成中獲得額外10%的效果。" lvl="1"/>
+        <rank description="你的治療之觸可從你的治療加成中獲得額外40%的效果，滋補術可從你的治療加成中獲得額外20%的效果。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_nature_resistnature" key="825" name="自然禮賜" requires="830" tier="5">
+        <rank description="使你癒合以及滋補術產生極效治療效果的機率提高5%。" lvl="1"/>
+        <rank description="使你癒合以及滋補術產生極效治療效果的機率提高10%。" lvl="2"/>
+        <rank description="使你癒合以及滋補術產生極效治療效果的機率提高15%。" lvl="3"/>
+        <rank description="使你癒合以及滋補術產生極效治療效果的機率提高20%。" lvl="4"/>
+        <rank description="使你癒合以及滋補術產生極效治療效果的機率提高25%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_giftofthewaterspirit" key="1797" name="活化精神" tier="6">
+        <rank description="使你的總精神提高5%。" lvl="1"/>
+        <rank description="使你的總精神提高10%。" lvl="2"/>
+        <rank description="使你的總精神提高15%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_relics_idolofrejuvenation" key="844" name="迅癒" requires="828" tier="6">
+        <rank description="吸收友方目標身上的回春術或癒合效果，並對其立即恢復所吸收的回春術在12秒內或癒合在18秒內所能治療的生命力。" lvl="1"/>
+        <spell castTime="0" cooldown="15000" maxRange="40">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_druid_naturalperfection" key="1790" name="自然完美" tier="6">
+        <rank description="使你的所有法術造成致命一擊的機率提高1%，並在你受到致命一擊時獲得自然完美的效果，使你受到的所有傷害降低2%。此效果最多可堆疊3次，持續8秒。" lvl="1"/>
+        <rank description="使你的所有法術造成致命一擊的機率提高2%，並在你受到致命一擊時獲得自然完美的效果，使你受到的所有傷害降低3%。此效果最多可堆疊3次，持續8秒。" lvl="2"/>
+        <rank description="使你的所有法術造成致命一擊的機率提高3%，並在你受到致命一擊時獲得自然完美的效果，使你受到的所有傷害降低4%。此效果最多可堆疊3次，持續8秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_empoweredrejuvination" key="1789" name="強力回春術" tier="7">
+        <rank description="使你持續性治療法術的治療加成效果提高4%。" lvl="1"/>
+        <rank description="使你持續性治療法術的治療加成效果提高8%。." lvl="2"/>
+        <rank description="使你持續性治療法術的治療加成效果提高12%。" lvl="3"/>
+        <rank description="使你持續性治療法術的治療加成效果提高16%。" lvl="4"/>
+        <rank description="使你持續性治療法術的治療加成效果提高20%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_druid_giftoftheearthmother" key="1922" name="生命種子" tier="7">
+        <rank description="當你的迅癒、癒合、滋補術或治療之觸法術造成極效治療效果時，有33%的機率在目標身上種下相當於該法術30%治療量的生命種子。當目標下一次受到攻擊時，生命種子將會綻放治療的能量。生命種子可持續15秒。" lvl="1"/>
+        <rank description="當你的迅癒、癒合、滋補術或治療之觸法術造成極效治療效果時，有66%的機率在目標身上種下相當於該法術30%治療量的生命種子。當目標下一次受到攻擊時，生命種子將會綻放治療的能量。生命種子可持續15秒。" lvl="2"/>
+        <rank description="當你的迅癒、癒合、滋補術或治療之觸法術造成極效治療效果時，有100%的機率在目標身上種下相當於該法術30%治療量的生命種子。當目標下一次受到攻擊時，生命種子將會綻放治療的能量。生命種子可持續15秒。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_replenish" key="1929" name="滋育" tier="8">
+        <rank description="你的回春術和野性痊癒每次作用時有5%的機率恢復8點能量、4點怒氣、1%法力或者16點符能。" lvl="1"/>
+        <rank description="你的回春術和野性痊癒每次作用時有10%的機率恢復8點能量、4點怒氣、1%法力或者16點符能。" lvl="2"/>
+        <rank description="你的回春術和野性痊癒每次作用時有15%的機率恢復8點能量、4點怒氣、1%法力或者16點符能。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_treeoflife" key="1791" name="生命之樹" requires="1789" tier="8">
+        <rank description="使你週期性治療法術的法力消耗降低20%，並獲得變身為生命之樹的能力。當你保持在這個形態時，所有0碼範圍內的小隊和團隊成員受到的治療效果將提高6%，並且你只能施放啟動、樹皮術、自然之握、荊棘術和恢復系的法術。&lt;br/&gt;&lt;br/&gt;變身可以解除施法者身上的所有變形和移動限制效果。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_druid_improvedtreeform" key="1930" name="強化生命之樹" requires="1791" tier="8">
+        <rank description="使你在生命之樹形態下從裝備獲得的護甲值提高67%，治療法術能量提高相當於你5%的精神。" lvl="1"/>
+        <rank description="使你在生命之樹形態下從裝備獲得的護甲值提高133%，治療法術能量提高相當於你10%的精神。" lvl="2"/>
+        <rank description="使你在生命之樹形態下從裝備獲得的護甲值提高200%，治療法術能量提高相當於你15%的精神。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_stoneclawtotem" key="2264" name="強化樹皮術" tier="9">
+        <rank description="使你在旅行形態和未變身狀態下從布甲與皮甲獲得的護甲值提高80%，樹皮術所提供的減傷值提高5%，並且樹皮術被驅散的機率降低35%。" lvl="1"/>
+        <rank description="使你在旅行形態和未變身狀態下從布甲與皮甲獲得的護甲值提高160%，樹皮術所提供的減傷值提高10%，並且樹皮術被驅散的機率降低70%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_druid_manatree" key="1916" name="大地之母賜福" tier="9">
+        <rank description="使你的總法術加速提高2%，生命之花的基礎冷卻時間縮短2%。" lvl="1"/>
+        <rank description="使你的總法術加速提高4%，生命之花的基礎冷卻時間縮短4%。" lvl="2"/>
+        <rank description="使你的總法術加速提高6%，生命之花的基礎冷卻時間縮短6%。" lvl="3"/>
+        <rank description="使你的總法術加速提高8%，生命之花的基礎冷卻時間縮短8%。" lvl="4"/>
+        <rank description="使你的總法術加速提高10%，生命之花的基礎冷卻時間縮短10%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_druid_flourish" key="1917" name="野性痊癒" requires="1791" tier="10">
+        <rank description="治療目標周圍0碼範圍內最多5名友方小隊或團隊成員，使其在7秒內恢復點生命力。野性痊癒的恢復速度在起步時最快，並且隨時間而減緩，直到結束為止。" lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="40">
+          <power cost="23" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

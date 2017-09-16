@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="ShamanEnhancement" icon="spell_nature_lightningshield" key="Enhancement" name="增強" order="1">
+      <talent column="0" icon="spell_nature_earthbindtotem" key="610" name="圖騰增效" tier="0">
+        <rank description="使你大地之力圖騰和火舌圖騰的效果提高5%。" lvl="1"/>
+        <rank description="使你大地之力圖騰和火舌圖騰的效果提高10%。" lvl="2"/>
+        <rank description="使你大地之力圖騰和火舌圖騰的效果提高15%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_stoneclawtotem" key="2101" name="大地之握" tier="0">
+        <rank description="使你石爪圖騰的生命力提高25%，地縛圖騰的有效範圍擴展10%，同時冷卻時間均縮短15%。" lvl="1"/>
+        <rank description="使你石爪圖騰的生命力提高50%，地縛圖騰的有效範圍擴展20%，同時冷卻時間均縮短30%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_grimward" key="614" name="先祖知識" tier="0">
+        <rank description="使你的智力提高2%。" lvl="1"/>
+        <rank description="使你的智力提高4%。" lvl="2"/>
+        <rank description="使你的智力提高6%。" lvl="3"/>
+        <rank description="使你的智力提高8%。" lvl="4"/>
+        <rank description="使你的智力提高10%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_stoneskintotem" key="609" name="圖騰守護" tier="1">
+        <rank description="使你石甲圖騰所增加的護甲值提高10%，並使根基圖騰的冷卻時間縮短1秒。" lvl="1"/>
+        <rank description="使你石甲圖騰所增加的護甲值提高20%，並使根基圖騰的冷卻時間縮短2秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_thunderbolt" key="613" name="雷鳴猛擊" tier="1">
+        <rank description="使你的所有攻擊和法術造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你的所有攻擊和法術造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你的所有攻擊和法術造成致命一擊的機率提高3%。" lvl="3"/>
+        <rank description="使你的所有攻擊和法術造成致命一擊的機率提高4%。" lvl="4"/>
+        <rank description="使你的所有攻擊和法術造成致命一擊的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_nature_spiritwolf" key="605" name="強化鬼魂之狼" tier="1">
+        <rank description="使你鬼魂之狼法術的施法時間縮短1秒。" lvl="1"/>
+        <rank description="使你鬼魂之狼法術的施法時間縮短2秒。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_nature_lightningshield" key="607" name="強化護盾" tier="1">
+        <rank description="使你閃電之盾的閃電球傷害提高5%，水之盾的水球恢復的法力值提高5%，大地之盾恢復的生命值提高5%。" lvl="1"/>
+        <rank description="使你閃電之盾的閃電球傷害提高10%，水之盾的水球恢復的法力值提高10%，大地之盾恢復的生命值提高10%。" lvl="2"/>
+        <rank description="使你閃電之盾的閃電球傷害提高15%，水之盾的水球恢復的法力值提高15%，大地之盾恢復的生命值提高15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_fire_flametounge" key="611" name="元素武器" tier="2">
+        <rank description="使你風怒武器效果造成的傷害提高13%，並使火舌武器提供的法術傷害提高10%，大地生命武器提供的治療加成提高10%。" lvl="1"/>
+        <rank description="使你風怒武器效果造成的傷害提高27%，並使火舌武器提供的法術傷害提高20%，大地生命武器提供的治療加成提高20%。" lvl="2"/>
+        <rank description="使你風怒武器效果造成的傷害提高40%，並使火舌武器提供的法術傷害提高30%，大地生命武器提供的治療加成提高30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_elementalabsorption" key="617" name="薩滿之凝" tier="2">
+        <rank description="使你震擊法術的法力消耗降低45%。" lvl="1"/>
+      </talent>
+      <talent column="3" icon="spell_nature_mirrorimage" key="601" name="預知" tier="2">
+        <rank description="使你的閃躲機率額外提高1%，並且受到的所有繳械持續時間縮短16%。無法與其他縮短繳械持續時間的效果疊加。" lvl="1"/>
+        <rank description="使你的閃躲機率額外提高2%，並且受到的所有繳械持續時間縮短25%。無法與其他縮短繳械持續時間的效果疊加。" lvl="2"/>
+        <rank description="使你的閃躲機率額外提高3%，並且受到的所有繳械持續時間縮短50%。無法與其他縮短繳械持續時間的效果疊加。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_ghoulfrenzy" key="602" name="亂舞" requires="613" tier="3">
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高5%。" lvl="1"/>
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高10%。" lvl="2"/>
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高15%。" lvl="3"/>
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高20%。" lvl="4"/>
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高25%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_devotion" key="615" name="堅韌" tier="3">
+        <rank description="使你的耐力提高2%，並使你受到降低移動速度效果的持續時間縮短6%。" lvl="1"/>
+        <rank description="使你的耐力提高4%，並使你受到降低移動速度效果的持續時間縮短12%。" lvl="2"/>
+        <rank description="使你的耐力提高6%，並使你受到降低移動速度效果的持續時間縮短18%。" lvl="3"/>
+        <rank description="使你的耐力提高8%，並使你受到降低移動速度效果的持續時間縮短24%。" lvl="4"/>
+        <rank description="使你的耐力提高10%，並使你受到降低移動速度效果的持續時間縮短30%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_windfury" key="1647" name="強化風怒圖騰" tier="4">
+        <rank description="使你風怒圖騰提供的近戰加速提高2%。" lvl="1"/>
+        <rank description="使你風怒圖騰提供的近戰加速提高4%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_parry" key="616" name="魂化武器" tier="4">
+        <rank description="賦予你一定的機率招架敵人的近戰攻擊，並降低所有產生的威脅值30%。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_nature_bloodlust" key="2083" name="心靈迅敏" tier="4">
+        <rank description="使你的攻擊強度提高相當於33%的智力。" lvl="1"/>
+        <rank description="使你的攻擊強度提高相當於66%的智力。" lvl="2"/>
+        <rank description="使你的攻擊強度提高相當於100%的智力。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_unleashedrage" key="1689" name="怒不可抑" tier="5">
+        <rank description="使你的熟練等級提高3點，並且當你的近戰攻擊造成致命一擊時，可令半徑100碼內所有小隊和團隊成員的攻擊強度提高4%，持續10秒。" lvl="1"/>
+        <rank description="使你的熟練等級提高6點，並且當你的近戰攻擊造成致命一擊時，可令半徑100碼內所有小隊和團隊成員的攻擊強度提高7%，持續10秒。" lvl="2"/>
+        <rank description="使你的熟練等級提高9點，並且當你的近戰攻擊造成致命一擊時，可令半徑100碼內所有小隊和團隊成員的攻擊強度提高10%，持續10秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_hunter_swiftstrike" key="1643" name="精通武器" tier="5">
+        <rank description="使你所有武器所造成的傷害提高4%。" lvl="1"/>
+        <rank description="使你所有武器所造成的傷害提高7%。" lvl="2"/>
+        <rank description="使你所有武器所造成的傷害提高10%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_fire_bluecano" key="2263" name="冰凍之力" tier="5">
+        <rank description="使你的閃電箭、閃電鏈、熔岩暴擊和震擊法術對受你冰封武器影響的目標所造成的傷害提高5%，並且你的冰霜震擊使用於距離15碼或更遠的目標時，有50%的機率令目標定身在寒冰之中，持續5秒。" lvl="1"/>
+        <rank description="使你的閃電箭、閃電鏈、熔岩暴擊和震擊法術對受你冰封武器影響的目標所造成的傷害提高10%，並且你的冰霜震擊使用於距離15碼或更遠的目標時，有100%的機率令目標定身在寒冰之中，持續5秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_dualwieldspecialization" key="1692" name="雙武器專精" requires="1690" tier="6">
+        <rank description="使你在手持雙武器攻擊時的命中率額外提高2%。" lvl="1"/>
+        <rank description="使你在手持雙武器攻擊時的命中率額外提高4%。" lvl="2"/>
+        <rank description="使你在手持雙武器攻擊時的命中率額外提高6%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_dualwield" key="1690" name="雙武器" requires="616" tier="6">
+        <rank description="可以在副手上裝備單手和副手武器。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_shaman_stormstrike" key="901" name="風暴打擊" tier="6">
+        <rank description="立即揮動主、副手武器攻擊敵人，同時使你對目標造成的下4次自然傷害提高20%，持續12秒。" lvl="1"/>
+        <spell castTime="0" cooldown="8000" maxRange="5">
+          <power cost="8" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_shaman_staticshock" key="2055" name="靜電震擊" tier="7">
+        <rank description="使你閃電之盾的閃電球數量提高2顆，並且當你對目標造成近戰或技能傷害時，有2%的機率令閃電之盾的一顆閃電球擊中目標。" lvl="1"/>
+        <rank description="使你閃電之盾的閃電球數量提高4顆，並且當你對目標造成近戰或技能傷害時，有4%的機率令閃電之盾的一顆閃電球擊中目標。" lvl="2"/>
+        <rank description="使你閃電之盾的閃電球數量提高6顆，並且當你對目標造成近戰或技能傷害時，有6%的機率令閃電之盾的一顆閃電球擊中目標。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_shaman_lavalash" key="2249" name="熔岩暴擊" requires="1690" tier="7">
+        <rank description="你以熔岩的能量強化你的副手武器，立即對目標造成100%副手武器傷害。若你的副手武器附帶火舌武器效果時，此傷害提高25%。" lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="5">
+          <power cost="4" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shaman_improvedstormstrike" key="2054" name="強化風暴打擊" requires="901" tier="7">
+        <rank description="當你使用風暴打擊時，有50%的機率立即獲得你基本法力的20%。" lvl="1"/>
+        <rank description="當你使用風暴打擊時，有100%的機率立即獲得你基本法力的20%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_nature_mentalquickness" key="1691" name="思想迅捷" tier="8">
+        <rank description="使你薩滿瞬發法術消耗的法力降低2%，同時使你的法術能量提高相當於10%的攻擊強度。" lvl="1"/>
+        <rank description="使你薩滿瞬發法術消耗的法力降低4%，同時使你的法術能量提高相當於20%的攻擊強度。" lvl="2"/>
+        <rank description="使你薩滿瞬發法術消耗的法力降低6%，同時使你的法術能量提高相當於30%的攻擊強度。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_shamanrage" key="1693" name="薩滿之怒" tier="8">
+        <rank description="使你受到的所有傷害降低30%並且在近戰攻擊命中目標後有一定機率恢復相當於你攻擊強度15%的法力。此法術可以在昏迷狀態下使用，持續15秒。" lvl="1"/>
+        <spell castTime="0" cooldown="60000"/>
+      </talent>
+      <talent column="2" icon="spell_nature_earthelemental_totem" key="2056" name="地靈之力" tier="8">
+        <rank description="你的地縛圖騰每次發動時有50%的機率可同時移除你和周圍友方目標所有的緩速效果，並且你的大地震擊可額外降低敵人5%的攻擊速度。" lvl="1"/>
+        <rank description="你的地縛圖騰每次發動時有100%的機率可同時移除你和周圍友方目標所有的緩速效果，並且你的大地震擊可額外降低敵人10%的攻擊速度。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shaman_maelstromweapon" key="2057" name="氣漩武器" tier="9">
+        <rank description="當你的近戰武器造成傷害時，你有一定的機率使你的下一個閃電箭、閃電鏈、次級治療波、治療波、治療鍊或妖術的施法時間縮短20%。此效果最多可堆疊5次，持續30秒。" lvl="1"/>
+        <rank description="當你的近戰武器造成傷害時，你有一定的機率(高於等級1)，使你的下一個閃電箭、閃電鏈、次級治療波、治療波、治療鍊或妖術的施法時間縮短20%。此效果最多可堆疊5次，持續30秒。" lvl="2"/>
+        <rank description="當你的近戰武器造成傷害時，你有一定的機率(高於等級2)，使你的下一個閃電箭、閃電鏈、次級治療波、治療波、治療鍊或妖術的施法時間縮短20%。此效果最多可堆疊5次，持續30秒。" lvl="3"/>
+        <rank description="當你的近戰武器造成傷害時，你有一定的機率(高於等級3)，使你的下一個閃電箭、閃電鏈、次級治療波、治療波、治療鍊或妖術的施法時間縮短20%。此效果最多可堆疊5次，持續30秒。" lvl="4"/>
+        <rank description="當你的近戰武器造成傷害時，你有一定的機率(高於等級4)，使你的下一個閃電箭、閃電鏈、次級治療波、治療波、治療鍊或妖術的施法時間縮短20%。此效果最多可堆疊5次，持續30秒。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shaman_feralspirit" key="2058" name="野性之魂" tier="10">
+        <rank description="召喚兩隻聽從薩滿號令的幽靈狼，持續45秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30">
+          <power cost="12" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="ShamanElementalCombat" icon="spell_nature_lightning" key="元素" name="Elemental" order="0">
+      <talent column="1" icon="spell_nature_wispsplode" key="564" name="傳導" tier="0">
+        <rank description="使你的震擊法術、閃電箭、閃電鏈、熔岩爆發和削風術的法力消耗減少2%。" lvl="1"/>
+        <rank description="使你的震擊法術、閃電箭、閃電鏈、熔岩爆發和削風術的法力消耗減少4%。" lvl="2"/>
+        <rank description="使你的震擊法術、閃電箭、閃電鏈、熔岩爆發和削風術的法力消耗減少6%。" lvl="3"/>
+        <rank description="使你的震擊法術、閃電箭、閃電鏈、熔岩爆發和削風術的法力消耗減少8%。" lvl="4"/>
+        <rank description="使你的震擊法術、閃電箭、閃電鏈、熔岩爆發和削風術的法力消耗減少10%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_fire_fireball" key="563" name="震盪" tier="0">
+        <rank description="使你的閃電箭、閃電鏈、雷霆風暴、熔岩爆發和震擊法術造成的傷害提高1%。" lvl="1"/>
+        <rank description="使你的閃電箭、閃電鏈、雷霆風暴、熔岩爆發和震擊法術造成的傷害提高2%。" lvl="2"/>
+        <rank description="使你的閃電箭、閃電鏈、雷霆風暴、熔岩爆發和震擊法術造成的傷害提高3%。" lvl="3"/>
+        <rank description="使你的閃電箭、閃電鏈、雷霆風暴、熔岩爆發和震擊法術造成的傷害提高4%。" lvl="4"/>
+        <rank description="使你的閃電箭、閃電鏈、雷霆風暴、熔岩爆發和震擊法術造成的傷害提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_fire_immolation" key="561" name="烈焰呼喚" tier="1">
+        <rank description="使你火焰圖騰與火焰新星造成的傷害提高5%，熔岩爆發法術造成的傷害提高2%。" lvl="1"/>
+        <rank description="使你火焰圖騰與火焰新星造成的傷害提高10%，熔岩爆發法術造成的傷害提高4%。" lvl="2"/>
+        <rank description="使你火焰圖騰與火焰新星造成的傷害提高15%，熔岩爆發法術造成的傷害提高6%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_spiritarmor" key="1640" name="元素結界" tier="1">
+        <rank description="受到的所有傷害降低2%。" lvl="1"/>
+        <rank description="受到的所有傷害降低4%。" lvl="2"/>
+        <rank description="受到的所有傷害降低6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_fire_elementaldevastation" key="1645" name="元素破壞" tier="1">
+        <rank description="你的非週期性攻擊法術造成致命一擊後，將使你的近戰攻擊造成致命一擊的機率提高3%，持續10秒。" lvl="1"/>
+        <rank description="你的非週期性攻擊法術造成致命一擊後，將使你的近戰攻擊造成致命一擊的機率提高6%，持續10秒。" lvl="2"/>
+        <rank description="你的非週期性攻擊法術造成致命一擊後，將使你的近戰攻擊造成致命一擊的機率提高9%，持續10秒。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_frostward" key="575" name="迴響" tier="2">
+        <rank description="使你震擊法術和削風術的冷卻時間縮短0.2秒。" lvl="1"/>
+        <rank description="使你震擊法術和削風術的冷卻時間縮短0.4秒。" lvl="2"/>
+        <rank description="使你震擊法術和削風術的冷卻時間縮短0.6秒。" lvl="3"/>
+        <rank description="使你震擊法術和削風術的冷卻時間縮短0.8秒。" lvl="4"/>
+        <rank description="使你震擊法術和削風術的冷卻時間縮短1秒。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_manaburn" key="574" name="元素集中" tier="2">
+        <rank description="使你火焰、冰霜或自然系的非週期性傷害法術造成致命一擊之後進入節能施法狀態。這個狀態可以使你的下2個傷害或治療法術的法力消耗減少40%。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_fire_volcano" key="565" name="元素之怒" tier="2">
+        <rank description="使你的灼熱和熔岩圖騰，以及火焰、冰霜和自然法術的致命一擊傷害加成提高20%。" lvl="1"/>
+        <rank description="使你的灼熱和熔岩圖騰，以及火焰、冰霜和自然法術的致命一擊傷害加成提高40%。" lvl="2"/>
+        <rank description="使你的灼熱和熔岩圖騰，以及火焰、冰霜和自然法術的致命一擊傷害加成提高60%。" lvl="3"/>
+        <rank description="使你的灼熱和熔岩圖騰，以及火焰、冰霜和自然法術的致命一擊傷害加成提高80%。" lvl="4"/>
+        <rank description="使你的灼熱和熔岩圖騰，以及火焰、冰霜和自然法術的致命一擊傷害加成提高100%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_fire_sealoffire" key="567" name="強化火焰新星" tier="3">
+        <rank description="使你火焰新星造成的傷害提高10%，冷卻時間縮短2秒。" lvl="1"/>
+        <rank description="使你火焰新星造成的傷害提高20%，冷卻時間縮短4秒。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_soulleech_2" key="1642" name="暴風之眼" tier="3">
+        <rank description="使你施放閃電箭、閃電鏈、熔岩爆發和妖術時，因受到傷害性攻擊而損失的施法時間縮短23%。" lvl="1"/>
+        <rank description="使你施放閃電箭、閃電鏈、熔岩爆發和妖術時，因受到傷害性攻擊而損失的施法時間縮短46%。" lvl="2"/>
+        <rank description="使你施放閃電箭、閃電鏈、熔岩爆發和妖術時，因受到傷害性攻擊而損失的施法時間縮短70%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_stormreach" key="1641" name="元素延伸" tier="4">
+        <rank description="使你閃電箭、閃電鏈、火焰新星和熔岩爆發的施法距離延長3碼，同時雷霆風暴範圍的擴大10%，並且烈焰震擊的施法距離延長7碼。" lvl="1"/>
+        <rank description="使你閃電箭、閃電鏈、火焰新星和熔岩爆發的施法距離延長6碼，同時雷霆風暴範圍的擴大20%，並且烈焰震擊的施法距離延長15碼。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_callstorm" key="562" name="雷霆呼喚" requires="574" tier="4">
+        <rank description="使你閃電箭、閃電鏈和雷霆風暴法術造成致命一擊的機率額外提高5%。" lvl="1"/>
+      </talent>
+      <talent column="3" icon="spell_nature_unrelentingstorm" key="1682" name="無情的風暴" tier="4">
+        <rank description="每5秒恢復相當於你智力4%的法力，此效果在施法時同樣有效。" lvl="1"/>
+        <rank description="每5秒恢復相當於你智力8%的法力，此效果在施法時同樣有效。" lvl="2"/>
+        <rank description="每5秒恢復相當於你智力12%的法力，此效果在施法時同樣有效" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_elementalprecision_1" key="1685" name="元素準確" tier="5">
+        <rank description="使你的火焰、冰霜和自然法術命中的機率提高1%，並使火焰、冰霜和自然法術所造成的威脅值降低10%。" lvl="1"/>
+        <rank description="使你的火焰、冰霜和自然法術命中的機率提高2%，並使火焰、冰霜和自然法術所造成的威脅值降低20%。" lvl="2"/>
+        <rank description="使你的火焰、冰霜和自然法術命中的機率提高3%，並使火焰、冰霜和自然法術所造成的威脅值降低30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_lightning_lightningbolt01" key="721" name="精通閃電" requires="565" tier="5">
+        <rank description="使你閃電箭、閃電鏈和熔岩爆發的施法時間縮短0.1秒。" lvl="1"/>
+        <rank description="使你閃電箭、閃電鏈和熔岩爆發的施法時間縮短0.2秒。" lvl="2"/>
+        <rank description="使你閃電箭、閃電鏈和熔岩爆發的施法時間縮短0.3秒。" lvl="3"/>
+        <rank description="使你閃電箭、閃電鏈和熔岩爆發的施法時間縮短0.4秒。" lvl="4"/>
+        <rank description="使你閃電箭、閃電鏈和熔岩爆發的施法時間縮短0.5秒。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_nature_wispheal" key="573" name="精通元素" requires="562" tier="6">
+        <rank description="啟動之後，你的下一發閃電箭、閃電鏈或熔岩爆發變成瞬發法術。此外，你將獲得15%的法術加速，持續15秒。精通元素與自然迅捷共用相同的冷卻時間。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_shaman_stormearthfire" key="2052" name="地火風暴" tier="6">
+        <rank description="使你的閃電鏈冷卻時間縮短0.75秒，地縛圖騰所施放的效果有33%的機率使目標定身5秒，並且烈焰震擊造成的週期性傷害提高20%。" lvl="1"/>
+        <rank description="使你的閃電鏈冷卻時間縮短1.5秒，地縛圖騰所施放的效果有66%的機率使目標定身5秒，並且烈焰震擊造成的週期性傷害提高40%。" lvl="2"/>
+        <rank description="使你的閃電鏈冷卻時間縮短2.5秒，地縛圖騰所施放的效果有100%的機率使目標定身5秒，並且烈焰震擊造成的週期性傷害提高60%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_fire_blueflamering" key="2262" name="震音返響" tier="7">
+        <rank description="使你烈焰震擊和冰霜震擊的冷卻時間額外縮短1秒，並使你烈焰震擊和冰霜震擊的直接傷害額外提高10%。" lvl="1"/>
+        <rank description="使你烈焰震擊和冰霜震擊的冷卻時間額外縮短2秒，並使你烈焰震擊和冰霜震擊的直接傷害額外提高20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shaman_elementaloath" key="2049" name="元素之誓" requires="573" tier="7">
+        <rank description="你的非週期性法術造成致命一擊時，可賦予100碼範圍內小隊或團隊成員元素之誓的效果，使其法術致命一擊機率提高3%。此外，當元素集中的節能施法處於啟動狀態時，你可額外造成5%的法術傷害。此技能可持續15秒。" lvl="1"/>
+        <rank description="你的非週期性法術造成致命一擊時，可賦予100碼範圍內小隊或團隊成員元素之誓的效果，使其法術致命一擊機率提高5%。此外，當元素集中的節能施法處於啟動狀態時，你可額外造成10%的法術傷害。此技能可持續15秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_nature_lightningoverload" key="1686" name="閃電超載" tier="7">
+        <rank description="使你閃電箭和閃電鏈有11%的機率對同一目標發射第二發同樣的法術，不消耗任何法力也不造成威脅值，但傷害值減半。" lvl="1"/>
+        <rank description="使你閃電箭和閃電鏈有22%的機率對同一目標發射第二發同樣的法術，不消耗任何法力也不造成威脅值，但傷害值減半。" lvl="2"/>
+        <rank description="使你閃電箭和閃電鏈有33%的機率對同一目標發射第二發同樣的法術，不消耗任何法力也不造成威脅值，但傷害值減半。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shaman_astralshift" key="2050" name="星界轉移" tier="8">
+        <rank description="受到昏迷、恐懼或沉默時，你的形體將轉移至星界，使你受到的所有傷害降低10%，持續至昏迷、恐懼或沉默效果結束為止。" lvl="1"/>
+        <rank description="受到昏迷、恐懼或沉默時，你的形體將轉移至星界，使你受到的所有傷害降低20%，持續至昏迷、恐懼或沉默效果結束為止。" lvl="2"/>
+        <rank description="受到昏迷、恐懼或沉默時，你的形體將轉移至星界，使你受到的所有傷害降低30%，持續至昏迷、恐懼或沉默效果結束為止。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_fire_totemofwrath" key="1687" name="憤怒圖騰" tier="8">
+        <rank description="在施法者身邊召喚一根5點生命力的憤怒圖騰。此圖騰可提高所有小隊與團隊成員100點法術能量，並使0碼範圍內的所有敵人受到攻擊的致命一擊機率提高3%，持續5分钟。" lvl="1"/>
+        <spell castTime="0">
+          <power cost="5" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shaman_lavaflow" key="2051" name="熔岩奔流" tier="8">
+        <rank description="使你熔岩爆發的致命一擊傷害加成額外提高6%，並且當你的烈焰震擊被驅散時，你的施法速度將提高10%，持續6秒。" lvl="1"/>
+        <rank description="使你熔岩爆發的致命一擊傷害加成額外提高12%，並且當你的烈焰震擊被驅散時，你的施法速度將提高20%，持續6秒。" lvl="2"/>
+        <rank description="使你熔岩爆發的致命一擊傷害加成額外提高24%，並且當你的烈焰震擊被驅散時，你的施法速度將提高30%，持續6秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_unused2" key="2252" name="薩滿之道" tier="9">
+        <rank description="你的閃電箭和閃電鏈可從你的傷害加成效果中額外獲得3%的效果，熔岩爆發可從你的傷害加成效果中額外獲得4%的效果。" lvl="1"/>
+        <rank description="你的閃電箭和閃電鏈可從你的傷害加成效果中額外獲得6%的效果，熔岩爆發可從你的傷害加成效果中額外獲得8%的效果。" lvl="2"/>
+        <rank description="你的閃電箭和閃電鏈可從你的傷害加成效果中額外獲得9%的效果，熔岩爆發可從你的傷害加成效果中額外獲得12%的效果。" lvl="3"/>
+        <rank description="你的閃電箭和閃電鏈可從你的傷害加成效果中額外獲得12%的效果，熔岩爆發可從你的傷害加成效果中額外獲得16%的效果。" lvl="4"/>
+        <rank description="你的閃電箭和閃電鏈可從你的傷害加成效果中額外獲得15%的效果，熔岩爆發可從你的傷害加成效果中額外獲得20%的效果。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shaman_thunderstorm" key="2053" name="雷霆風暴" tier="10">
+        <rank description="你呼喚一道閃電，使你獲得充能的效果並且對0碼範圍內的敵人造成傷害。你將恢復8%法力，同時對周圍所有敵人造成551到629點自然傷害，並將其擊退20碼。此法術可以在昏迷狀態下使用。" lvl="1"/>
+      </talent>
+    </tree>
+    <tree bgImage="ShamanRestoration" icon="spell_nature_magicimmunity" key="Restoration" name="恢復" order="2">
+      <talent column="1" icon="spell_nature_magicimmunity" key="586" name="強化治療波" tier="0">
+        <rank description="使你治療波的施法時間縮短0.1秒。" lvl="1"/>
+        <rank description="使你治療波的施法時間縮短0.2秒。" lvl="2"/>
+        <rank description="使你治療波的施法時間縮短0.3秒。" lvl="3"/>
+        <rank description="使你治療波的施法時間縮短0.4秒。" lvl="4"/>
+        <rank description="使你治療波的施法時間縮短0.5秒。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_nature_moonglow" key="595" name="圖騰集中" tier="0">
+        <rank description="使你施放圖騰所消耗的法力降低5%。" lvl="1"/>
+        <rank description="使你施放圖騰所消耗的法力降低10%。" lvl="2"/>
+        <rank description="使你施放圖騰所消耗的法力降低15%。" lvl="3"/>
+        <rank description="使你施放圖騰所消耗的法力降低20%。" lvl="4"/>
+        <rank description="使你施放圖騰所消耗的法力降低25%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_reincarnation" key="589" name="強化復生" tier="1">
+        <rank description="使你復生法術的冷卻時間縮短7分鐘，並且復生後獲得的生命力和法力額外提高10%。" lvl="1"/>
+        <rank description="使你復生法術的冷卻時間縮短15分鐘，並且復生後獲得的生命力和法力額外提高20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_healingtouch" key="1646" name="治療恩典" tier="1">
+        <rank description="使你的治療法術所產生的威脅值降低5%，並且令你的助益法術和持續傷害的法術效果被驅散的機率降低10%。" lvl="1"/>
+        <rank description="使你的治療法術所產生的威脅值降低10%，並且令你的助益法術和持續傷害的法術效果被驅散的機率降低20%。" lvl="2"/>
+        <rank description="使你的治療法術所產生的威脅值降低15%，並且令你的助益法術和持續傷害的法術效果被驅散的機率降低30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_frost_manarecharge" key="593" name="潮汐集中" tier="1">
+        <rank description="使你的治療法術所消耗的法力減少1%。" lvl="1"/>
+        <rank description="使你的治療法術所消耗的法力減少2%。" lvl="2"/>
+        <rank description="使你的治療法術所消耗的法力減少3%。" lvl="3"/>
+        <rank description="使你的治療法術所消耗的法力減少4%。" lvl="4"/>
+        <rank description="使你的治療法術所消耗的法力減少5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_shaman_watershield" key="583" name="強化水之盾" tier="2">
+        <rank description="當你的治療波或激流造成極效治療效果時，有33%的機率立即恢復相當於水之盾一顆水球的法力。當你的次級治療波造成極效治療效果時，有19.8%的機率，並且當你的治療鍊造成極效治療效果時，有9.9%的機率立即恢復相當於水之盾一顆水球的法力。" lvl="1"/>
+        <rank description="當你的治療波或激流造成極效治療效果時，有66%的機率立即恢復相當於水之盾一顆水球的法力。當你的次級治療波造成極效治療效果時，有39.6%的機率，並且當你的治療鍊造成極效治療效果時，有19.8%的機率立即恢復相當於水之盾一顆水球的法力。" lvl="2"/>
+        <rank description="當你的治療波或激流造成極效治療效果時，有100%的機率立即恢復相當於水之盾一顆水球的法力。當你的次級治療波造成極效治療效果時，有60%的機率，並且當你的治療鍊造成極效治療效果時，有30%的機率立即恢復相當於水之盾一顆水球的法力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_healingwavelesser" key="587" name="專注治療" tier="2">
+        <rank description="使你施放薩滿的治療法術時，因受到傷害性攻擊而損失的施法時間縮短23%。." lvl="1"/>
+        <rank description="使你施放薩滿的治療法術時，因受到傷害性攻擊而損失的施法時間縮短46%。" lvl="2"/>
+        <rank description="使你施放薩滿的治療法術時，因受到傷害性攻擊而損失的施法時間縮短70%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_frost_frostbolt" key="582" name="潮汐之力" tier="2">
+        <rank description="使你的治療波、次級治療波和治療鍊產生極效治療效果的機率提高60%。每造成一次極效治療效果之後，此機率降低20%，持續20秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="3" icon="spell_nature_undyingstrength" key="581" name="先祖治療" tier="2">
+        <rank description="當你的治療法術造成極效治療效果時，目標受到的物理傷害將降低3%，持續15秒。" lvl="1"/>
+        <rank description="當你的治療法術造成極效治療效果時，目標受到的物理傷害將降低7%，持續15秒。" lvl="2"/>
+        <rank description="當你的治療法術造成極效治療效果時，目標受到的物理傷害將降低10%，持續15秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_manaregentotem" key="588" name="強化恢復系圖騰" tier="3">
+        <rank description="使你法力之泉圖騰的效果提高7%，治療之泉圖騰的治療量提高15%。" lvl="1"/>
+        <rank description="使你法力之泉圖騰的效果提高12%，治療之泉圖騰的治療量提高30%。" lvl="2"/>
+        <rank description="使你法力之泉圖騰的效果提高20%，治療之泉圖騰的治療量提高45%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_tranquility" key="594" name="精通潮汐" tier="3">
+        <rank description="使你治療法術的極效治療和閃電法術的致命一擊機率提高1%。" lvl="1"/>
+        <rank description="使你治療法術的極效治療和閃電法術的致命一擊機率提高2%。" lvl="2"/>
+        <rank description="使你治療法術的極效治療和閃電法術的致命一擊機率提高3%。" lvl="3"/>
+        <rank description="使你治療法術的極效治療和閃電法術的致命一擊機率提高4%。" lvl="4"/>
+        <rank description="使你治療法術的極效治療和閃電法術的致命一擊機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_healingway" key="1648" name="治療之路" tier="4">
+        <rank description="使你治療波的治療量提高8%。" lvl="1"/>
+        <rank description="使你治療波的治療量提高16%。" lvl="2"/>
+        <rank description="使你治療波的治療量提高25%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_ravenform" key="591" name="自然迅捷" tier="4">
+        <rank description="啟動之後，你的下一個基礎施法時間低於10秒的自然法術將成為瞬發法術。自然迅捷與精通元素共用相同的冷卻時間。." lvl="1"/>
+      </talent>
+      <talent column="3" icon="spell_nature_focusedmind" key="1695" name="精神專注" tier="4">
+        <rank description="使薩滿受到沉默和中斷施法技能的持續時間縮短10%。此效果無法與其他同類的效果堆疊。" lvl="1"/>
+        <rank description="使薩滿受到沉默和中斷施法技能的持續時間縮短20%。此效果無法與其他同類的效果堆疊。" lvl="2"/>
+        <rank description="使薩滿受到沉默和中斷施法技能的持續時間縮短30%。此效果無法與其他同類的效果堆疊。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_frost_wizardmark" key="592" name="淨化" tier="5">
+        <rank description="使你治療法術的效果提高2%。" lvl="1"/>
+        <rank description="使你治療法術的效果提高4%。" lvl="2"/>
+        <rank description="使你治療法術的效果提高6%。" lvl="3"/>
+        <rank description="使你治療法術的效果提高8%。" lvl="4"/>
+        <rank description="使你治療法術的效果提高10%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_natureguardian" key="1699" name="自然守護者" tier="6">
+        <rank description="每當你的生命力因受到傷害性的攻擊而降低至30%以下時，你的生命力上限將提高3%，持續10秒，同時你對攻擊者的威脅等級也將跟著降低。30秒冷卻時間。" lvl="1"/>
+        <rank description="每當你的生命力因受到傷害性的攻擊而降低至30%以下時，你的生命力上限將提高6%，持續10秒，同時你對攻擊者的威脅等級也將跟著降低。30秒冷卻時間。" lvl="2"/>
+        <rank description="每當你的生命力因受到傷害性的攻擊而降低至30%以下時，你的生命力上限將提高9%，持續10秒，同時你對攻擊者的威脅等級也將跟著降低。30秒冷卻時間。" lvl="3"/>
+        <rank description="每當你的生命力因受到傷害性的攻擊而降低至30%以下時，你的生命力上限將提高12%，持續10秒，同時你對攻擊者的威脅等級也將跟著降低。30秒冷卻時間。" lvl="4"/>
+        <rank description="每當你的生命力因受到傷害性的攻擊而降低至30%以下時，你的生命力上限將提高15%，持續10秒，同時你對攻擊者的威脅等級也將跟著降低。30秒冷卻時間。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_frost_summonwaterelemental" key="590" name="法力之潮圖騰" requires="588" tier="6">
+        <rank description="在施法者身邊召喚出一個相當於施法者10%生命力的法力之潮圖騰，持續12秒。它可以為半徑30碼範圍內的小隊成員每3秒恢復總法力的6%。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_shaman_cleansespirit" key="2084" name="淨化靈魂" requires="592" tier="6">
+        <rank description="淨化一名友方目標的靈魂，移除1個中毒效果、1個疾病效果，及1個詛咒效果。" lvl="1"/>
+        <spell castTime="0" maxRange="40">
+          <power cost="7" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_shaman_blessingofeternals" key="2060" name="永恆祝福" tier="7">
+        <rank description="使你法術的致命一擊機率提高2%，並讓你對生命力處於35%或以下的目標發動大地生命週期性治療效果的機率提高40%。" lvl="1"/>
+        <rank description="使你法術的致命一擊機率提高4%，並讓你對生命力處於35%或以下的目標發動大地生命週期性治療效果的機率提高80%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_healingwavegreater" key="1697" name="強化治療鍊" tier="7">
+        <rank description="使你治療鍊的治療效果提高10%。" lvl="1"/>
+        <rank description="使你治療鍊的治療效果提高20%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_nature_natureblessing" key="1696" name="自然祝福" tier="7">
+        <rank description="使你的法術治療效果提高相當於你總智力的5%。" lvl="1"/>
+        <rank description="使你的法術治療效果提高相當於你總智力的10%。" lvl="2"/>
+        <rank description="使你的法術治療效果提高相當於你總智力的15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shaman_ancestralawakening" key="2061" name="先祖復甦" tier="8">
+        <rank description="當你的治療波、次級治療波或激流造成極效治療效果時，將召喚先祖之魂來協助你，立即治療40碼範圍內生命力以百分比而言最低的友方小隊或團隊成員，其治療量相當於該治療效果10%的生命力。" lvl="1"/>
+        <rank description="當你的治療波、次級治療波或激流造成極效治療效果時，將召喚先祖之魂來協助你，立即治療40碼範圍內生命力以百分比而言最低的友方小隊或團隊成員，其治療量相當於該治療效果20%的生命力。" lvl="2"/>
+        <rank description="當你的治療波、次級治療波或激流造成極效治療效果時，將召喚先祖之魂來協助你，立即治療40碼範圍內生命力以百分比而言最低的友方小隊或團隊成員，其治療量相當於該治療效果30%的生命力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_skinofearth" key="1698" name="大地之盾" tier="8">
+        <rank description="以大地護盾保護一個目標，使被保護者因受傷而損失的施法或引導時間縮短30%，並在受到攻擊時恢復受保護的目標150點生命力。此效果每幾秒只能發動一次。總共可使用6次。持續10分钟。同一時間內只能對一個目標施放大地護盾，而且同一目標身上只能擁有一種元素護盾。" lvl="1"/>
+        <spell castTime="0" maxRange="40">
+          <power cost="15" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_nature_skinofearth" key="2059" name="強化大地之盾" requires="1698" tier="8">
+        <rank description="使你大地之盾的作用次數提高1次，造成的治療效果提高5%。" lvl="1"/>
+        <rank description="使你大地之盾的作用次數提高2次，造成的治療效果提高10%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shaman_tidalwaves" key="2063" name="治療之潮" tier="9">
+        <rank description="你有20%的機率在施放治療鍊或激流之後，使你的治療波施法時間縮短30%，並且次級治療波造成極效治療效果的機率提高25%，直到你同時施放過這兩種法術為止。此外，你的治療波可從你的治療加成中額外獲得4%的效果，並且你的次級治療波可從你的治療加成中額外獲得2%的效果。" lvl="1"/>
+        <rank description="你有40%的機率在施放治療鍊或激流之後，使你的治療波施法時間縮短30%，並且次級治療波造成極效治療效果的機率提高25%，直到你同時施放過這兩種法術為止。此外，你的治療波可從你的治療加成中額外獲得8%的效果，並且你的次級治療波可從你的治療加成中額外獲得4%的效果。" lvl="2"/>
+        <rank description="你有60%的機率在施放治療鍊或激流之後，使你的治療波施法時間縮短30%，並且次級治療波造成極效治療效果的機率提高25%，直到你同時施放過這兩種法術為止。此外，你的治療波可從你的治療加成中額外獲得12%的效果，並且你的次級治療波可從你的治療加成中額外獲得6%的效果。" lvl="3"/>
+        <rank description="你有80%的機率在施放治療鍊或激流之後，使你的治療波施法時間縮短30%，並且次級治療波造成極效治療效果的機率提高25%，直到你同時施放過這兩種法術為止。此外，你的治療波可從你的治療加成中額外獲得16%的效果，並且你的次級治療波可從你的治療加成中額外獲得8%的效果。" lvl="4"/>
+        <rank description="你有100%的機率在施放治療鍊或激流之後，使你的治療波施法時間縮短30%，並且次級治療波造成極效治療效果的機率提高25%，直到你同時施放過這兩種法術為止。此外，你的治療波可從你的治療加成中額外獲得20%的效果，並且你的次級治療波可從你的治療加成中額外獲得10%的效果。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_nature_riptide" key="2064" name="激流" tier="10">
+        <rank description="治療一名友方目標639到691點生命力，並且在15秒內額外治療點生命力。你在接下來的15秒內對該目標施放的治療鍊將消耗其額外的週期性治療效果，並提高治療鍊25%的治療量。" lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="40">
+          <power cost="18" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

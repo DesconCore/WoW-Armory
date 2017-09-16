@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="DeathKnightFrost" icon="spell_deathknight_frostpresence" key="Frost" name="冰霜" order="1">
+      <talent column="0" icon="spell_deathknight_icetouch" key="2031" name="強化冰結之觸" tier="0">
+        <rank description="你的冰結之觸可額外造成5%的傷害，並且你的冰霜熱疫可額外降低2%的近戰、遠程和施法速度。" lvl="1"/>
+        <rank description="你的冰結之觸可額外造成10%的傷害，並且你的冰霜熱疫可額外降低4%的近戰、遠程和施法速度。" lvl="2"/>
+        <rank description="你的冰結之觸可額外造成15%的傷害，並且你的冰霜熱疫可額外降低6%的近戰、遠程和施法速度。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_arcane_arcane01" key="2020" name="精通符能" tier="0">
+        <rank description="使你的符能上限提高15點。" lvl="1"/>
+        <rank description="使你的符能上限提高30點。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_holy_devotion" key="1968" name="堅韌" tier="0">
+        <rank description="使你從裝備獲得的護甲值提高2%，且所有減緩移動速度效果的持續時間縮短6%。" lvl="1"/>
+        <rank description="使你從裝備獲得的護甲值提高4%，且所有減緩移動速度效果的持續時間縮短12%。" lvl="2"/>
+        <rank description="使你從裝備獲得的護甲值提高6%，且所有減緩移動速度效果的持續時間縮短18%。" lvl="3"/>
+        <rank description="使你從裝備獲得的護甲值提高8%，且所有減緩移動速度效果的持續時間縮短24%。" lvl="4"/>
+        <rank description="使你從裝備獲得的護甲值提高10%，且所有減緩移動速度效果的持續時間縮短30%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_frost_manarecharge" key="2035" name="冰結延伸" tier="1">
+        <rank description="使你的冰結之觸、冰鍊術以及凜風衝擊的射程延長5碼。" lvl="1"/>
+        <rank description="使你的冰結之觸、冰鍊術以及凜風衝擊的射程延長10碼。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_darkritual" key="1973" name="黑暗冰魄" tier="1">
+        <rank description="使你的冰霜和暗影傷害提高2%。" lvl="1"/>
+        <rank description="使你的冰霜和暗影傷害提高4%。" lvl="2"/>
+        <rank description="使你的冰霜和暗影傷害提高6%。" lvl="3"/>
+        <rank description="使你的冰霜和暗影傷害提高8%。" lvl="4"/>
+        <rank description="使你的冰霜和暗影傷害提高10%。" lvl="5"/>
+      </talent>
+      <talent column="3" icon="ability_dualwield" key="2022" name="冷鋼沉著" tier="1">
+        <rank description="使你單手近戰武器命中目標的機率提高1%，副手武器造成的傷害提高5%。" lvl="1"/>
+        <rank description="使你單手近戰武器命中目標的機率提高2%，副手武器造成的傷害提高10%。" lvl="2"/>
+        <rank description="使你單手近戰武器命中目標的機率提高3%，副手武器造成的傷害提高15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_icytalons" key="2042" name="冰結之爪" requires="2031" tier="2">
+        <rank description="你從受你冰霜熱疫感染的目標身上吸取熱能，當他們的近戰攻擊速度降低時，你的近戰攻擊速度將在接下來的20秒內提高4%。" lvl="1"/>
+        <rank description="你從受你冰霜熱疫感染的目標身上吸取熱能，當他們的近戰攻擊速度降低時，你的近戰攻擊速度將在接下來的20秒內提高8%。" lvl="2"/>
+        <rank description="你從受你冰霜熱疫感染的目標身上吸取熱能，當他們的近戰攻擊速度降低時，你的近戰攻擊速度將在接下來的20秒內提高12%。" lvl="3"/>
+        <rank description="你從受你冰霜熱疫感染的目標身上吸取熱能，當他們的近戰攻擊速度降低時，你的近戰攻擊速度將在接下來的20秒內提高16%。" lvl="4"/>
+        <rank description="你從受你冰霜熱疫感染的目標身上吸取熱能，當他們的近戰攻擊速度降低時，你的近戰攻擊速度將在接下來的20秒內提高20%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_raisedead" key="2215" name="巫妖之軀" tier="2">
+        <rank description="吸取穢邪能量變成不死生物，持續10秒。變成不死生物可使你免疫於魅惑、恐懼和睡眠效果。" lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="2" icon="inv_weapon_hand_18" key="2048" name="殲滅" tier="2">
+        <rank description="使你的近戰特殊技能致命一擊機率提高1%。此外，你的滅寂有33%的機率可以在不消耗疾病效果的情況下造成傷害。" lvl="1"/>
+        <rank description="使你的近戰特殊技能致命一擊機率提高2%。此外，你的滅寂有66%的機率可以在不消耗疾病效果的情況下造成傷害。" lvl="2"/>
+        <rank description="使你的近戰特殊技能致命一擊機率提高3%。此外，你的滅寂有100%的機率可以在不消耗疾病效果的情況下造成傷害。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_sword_122" key="2044" name="殺戮酷刑" tier="3">
+        <rank description="你的近戰攻擊有一定的機率使你的下一個冰結之觸、凜風衝擊或冰霜打擊必定造成致命一擊。" lvl="1"/>
+        <rank description="你的近戰攻擊有一定的機率使你的下一個冰結之觸、凜風衝擊或冰霜打擊必定造成致命一擊。此效果發動的機率比殺戮酷刑(等級1)還要高。" lvl="2"/>
+        <rank description="你的近戰攻擊有一定的機率使你的下一個冰結之觸、凜風衝擊或冰霜打擊必定造成致命一擊。此效果發動的機率比殺戮酷刑(等級2)還要高。" lvl="3"/>
+        <rank description="你的近戰攻擊有一定的機率使你的下一個冰結之觸、凜風衝擊或冰霜打擊必定造成致命一擊。此效果發動的機率比殺戮酷刑(等級3)還要高。" lvl="4"/>
+        <rank description="你的近戰攻擊有一定的機率使你的下一個冰結之觸、凜風衝擊或冰霜打擊必定造成致命一擊。此效果發動的機率比殺戮酷刑(等級4)還要高。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_frost_frostshock" key="1981" name="墓地之寒" tier="3">
+        <rank description="使你的冰鍊術、凜風衝擊、冰結之觸和滅寂可額外產生2.5點符能。" lvl="1"/>
+        <rank description="使你的冰鍊術、凜風衝擊、冰結之觸和滅寂可額外產生5點符能。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_twilight" key="1971" name="無盡凜冬" tier="3">
+        <rank description="使你的冰鍊術有50%的機率造成冰霜熱疫，並且心智冰封消耗的符能降低10點。" lvl="1"/>
+        <rank description="使你的冰鍊術有100%的機率造成冰霜熱疫，並且心智冰封不需消耗符能。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="inv_chest_mail_04" key="1990" name="嚴寒懼鎧" tier="4">
+        <rank description="降低近戰攻擊命中你的機率1%。" lvl="1"/>
+        <rank description="降低近戰攻擊命中你的機率2%。" lvl="2"/>
+        <rank description="降低近戰攻擊命中你的機率3%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_removedisease" key="2030" name="冰河腐疾" tier="4">
+        <rank description="使你的冰結之觸、凜風衝擊和冰霜打擊對感染疾病的目標造成的傷害提高7%。" lvl="1"/>
+        <rank description="使你的冰結之觸、凜風衝擊和冰霜打擊對感染疾病的目標造成的傷害提高13%。" lvl="2"/>
+        <rank description="使你的冰結之觸、凜風衝擊和冰霜打擊對感染疾病的目標造成的傷害提高20%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_soulleech_2" key="1980" name="死亡之寒" tier="4">
+        <rank description="啟動之後，你在30秒內施放的下一個冰結之觸、凜風衝擊、冰霜打擊或滅寂必定造成致命一擊。" lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_icytalons" key="2223" name="強化冰結之爪" requires="2042" tier="5">
+        <rank description="你的加速提高5%。此外，你的冰結之爪效果使整個小隊或團隊的近戰加速在接下來的20秒內提高20%。" lvl="1"/>
+        <spell castTime="0"/>
+      </talent>
+      <talent column="1" icon="inv_sword_112" key="1993" name="殘忍戰技" tier="5">
+        <rank description="當你攻擊生命力低於35%的目標時，你的冰結之觸、凜風衝擊、滅寂和冰霜打擊可對目標造成6%的額外傷害。" lvl="1"/>
+        <rank description="當你攻擊生命力低於35%的目標時，你的冰結之觸、凜風衝擊、滅寂和冰霜打擊可對目標造成12的額外傷害。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_frost_freezingbreath" key="1992" name="凝霜" tier="5">
+        <rank description="使你冰結之觸和滅寂造成致命一擊的機率提高5%，並且施放滅寂時有5%的機率重置凜風衝擊的冷卻時間，並且使你的下一個凜風衝擊不需消耗符文。" lvl="1"/>
+        <rank description="使你冰結之觸和滅寂造成致命一擊的機率提高10%，並且施放滅寂時有10%的機率重置凜風衝擊的冷卻時間，並且使你的下一個凜風衝擊不需消耗符文。" lvl="2"/>
+        <rank description="使你冰結之觸和滅寂造成致命一擊的機率提高15%，並且施放滅寂時有15%的機率重置凜風衝擊的冷卻時間，並且使你的下一個凜風衝擊不需消耗符文。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_wisp" key="2260" name="凍瘡" tier="6">
+        <rank description="使你的冰霜熱疫附帶冰冷效果，降低移動速度15%，持續10秒。" lvl="1"/>
+        <rank description="使你的冰霜熱疫附帶冰冷效果，降低移動速度30%，持續10秒。" lvl="2"/>
+        <rank description="使你的冰霜熱疫附帶冰冷效果，降低移動速度50%，持續10秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_staff_15" key="1999" name="噬溫酷寒" tier="6">
+        <rank description="淨除死亡騎士周圍地面的所有熱能，並冰封0碼範圍內的所有敵人，使其在10秒內無法採取任何行動並染上冰霜熱疫。此時敵人被視為處於冰凍狀態，但任何疾病以外的傷害均會中斷此效果。" lvl="1"/>
+        <spell castTime="0" cooldown="60000">
+          <power cost="40" type="runic"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_deathknight_frostpresence" key="2029" name="強化冰霜領域" tier="6">
+        <rank description="當你處於血魄領域或穢邪領域時，你仍可獲得冰霜領域3%的耐力，並且當你處於冰霜領域時受到的傷害可額外降低1%。" lvl="1"/>
+        <rank description="當你處於血魄領域或穢邪領域時，你仍可獲得冰霜領域6%的耐力，並且當你處於冰霜領域時受到的傷害可額外降低2%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_dualwieldspecialization" key="2284" name="薩沙理安之脅" tier="7">
+        <rank description="當你雙持武器時，你的死亡打擊、滅寂、瘟疫打擊、符文打擊、血魄打擊和冰霜打擊有30%的機率同時使用副手武器作出攻擊。" lvl="1"/>
+        <rank description="當你雙持武器時，你的死亡打擊、滅寂、瘟疫打擊、符文打擊、血魄打擊和冰霜打擊有60%的機率同時使用副手武器作出攻擊。" lvl="2"/>
+        <rank description="當你雙持武器時，你的死亡打擊、滅寂、瘟疫打擊、符文打擊、血魄打擊和冰霜打擊有100%的機率同時使用副手武器作出攻擊。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_weapon_shortblade_79" key="2210" name="北方之血" tier="7">
+        <rank description="使你血魄打擊和冰霜打擊造成的傷害提高3%。此外，每當你的血魄打擊或瘟疫同化命中敵人時，你有30%的機率使你的血魄符文在啟動時變成一個死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="1"/>
+        <rank description="使你血魄打擊和冰霜打擊造成的傷害提高6%。此外，每當你的血魄打擊或瘟疫同化命中敵人時，你有60%的機率使你的血魄符文在啟動時變成一個死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="2"/>
+        <rank description="使你血魄打擊和冰霜打擊造成的傷害提高10%。此外，每當你的血魄打擊或瘟疫同化命中敵人時，你有100%的機率使你的血魄符文在啟動時變成一個死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="inv_armor_helm_plate_naxxramas_raidwarrior_c_01" key="1979" name="無毀堅甲" tier="7">
+        <rank description="以厚實的寒冰強化你的護甲，使你的護甲值提高25%，並提高10%力量，持續20秒。" lvl="1"/>
+        <spell castTime="0" cooldown="60000">
+          <power cost="1" type="frost"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_fire_elementaldevastation" key="1997" name="抗禦魔法" tier="8">
+        <rank description="當你被法術擊中時，你有10%的機會提高對該系的魔法抗性，持續18秒，最多可堆疊3次。" lvl="1"/>
+        <rank description="當你被法術擊中時，你有20%的機會提高對該系的魔法抗性，持續18秒，最多可堆疊3次。" lvl="2"/>
+        <rank description="當你被法術擊中時，你有30%的機會提高對該系的魔法抗性，持續18秒，最多可堆疊3次。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_deathknight_empowerruneblade2" key="1975" name="冰霜打擊" tier="8">
+        <rank description="立即打擊敵人，造成55%武器傷害再加上4785點冰霜傷害。" lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="40" type="runic"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv-sword_53" key="2040" name="血魔之詐" tier="8">
+        <rank description="使你血魄打擊、冰霜打擊、凜風衝擊和滅寂的致命一擊傷害加成提高15%，並延長冰錮堅韌的持續時間2秒。" lvl="1"/>
+        <rank description="使你血魄打擊、冰霜打擊、凜風衝擊和滅寂的致命一擊傷害加成提高30%，並延長冰錮堅韌的持續時間4秒。" lvl="2"/>
+        <rank description="使你血魄打擊、冰霜打擊、凜風衝擊和滅寂的致命一擊傷害加成提高45%，並延長冰錮堅韌的持續時間6秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_tranquility" key="1998" name="凍原殺手" tier="9">
+        <rank description="提高1點熟練技能。此外，你的法術和技能對感染冰霜熱疫的目標可額外造成3%傷害。" lvl="1"/>
+        <rank description="提高2點熟練技能。此外，你的法術和技能對感染冰霜熱疫的目標可額外造成6%傷害。" lvl="2"/>
+        <rank description="提高3點熟練技能。此外，你的法術和技能對感染冰霜熱疫的目標可額外造成9%傷害。" lvl="3"/>
+        <rank description="提高4點熟練技能。此外，你的法術和技能對感染冰霜熱疫的目標可額外造成12%傷害。" lvl="4"/>
+        <rank description="提高5點熟練技能。此外，你的法術和技能對感染冰霜熱疫的目標可額外造成15%傷害。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_frost_arcticwinds" key="1989" name="凜風衝擊" tier="10">
+        <rank description="以寒風衝擊目標，並且對10碼範圍內的所有敵人造成198到214點冰霜傷害。" lvl="1"/>
+        <spell castTime="0" cooldown="8000" maxRange="20">
+          <power cost="1" type="unholy"/>
+          <power cost="1" type="frost"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="DeathKnightBlood" icon="spell_deathknight_bloodpresence" key="Blood" name="鮮血" order="0">
+      <talent column="0" icon="inv_axe_68" key="1939" name="屠殺" tier="0">
+        <rank description="當你殺死可取得經驗值或榮譽值的敵人後，你將產生10點符能。此外，在戰鬥狀態下每5秒可產生1點符能。" lvl="1"/>
+        <rank description="當你殺死可取得經驗值或榮譽值的敵人後，你將產生20點符能。此外，在戰鬥狀態下每5秒可產生2點符能。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_deathknight_subversion" key="1945" name="覆滅" tier="0">
+        <rank description="使你血魄打擊、天譴打擊、碎心打擊和滅寂的致命一擊機率提高3%，並且處於血魄或穢邪領域時，產生的威脅值降低8%。" lvl="1"/>
+        <rank description="使你血魄打擊、天譴打擊、碎心打擊和滅寂的致命一擊機率提高6%，並且處於血魄或穢邪領域時，產生的威脅值降低16%。" lvl="2"/>
+        <rank description="使你血魄打擊、天譴打擊、碎心打擊和滅寂的致命一擊機率提高9%，並且處於血魄或穢邪領域時，產生的威脅值降低25%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_upgrademoonglaive" key="2017" name="劍刃屏障" tier="0">
+        <rank description="當你的血魄符文皆處於冷卻狀態時可獲得劍刃屏障的效果，使你在接下來的10秒內受到的傷害降低1%。" lvl="1"/>
+        <rank description="當你的血魄符文皆處於冷卻狀態時可獲得劍刃屏障的效果，使你在接下來的10秒內受到的傷害降低2%。" lvl="2"/>
+        <rank description="當你的血魄符文皆處於冷卻狀態時可獲得劍刃屏障的效果，使你在接下來的10秒內受到的傷害降低3%。" lvl="3"/>
+        <rank description="當你的血魄符文皆處於冷卻狀態時可獲得劍刃屏障的效果，使你在接下來的10秒內受到的傷害降低4%。" lvl="4"/>
+        <rank description="當你的血魄符文皆處於冷卻狀態時可獲得劍刃屏障的效果，使你在接下來的10秒內受到的傷害降低5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="inv_shoulder_36" key="1938" name="劍刃護甲" tier="1">
+        <rank description="'每180點護甲值能讓你獲得1點攻擊強度。" lvl="1"/>
+        <rank description="'每180點護甲值能讓你獲得2點攻擊強度。" lvl="2"/>
+        <rank description="'每180點護甲值能讓你獲得3點攻擊強度。" lvl="3"/>
+        <rank description="'每180點護甲值能讓你獲得4點攻擊強度。" lvl="4"/>
+        <rank description="'每180點護甲值能讓你獲得5點攻擊強度。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_bloodyeye" key="1948" name="血魄氣息" tier="1">
+        <rank description="當你閃躲、招架或受到直接傷害時，有15%的機率獲得血魄氣息的效果，使你下1次的近戰攻擊命中時可產生10點符能。" lvl="1"/>
+        <rank description="當你閃躲、招架或受到直接傷害時，有15%的機率獲得血魄氣息的效果，使你下2次的近戰攻擊命中時可產生10點符能。" lvl="2"/>
+        <rank description="當你閃躲、招架或受到直接傷害時，有15%的機率獲得血魄氣息的效果，使你下3次的近戰攻擊命中時可產生10點符能。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="inv_sword_68" key="2217" name="雙手武器專精" tier="1">
+        <rank description="使你雙手近戰武器所造成的傷害提高2%。" lvl="1"/>
+        <rank description="使你雙手近戰武器所造成的傷害提高4%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_runetap" key="1941" name="符文轉化" tier="2">
+        <rank description="將1個血魄符文轉化為生命力上限的10%。" lvl="1"/>
+        <spell castTime="0" cooldown="60000">
+          <power cost="1" type="blood"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_deathknight_darkconviction" key="1943" name="黑暗定罪" tier="2">
+        <rank description="使你的武器、法術和技能造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你的武器、法術和技能造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你的武器、法術和技能造成致命一擊的機率提高3%。" lvl="3"/>
+        <rank description="使你的武器、法術和技能造成致命一擊的機率提高4%。" lvl="4"/>
+        <rank description="使你的武器、法術和技能造成致命一擊的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="inv_sword_62" key="2086" name="精通死亡符文" tier="2">
+        <rank description="當你使用死亡打擊或滅寂時，有33%的機率使你的冰霜符文和穢邪符文在啟動時轉化成死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="1"/>
+        <rank description="當你使用死亡打擊或滅寂時，有66%的機率使你的冰霜符文和穢邪符文在啟動時轉化成死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="2"/>
+        <rank description="當你使用死亡打擊或滅寂時，有100%的機率使你的冰霜符文和穢邪符文在啟動時轉化成死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_runetap" key="1942" name="強化符文轉化" requires="1941" tier="3">
+        <rank description="由符文轉化提供的生命力提高33%，並縮短其冷卻時間10秒。" lvl="1"/>
+        <rank description="由符文轉化提供的生命力提高33%，並縮短其冷卻時間20秒。" lvl="2"/>
+        <rank description="由符文轉化提供的生命力提高33%，並縮短其冷卻時間30秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_deathknight_spelldeflection" key="2018" name="法術偏斜" tier="3">
+        <rank description="使你有與招架機率相同的機會，令你受到的直接性法術傷害降低15%。" lvl="1"/>
+        <rank description="使你有與招架機率相同的機會，令你受到的直接性法術傷害降低30%。" lvl="2"/>
+        <rank description="使你有與招架機率相同的機會，令你受到的直接性法術傷害降低45%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_deathknight_vendetta" key="1953" name="世仇" tier="3">
+        <rank description="每當你殺死目標且獲得經驗或榮譽值時，可使你恢復生命力上限的2%。" lvl="1"/>
+        <rank description="每當你殺死目標且獲得經驗或榮譽值時，可使你恢復生命力上限的4%。" lvl="2"/>
+        <rank description="每當你殺死目標且獲得經驗或榮譽值時，可使你恢復生命力上限的6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_deathstrike" key="2015" name="血腥打擊" tier="4">
+        <rank description="使你血魄打擊造成的傷害提高5%，碎心打擊造成的傷害提高15%，沸血術造成的傷害提高10%。" lvl="1"/>
+        <rank description="使你血魄打擊造成的傷害提高10%，碎心打擊造成的傷害提高30%，沸血術造成的傷害提高20%。" lvl="2"/>
+        <rank description="使你血魄打擊造成的傷害提高15%，碎心打擊造成的傷害提高45%，沸血術造成的傷害提高30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_misc_warsongfocus" key="1950" name="百戰精兵" tier="4">
+        <rank description="使你的總力量提高2%，耐力提高1%，熟練技能提高2點。" lvl="1"/>
+        <rank description="使你的總力量提高4%，耐力提高2%，熟練技能提高4點。" lvl="2"/>
+        <rank description="使你的總力量提高6%，耐力提高3%，熟練技能提高6點。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_hunter_rapidkilling" key="1949" name="血魄印記" tier="4">
+        <rank description="在敵人身上施放一個血魄印記。當被標記的敵人對目標造成傷害時，該目標將被治療生命力上限的4%。此印記最多可持續20秒或直到命中20次為止。" lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30">
+          <power cost="1" type="blood"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="ability_backstab" key="1944" name="血腥復仇" requires="1943" tier="5">
+        <rank description="使你的武器攻擊、法術或技能造成致命一擊之後，可獲得1%的物理傷害加成，持續30秒。此效果最多可堆疊3次。" lvl="1"/>
+        <rank description="使你的武器攻擊、法術或技能造成致命一擊之後，可獲得2%的物理傷害加成，持續30秒。此效果最多可堆疊3次。" lvl="2"/>
+        <rank description="使你的武器攻擊、法術或技能造成致命一擊之後，可獲得3%的物理傷害加成，持續30秒。此效果最多可堆疊3次。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_warrior_intensifyrage" key="2105" name="兇惡之力" tier="5">
+        <rank description="使你的總力量提高1%。此外，你的血魄打擊和碎心打擊有25%的機率，而你的死亡打擊和滅寂有50%的機率提高0碼範圍內小隊與團隊成員10%的攻擊強度，持續10秒。" lvl="1"/>
+        <rank description="使你的總力量提高2%。此外，你的血魄打擊和碎心打擊有50%的機率，而你的死亡打擊和滅寂有100%的機率提高0碼範圍內小隊與團隊成員10%的攻擊強度，持續10秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_soulleech" key="1960" name="血蟲" tier="6">
+        <rank description="你的武器擊中目標時有3%的機率從對方的身上生出2-4隻血蟲。血蟲將攻擊你的敵人，並對你造成等同於其傷害量的治療效果，牠們可持續20秒或直到被殺掉為止。" lvl="1"/>
+        <rank description="你的武器擊中目標時有6%的機率從對方的身上生出2-4隻血蟲。血蟲將攻擊你的敵人，並對你造成等同於其傷害量的治療效果，牠們可持續20秒或直到被殺掉為止。" lvl="2"/>
+        <rank description="你的武器擊中目標時有9%的機率從對方的身上生出2-4隻血蟲。血蟲將攻擊你的敵人，並對你造成等同於其傷害量的治療效果，牠們可持續20秒或直到被殺掉為止。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_deathknight_bladedarmor" key="1954" name="狂血術" tier="6">
+        <rank description="誘導一名友方單位進入嗜殺的狂亂狀態，持續30秒。目標將陷入狂怒之中，使其造成的物理傷害提高20%，但每秒損失生命力上限的1%。" lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30"/>
+      </talent>
+      <talent column="2" icon="spell_deathknight_bloodpresence" key="1936" name="強化血魄領域" tier="6">
+        <rank description="當你處於冰霜領域或穢邪領域時，你仍可獲得血魄領域2%的治療效果，並且當你處於血魄領域時受到的治療效果將提高5%。" lvl="1"/>
+        <rank description="當你處於冰霜領域或穢邪領域時，你仍可獲得血魄領域4%的治療效果，並且當你處於血魄領域時受到的治療效果將提高10%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_butcher2" key="2259" name="強化死亡打擊" tier="7">
+        <rank description="使你死亡打擊的傷害提高15%，致命一擊機率提高3%，且提供的治療效果提高25%。" lvl="1"/>
+        <rank description="使你死亡打擊的傷害提高30%，致命一擊機率提高6%，且提供的治療效果提高50%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_painspike" key="1955" name="厄運驟臨" tier="7">
+        <rank description="Y你的血魄打擊和碎心打擊有5%的機率對你的當前目標施放一發死亡纏繞。" lvl="1"/>
+        <rank description="你的血魄打擊和碎心打擊有10%的機率對你的當前目標施放一發死亡纏繞。" lvl="2"/>
+        <rank description="你的血魄打擊和碎心打擊有15%的機率對你的當前目標施放一發死亡纏繞。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_lifedrain" key="2019" name="血族之裔" tier="7">
+        <rank description="暫時性地令死亡騎士的生命力上限提高15%，並使其從法術與效果所獲得的生命力提高35%，持續10秒。當此效果解除之後，這些生命力會被扣除。" lvl="1"/>
+        <spell castTime="0" cooldown="60000">
+          <power cost="1" type="blood"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="ability_creature_cursed_02" key="1959" name="亡域意志" tier="8">
+        <rank description="任何會使你的生命力降低至35%以下的攻擊，或者當你的生命力處於35%時，受到的傷害降低5%。此效果每15秒只能發動一次，少於你5%生命力的傷害無法觸發此效果。" lvl="1"/>
+        <rank description="任何會使你的生命力降低至35%以下的攻擊，或者當你的生命力處於35%時，受到的傷害降低10%。此效果每15秒只能發動一次，少於你5%生命力的傷害無法觸發此效果。" lvl="2"/>
+        <rank description="任何會使你的生命力降低至35%以下的攻擊，或者當你的生命力處於35%時，受到的傷害降低15%。此效果每15秒只能發動一次，少於你5%生命力的傷害無法觸發此效果。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_weapon_shortblade_40" key="1957" name="碎心打擊" tier="8">
+        <rank description="立即打擊目標與其周圍最靠近的盟友，對主要目標造成50%的武器傷害再加上125點傷害，對次要目標造成25%的武器傷害再加上63點傷害。目標身上每個由你引起的疾病效果可使此攻擊額外造成10%的傷害，同時移動速度降低50%，持續10秒。" lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="1" type="blood"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_deathknight_classicon" key="1958" name="莫格萊尼之力" tier="8">
+        <rank description="使你沸血術、血魄打擊、死亡打擊和碎心打擊技能的致命一擊傷害加成提高15%。" lvl="1"/>
+        <rank description="使你沸血術、血魄打擊、死亡打擊和碎心打擊技能的致命一擊傷害加成提高30%。" lvl="2"/>
+        <rank description="使你沸血術、血魄打擊、死亡打擊和碎心打擊技能的致命一擊傷害加成提高45%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_reincarnation" key="2034" name="血魄暴噬" tier="9">
+        <rank description="你的攻擊無視對手2%的護甲值。當你的生命力高於75%時，可額外造成2%的傷害。" lvl="1"/>
+        <rank description="你的攻擊無視對手4%的護甲值。當你的生命力高於75%時，可額外造成4%的傷害。" lvl="2"/>
+        <rank description="你的攻擊無視對手6%的護甲值。當你的生命力高於75%時，可額外造成6%的傷害。" lvl="3"/>
+        <rank description="你的攻擊無視對手8%的護甲值。當你的生命力高於75%時，可額外造成8%的傷害。" lvl="4"/>
+        <rank description="你的攻擊無視對手10%的護甲值。當你的生命力高於75%時，可額外造成10%的傷害。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="inv_sword_07" key="1961" name="符文武器幻舞" tier="10">
+        <rank description="召喚第二把符文武器。這把符文武器將獨立戰鬥並採取與死亡騎士相同的攻擊，但僅能造成低於死亡騎士50%的傷害，持續12秒。" lvl="1"/>
+        <spell castTime="0" cooldown="90000" maxRange="30">
+          <power cost="60" type="runic"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="DeathKnightUnholy" icon="spell_deathknight_unholypresence" key="Unholy" name="邪惡" order="2">
+      <talent column="0" icon="spell_deathknight_plaguestrike" key="2082" name="兇惡打擊" tier="0">
+        <rank description="使你的瘟疫打擊和天譴打擊的致命一擊機率提高3%，致命一擊傷害加成提高15%。" lvl="1"/>
+        <rank description="使你的瘟疫打擊和天譴打擊的致命一擊機率提高6%，致命一擊傷害加成提高30%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_burningspirit" key="1932" name="惡疾" tier="0">
+        <rank description="使你法術的命中機率提高1%，並且令你的持續傷害疾病被治癒的機率降低10%。" lvl="1"/>
+        <rank description="使你法術的命中機率提高2%，並且令你的持續傷害疾病被治癒的機率降低20%。" lvl="2"/>
+        <rank description="使你法術的命中機率提高3%，並且令你的持續傷害疾病被治癒的機率降低30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_mirrorimage" key="2218" name="預知" tier="0">
+        <rank description="使你的閃躲機率提高1%。" lvl="1"/>
+        <rank description="使你的閃躲機率提高2%。" lvl="2"/>
+        <rank description="使你的閃躲機率提高3%。" lvl="3"/>
+        <rank description="使你的閃躲機率提高4%。" lvl="4"/>
+        <rank description="使你的閃躲機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowwordpain" key="1963" name="疫源" tier="1">
+        <rank description="使你的血魄瘟疫和冰霜熱疫持續時間延長3秒。" lvl="1"/>
+        <rank description="使你的血魄瘟疫和冰霜熱疫持續時間延長6秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_deathanddecay" key="1933" name="病態" tier="1">
+        <rank description="使你死亡纏繞造成的傷害與治療效果提高5%，死亡凋零的冷卻時間縮短5秒。" lvl="1"/>
+        <rank description="使你死亡纏繞造成的傷害與治療效果提高10%，死亡凋零的冷卻時間縮短10秒。" lvl="2"/>
+        <rank description="使你死亡纏繞造成的傷害與治療效果提高15%，死亡凋零的冷卻時間縮短15秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_deathknight_strangulate" key="2025" name="穢邪命令" tier="1">
+        <rank description="使你死亡之握的冷卻時間縮短5秒。" lvl="1"/>
+        <rank description="使你死亡之握的冷卻時間縮短10秒。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_deathknight_gnaw_ghoul" key="1934" name="嗜肉死者" tier="1">
+        <rank description="使你的總力量提高1%，並且讓你的食屍鬼從主人身上獲得力量和耐力加成的比例提高20%。" lvl="1"/>
+        <rank description="使你的總力量提高2%，並且讓你的食屍鬼從主人身上獲得力量和耐力加成的比例提高40%。" lvl="2"/>
+        <rank description="使你的總力量提高3%，並且讓你的食屍鬼從主人身上獲得力量和耐力加成的比例提高60%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_plaguecloud" key="2008" name="疫病爆發" tier="2">
+        <rank description="使你瘟疫打擊的傷害提高10%，天譴打擊的傷害提高7%。" lvl="1"/>
+        <rank description="使你瘟疫打擊的傷害提高20%，天譴打擊的傷害提高13%。" lvl="2"/>
+        <rank description="使你瘟疫打擊的傷害提高30%，天譴打擊的傷害提高20%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_weapon_shortblade_60" key="2047" name="死亡之疽" tier="2">
+        <rank description="你的自動攻擊可額外造成4%的暗影傷害。" lvl="1"/>
+        <rank description="你的自動攻擊可額外造成8%的暗影傷害。" lvl="2"/>
+        <rank description="你的自動攻擊可額外造成12%的暗影傷害。" lvl="3"/>
+        <rank description="你的自動攻擊可額外造成16%的暗影傷害。" lvl="4"/>
+        <rank description="你的自動攻擊可額外造成20%的暗影傷害。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_creature_disease_02" key="1985" name="屍爆術" tier="2">
+        <rank description="使一具屍體爆炸，對0碼範圍內的所有敵人造成166點暗影傷害。若選定的目標不是屍體時，則會使用附近的一具屍體。無法使用於機械或元素類的屍體。" lvl="1"/>
+        <spell castTime="0" cooldown="5000" maxRange="30">
+          <power cost="40" type="runic"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_deathknight_summondeathcharger" key="2039" name="骸馬騎術" tier="3">
+        <rank description="你變成死亡的化身，難以被阻擋。你受到的所有昏迷和恐懼效果持續時間縮短10%，並且騎乘速度提高10%。此效果無法與其他提升移動速度的效果堆疊。" lvl="1"/>
+        <rank description="你變成死亡的化身，難以被阻擋。你受到的所有昏迷和恐懼效果持續時間縮短20%，並且騎乘速度提高20%。此效果無法與其他提升移動速度的效果堆疊。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_criticalstrike" key="2004" name="凝血之刃" tier="3">
+        <rank description="你的自動攻擊有10%的機率造成凝血打擊的效果，對敵人造成25%武器傷害再加上目標身上每個由你引起的疾病效果均可額外造成12.5%的武器傷害。" lvl="1"/>
+        <rank description="你的自動攻擊有20%的機率造成凝血打擊的效果，對敵人造成25%武器傷害再加上目標身上每個由你引起的疾病效果均可額外造成12.5%的武器傷害。" lvl="2"/>
+        <rank description="你的自動攻擊有30%的機率造成凝血打擊的效果，對敵人造成25%武器傷害再加上目標身上每個由你引起的疾病效果均可額外造成12.5%的武器傷害。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_deathknight_armyofthedead" key="2225" name="死亡之夜" tier="3">
+        <rank description="使你死者復生的冷卻時間縮短45秒，亡靈大軍的冷卻時間縮短2分鐘，同時令你寵物受到生物所施放的範圍攻擊傷害降低45%。" lvl="1"/>
+        <rank description="使你死者復生的冷卻時間縮短90秒，亡靈大軍的冷卻時間縮短4分鐘，同時令你寵物受到生物所施放的範圍攻擊傷害降低90%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_contagion" key="1996" name="穢邪荒疫" tier="4">
+        <rank description="使死亡纏繞所擊中的目標圍繞著污穢的穢邪蟲群，在10秒內受到相當於死亡纏繞造成的10%傷害。" lvl="1"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowandflame" key="2005" name="不潔" tier="4">
+        <rank description="使你攻擊強度對法術的加成提高4%。" lvl="1"/>
+        <rank description="使你攻擊強度對法術的加成提高8%。" lvl="2"/>
+        <rank description="使你攻擊強度對法術的加成提高12%。" lvl="3"/>
+        <rank description="使你攻擊強度對法術的加成提高16%。" lvl="4"/>
+        <rank description="使你攻擊強度對法術的加成提高20%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_shadesofdarkness" key="2011" name="輓歌" tier="4">
+        <rank description="你的死亡打擊、瘟疫打擊和天譴打擊可額外產生2.5點符能。" lvl="1"/>
+        <rank description="你的死亡打擊、瘟疫打擊和天譴打擊可額外產生5點符能。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowfiend" key="2226" name="褻瀆" tier="5">
+        <rank description="你的瘟疫打擊和天譴打擊可發動褻瀆之地的效果。區域內的所有目標皆會受到亡者之臂的糾纏，移動速度降低25%，持續20秒。" lvl="1"/>
+        <rank description="你的瘟疫打擊和天譴打擊可發動褻瀆之地的效果。區域內的所有目標皆會受到亡者之臂的糾纏，移動速度降低50%，持續20秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_antimagicshell" key="2009" name="壓制魔法" tier="5">
+        <rank description="你受到的所有魔法傷害降低2%。此外，你的反魔法護罩可額外吸收8%的法術傷害。" lvl="1"/>
+        <rank description="你受到的所有魔法傷害降低4%。此外，你的反魔法護罩可額外吸收16%的法術傷害。" lvl="2"/>
+        <rank description="你受到的所有魔法傷害降低6%。此外，你的反魔法護罩可額外吸收25%的法術傷害。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_shadetruesight" key="2001" name="穢聚" tier="5">
+        <rank description="當你的血魄打擊或瘟疫同化命中敵人時，有33%的機率使你的血魄符文在啟動時轉化成一個死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="1"/>
+        <rank description="當你的血魄打擊或瘟疫同化命中敵人時，有66%的機率使你的血魄符文在啟動時轉化成一個死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="2"/>
+        <rank description="當你的血魄打擊或瘟疫同化命中敵人時，有100%的機率使你的血魄符文在啟動時轉化成一個死亡符文。死亡符文可視為血魄、冰霜或者穢邪符文。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_animatedead" key="1984" name="食屍鬼大師" requires="2225" tier="5">
+        <rank description="使你死者復生的冷卻時間縮短60秒，並將死者復生召喚出來的食屍鬼視同為聽命於你的寵物。這與死亡騎士召喚出來的其他食屍鬼不同，此寵物沒有持續時間的限制。" lvl="1"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_unholyfrenzy" key="2285" name="荒寂" tier="6">
+        <rank description="你的血魄打擊可使你在後續20秒內的所有攻擊傷害提高1%。" lvl="1"/>
+        <rank description="Y你的血魄打擊可使你在後續20秒內的所有攻擊傷害提高2%。" lvl="2"/>
+        <rank description="你的血魄打擊可使你在後續20秒內的所有攻擊傷害提高3%。" lvl="3"/>
+        <rank description="你的血魄打擊可使你在後續20秒內的所有攻擊傷害提高4%。" lvl="4"/>
+        <rank description="你的血魄打擊可使你在後續20秒內的所有攻擊傷害提高5%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_deathknight_antimagiczone" key="2221" name="反魔法力場" requires="2009" tier="6">
+        <rank description="在地面設下一座大型的反魔法力場護罩，使範圍內小隊和團隊成員受到的法術傷害降低75%。反魔法力場可持續10秒或直到10052點法術傷害為止。" lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="1" type="unholy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_deathknight_unholypresence" key="2013" name="強化穢邪領域" tier="6">
+        <rank description="當你處於血魄領域或冰霜領域時，你仍可獲得穢邪領域8%的移動速度，並且當你處於穢邪領域時符文恢復冷卻時間的速度將提高5%。" lvl="1"/>
+        <rank description="當你處於血魄領域或冰霜領域時，你仍可獲得穢邪領域15%的移動速度，並且當你處於穢邪領域時符文恢復冷卻時間的速度將提高10%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_ghoulfrenzy" key="2085" name="食屍狂亂" requires="1984" tier="6">
+        <rank description="賦予你寵物25%加速，持續30秒，同時在持續時間內治療其60%的生命力。" lvl="1"/>
+        <spell castTime="0" cooldown="10000" maxRange="45">
+          <power cost="1" type="unholy"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_nature_nullifydisease" key="1962" name="墓穴熱疫" tier="7">
+        <rank description="你的疾病可同時傳染墓穴熱疫，使目標受到的疾病傷害提高10%。" lvl="1"/>
+        <rank description="你的疾病可同時傳染墓穴熱疫，使目標受到的疾病傷害提高20%。" lvl="2"/>
+        <rank description="你的疾病可同時傳染墓穴熱疫，使目標受到的疾病傷害提高30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="inv_chest_leather_13" key="2007" name="骸骨之盾" tier="7">
+        <rank description="死亡騎士的身上圍繞著3根旋轉的骸骨。只要還有至少1根骸骨存在時，受到的所有類型傷害將降低20%，同時使你的所有攻擊、法術和技能額外造成2%傷害。每承受一次傷害性的攻擊將耗損1根骸骨，持續5分钟。" lvl="1"/>
+        <spell castTime="0" cooldown="60000">
+          <power cost="1" type="unholy"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_shadow_callofbone" key="2003" name="遊蕩瘟疫" tier="8">
+        <rank description="當你的疾病對敵人造成傷害時，有與你近戰攻擊造成致命一擊相同的機率對目標及其8碼範圍內的所有敵人同時造成33%的額外傷害。此效果不會作用於身上擁有受到傷害就會解除狀態的目標。" lvl="1"/>
+        <rank description="當你的疾病對敵人造成傷害時，有與你近戰攻擊造成致命一擊相同的機率對目標及其8碼範圍內的所有敵人同時造成66%的額外傷害。此效果不會作用於身上擁有受到傷害就會解除狀態的目標。" lvl="2"/>
+        <rank description="當你的疾病對敵人造成傷害時，有與你近戰攻擊造成致命一擊相同的機率對目標及其8碼範圍內的所有敵人同時造成100%的額外傷害。此效果不會作用於身上擁有受到傷害就會解除狀態的目標。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_creature_cursed_03" key="2043" name="滅世黑疫" requires="1962" tier="8">
+        <rank description="你的武器攻擊和法術造成致命一擊的機率提高1%。此外，你的墓穴熱疫變成黑死瘟疫，除了使目標受到的疾病傷害提高之外，同時可使目標受到的魔法傷害提高4%。" lvl="1"/>
+        <rank description="你的武器攻擊和法術造成致命一擊的機率提高2%。此外，你的墓穴熱疫變成黑死瘟疫，除了使目標受到的疾病傷害提高之外，同時可使目標受到的魔法傷害提高9%。" lvl="2"/>
+        <rank description="你的武器攻擊和法術造成致命一擊的機率提高3%。此外，你的墓穴熱疫變成黑死瘟疫，除了使目標受到的疾病傷害提高之外，同時可使目標受到的魔法傷害提高13%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_deathknight_scourgestrike" key="2216" name="天譴打擊" tier="8">
+        <rank description="穢邪的攻擊對敵人造成相當於50%武器傷害的物理傷害再238點傷害。此外，目標身上每個由你引起的疾病效果可使此攻擊額外造成暗影傷害，數值相當於其造成的25%物理傷害。" lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="1" type="unholy"/>
+          <power cost="1" type="frost"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="inv_weapon_halberd14" key="2036" name="瑞文戴爾之怒" tier="9">
+        <rank description="提高1點熟練技能。此外，你的法術和技能對感染血魄瘟疫的目標可額外造成2%傷害。" lvl="1"/>
+        <rank description="提高2點熟練技能。此外，你的法術和技能對感染血魄瘟疫的目標可額外造成4%傷害。" lvl="2"/>
+        <rank description="提高3點熟練技能。此外，你的法術和技能對感染血魄瘟疫的目標可額外造成6%傷害。" lvl="3"/>
+        <rank description="提高4點熟練技能。此外，你的法術和技能對感染血魄瘟疫的目標可額外造成8%傷害。" lvl="4"/>
+        <rank description="提高5點熟練技能。此外，你的法術和技能對感染血魄瘟疫的目標可額外造成10%傷害。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_hunter_pet_bat" key="2000" name="召喚石像鬼" tier="10">
+        <rank description="召喚石像鬼飛向目標所在的區域，不斷對目標造成隨死亡騎士攻擊強度而提高的自然傷害，持續30秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30">
+          <power cost="60" type="runic"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

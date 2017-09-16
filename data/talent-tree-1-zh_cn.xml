@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="WarriorFury" icon="ability_warrior_innerrage" key="Fury" name="狂怒" order="1">
+      <talent column="0" icon="inv_shoulder_22" key="2250" name="全副武裝" tier="0">
+        <rank description="每108點護甲值能讓你獲得1點攻擊強度。" lvl="1"/>
+        <rank description="每108點護甲值能讓你獲得2點攻擊強度。" lvl="2"/>
+        <rank description="每108點護甲值能讓你獲得3點攻擊強度。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_purge" key="158" name="震耳嗓音" tier="0">
+        <rank description="使你戰鬥怒吼、挫志怒吼和命令之吼效果的作用範圍和持續時間延長25%。" lvl="1"/>
+        <rank description="使你戰鬥怒吼、挫志怒吼和命令之吼效果的作用範圍和持續時間延長50%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_eviscerate" key="157" name="殘忍" tier="0">
+        <rank description="使你近戰武器對敵人造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你近戰武器對敵人造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你近戰武器對敵人造成致命一擊的機率提高3%。" lvl="3"/>
+        <rank description="使你近戰武器對敵人造成致命一擊的機率提高4%。" lvl="4"/>
+        <rank description="使你近戰武器對敵人造成致命一擊的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_warcry" key="161" name="強化挫志怒吼" tier="1">
+		<rank description="使你挫志怒吼技能降低敵人近戰攻擊強度的效果提高8%。" lvl="1"/>
+        <rank description="使你挫志怒吼技能降低敵人近戰攻擊強度的效果提高16%。" lvl="2"/>
+        <rank description="使你挫志怒吼技能降低敵人近戰攻擊強度的效果提高24%。" lvl="3"/>
+        <rank description="使你挫志怒吼技能降低敵人近戰攻擊強度的效果提高32%。" lvl="4"/>
+        <rank description="使你挫志怒吼技能降低敵人近戰攻擊強度的效果提高40%。" lvl="5"/>      
+      </talent>
+       <talent column="2" icon="spell_nature_stoneclawtotem" key="159" name="怒不可遏" tier="1">
+        <rank description="使你用武器對敵人造成近戰傷害之後有機會獲得1點額外的怒氣點數。" lvl="1"/>
+        <rank description="使你用武器對敵人造成近戰傷害之後有機會獲得1點額外的怒氣點數。此效果的發動機率比怒不可遏(等級1)還要高。" lvl="2"/>
+        <rank description="使你用武器對敵人造成近戰傷害之後有機會獲得1點額外的怒氣點數。此效果的發動機率比怒不可遏(等級2)還要高。" lvl="3"/>
+        <rank description="使你用武器對敵人造成近戰傷害之後有機會獲得1點額外的怒氣點數。此效果的發動機率比怒不可遏(等級3)還要高。" lvl="4"/>
+        <rank description="使你用武器對敵人造成近戰傷害之後有機會獲得1點額外的怒氣點數。此效果的發動機率比怒不可遏(等級4)還要高。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_cleave" key="166" name="強化順劈斬" tier="2">
+        <rank description="使你順劈斬技能的傷害加成提高40%。" lvl="1"/>
+        <rank description="使你順劈斬技能的傷害加成提高80%。" lvl="2"/>
+        <rank description="使你順劈斬技能的傷害加成提高120%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_deathscream" key="160" name="刺耳怒吼" tier="2">
+        <rank description="使附近0碼範圍內的所有敵人暈眩，並降低移動速度50%，持續6秒。" lvl="1"/>
+        <spell castTime="0">
+          <power cost="10" type="rage"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_summonimp" key="661" name="血之狂熱" tier="2">
+        <rank description="在受到致命一擊之後，會在6秒內恢復總生命力的2%。" lvl="1"/>
+        <rank description="在受到致命一擊之後，會在6秒內恢復總生命力的4%。" lvl="2"/>
+        <rank description="在受到致命一擊之後，會在6秒內恢復總生命力的6%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_nature_focusedmind" key="154" name="命令風采" tier="2">
+        <rank description="使你戰鬥怒吼所賦予的近戰攻擊強度加成和命令之吼所賦予的生命加成提高5%。" lvl="1"/>
+        <rank description="使你戰鬥怒吼所賦予的近戰攻擊強度加成和命令之吼所賦予的生命加成提高10%。" lvl="2"/>
+        <rank description="使你戰鬥怒吼所賦予的近戰攻擊強度加成和命令之吼所賦予的生命加成提高15%。" lvl="3"/>
+        <rank description="使你戰鬥怒吼所賦予的近戰攻擊強度加成和命令之吼所賦予的生命加成提高20%。" lvl="4"/>
+        <rank description="使你戰鬥怒吼所賦予的近戰攻擊強度加成和命令之吼所賦予的生命加成提高25%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_dualwield" key="1581" name="雙武器專精" tier="3">
+        <rank description="使你副手武器所造成的傷害提高5%。" lvl="1"/>
+        <rank description="使你副手武器所造成的傷害提高10%。" lvl="2"/>
+        <rank description="使你副手武器所造成的傷害提高15%。" lvl="3"/>
+        <rank description="使你副手武器所造成的傷害提高20%。" lvl="4"/>
+        <rank description="使你副手武器所造成的傷害提高25%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="inv_sword_48" key="1542" name="強化斬殺" tier="3">
+        <rank description="使你斬殺技能所消耗的怒氣減少2點。" lvl="1"/>
+        <rank description="使你斬殺技能所消耗的怒氣減少5點。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_unholyfrenzy" key="155" name="狂怒" tier="3">
+        <rank description="使你受到傷害性攻擊時，有30%的機率獲得2%的傷害加成，持續12秒。此效果無法與破壞專家疊加。" lvl="1"/>
+        <rank description="使你受到傷害性攻擊時，有30%的機率獲得4%的傷害加成，持續12秒。此效果無法與破壞專家疊加。" lvl="2"/>
+        <rank description="使你受到傷害性攻擊時，有30%的機率獲得6%的傷害加成，持續12秒。此效果無法與破壞專家疊加。" lvl="3"/>
+        <rank description="使你受到傷害性攻擊時，有30%的機率獲得8%的傷害加成，持續12秒。此效果無法與破壞專家疊加。" lvl="4"/>
+        <rank description="使你受到傷害性攻擊時，有30%的機率獲得10%的傷害加成，持續12秒。此效果無法與破壞專家疊加。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_marksmanship" key="1657" name="精準" tier="4">
+        <rank description="使你近戰武器命中目標的機率提高1%。" lvl="1"/>
+        <rank description="使你近戰武器命中目標的機率提高2%。" lvl="2"/>
+        <rank description="使你近戰武器命中目標的機率提高3%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_deathpact" key="165" name="死亡之願" tier="4">
+        <rank description="啟動之後進入狂怒狀態，使你造成的物理傷害提高20%，但是受到的所有傷害亦提高5%。持續30秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000">
+          <power cost="10" type="rage"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_rogue_sprint" key="1543" name="強化攔截" tier="4">
+        <rank description="使你攔截技能的冷卻時間縮短5秒。" lvl="1"/>
+        <rank description="使你攔截技能的冷卻時間縮短10秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_nature_ancestralguardian" key="1541" name="強化狂暴之怒" tier="5">
+        <rank description="使用狂暴之怒技能之後獲得10點怒氣。" lvl="1"/>
+        <rank description="使用狂暴之怒技能之後獲得20點怒氣。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_ghoulfrenzy" key="156" name="亂舞" tier="5">
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高5%。" lvl="1"/>
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高10%。" lvl="2"/>
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高15%。" lvl="3"/>
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高20%。" lvl="4"/>
+        <rank description="在你的近戰攻擊造成致命一擊之後，使你下3次近戰攻擊的速度提高25%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_endlessrage" key="1864" name="怒氣激增" tier="6">
+        <rank description="血性狂暴、狂暴之怒、魯莽和死亡之願的冷卻時間縮短11%。" lvl="1"/>
+        <rank description="血性狂暴、狂暴之怒、魯莽和死亡之願的冷卻時間縮短22%。" lvl="2"/>
+        <rank description="血性狂暴、狂暴之怒、魯莽和死亡之願的冷卻時間縮短33%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_bloodlust" key="167" name="嗜血" requires="165" tier="6">
+        <rank description="立刻攻击目标，对其造成450点伤害。另外，你的下3次成功的近战攻击每次都可令你恢复生命值总量的1%。效果持续8秒。此技能的伤害值受攻击强度加成影响。" lvl="1"/>
+        <spell castTime="0" cooldown="4000" maxRange="5">
+          <power cost="20" type="rage"/>
+        </spell>
+      </talent>	
+      <talent column="3" icon="ability_whirlwind" key="1655" name="強化旋風斬" tier="6">
+        <rank description="使你旋風斬技能造成的傷害提高10%。" lvl="1"/>
+        <rank description="使你旋風斬技能造成的傷害提高20%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_furiousresolve" key="1865" name="狂烈攻擊" tier="7">
+        <rank description="你的普通近戰攻擊有一定的機率使目標受到的所有治療效果降低25%，持續10秒。最高可堆疊2次。" lvl="1"/>
+        <rank description="你的普通近戰攻擊有一定的機率使目標受到的所有治療效果降低25%，持續10秒。最高可堆疊2次。比狂烈攻擊(等級1)更容易發動" lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_racial_avatar" key="1658" name="強化狂暴姿態" tier="7">
+        <rank description="當你處於狂暴姿態時，力量提高4%，造成的威脅值降低2%。" lvl="1"/>
+        <rank description="當你處於狂暴姿態時，力量提高8%，造成的威脅值降低4%" lvl="2"/>
+        <rank description="當你處於狂暴姿態時，力量提高12%，造成的威脅值降低6%" lvl="3"/>
+        <rank description="當你處於狂暴姿態時，力量提高16%，造成的威脅值降低8%" lvl="4"/>
+        <rank description="當你處於狂暴姿態時，力量提高20%，造成的威脅值降低10%" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_heroicleap" key="1868" name="英勇烈怒" tier="8">
+        <rank description="移除所有令你無法移動的效果，並重置你攔截技能的冷卻時間。" lvl="1"/>
+        <spell castTime="0" cooldown="45000"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_rampage" key="1659" name="暴怒" requires="167" tier="8">
+        <rank description="你的近戰致命一擊使你進入暴怒狀態，提高0碼範圍內所有小隊和團隊成員5%的近戰和遠程致命一擊機率，持續10秒。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_warrior_bloodsurge" key="1866" name="熱血沸騰" requires="167" tier="8">
+        <rank description="你的英勇打擊、嗜血和旋風斬命中敵人時，有7%的機率使你的下一個猛擊變成瞬發技能，持續5秒。" lvl="1"/>
+        <rank description="你的英勇打擊、嗜血和旋風斬命中敵人時，有13%的機率使你的下一個猛擊變成瞬發技能，持續5秒。" lvl="2"/>
+        <rank description="你的英勇打擊、嗜血和旋風斬命中敵人時，有20%的機率使你的下一個猛擊變成瞬發技能，持續5秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_intensifyrage" key="2234" name="無窮烈怒" tier="9">
+        <rank description="使你猛擊、旋風斬和嗜血技能造成的傷害提高2%。" lvl="1"/>
+        <rank description="使你猛擊、旋風斬和嗜血技能造成的傷害提高4%。" lvl="2"/>
+        <rank description="使你猛擊、旋風斬和嗜血技能造成的傷害提高6%。" lvl="3"/>
+        <rank description="使你猛擊、旋風斬和嗜血技能造成的傷害提高8%。" lvl="4"/>
+        <rank description="使你猛擊、旋風斬和嗜血技能造成的傷害提高10%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_titansgrip" key="1867" name="泰坦之握" tier="10">
+        <rank description="使你可以將雙手斧、雙手錘和雙手劍裝備在單手上。當你用單手裝備雙手武器時，你所造成的物理傷害將降低10%。" lvl="1"/>
+      </talent>
+    </tree>
+    <tree bgImage="WarriorArms" icon="ability_rogue_eviscerate" key="Arms" name="武器" order="0">
+      <talent column="0" icon="ability_rogue_ambush" key="124" name="強化英勇打擊" tier="0">
+        <rank description="使你英勇打擊技能所消耗的怒氣降低1點。" lvl="1"/>
+        <rank description="使你英勇打擊技能所消耗的怒氣降低2點。" lvl="2"/>
+        <rank description="使你英勇打擊技能所消耗的怒氣降低3點。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_parry" key="130" name="偏斜" tier="0">
+        <rank description="使你的招架機率提高1%。" lvl="1"/>
+        <rank description="使你的招架機率提高2%。" lvl="2"/>
+        <rank description="使你的招架機率提高3%。" lvl="3"/>
+        <rank description="使你的招架機率提高4%。" lvl="4"/>
+        <rank description="使你的招架機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_gouge" key="127" name="強化撕裂" tier="0">
+        <rank description="使你撕裂的流血傷害效果提高10%。" lvl="1"/>
+        <rank description="使你撕裂的流血傷害效果提高20%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_charge" key="126" name="強化衝鋒" tier="1">
+        <rank description="使你衝鋒技能所產生的怒氣提高5點。" lvl="1"/>
+        <rank description="使你衝鋒技能所產生的怒氣提高10點。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_magic_magearmor" key="641" name="鋼鐵意志" tier="1">
+        <rank description="使你受到昏迷和魅惑效果的持續時間縮短7%。" lvl="1"/>
+        <rank description="使你受到昏迷和魅惑效果的持續時間縮短14%。" lvl="2"/>
+        <rank description="使你受到昏迷和魅惑效果的持續時間縮短20%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_enchantarmor" key="128" name="精通戰術" tier="1">
+        <rank description="在改變姿態的時候可以額外保留最多5點怒氣。此外當你處於防禦姿態時，大幅提升嗜血和致死打擊所造成的威脅值。" lvl="1"/>
+        <rank description="在改變姿態的時候可以額外保留最多10點怒氣。此外當你處於防禦姿態時，大幅提升嗜血和致死打擊所造成的威脅值(比等級1更有效)。" lvl="2"/>
+        <rank description="在改變姿態的時候可以額外保留最多15點怒氣。此外當你處於防禦姿態時，大幅提升嗜血和致死打擊所造成的威脅值(比等級2更有效)。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="inv_sword_05" key="131" name="強化壓制" tier="2">
+        <rank description="使你壓制技能造成致命一擊的機率提高25%。" lvl="1"/>
+        <rank description="使你壓制技能造成致命一擊的機率提高50%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_blessingofstamina" key="137" name="憤怒掌控" tier="2">
+        <rank description="每3秒產生1點怒氣。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_searingarrow" key="662" name="刺穿" tier="2">
+        <rank description="使你技能造成的致命一擊傷害加成提高10%。" lvl="1"/>
+        <rank description="使你技能造成的致命一擊傷害加成提高20%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_backstab" key="121" name="重傷" requires="662" tier="2">
+        <rank description="你的致命一擊導致目標流血，在6秒內造成相當於你近戰武器16%的平均傷害。" lvl="1"/>
+        <rank description="你的致命一擊導致目標流血，在6秒內造成相當於你近戰武器32%的平均傷害。" lvl="2"/>
+        <rank description="你的致命一擊導致目標流血，在6秒內造成相當於你近戰武器48%的平均傷害。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_axe_09" key="136" name="雙手武器專精" tier="3">
+        <rank description="使你雙手近戰武器所造成的傷害提高2%。" lvl="1"/>
+        <rank description="使你雙手近戰武器所造成的傷害提高4%。" lvl="2"/>
+        <rank description="使你雙手近戰武器所造成的傷害提高6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_hungerforblood" key="2232" name="血腥體驗" tier="3">
+        <rank description="每當你的撕裂技能造成傷害時，有33%的機率使你獲得使用壓制的能力，持續9秒。可使用1次。此效果每6秒只能發動一次。" lvl="1"/>
+        <rank description="每當你的撕裂技能造成傷害時，有66%的機率使你獲得使用壓制的能力，持續9秒。可使用1次。此效果每6秒只能發動一次。" lvl="2"/>
+        <rank description="每當你的撕裂技能造成傷害時，有100%的機率使你獲得使用壓制的能力，持續9秒。可使用1次。此效果每6秒只能發動一次。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="inv_axe_06" key="132" name="長柄和斧專精" tier="4">
+        <rank description="使你斧類武器和長柄類武器造成致命一擊的機率以及致命一擊的傷害提高1%。" lvl="1"/>
+        <rank description="使你斧類武器和長柄類武器造成致命一擊的機率以及致命一擊的傷害提高2%。" lvl="2"/>
+        <rank description="使你斧類武器和長柄類武器造成致命一擊的機率以及致命一擊的傷害提高3%。" lvl="3"/>
+        <rank description="使你斧類武器和長柄類武器造成致命一擊的機率以及致命一擊的傷害提高4%。" lvl="4"/>
+        <rank description="使你斧類武器和長柄類武器造成致命一擊的機率以及致命一擊的傷害提高5%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_slicedice" key="133" name="橫掃攻擊" tier="4">
+        <rank description="你在接下來的5次近戰攻擊中可以攻擊附近一個額外的敵人。" lvl="1"/>
+        <spell castTime="0" cooldown="30000">
+          <power cost="30" type="rage"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv_mace_01" key="125" name="錘類武器專精" tier="4">
+        <rank description="你的錘類武器攻擊最多可無視敵方3%的護甲值。" lvl="1"/>
+        <rank description="你的錘類武器攻擊最多可無視敵方6%的護甲值。" lvl="2"/>
+        <rank description="你的錘類武器攻擊最多可無視敵方9%的護甲值。" lvl="3"/>
+        <rank description="你的錘類武器攻擊最多可無視敵方12%的護甲值。" lvl="4"/>
+        <rank description="你的錘類武器攻擊最多可無視敵方15%的護甲值。" lvl="5"/>
+      </talent>
+      <talent column="3" icon="inv_sword_27" key="123" name="劍類武器專精" tier="4">
+        <rank description="使你用劍類武器命中敵人後有2%的機率對同一個目標進行一次額外的攻擊。此效果每6秒只能發動一次。" lvl="1"/>
+        <rank description="使你用劍類武器命中敵人後有4%的機率對同一個目標進行一次額外的攻擊。此效果每6秒只能發動一次。" lvl="2"/>
+        <rank description="使你用劍類武器命中敵人後有6%的機率對同一個目標進行一次額外的攻擊。此效果每6秒只能發動一次。" lvl="3"/>
+        <rank description="使你用劍類武器命中敵人後有8%的機率對同一個目標進行一次額外的攻擊。此效果每6秒只能發動一次。" lvl="4"/>
+        <rank description="使你用劍類武器命中敵人後有10%的機率對同一個目標進行一次額外的攻擊。此效果每6秒只能發動一次。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_weaponmastery" key="134" name="精通武器" tier="5">
+        <rank description="使你的攻擊被目標閃躲的機率降低1%，並使你受到的所有繳械效果持續時間縮短25%。此效果無法與其它縮短繳械持續時間的效果堆疊。" lvl="1"/>
+        <rank description="使你的攻擊被目標閃躲的機率降低2%，並使你受到的所有繳械效果持續時間縮短50%。此效果無法與其它縮短繳械持續時間的效果堆疊。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_shockwave" key="129" name="強化斷筋" tier="5">
+        <rank description="使你斷筋技能有5%的機率令目標無法移動，持續5秒。" lvl="1"/>
+        <rank description="使你斷筋技能有10%的機率令目標無法移動，持續5秒。" lvl="2"/>
+        <rank description="使你斷筋技能有15%的機率令目標無法移動，持續5秒。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_warrior_bloodnova" key="1859" name="創傷" tier="5">
+        <rank description="你的近戰致命一擊將使目標受到的流血效果提高15%，持續15秒。" lvl="1"/>
+        <rank description="你的近戰致命一擊將使目標受到的流血效果提高30%，持續15秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_hunter_harass" key="1663" name="復甦之風" tier="6">
+        <rank description="當你受到昏迷或無法移動的效果時，會在10秒內產生/10點怒氣並恢復%的總生命力。" lvl="1"/>
+        <rank description="當你受到昏迷或無法移動的效果時，會在10秒內產生/10點怒氣並恢復%的總生命力。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_savageblow" key="135" name="致死打擊" requires="133" tier="6">
+        <rank description="一次猛烈的攻擊，對目標造成武器傷害外加85點傷害，並使任何形式的治療對其產生的效果降低50%，持續10秒。" lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="5">
+          <power cost="30" type="rage"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_warrior_offensivestance" key="1862" name="武裝戰力" tier="6">
+        <rank description="使你的總力量和總耐力提高2%，熟練技能提高2點。" lvl="1"/>
+        <rank description="使你的總力量和總耐力提高4%，熟練技能提高4點。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_warrior_decisivestrike" key="2233" name="強化猛擊" tier="6">
+        <rank description="使你猛擊技能的施放時間縮短0.5秒。" lvl="1"/>
+        <rank description="使你猛擊技能的施放時間縮短1秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_bullrush" key="2283" name="勢不可當" tier="7">
+        <rank description="使你可以在戰鬥狀態下使用衝鋒技能，但冷卻時間將延長5秒。使用衝鋒後，你在10秒內施展的下一個猛擊或致死打擊技能造成致命一擊的機率將提高25%。" lvl="1"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_savageblow" key="1824" name="強化致死打擊" requires="135" tier="7">
+        <rank description="使你致死打擊技能造成的傷害提高3%，冷卻時間縮短0.333秒。" lvl="1"/>
+        <rank description="使你致死打擊技能造成的傷害提高6%，冷卻時間縮短0.666秒。" lvl="2"/>
+        <rank description="使你致死打擊技能造成的傷害提高10%，冷卻時間縮短1秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_warrior_unrelentingassault" key="1860" name="無情襲擊" tier="7">
+        <rank description="使你的壓制和復仇技能冷卻時間縮短2秒，並且造成的傷害提高10%。此外，當你的壓制擊中正在施法的目標時，將使其造成的魔法傷害和治療效果降低25%，持續6秒。" lvl="1"/>
+        <rank description="使你的壓制和復仇技能冷卻時間縮短4秒，並且造成的傷害提高20%。此外，當你的壓制擊中正在施法的目標時，將使其造成的魔法傷害和治療效果降低50%，持續6秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_improveddisciplines" key="1662" name="驟亡" tier="8">
+        <rank description="你的近戰攻擊有3%的機率使你獲得使用斬殺的能力，無視目標現有的生命力狀態。此外，使用斬殺後仍可保留3點怒氣。" lvl="1"/>
+        <rank description="你的近戰攻擊有6%的機率使你獲得使用斬殺的能力，無視目標現有的生命力狀態。此外，使用斬殺後仍可保留7點怒氣。" lvl="2"/>
+        <rank description="你的近戰攻擊有9%的機率使你獲得使用斬殺的能力，無視目標現有的生命力狀態。此外，使用斬殺後仍可保留10點怒氣。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_endlessrage" key="1661" name="無盡怒氣" tier="8">
+        <rank description="使你在造成傷害時多產生25%的怒氣。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_warrior_bloodfrenzy" key="1664" name="血之狂暴" tier="8">
+        <rank description="使你的近戰攻擊速度提高5%。此外，你的撕裂及重傷技能同時讓目標受到的所有物理傷害提高2%。" lvl="1"/>
+        <rank description="使你的近戰攻擊速度提高10%。此外，你的撕裂及重傷技能同時讓目標受到的所有物理傷害提高4%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_trauma" key="2231" name="破壞專家" tier="9">
+        <rank description="你的近戰致命一擊使你進入狂怒狀態，造成的所有傷害提高2%，持續12秒。此效果無法與狂怒堆疊。" lvl="1"/>
+        <rank description="你的近戰致命一擊使你進入狂怒狀態，造成的所有傷害提高4%，持續12秒。此效果無法與狂怒堆疊。" lvl="2"/>
+        <rank description="你的近戰致命一擊使你進入狂怒狀態，造成的所有傷害提高6%，持續12秒。此效果無法與狂怒堆疊。" lvl="3"/>
+        <rank description="你的近戰致命一擊使你進入狂怒狀態，造成的所有傷害提高8%，持續12秒。此效果無法與狂怒堆疊。" lvl="4"/>
+        <rank description="你的近戰致命一擊使你進入狂怒狀態，造成的所有傷害提高10%，持續12秒。此效果無法與狂怒堆疊。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_bladestorm" key="1863" name="劍刃風暴" tier="10">
+        <rank description="立即對附近的名目標施展旋風斬，並使你在接下來6秒內每1秒施展一次旋風斬。在劍刃風暴效果的影響之下，你可以移動，但無法使用其他技能，同時你也不會有任何憐憫、自責或恐懼，也無法停止下來，除非被殺死。" lvl="1"/>
+        <spell castTime="0" cooldown="90000">
+          <power cost="25" type="rage"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="WarriorProtection" icon="inv_shield_06" key="Protection" name="防護" order="2">
+      	<talent column="0" icon="ability_racial_bloodrage" key="142" name="強化血性狂暴" tier="0">
+	        <rank description="使你血性狂暴技能產生的怒氣值提高25%。" lvl="1"/>
+	        <rank description="使你血性狂暴技能產生的怒氣值提高50%。" lvl="2"/>
+	      </talent>
+	      <talent column="1" icon="inv_shield_06" key="1601" name="盾牌專精" tier="0">
+	        <rank description="使你用盾牌格擋攻擊的機率提高1%，並且當你格擋、閃躲或招架後有20%的機率產生5點怒氣。" lvl="1"/>
+	        <rank description="使你用盾牌格擋攻擊的機率提高2%，並且當你格擋、閃躲或招架後有40%的機率產生5點怒氣。" lvl="2"/>
+	        <rank description="使你用盾牌格擋攻擊的機率提高3%，並且當你格擋、閃躲或招架後有60%的機率產生5點怒氣。" lvl="3"/>
+	        <rank description="使你用盾牌格擋攻擊的機率提高4%，並且當你格擋、閃躲或招架後有80%的機率產生5點怒氣。" lvl="4"/>
+	        <rank description="使你用盾牌格擋攻擊的機率提高5%，並且當你格擋、閃躲或招架後有100%的機率產生5點怒氣。" lvl="5"/>
+	      </talent>
+	      <talent column="2" icon="ability_thunderclap" key="141" name="強化雷霆一擊" tier="0">
+	        <rank description="降低雷霆一擊技能的怒氣消耗1點，並使傷害提高10%，降低攻擊速度的效果額外提高4%。" lvl="1"/>
+	        <rank description="降低雷霆一擊技能的怒氣消耗2點，並使傷害提高20%，降低攻擊速度的效果額外提高7%。" lvl="2"/>
+	        <rank description="降低雷霆一擊技能的怒氣消耗4點，並使傷害提高30%，降低攻擊速度的效果額外提高10%。" lvl="3"/>
+	      </talent>
+	      <talent column="1" icon="ability_warrior_incite" key="144" name="激動" tier="1">
+	        <rank description="使你的英勇打擊、雷霆一擊和順劈斬造成致命一擊的機率提高5%。" lvl="1"/>
+	        <rank description="使你的英勇打擊、雷霆一擊和順劈斬造成致命一擊的機率提高10%。" lvl="2"/>
+	        <rank description="使你的英勇打擊、雷霆一擊和順劈斬造成致命一擊的機率提高15%。" lvl="3"/>
+	      </talent>
+	      <talent column="2" icon="spell_nature_mirrorimage" key="138" name="預知" tier="1">
+	        <rank description="使你的閃躲機率提高1%。" lvl="1"/>
+	        <rank description="使你的閃躲機率提高2%。" lvl="2"/>
+	        <rank description="使你的閃躲機率提高3%。" lvl="3"/>
+	        <rank description="使你的閃躲機率提高4%。" lvl="4"/>
+	        <rank description="使你的閃躲機率提高5%。" lvl="5"/>
+	      </talent>
+	      <talent column="0" icon="spell_holy_ashestoashes" key="153" name="破釜沉舟" tier="2">
+	        <rank description="'啟動之後，使你的生命力上限暫時增加30%，持續20秒。在效果解除之後，這些生命力會被扣除。" lvl="1"/>
+	      </talent>
+	      <talent column="1" icon="ability_warrior_revenge" key="147" name="強化復仇" tier="2">
+	        <rank description="使你的復仇技能傷害提高10%，並令其有25%的機率令目標昏迷3秒。" lvl="1"/>
+	        <rank description="使你的復仇技能傷害提高20%，並令其有50%的機率令目標昏迷3秒。" lvl="2"/>
+	      </talent>
+	      <talent column="2" icon="ability_warrior_shieldmastery" key="1654" name="精通盾牌" tier="2">
+	        <rank description="使你的格擋值提高15%，並且縮短盾牌格擋技能的冷卻時間10秒。" lvl="1"/>
+	        <rank description="使你的格擋值提高30%，並且縮短盾牌格擋技能的冷卻時間20秒。" lvl="2"/>
+	      </talent>
+	      <talent column="3" icon="spell_holy_devotion" key="140" name="堅韌" tier="2">
+	        <rank description="使你從裝備獲得的護甲值提高2%，且所有減緩移動速度效果的持續時間縮短6%。" lvl="1"/>
+	        <rank description="使你從裝備獲得的護甲值提高4%，且所有減緩移動速度效果的持續時間縮短12%。" lvl="2"/>
+	        <rank description="使你從裝備獲得的護甲值提高6%，且所有減緩移動速度效果的持續時間縮短18%。" lvl="3"/>
+	        <rank description="使你從裝備獲得的護甲值提高8%，且所有減緩移動速度效果的持續時間縮短24%。" lvl="4"/>
+	        <rank description="使你從裝備獲得的護甲值提高10%，且所有減緩移動速度效果的持續時間縮短30%。" lvl="5"/>
+	      </talent>
+      	<talent column="0" icon="ability_warrior_shieldreflection" key="2247" name="強化法術反射" tier="3">
+	        <rank description="降低你被法術命中的機率2%，使用後可以同時反射在20碼內最靠近你的2個隊友所承受的第一個法術。" lvl="1"/>
+	        <rank description="降低你被法術命中的機率4%，使用後可以同時反射在20碼內最靠近你的4個隊友所承受的第一個法術。" lvl="2"/>
+	      </talent>
+	      <talent column="1" icon="ability_warrior_disarm" key="151" name="強化繳械" tier="3">
+	        <rank description="使你繳械技能的冷卻時間縮短10秒，並使目標在被繳械期間受到的傷害額外提高5%。" lvl="1"/>
+	        <rank description="使你繳械技能的冷卻時間縮短20秒，並使目標在被繳械期間受到的傷害額外提高10%。" lvl="2"/>
+	      </talent>
+	      <talent column="2" icon="ability_warrior_sunder" key="146" name="穿透護甲" tier="3">
+	        <rank description="使你的破甲攻擊和挫敗技能的怒氣消耗降低1點。" lvl="1"/>
+	        <rank description="使你的破甲攻擊和挫敗技能的怒氣消耗降低2點。" lvl="2"/>
+	        <rank description="使你的破甲攻擊和挫敗技能的怒氣消耗降低3點。" lvl="3"/>
+	      </talent>
+	      <talent column="0" icon="ability_warrior_shieldwall" key="150" name="強化戒律" tier="4">
+	        <rank description="縮短盾牆、反擊風暴和魯莽技能的冷卻時間30秒。" lvl="1"/>
+	        <rank description="縮短盾牆、反擊風暴和魯莽技能的冷卻時間60秒。" lvl="2"/>
+	      </talent>
+	      <talent column="1" icon="ability_thunderbolt" key="152" name="震盪猛擊" tier="4">
+	        <rank description="使目標昏迷5秒，並造422點傷害(隨攻擊強度提高傷害)。" lvl="1"/>
+	        <spell castTime="0" cooldown="30000" maxRange="5">
+	          <power cost="15" type="rage"/>
+	        </spell>
+	      </talent>
+      	<talent column="2" icon="ability_warrior_shieldbash" key="149" name="窒息律令" tier="4">
+	        <rank description="你的盾擊和英勇投擲技能有50%的機率使目標沉默3秒，並提高盾牌猛擊5%的傷害。" lvl="1"/>
+	        <rank description="你的盾擊和英勇投擲技能有100%的機率使目標沉默3秒，並提高盾牌猛擊10%的傷害。" lvl="2"/>
+	      </talent>
+	      <talent column="2" icon="inv_sword_20" key="702" name="單手武器專精" tier="5">
+	        <rank description="使你裝備單手近戰武器時所造成的物理傷害提高2%。" lvl="1"/>
+	        <rank description="使你裝備單手近戰武器時所造成的物理傷害提高4%。" lvl="2"/>
+	        <rank description="使你裝備單手近戰武器時所造成的物理傷害提高6%。" lvl="3"/>
+	        <rank description="使你裝備單手近戰武器時所造成的物理傷害提高8%。" lvl="4"/>
+	        <rank description="使你裝備單手近戰武器時所造成的物理傷害提高10%。" lvl="5"/>
+	      </talent>
+	      <talent column="0" icon="ability_warrior_defensivestance" key="1652" name="強化防禦姿態" tier="6">
+	        <rank description="使你在防禦姿態時受到的法術傷害降低3%，且當你格擋、招架或是閃躲攻擊時，有50%的機率進入狂怒狀態，令你造成的物理傷害提高5%，持續12秒。" lvl="1"/>
+	        <rank description="使你在防禦姿態時受到的法術傷害降低6%，且當你格擋、招架或是閃躲攻擊時，有100%的機率進入狂怒狀態，令你造成的物理傷害提高10%，持續12秒。" lvl="2"/>
+	      </talent>
+	      <talent column="1" icon="ability_warrior_vigilance" key="148" name="戒備守護" requires="152" tier="6">
+	        <rank description="將你的防禦意識專注於一名小隊或團隊成員的身上，使其受到的傷害降低3%，並將其造成的10%威脅值轉移至你身上。此外，每當該目標被擊中時將重置你的嘲諷技能冷卻時間。此技能可持續30分钟。同一時間內你只能對一個目標施放此技能。" lvl="1"/>
+	        <spell castTime="0" maxRange="30"/>
+	      </talent>
+      	<talent column="2" icon="ability_warrior_focusedrage" key="1660" name="專注之怒" tier="6">
+	        <rank description="使你攻擊技能所消耗的怒氣減少1點。" lvl="1"/>
+	        <rank description="使你攻擊技能所消耗的怒氣減少2點。" lvl="2"/>
+	        <rank description="使你攻擊技能所消耗的怒氣減少3點。" lvl="3"/>
+	      </talent>
+	      <talent column="1" icon="inv_helmet_21" key="1653" name="活力" tier="7">
+	        <rank description="使你的總耐力提高3%總力量提高2%，熟練技能提高2點。" lvl="1"/>
+	        <rank description="使你的總耐力提高6%總力量提高4%，熟練技能提高4點。" lvl="2"/>
+	        <rank description="使你的總耐力提高9%總力量提高6%，熟練技能提高6點。" lvl="3"/>
+	      </talent>
+	      <talent column="2" icon="ability_warrior_safeguard" key="1870" name="安全守護" tier="7">
+	        <rank description="使你阻擾的目標受到的傷害降低15%，持續6秒。" lvl="1"/>
+	        <rank description="使你阻擾的目標受到的傷害降低30%，持續6秒。" lvl="2"/>
+	      </talent>
+	      <talent column="0" icon="ability_warrior_warbringer" key="2236" name="征戰者" tier="8">
+	        <rank description="你的衝鋒、攔截和阻擾技能可在戰鬥中及任何姿態下使用。此外，你的衝鋒、攔截和阻擾技能可移除所有限制移動的效果。" lvl="1"/>
+	      </talent>
+	      <talent column="1" icon="inv_sword_11" key="1666" name="挫敗" tier="8">
+	        <rank description="擊破目標的護甲，造成破甲攻擊的效果。此外，對其造成100%的武器傷害，而目標身上每個疊加的破甲攻擊效果也將附加48點的傷害。此破甲攻擊的效果最高可堆疊5次。" lvl="1"/>
+	        <spell castTime="0" maxRange="5">
+	          <power cost="15" type="rage"/>
+	        </spell>
+	      </talent>
+	      <talent column="2" icon="ability_warrior_criticalblock" key="1893" name="致命格擋" tier="8">
+	        <rank description="你每次格擋成功時有20%的機率格擋兩倍的傷害，並且使你的盾牌猛擊造成致命一擊的機率提高5%。" lvl="1"/>
+	        <rank description="你每次格擋成功時有40%的機率格擋兩倍的傷害，並且使你的盾牌猛擊造成致命一擊的機率提高10%。" lvl="2"/>
+	        <rank description="你每次格擋成功時有60%的機率格擋兩倍的傷害，並且使你的盾牌猛擊造成致命一擊的機率提高15%。" lvl="3"/>
+	      </talent>
+	      <talent column="1" icon="ability_warrior_swordandboard" key="1871" name="劍盾合璧" requires="1666" tier="9">
+	        <rank description="提高挫敗造成致命一擊的機率5%，並且當你的挫敗或復仇技能造成傷害時，有10%的機率重置你的盾牌猛擊冷卻時間，並降低其消耗的怒氣100%，持續5秒。" lvl="1"/>
+	        <rank description="提高挫敗造成致命一擊的機率10%，並且當你的挫敗或復仇技能造成傷害時，有20%的機率重置你的盾牌猛擊冷卻時間，並降低其消耗的怒氣100%，持續5秒。" lvl="2"/>
+	        <rank description="提高挫敗造成致命一擊的機率15%，並且當你的挫敗或復仇技能造成傷害時，有30%的機率重置你的盾牌猛擊冷卻時間，並降低其消耗的怒氣100%，持續5秒。" lvl="3"/>
+	      </talent>
+	      <talent column="2" icon="inv_shield_31" key="2246" name="傷害護盾" tier="9">
+	        <rank description="每當你受到近戰攻擊或格擋成功時，可對攻擊者造成相當於你10%格擋值的傷害。" lvl="1"/>
+	        <rank description="每當你受到近戰攻擊或格擋成功時，可對攻擊者造成相當於你20%格擋值的傷害。" lvl="2"/>
+	      </talent>
+	      <talent column="1" icon="ability_warrior_shockwave" key="1872" name="震攝波" tier="10">
+	        <rank description="對戰士的前方發出一道震攝波，造成422點傷害(隨攻擊強度提高傷害)，並且使前方0碼錐形範圍內的所有敵人昏迷4秒。" lvl="1"/>
+	        <spell castTime="0" cooldown="20000">
+          <power cost="15" type="rage"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

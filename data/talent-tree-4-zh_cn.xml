@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="RogueCombat" icon="ability_backstab" key="Combat" name="戰鬥" order="1">
+      <talent column="0" icon="ability_gouge" key="203" name="強化鑿擊" tier="0">
+        <rank description="使你鑿擊技能的效果持續時間延長0.5秒。" lvl="1"/>
+        <rank description="使你鑿擊技能的效果持續時間延長01秒。" lvl="2"/>
+        <rank description="使你鑿擊技能的效果持續時間延長1.5秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_ritualofsacrifice" key="201" name="強化邪惡攻擊" tier="0">
+        <rank description="使你邪惡攻擊技能所消耗的能量降低3點。" lvl="1"/>
+        <rank description="使你邪惡攻擊技能所消耗的能量降低5點。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_dualwield" key="221" name="雙武器專精" tier="0">
+        <rank description="使你副手武器所造成的傷害提高10%。" lvl="1"/>
+        <rank description="使你副手武器所造成的傷害提高20%。" lvl="2"/>
+        <rank description="使你副手武器所造成的傷害提高30%。" lvl="3"/>
+        <rank description="使你副手武器所造成的傷害提高40%。" lvl="4"/>
+        <rank description="使你副手武器所造成的傷害提高50%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_slicedice" key="1827" name="強化切割" tier="1">
+        <rank description="使你切割技能的效果持續時間延長25%。" lvl="1"/>
+        <rank description="使你切割技能的效果持續時間延長50%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_parry" key="187" name="偏斜" tier="1">
+        <rank description="使你的招架機率提高2%。" lvl="1"/>
+        <rank description="使你的招架機率提高4%。" lvl="2"/>
+        <rank description="使你的招架機率提高6%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_marksmanship" key="181" name="精準" tier="1">
+        <rank description="使你的武器和毒藥命中目標的機率提高1%。" lvl="1"/>
+        <rank description="使你的武器和毒藥命中目標的機率提高2%。" lvl="2"/>
+        <rank description="使你的武器和毒藥命中目標的機率提高3%。" lvl="3"/>
+        <rank description="使你的武器和毒藥命中目標的機率提高4%。" lvl="4"/>
+        <rank description="使你的武器和毒藥命中目標的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowward" key="204" name="耐久" tier="2">
+        <rank description="使你疾跑和閃避技能的冷卻時間縮短30秒，並且使你的總耐力提高2%。" lvl="1"/>
+        <rank description="使你疾跑和閃避技能的冷卻時間縮短60秒，並且使你的總耐力提高4%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_challange" key="301" name="還擊" requires="187" tier="2">
+        <rank description="在招架敵人的攻擊之後可以使用的技能。此攻擊可對目標造成150%的武器傷害，並降低目標20%近戰攻擊速度，持續30秒。獎勵1個連擊點數。" lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="5">
+          <power cost="10" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv_weapon_shortblade_05" key="182" name="近身戰鬥" requires="221" tier="2">
+        <rank description="使你匕首和拳套武器造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你匕首和拳套武器造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你匕首和拳套武器造成致命一擊的機率提高3%。" lvl="3"/>
+        <rank description="使你匕首和拳套武器造成致命一擊的機率提高4%。" lvl="4"/>
+        <rank description="使你匕首和拳套武器造成致命一擊的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_kick" key="206" name="強化腳踢" tier="3">
+        <rank description="使你腳踢技能有50%的機率令目標沉默2秒。" lvl="1"/>
+        <rank description="使你腳踢技能有100%的機率令目標沉默2秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_sprint" key="222" name="強化疾跑" tier="3">
+        <rank description="有50%的機率使你在啟動疾跑後移除所有限制移動的效果。" lvl="1"/>
+        <rank description="有100%的機率使你在啟動疾跑後移除所有限制移動的效果。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_nature_invisibilty" key="186" name="閃電反射" tier="3">
+        <rank description="使你的閃躲機率提高2%，近戰加速提高4%。" lvl="1"/>
+        <rank description="使你的閃躲機率提高4%，近戰加速提高7%。" lvl="2"/>
+        <rank description="使你的閃躲機率提高6%，近戰加速提高10%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_racial_avatar" key="1122" name="侵略" tier="3">
+        <rank description="使你邪惡攻擊、背刺和剔骨技能的傷害提高3%。" lvl="1"/>
+        <rank description="使你邪惡攻擊、背刺和剔骨技能的傷害提高6%。" lvl="2"/>
+        <rank description="使你邪惡攻擊、背刺和剔骨技能的傷害提高9%。" lvl="3"/>
+        <rank description="使你邪惡攻擊、背刺和剔骨技能的傷害提高12%。" lvl="4"/>
+        <rank description="使你邪惡攻擊、背刺和剔骨技能的傷害提高15%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="inv_mace_01" key="184" name="錘類武器專精" tier="4">
+        <rank description="你的錘類武器攻擊最多可無視敵方3%的護甲值。" lvl="1"/>
+        <rank description="你的錘類武器攻擊最多可無視敵方6%的護甲值。" lvl="2"/>
+        <rank description="你的錘類武器攻擊最多可無視敵方9%的護甲值。" lvl="3"/>
+        <rank description="你的錘類武器攻擊最多可無視敵方12%的護甲值。" lvl="4"/>
+        <rank description="你的錘類武器攻擊最多可無視敵方15%的護甲值。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_punishingblow" key="223" name="劍刃亂舞" tier="4">
+        <rank description="使你的攻擊速度提高20%。另外還可以對附近一個額外的敵人造成傷害。持續15秒。" lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="25" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv_sword_27" key="242" name="斧劈劍斬'" tier="4">
+        <rank description="使你用劍類或斧類武器擊中敵人後有1%的機率對同一個目標進行一次額外的攻擊。" lvl="1"/>
+        <rank description="使你用劍類或斧類武器擊中敵人後有2%的機率對同一個目標進行一次額外的攻擊。" lvl="2"/>
+        <rank description="使你用劍類或斧類武器擊中敵人後有3%的機率對同一個目標進行一次額外的攻擊。" lvl="3"/>
+        <rank description="使你用劍類或斧類武器擊中敵人後有4%的機率對同一個目標進行一次額外的攻擊。" lvl="4"/>
+        <rank description="使你用劍類或斧類武器擊中敵人後有5%的機率對同一個目標進行一次額外的攻擊。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_holy_blessingofstrength" key="1703" name="武器熟練" requires="223" tier="5">
+        <rank description="使你的熟練技能提高5點。" lvl="1"/>
+        <rank description="使你的熟練技能提高10點。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_bladetwisting" key="1706" name="旋轉劍刃" tier="5">
+        <rank description="你的邪惡攻擊和背刺造成的傷害提高5%，並且使你的近戰攻擊傷害有10%的機率令目標暈眩4秒。" lvl="1"/>
+        <rank description="你的邪惡攻擊和背刺造成的傷害提高10%，並且使你的近戰攻擊傷害有10%的機率令目標暈眩8秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_revenge" key="1705" name="活力" tier="6">
+        <rank description="使你的能量恢復速度提高8%。" lvl="1"/>
+        <rank description="使你的能量恢復速度提高16%。" lvl="2"/>
+        <rank description="使你的能量恢復速度提高25%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowworddominate" key="205" name="能量刺激" tier="6">
+        <rank description="使你的能量恢復速度提高100%，持續15秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_nervesofsteel" key="1707" name="鋼鐵意志" tier="6">
+        <rank description="使你在昏迷和恐懼時受到的傷害降低15%。" lvl="1"/>
+        <rank description="使你在昏迷和恐懼時受到的傷害降低30%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_throwingspecialization" key="2072" name="投擲專精" tier="7">
+        <rank description="使你的投擲和擲殺射程延長2碼，並使你的擲殺有50%的機率中斷目標3秒。" lvl="1"/>
+        <rank description="使你的投擲和擲殺射程延長2碼，並使你的擲殺有100%的機率中斷目標3秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="inv_weapon_shortblade_38" key="1825" name="作戰潛能" tier="7">
+        <rank description="使你副手的近戰攻擊命中時，有20%的機率產生3點能量。" lvl="1"/>
+        <rank description="使你副手的近戰攻擊命中時，有20%的機率產生6點能量。" lvl="2"/>
+        <rank description="使你副手的近戰攻擊命中時，有20%的機率產生9點能量。" lvl="3"/>
+        <rank description="使你副手的近戰攻擊命中時，有20%的機率產生12點能量。" lvl="4"/>
+        <rank description="使你副手的近戰攻擊命中時，有20%的機率產生15點能量。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_unfairadvantage" key="2073" name="卑劣優勢" tier="8">
+        <rank description="當你閃躲攻擊時獲得卑劣優勢的效果，反擊對方造成主手武器50%的傷害。此效果每秒最多只能發動一次。" lvl="1"/>
+        <rank description="當你閃躲攻擊時獲得卑劣優勢的效果，反擊對方造成主手武器100%的傷害。此效果每秒最多只能發動一次。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_surpriseattack" key="1709" name="出奇攻擊" requires="205" tier="8">
+        <rank description="你的終結技將無法被閃躲，並使你的邪惡攻擊、背刺、毒襲、出血和鑿擊技能所造成的傷害提高10%。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_creature_disease_03" key="2074" name="狠毒戰鬥" tier="8">
+        <rank description="使你的總攻擊強度提高2%，並且你的毒藥效果可令目標受到的所有物理傷害提高2%。" lvl="1"/>
+        <rank description="使你的總攻擊強度提高4%，並且你的毒藥效果可令目標受到的所有物理傷害提高4%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_preyontheweak" key="2075" name="欺壓弱小" tier="9">
+        <rank description="當目標的生命力低於你時(以百分比的方式計算)，你的致命一擊傷害提高4%。" lvl="1"/>
+        <rank description="當目標的生命力低於你時(以百分比的方式計算)，你的致命一擊傷害提高8%。" lvl="2"/>
+        <rank description="當目標的生命力低於你時(以百分比的方式計算)，你的致命一擊傷害提高12%。" lvl="3"/>
+        <rank description="當目標的生命力低於你時(以百分比的方式計算)，你的致命一擊傷害提高16%。" lvl="4"/>
+        <rank description="當目標的生命力低於你時(以百分比的方式計算)，你的致命一擊傷害提高20%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_murderspree" key="2076" name="狂舞殘殺" tier="10">
+        <rank description="潛入暗影之中，穿梭於10碼範圍內的敵人之間，每0.5秒同時用兩把武器攻擊敵人，直到作出5次攻擊為止，並且在持續時間內造成的所有傷害將提高20%。可以多次攻擊同一目標。無法擊中隱形或潛行的目標。" lvl="1"/>
+        <spell castTime="0" cooldown="120000" maxRange="10"/>
+      </talent>
+    </tree>
+    <tree bgImage="RogueSubtlety" icon="ability_stealth" key="Subtlety" name="敏銳" order="2">
+      <talent column="0" icon="ability_warrior_decisivestrike" key="2244" name="無情打擊" tier="0">
+        <rank description="你的終結技使每個連擊點數有4%的機率恢復25點能量。" lvl="1"/>
+        <rank description="你的終結技使每個連擊點數有8%的機率恢復25點能量。" lvl="2"/>
+        <rank description="你的終結技使每個連擊點數有12%的機率恢復25點能量。" lvl="3"/>
+        <rank description="你的終結技使每個連擊點數有16%的機率恢復25點能量。" lvl="4"/>
+        <rank description="你的終結技使每個連擊點數有20%的機率恢復25點能量。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_charm" key="241" name="欺詐大師" tier="0">
+        <rank description="當你在潛行狀態下時，降低敵人偵測到你的機率。" lvl="1"/>
+        <rank description="當你在潛行狀態下時，降低敵人偵測到你的機率。比欺詐大師(等級 1)更有效。" lvl="2"/>
+        <rank description="當你在潛行狀態下時，降低敵人偵測到你的機率。比欺詐大師(等級 2)更有效。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_warrior_warcry" key="261" name="伺機而動" tier="0">
+        <rank description="使你的背刺、截肢、絞喉和伏擊技能造成的傷害提高10%。" lvl="1"/>
+        <rank description="使你的背刺、截肢、絞喉和伏擊技能造成的傷害提高20%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_feint" key="1700" name="靈巧之手" tier="1">
+        <rank description="使你被近戰或遠程攻擊命中時產生致命一擊的機率降低1%，並使佯攻技能所降低的威脅值提高10%。" lvl="1"/>
+        <rank description="使你被近戰或遠程攻擊命中時產生致命一擊的機率降低2%，並使佯攻技能所降低的威脅值提高20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_sap" key="262" name="卑鄙技倆" tier="1">
+        <rank description="使你致盲和悶棍的有效距離提高2碼，同時降低致盲和悶棍的能量消耗25%。" lvl="1"/>
+        <rank description="使你致盲和悶棍的有效距離提高5碼，同時降低致盲和悶棍的能量消耗50%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_stealth" key="244" name="偽裝" tier="1">
+        <rank description="使你在潛行時的移動速度提高5%，並使潛行的冷卻時間縮短2秒。" lvl="1"/>
+        <rank description="使你在潛行時的移動速度提高10%，並使潛行的冷卻時間縮短4秒。" lvl="2"/>
+        <rank description="使你在潛行時的移動速度提高15%，並使潛行的冷卻時間縮短6秒。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_magic_lesserinvisibilty" key="247" name="飄忽不定" tier="2">
+        <rank description="使你的消失和致盲技能的冷卻時間縮短30秒，暗影披風技能的冷卻時間縮短15秒。" lvl="1"/>
+        <rank description="使你的消失和致盲技能的冷卻時間縮短60秒，暗影披風技能的冷卻時間縮短30秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_curse" key="303" name="鬼魅攻擊" tier="2">
+        <rank description="鬼魅般的攻擊，造成125%的武器傷害並使你的閃躲機率提高15%，持續7秒。獎勵1個連擊點數。" lvl="1"/>
+        <spell castTime="0" cooldown="20000" maxRange="5">
+          <power cost="40" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv_sword_17" key="1123" name="鋸刃" tier="2">
+        <rank description="使你的攻擊無視目3%的護甲值，並使割裂技能所造成的傷害提高10%。護甲值的降低會隨著你的等級而提升。" lvl="1"/>
+        <rank description="使你的攻擊無視目6%的護甲值，並使割裂技能所造成的傷害提高20%。護甲值的降低會隨著你的等級而提升。" lvl="2"/>
+        <rank description="使你的攻擊無視目9%的護甲值，並使割裂技能所造成的傷害提高30%。護甲值的降低會隨著你的等級而提升。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_mirrorimage" key="246" name="算計" tier="3">
+        <rank description="使你有33%的機率在成功閃躲敵人的攻擊，或成功地完全抵抗敵人的法術之後獲得1個連擊點數。此技能無法在1秒內發動多於一次。" lvl="1"/>
+        <rank description="使你有66%的機率在成功閃躲敵人的攻擊，或成功地完全抵抗敵人的法術之後獲得1個連擊點數。此技能無法在1秒內發動多於一次。" lvl="2"/>
+        <rank description="使你有100%的機率在成功閃躲敵人的攻擊，或成功地完全抵抗敵人的法術之後獲得1個連擊點數。此技能無法在1秒內發動多於一次。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_fumble" key="245" name="先發制人" tier="3">
+        <rank description="使你有33%的機率在使用伏擊、絞喉或偷襲技能後獲得一個額外的連擊點數。" lvl="1"/>
+        <rank description="使你有66%的機率在使用伏擊、絞喉或偷襲技能後獲得一個額外的連擊點數。" lvl="2"/>
+        <rank description="使你有100%的機率在使用伏擊、絞喉或偷襲技能後獲得一個額外的連擊點數。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_ambush" key="263" name="強化伏擊" tier="3">
+        <rank description="使你伏擊技能造成致命一擊的機率提高25%。" lvl="1"/>
+        <rank description="使你伏擊技能造成致命一擊的機率提高50%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_ambush" key="1701" name="感官提升" tier="4">
+        <rank description="提高你偵測潛行的能力，並使你被法術和遠程攻擊命中的機率降低2%。" lvl="1"/>
+        <rank description="提高你偵測潛行的能力，並使你被法術和遠程攻擊命中的機率降低4%。比感官提升(等級 1)更加有效。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_antishadow" key="284" name="準備" tier="4">
+        <rank description="啟動之後，這項技能立刻令你閃避、疾跑、消失、冷血和暗影閃現技能的冷卻時間結束。" lvl="1"/>
+        <spell castTime="0" cooldown="480000"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_summonsuccubus" key="265" name="陰險動作" tier="4">
+        <rank description="使你偷襲和絞喉技能所消耗的能量降低10點。此外，你的特殊技能可對生命力低於35%的目標造成10%的額外傷害。" lvl="1"/>
+        <rank description="使你偷襲和絞喉技能所消耗的能量降低20點。此外，你的特殊技能可對生命力低於35%的目標造成20%的額外傷害。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_lifedrain" key="681" name="出血" requires="1123" tier="4">
+        <rank description="立即對目標造成110%的武器傷害並令其流血不止，使其在受到物理攻擊時所承受的傷害提高最多75點。最多可生效10次，或者持續15秒。獎勵1個連擊點數。" lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="35" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="ability_rogue_masterofsubtlety" key="1713" name="敏銳大師" tier="5">
+        <rank description="在潛行狀態下和在潛行狀態消失後的6秒內所造成的攻擊傷害額外提高4%。" lvl="1"/>
+        <rank description="在潛行狀態下和在潛行狀態消失後的6秒內所造成的攻擊傷害額外提高7%。" lvl="2"/>
+        <rank description="在潛行狀態下和在潛行狀態消失後的6秒內所造成的攻擊傷害額外提高10%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="inv_weapon_crossbow_11" key="1702" name="致命傷害" tier="5">
+        <rank description="提高2%攻擊強度。" lvl="1"/>
+        <rank description="提高4%攻擊強度。" lvl="2"/>
+        <rank description="提高6%攻擊強度。" lvl="3"/>
+        <rank description="提高8%攻擊強度。" lvl="4"/>
+        <rank description="提高10%攻擊強度。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_envelopingshadows" key="1711" name="暗影籠罩" tier="6">
+        <rank description="使你受到範圍性攻擊的所造成的傷害降低10%。" lvl="1"/>
+        <rank description="使你受到範圍性攻擊的所造成的傷害降低20%。" lvl="2"/>
+        <rank description="使你受到範圍性攻擊的所造成的傷害降低30%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_possession" key="381" name="預謀" requires="284" tier="6">
+        <rank description="使用此技能後，為你的當前目標增加2個連擊點數。你必須在20秒內增加或消耗掉這些點數，否則它們就會消失。" lvl="1"/>
+        <spell castTime="0" cooldown="20000" maxRange="30"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_cheatdeath" key="1722" name="死亡謊言" tier="6">
+        <rank description="你有33%的機率使任何將你擊殺的攻擊轉變為降低你的生命力至10%，並且令你在3秒內受到的所有傷害降低最多90%(視韌性值的高低)。此效果無法在一分鐘內發動多於一次。" lvl="1"/>
+        <rank description="你有66%的機率使任何將你擊殺的攻擊轉變為降低你的生命力至10%，並且令你在3秒內受到的所有傷害降低最多90%(視韌性值的高低)。此效果無法在一分鐘內發動多" lvl="2"/>
+        <rank description="你有100%的機率使任何將你擊殺的攻擊轉變為降低你的生命力至10%，並且令你在3秒內受到的所有傷害降低最多90%(視韌性值的高低)。此效果無法在一分鐘內發動多於一次。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_sinistercalling" key="1712" name="邪惡呼喚" requires="381" tier="7">
+        <rank description="使你的總敏捷提高3%，並使背刺和出血的傷害加成百分比提高2%。" lvl="1"/>
+        <rank description="使你的總敏捷提高6%，並使背刺和出血的傷害加成百分比提高4%。" lvl="2"/>
+        <rank description="使你的總敏捷提高9%，並使背刺和出血的傷害加成百分比提高6%。" lvl="3"/>
+        <rank description="使你的總敏捷提高12%，並使背刺和出血的傷害加成百分比提高8%。" lvl="4"/>
+        <rank description="使你的總敏捷提高15%，並使背刺和出血的傷害加成百分比提高10%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_waylay" key="2077" name="埋伏" tier="7">
+        <rank description="你的伏擊造成致命一擊時，有50%的機率降低目標的近戰和遠程攻擊速度20%，並使其移動速度降低70%，持續8秒。" lvl="1"/>
+        <rank description="你的伏擊造成致命一擊時，有100%的機率降低目標的近戰和遠程攻擊速度20%，並使其移動速度降低70%，持續8秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_honoramongstthieves" key="2078" name="盜亦有道" tier="8">
+        <rank description="當你任何一位隊伍成員的傷害、治療法術或技能造成致命一擊時，你有33%的機率為你的當前目標增加1個連擊點數。此效果每秒最多只能觸發一次。" lvl="1"/>
+        <rank description="當你任何一位隊伍成員的傷害、治療法術或技能造成致命一擊時，你有66%的機率為你的當前目標增加1個連擊點數。此效果每秒最多只能觸發一次。" lvl="2"/>
+        <rank description="當你任何一位隊伍成員的傷害、治療法術或技能造成致命一擊時，你有100%的機率為你的當前目標增加1個連擊點數。此效果每秒最多只能觸發一次。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_shadowstep" key="1714" name="暗影閃現" tier="8">
+        <rank description="嘗試穿過暗影並出現在敵人背後，並提高移動速度70%，持續3秒。你的下一個技能所造成的傷害提高20%，並且該技能所造成的威脅值降低50%。持續10秒。" lvl="1"/>
+        <spell castTime="0" cooldown="30000" maxRange="25">
+          <power cost="10" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_rogue_wrongfullyaccused" key="2079" name="下流詭計" tier="8">
+        <rank description="使你偷天換日和擾亂的冷卻時間縮短5秒，準備的冷卻時間縮短1.5分鐘。" lvl="1"/>
+        <rank description="使你偷天換日和擾亂的冷卻時間縮短秒，準備的冷卻時間縮短3分鐘。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_slaughterfromtheshadows" key="2080" name="暗影抹殺" tier="9">
+        <rank description="使你背刺和伏擊技能的能量消耗降低3點，出血的能量消耗降低1點。" lvl="1"/>
+        <rank description="使你背刺和伏擊技能的能量消耗降低6點，出血的能量消耗降低2點。" lvl="2"/>
+        <rank description="使你背刺和伏擊技能的能量消耗降低9點，出血的能量消耗降低3點。" lvl="3"/>
+        <rank description="使你背刺和伏擊技能的能量消耗降低12點，出血的能量消耗降低4點。" lvl="4"/>
+        <rank description="使你背刺和伏擊技能的能量消耗降低15點，出血的能量消耗降低5點。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_shadowdance" key="2081" name="S暗影之舞" tier="10">
+        <rank description="跳起暗影之舞，持續6秒，令你不論是否處於潛行狀態均可使用悶棍、絞喉、伏擊、偷襲、預謀、偷竊和解除陷阱。" lvl="1"/>
+        <spell castTime="0" cooldown="60000"/>
+      </talent>
+    </tree>
+    <tree bgImage="RogueAssassination" icon="ability_rogue_eviscerate" key="Assassination" name="刺殺" order="0">
+      <talent column="0" icon="ability_rogue_eviscerate" key="276" name="強化剔骨" tier="0">
+        <rank description="使你剔骨技能所造成的傷害提高7%。" lvl="1"/>
+        <rank description="使你剔骨技能所造成的傷害提高14%。" lvl="2"/>
+        <rank description="使你剔骨技能所造成的傷害提高20%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_fiegndead" key="272" name="冷酷攻擊" tier="0">
+        <rank description="在你殺死一個敵人並得到經驗或榮譽值後，你的下一次邪惡攻擊、出血、背刺、截肢、伏擊或鬼魅攻擊有20%的額外機率造成致命一擊，效果持續20秒。" lvl="1"/>
+        <rank description="在你殺死一個敵人並得到經驗或榮譽值後，你的下一次邪惡攻擊、出血、背刺、截肢、伏擊或鬼魅攻擊有40%的額外機率造成致命一擊，效果持續20秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_racial_bloodrage" key="270" name="惡意" tier="0">
+        <rank description="使你的致命一擊機率提高1%。" lvl="1"/>
+        <rank description="使你的致命一擊機率提高2%。" lvl="2"/>
+        <rank description="使你的致命一擊機率提高3%。" lvl="3"/>
+        <rank description="使你的致命一擊機率提高4%。" lvl="4"/>
+        <rank description="使你的致命一擊機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_druid_disembowel" key="273" name="無情" tier="1">
+        <rank description="使你的近戰終結技有20%的機率為目標增加1個連擊點數。" lvl="1"/>
+        <rank description="使你的近戰終結技有40%的機率為目標增加1個連擊點數。" lvl="2"/>
+        <rank description="使你的近戰終結技有60%的機率為目標增加1個連擊點數。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_bloodsplatter" key="2068" name="瀝血" tier="1">
+        <rank description="使你絞喉和割裂的傷害提高15%。" lvl="1"/>
+        <rank description="使你絞喉和割裂的傷害提高30%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_backstab" key="277" name="刺傷" tier="1">
+        <rank description="使你背刺技能造成致命一擊的機率提高10%，並使你截肢技能造成致命一擊的機率提高5%。" lvl="1"/>
+        <rank description="使你背刺技能造成致命一擊的機率提高20%，並使你截肢技能造成致命一擊的機率提高10%。" lvl="2"/>
+        <rank description="使你背刺技能造成致命一擊的機率提高30%，並使你截肢技能造成致命一擊的機率提高15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_earthbindtotem" key="382" name="精力" tier="2">
+        <rank description="使你的能量上限提高10點。" lvl="1"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_riposte" key="278" name="強化破甲" tier="2">
+        <rank description="使你破甲技能的能量消耗降低5點。" lvl="1"/>
+        <rank description="使你破甲技能的能量消耗降低10點。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_criticalstrike" key="269" name="致命偷襲" requires="270" tier="2">
+        <rank description="使所有不需在潛行狀態下施展，並且產生連擊點數的技能所造成的致命一擊傷害加成提高6%。" lvl="1"/>
+        <rank description="使所有不需在潛行狀態下施展，並且產生連擊點數的技能所造成的致命一擊傷害加成提高12%。" lvl="2"/>
+        <rank description="使所有不需在潛行狀態下施展，並且產生連擊點數的技能所造成的致命一擊傷害加成提高18%。" lvl="3"/>
+        <rank description="使所有不需在潛行狀態下施展，並且產生連擊點數的技能所造成的致命一擊傷害加成提高24%。" lvl="4"/>
+        <rank description="使所有不需在潛行狀態下施展，並且產生連擊點數的技能所造成的致命一擊傷害加成提高30%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_feigndeath" key="682" name="惡性毒藥" tier="3">
+        <rank description="使你毒藥和毒化技能造成的傷害提高7%，並給予你持續傷害毒藥額外10%的機率抵抗驅散效果。" lvl="1"/>
+        <rank description="使你毒藥和毒化技能造成的傷害提高14%，並給予你持續傷害毒藥額外20%的機率抵抗驅散效果。" lvl="2"/>
+        <rank description="使你毒藥和毒化技能造成的傷害提高20%，並給予你持續傷害毒藥額外30%的機率抵抗驅散效果。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_poisons" key="268" name="強化毒藥" tier="3">
+        <rank description="使你致命毒藥令目標中毒的機率提高4%，速效毒藥令目標中毒的機率提高10%。" lvl="1"/>
+        <rank description="使你致命毒藥令目標中毒的機率提高8%，速效毒藥令目標中毒的機率提高20%。" lvl="2"/>
+        <rank description="使你致命毒藥令目標中毒的機率提高12%，速效毒藥令目標中毒的機率提高30%。" lvl="3"/>
+        <rank description="使你致命毒藥令目標中毒的機率提高16%，速效毒藥令目標中毒的機率提高40%。" lvl="4"/>
+        <rank description="使你致命毒藥令目標中毒的機率提高20%，速效毒藥令目標中毒的機率提高50%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_fleetfooted" key="1721" name="迅足" tier="4">
+        <rank description="使你受到所有移動限制效果的持續時間縮短15%，並使你的移動速度提高8%。此效果無法與其他提升移動速度的效果堆疊。" lvl="1"/>
+        <rank description="使你受到所有移動限制效果的持續時間縮短30%，並使你的移動速度提高15%。此效果無法與其他提升移動速度的效果堆疊。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_ice_lament" key="280" name="冷血" tier="4">
+        <rank description="啟動之後，你的下一次攻擊技能造成致命一擊的機率提高100%。" lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_kidneyshot" key="279" name="強化腎擊" tier="4">
+        <rank description="當目標受到你的腎擊攻擊後，在腎擊的有效時間內所受到的傷害全部額外提高3%。" lvl="1"/>
+        <rank description="當目標受到你的腎擊攻擊後，在腎擊的有效時間內所受到的傷害全部額外提高6%。" lvl="2"/>
+        <rank description="當目標受到你的腎擊攻擊後，在腎擊的有效時間內所受到的傷害全部額外提高9%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_rogue_quickrecovery" key="1762" name="快速恢復" tier="4">
+        <rank description="所有對你施放的治療效果提高10%。此外，你的終結技在未命中時可獲得其消耗的40%能量作為補償。" lvl="1"/>
+        <rank description="所有對你施放的治療效果提高20%。此外，你的終結技在未命中時可獲得其消耗的80%能量作為補償。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_chilltouch" key="283" name="封印命運" requires="280" tier="5">
+        <rank description="你的所有可以增加連擊點數的技能造成了致命一擊後有20%的機率增加一個額外的連擊點數。" lvl="1"/>
+        <rank description="你的所有可以增加連擊點數的技能造成了致命一擊後有40%的機率增加一個額外的連擊點數。" lvl="2"/>
+        <rank description="你的所有可以增加連擊點數的技能造成了致命一擊後有60%的機率增加一個額外的連擊點數。" lvl="3"/>
+        <rank description="你的所有可以增加連擊點數的技能造成了致命一擊後有80%的機率增加一個額外的連擊點數。" lvl="4"/>
+        <rank description="你的所有可以增加連擊點數的技能造成了致命一擊後有100%的機率增加一個額外的連擊點數。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_deathscream" key="274" name="謀殺" tier="5">
+        <rank description="使你造成的所有傷害提高2%。" lvl="1"/>
+        <rank description="使你造成的所有傷害提高4%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_deadlybrew" key="2065" name="致命意圖" tier="6">
+        <rank description="當你對目標造成速效、致傷或麻痹毒藥效果時，你有50%的機率額外造成致殘毒藥的效果。" lvl="1"/>
+        <rank description="當你對目標造成速效、致傷或麻痹毒藥效果時，你有100%的機率額外造成致殘毒藥的效果。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_hunter_rapidkilling" key="281" name="極限殺戮" tier="6">
+        <rank description="當你潛行時，或者脫離潛行後的20秒內可額外恢復30%的能量。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_deadenednerves" key="1723" name="神經破壞" tier="6">
+        <rank description="受到的所有傷害降低2%。" lvl="1"/>
+        <rank description="受到的所有傷害降低4%。" lvl="2"/>
+        <rank description="受到的所有傷害降低6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_focusedattacks" key="2069" name="會心攻擊" tier="7">
+        <rank description="你的近戰致命一擊有33%的機率提供你2點能量。" lvl="1"/>
+        <rank description="你的近戰致命一擊有66%的機率提供你2點能量。" lvl="2"/>
+        <rank description="你的近戰致命一擊有100%的機率提供你2點能量。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_findweakness" key="1718" name="找尋弱點" tier="7">
+        <rank description="攻擊技能所造成的傷害提高2%。" lvl="1"/>
+        <rank description="攻擊技能所造成的傷害提高4%。。" lvl="2"/>
+        <rank description="攻擊技能所造成的傷害提高6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_creature_poison_06" key="1715" name="毒藥大師" tier="8">
+        <rank description="被你毒藥影響的目標受到所有攻擊時造成致命一擊的機率提高1%，並使你受到的所有中毒效果持續時間縮短17%。此外，你的毒化有33%的機率不會消耗致命毒藥。" lvl="1"/>
+        <rank description="被你毒藥影響的目標受到所有攻擊時造成致命一擊的機率提高2%，並使你受到的所有中毒效果持續時間縮短34%。此外，你的毒化有66%的機率不會消耗致命毒藥。" lvl="2"/>
+        <rank description="被你毒藥影響的目標受到所有攻擊時造成致命一擊的機率提高3%，並使你受到的所有中毒效果持續時間縮短50%。此外，你的毒化有100%的機率不會消耗致命毒藥。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_shadowstrikes" key="1719" name="截肢" requires="281" tier="8">
+        <rank description="立即使用主、副手武器攻擊，並使其各自造成100%武器傷害外加44點的傷害。對中毒目標所造成的傷害提高20%。獎勵2個連擊點數。" lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="60" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_rogue_turnthetables" key="2066" name="嫁禍栽贓" tier="8">
+        <rank description="當你的任何一位小隊或團隊成員格擋、閃躲或招架攻擊時，你的所有連擊技造成致命一擊的機率提高2%，持續8秒。" lvl="1"/>
+        <rank description="當你的任何一位小隊或團隊成員格擋、閃躲或招架攻擊時，你的所有連擊技造成致命一擊的機率提高4%，持續8秒。" lvl="2"/>
+        <rank description="當你的任何一位小隊或團隊成員格擋、閃躲或招架攻擊時，你的所有連擊技造成致命一擊的機率提高6%，持續8秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_cuttothechase" key="2070" name="切中要害" tier="9">
+        <rank description="你的剔骨和毒化技能有20%的機率使你的切割持續時間以5個連擊點數的時限重新計算。" lvl="1"/>
+        <rank description="你的剔骨和毒化技能有40%的機率使你的切割持續時間以5個連擊點數的時限重新計算。" lvl="2"/>
+        <rank description="你的剔骨和毒化技能有60%的機率使你的切割持續時間以5個連擊點數的時限重新計算。" lvl="3"/>
+        <rank description="你的剔骨和毒化技能有80%的機率使你的切割持續時間以5個連擊點數的時限重新計算。" lvl="4"/>
+        <rank description="你的剔骨和毒化技能有100%的機率使你的切割持續時間以5個連擊點數的時限重新計算。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_hungerforblood" key="2071" name="鮮血渴求" tier="10">
+        <rank description="使你陷入狂怒之中，造成的所有傷害提高15%。只能使用於受流血效果影響的目標，持續1分钟。" lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="15" type="energy"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

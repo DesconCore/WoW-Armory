@@ -1,0 +1,3778 @@
+<?xml version="1.0" encoding="UTF-8"?><strs>
+	<str id="armory.item-tooltip.armor">护甲</str>
+	<str id="armory.item-tooltip.dps">伤害 / 秒</str>
+	<str id="armory.item-tooltip.block">格挡值</str>
+	<str id="armory.arena-ladder-data.page">页</str>
+	<str id="armory.arena-ladder-data.results2"> / </str>
+
+	<str id="armory.search.oneResult">一个搜索结果</str>
+	<str id="armory.search.Found"/>
+	<str id="armory.search.resultsFor">搜索结果</str>
+
+	<str id="armory.general.dateseparate">/</str>
+	<str id="armory.title.customrss">个人偏好设置 RSS-/Atom-Feed</str>
+	<!-- TODO optimize this block -->
+	<menu>
+        <ul id="nav">
+					<li>
+        <a href="/item-search.xml">物品</a>
+           	<ul>
+							<li class="fly">
+            <span>物品分类</span>
+								<ul>
+<!-- Raids -->
+									<li class="fly">
+                <a href="/dungeons.xml">地下城与团队</a>
+										<ul>
+											<li>
+                    <a href="/dungeons.xml">巫妖王之怒</a>
+                  </li>
+											<li>
+                    <a href="/dungeons1.xml">燃烧的远征</a>
+                  </li>
+											<li>
+                    <a href="/dungeons0.xml">经典旧世</a>
+                  </li>
+										</ul>
+									</li>
+<!-- Factions -->
+									<li class="fly">
+                <a href="/factions.xml">阵营声望</a>
+										<ul>
+											<li>
+                    <a href="/factions.xml">巫妖王之怒</a>
+                  </li>
+											<li>
+                    <a href="/factions1.xml">燃烧的远征</a>
+                  </li>
+											<li>
+                    <a href="/factions0.xml">经典旧世</a>
+                  </li>
+										</ul>
+									</li>
+									<li>
+                <a href="/pvprewards.xml">PvP 奖励</a>
+              </li>
+<!-- Arena Rewards -->
+									<li class="fly">
+                <span>竞技场奖励</span>
+										<ul>
+											<li>
+                    <a href="/search.xml?source=pvpAlliance&amp;pvp=arena6&amp;type=all&amp;searchType=items">第 6 赛季</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?source=pvpAlliance&amp;pvp=arena5&amp;type=all&amp;searchType=items">第 5 赛季</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?source=pvpAlliance&amp;pvp=arena4&amp;type=all&amp;searchType=items">第 4 赛季</a>
+                  </li>
+										</ul>
+									</li>
+<!-- Tokens -->
+									<li class="fly">
+                <span>货币</span>
+										<ul>
+											<li>
+                    <a href="/search.xml?source=dungeon&amp;dungeon=badgeofjustice&amp;type=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">正义徽章</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?source=dungeon&amp;dungeon=emblemofheroism&amp;type=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">英雄纹章</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?source=dungeon&amp;dungeon=emblemofvalor&amp;type=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">勇气纹章</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?source=dungeon&amp;dungeon=emblemofconquest&amp;type=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">征服纹章</a>
+                  </li>
+										</ul>
+									</li>
+									<li>
+                <a href="/search.xml?source=all&amp;type=all&amp;usbleBy=all&amp;rqrMin=&amp;rqrMax=&amp;rrt=hm&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">传家宝</a>
+              </li>
+								</ul>
+							</li>
+<!-- Items -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=all&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">武器</a>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=1haxe&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">单手斧</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=2haxe&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">双手斧</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=bow&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">弓</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=gun&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">枪械</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=1hmce&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">单手锤</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=2hmce&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">双手锤</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=plarm&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">长柄武器</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=1hswd&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">单手剑</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=2hswd&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">双手剑</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=stv&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">法杖</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=fwpn&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">拳套</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=misc&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">杂项</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=dggr&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">匕首</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=thrwn&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">投掷武器</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=xbow&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">弩</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=wnd&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">魔杖</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=weapons&amp;subTp=fshpl&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">钓鱼竿</a>
+              </li>
+								</ul>
+							</li>
+<!-- Armor -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=all&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">护甲</a>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=cloth&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">布甲</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=leather&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">皮甲</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=mail&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">锁甲</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=plate&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">板甲</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=shield&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">盾牌</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=idol&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">神像</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=libram&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">圣契</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=totem&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">图腾</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=sigil&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">符印</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=armor&amp;subTp=miscellaneous&amp;slot=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">其他</a>
+              </li>
+								</ul>
+							</li>
+<!-- Gems -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=all&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">珠宝</a>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=blue&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">蓝色</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=red&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">红色</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=yellow&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">黄色</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=meta&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">变换</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=green&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">绿色</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=orange&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">橘色</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=purple&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">紫色</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=gems&amp;subTp=prismatic&amp;rrt=all&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">棱彩</a>
+              </li>
+								</ul>
+							</li>
+<!-- Glyphs -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;searchType=items">雕纹</a>
+								<ul>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=6&amp;searchType=items">死亡骑士</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=6&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=6&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=11&amp;searchType=items">德鲁伊</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=11&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=11&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=3&amp;searchType=items">猎人</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=3&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=3&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=8&amp;searchType=items">法师</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=8&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=8&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=2&amp;searchType=items">圣骑士</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=2&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=2&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=5&amp;searchType=items">牧师</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=5&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=5&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=4&amp;searchType=items">潜行者</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=4&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=4&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=7&amp;searchType=items">萨满</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=7&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=7&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=9&amp;searchType=items">术士</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=9&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=9&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+									<li class="fly">
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=1&amp;searchType=items">战士</a>
+										<ul>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=1&amp;glyphTp=MAJOR&amp;searchType=items">大雕纹</a>
+                  </li>
+											<li>
+                    <a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;usbleBy=1&amp;glyphTp=MINOR&amp;searchType=items">小雕纹</a>
+                  </li>
+										</ul>
+									</li>
+								</ul>
+<!--								<ul>
+									<li><a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;subTp=major&amp;searchType=items">大雕纹</a></li>
+									<li><a href="/search.xml?searchQuery=&amp;source=all&amp;type=glyphs&amp;subTp=minor&amp;searchType=items">小雕纹</a></li>
+								</ul>-->
+							</li>
+<!-- Containers -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=containers&amp;subTp=all&amp;searchType=items">容器</a>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=containers&amp;subTp=bag&amp;searchType=items">背包</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=containers&amp;subTp=soul&amp;searchType=items">灵魂裂片包</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=containers&amp;subTp=herb&amp;searchType=items">草药包</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=containers&amp;subTp=enchanting&amp;searchType=items">附魔包</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=containers&amp;subTp=engineering&amp;searchType=items">工程包</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=containers&amp;subTp=gem&amp;searchType=items">宝石包</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=containers&amp;subTp=mining&amp;searchType=items">矿石包</a>
+              </li>
+								</ul>
+							</li>
+<!-- Consumables -->
+							<li>
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=consumables&amp;searchType=items#search.xml?searchType=items&amp;p=1&amp;sf=relevance&amp;sd=a&amp;source=all&amp;type=consumables">消耗品</a>
+          </li>
+<!-- Trade Goods -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=tradegoods&amp;searchType=items">商品</a>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=recipes&amp;subTp=all&amp;rrt=all&amp;minSkill=&amp;maxSkill=&amp;searchType=items">配方</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=reagents&amp;searchType=items">试剂</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=enchP&amp;slot=all&amp;rrt=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none">物品增强</a>
+              </li>
+								</ul>
+							</li>
+<!-- Projectiles -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=projectiles&amp;subTp=all&amp;searchType=items">弹药</a>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=projectiles&amp;subTp=arrow&amp;searchType=items">箭</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=projectiles&amp;subTp=bullet&amp;searchType=items">子弹</a>
+              </li>
+								</ul>
+							</li>
+<!-- Quivers -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=quivers&amp;subTp=all&amp;searchType=items">箭袋</a>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=quivers&amp;subTp=quiver&amp;searchType=items">箭袋</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=quivers&amp;subTp=ammopouch&amp;searchType=items">弹药袋</a>
+              </li>
+								</ul>
+							</li>
+<!-- Misc -->
+							<li class="fly">
+            <a href="/search.xml?searchQuery=&amp;source=all&amp;type=misc&amp;searchType=items">其他</a>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=keys&amp;searchType=items">钥匙</a>
+              </li>
+								</ul>
+							</li>
+<!-- Companions -->
+							<li class="fly">
+            <span>宠物</span>
+								<ul>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=mounts&amp;searchType=items">坐骑</a>
+              </li>
+									<li>
+                <a href="/search.xml?searchQuery=&amp;source=all&amp;type=smallpets&amp;searchType=items">小伙伴</a>
+              </li>
+								</ul>
+							</li>
+							<li>
+            <a href="/item-search.xml">高级搜索</a>
+          </li>
+          	</ul>
+	        </li>
+
+<!-- Arena********************************************************** -->
+
+
+					<li>
+        <a href="/battlegroups.xml">竞技场</a>
+          	<ul>
+<!-- Ladders -->
+							<li class="fly">
+            <span>排名</span>
+								<ul>
+									<li>
+                <a href="/battlegroups.xml?ts=2">2v2 排名</a>
+              </li>
+									<li>
+                <a href="/battlegroups.xml?ts=3">3v3 排名</a>
+              </li>
+									<li>
+                <a href="/battlegroups.xml?ts=5">5v5 排名</a>
+              </li>
+		              <li>
+                <a href="/battlegroups.xml?ts=3&amp;b=Coliseum%201">竞技场比赛</a>
+              </li>
+								</ul>
+							</li>
+<!-- Rewards -->
+							<li>
+            <span>奖励</span>
+								<ul>
+									<li>
+                <a href="/search.xml?source=pvpAlliance&amp;pvp=arena6&amp;type=all&amp;searchType=items">奖励：第 6 赛季</a>
+              </li>
+									<li>
+                <a href="/search.xml?source=pvpAlliance&amp;pvp=arena5&amp;type=all&amp;searchType=items">奖励：第 5 赛季</a>
+              </li>
+									<li>
+                <a href="/search.xml?source=pvpAlliance&amp;pvp=arena4&amp;type=all&amp;searchType=items">奖励：第 4 赛季</a>
+              </li>
+								</ul>
+							</li>
+							<li>
+            <a href="/arena-calculator.xml">竞技场计算器</a>
+          </li>
+						</ul>
+					</li>
+
+<!-- Info********************************************************** -->
+
+					<li>
+        <a href="#">信息</a>
+           	<ul>
+							<li>
+            <a href="/achievement-firsts.xml">服务器第一</a>
+          </li>
+							<li>
+            <a href="/updates.xml">英雄榜更新</a>
+          </li>
+							<li>
+            <a href="/faq-armory.xml">常见问题</a>
+          </li>
+            </ul>
+					</li>
+
+<!-- Tools********************************************************** -->
+
+					<li>
+        <a href="#">Tools</a>
+						<ul>
+							<li class="fly">
+            <a href="/talent-calc.xml">天赋模拟器</a>
+								<ul>
+									<li>
+                <a href="/talent-calc.xml?c=Druid">德鲁伊</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Warlock">术士</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Hunter">猎人</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Warrior">战士</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Mage">法师</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Paladin">圣骑士</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Priest">牧师</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Rogue">潜行者</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Shaman">萨满</a>
+              </li>
+									<li>
+                <a href="/talent-calc.xml?c=Death+Knight">死亡骑士</a>
+              </li>								
+								</ul>
+							</li>
+							<li>
+            <a href="/arena-calculator.xml">竞技场计算器</a>
+          </li>
+							<li>
+            <a href="/search-plugin.xml">浏览器插件</a>
+          </li>
+						</ul>
+					</li>
+				</ul>
+		</menu>
+
+	<cfg id="date.format">
+    <param1/>/<param2/>/<param3/>
+  </cfg> <!-- 1:year, 2:month, 3:day -->
+	<cfg id="date.time.format">
+    <param1/>-<param1/>-<param3/> <param4/>
+  </cfg> <!-- 1:year, 2:month, 3:day, 4:time -->
+	<cfg id="date.format.leadingZero">1</cfg> <!-- 1:true, other:false -->
+	<cfg id="date.time.format.24hrs">1</cfg> <!-- use 24 hr time display, 1:true, other:false -->
+	<cfg id="date.time.format.am">上午</cfg>
+	<cfg id="date.time.format.pm">下午</cfg>
+
+<!--string ordering-->
+
+<!--kr ordering-->
+
+	<!--string ordering character sheet level/race/class/ -->
+
+	<order id="armory.order.date">
+		<str select="datainsert2"/>
+		<str id="armory.general.dateseparate"/>
+		<str select="datainsert1"/>
+		<str id="armory.general.dateseparate"/>
+		<str select="datainsert3"/>
+	</order>
+
+	<order id="armory.order.character-string">
+		<str select="datainsert1" space="yes"/>
+		<str select="datainsert2" space="yes"/>
+		<str select="datainsert3" space="yes"/>
+		<str select="datainsert4" space="yes"/>
+	</order>
+
+	<!--string ordering search results -->
+	<order id="armory.order.search-results-string">
+		<str select="datainsert1" space="yes"/>
+		<str id="armory.search.resultsFor" space="yes"/>
+		<str id="armory.search.openQuote"/>
+		<str format="italic" select="datainsert2"/>
+		<str id="armory.search.closeQuote"/>
+	</order>
+
+	<!--string ordering one search result -->
+	<order id="armory.order.one-search-result-string">
+		<str id="armory.search.oneResult" space="yes"/>
+		<str id="armory.search.openQuote"/>
+		<str format="bold" select="datainsert1"/>
+		<str id="armory.search.closeQuote"/>
+	</order>
+
+	<!-- string ordering results inputtype paging -->
+	<order id="armory.order.results-Inputpaging-string">
+		<str id="armory.arena-ladder-data.page" space="yes"/>
+		<str select="ResultsInputPaging"/>
+		<str id="armory.arena-ladder-data.results2"/>
+		<str format="bold" select="datainsert1"/>
+	</order>
+
+	<order id="armory.order.guild.members">
+		<str select="datainsert1" space="yes"/>
+		<str select="datainsert2"/>
+	</order>
+
+	<order id="armory.order.item-tooltip-random-suffix">
+		<str select="datainsert1"/>
+		<str select="datainsert2"/>
+	</order>
+
+	<!-- Loc - item-tooltip-dps-string -->
+	<order id="armory.order.item-tooltip-dps-string">
+		<str select="datainsert1" space="yes"/>
+		<str id="armory.item-tooltip.dps"/>
+	</order>
+
+	<!-- Loc - item-tooltip-damage-string -->
+	<order id="armory.order.item-tooltip-damage-string">
+		<str select="itemTooltipMin-Max" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-armor-string -->
+	<order id="armory.order.item-tooltip-armor-string">
+		<str select="datainsert1" space="yes"/>
+		<str id="armory.item-tooltip.armor"/>
+	</order>
+
+	<!-- Loc - item-tooltip-blockvalue-string -->
+	<order id="armory.order.item-tooltip-blockvalue-string">
+		<str select="datainsert1" space="yes"/>
+		<str id="armory.item-tooltip.block"/>
+	</order>
+
+  	<!-- Loc - item-tooltip-StatModifiers-string -->
+	<order id="armory.order.item-tooltip-statmodifiers-string">
+		<str select="itemTooltipStatModifiers" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-resistances-string -->
+	<order id="armory.order.item-tooltip-resistances-string">
+		<str select="itemTooltipResistancesValue" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-miniSkillRequired-string -->
+	<order id="armory.order.item-tooltip-miniSkillRequired-string">
+		<str id="armory.item-tooltip.requires" space="yes"/>
+		<str select="datainsert1" space="yes"/>
+		<str id="armory.item-tooltip.parenthesisOpen"/>
+		<str select="datainsert2"/>
+		<str id="armory.item-tooltip.parenthesisClose"/>
+	</order>
+
+	<!-- Loc - item-tooltip-requiredAbility-string -->
+	<order id="armory.order.item-tooltip-requiredAbility-string">
+		<str id="armory.item-tooltip.requires" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-requiredPersonalArenaRating -->
+	<order id="armory.order.item-tooltip-requiredPersonalArenaRating">
+		<str id="armory.item-tooltip.requires.personalarena" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-ratingStats-string -->
+	<order id="armory.order.item-tooltip-ratingStats-string">
+		<str select="datainsert1" space="yes"/>
+		<str select="datainsert2"/>
+		<str id="armory.labels.period"/>
+	</order>
+	
+		<!--  Loc - Mana Regen -->
+	<order id="armory.order.item-tooltip-manaRegen-string">
+		<str select="datainsert1" space="yes"/>
+		<str select="datainsert2" space="yes"/>
+		<str select="datainsert3" space="yes"/>
+		<str id="armory.labels.period"/>
+	</order>
+	
+<!--done-->
+
+	<!-- Loc - armory.select-team-type.label-string -->
+	<order id="armory.select-team-type.label-string">
+		<str select="selectTeamType"/>
+	</order>
+
+<!--/end kr ordering-->
+
+    <!-- strings used in every page -->
+
+	<str id="armory.labels.zh_cn">简体中文</str>
+	<str id="armory.labels.region.zh_cn">中国大陆</str>
+
+	<str id="armory.labels.zh_tw">繁體中文</str>
+	<str id="armory.labels.region.zh_tw">台灣、香港與澳門</str>
+
+	<str id="armory.maintenance.text">英雄榜目前正在进行维护，请稍后再回来。</str>
+
+	<str id="armory.item-tooltip.requires">需要</str>
+	<str id="armory.item-tooltip.requires.personalarena">需要个人竞技场等级</str>
+	<region>
+		<str id="US" name="Amerika" url="http://www.wowarmory.com"/>
+		<str id="EU" name="Europa" url="http://eu.wowarmory.com"/>
+		<str id="KR" name="Korea" url="http://kr.wowarmory.com"/>
+		<str id="CN" name="China" url="http://cn.wowarmory.com"/>
+		<str id="TW" name="Taiwan" url="http://tw.wowarmory.com"/>
+	</region>
+	<common>
+		<str id="the-wow-armory">魔兽世界英雄榜</str>
+		<str id="meta-description">魔兽世界英雄榜是一个巨大的搜索魔兽世界的信息数据库 - 直接从真实服务器上搜索。这是关于角色，竞技场战队，公会，物品，声望奖励的最全面和最新的魔兽世界数据库。</str>
+		<str id="the-armory">英雄榜</str>
+		<str id="search-armory">搜索英雄榜</str>
+		<str id="error.selectCategory">请选择一个类别</str>
+		<str id="error.twoChars">搜索必须至少2个字符长</str>
+		<str id="related-info.header.related-links">相关链接</str>
+		<str id="related-info.header.armorynew">最新消息</str>
+		<str id="related-info.header.updates">更新</str>
+		<str id="related-info.header.faq">常见问题</str>
+		<str id="related-info.header.noflash">提醒：需要安装 Adobe Flash Player 9+</str>
+		<str id="related-info.noflash">我们检测到您没有安装Adobe Flash Player，已禁用JavaScript或使用的是第10版之前的版本。英雄榜需要Flash Player10（或更高），以充分利用该网站的所有功能。点击上面的按钮来安装最新版本的Adobe Flash Player。</str>
+
+        <str id="breaking.news">头条新闻</str>
+        <str id="motd">网页拍卖行－测试版</str>
+
+
+		<str id="labels.regioncolon">区域:</str>
+		<str id="labels.selectregioncolon">选择区域:</str>
+
+		<str id="region.US">Amerika</str>
+		<str id="region.EU">Europe</str>
+		<str id="region.KR">한국</str>
+		<str id="region.CN">中国大陆</str>
+		<str id="region.TW">台灣、香港與澳門</str>
+
+		<str id="labels.usoceanic">Amerika</str>
+		<str id="labels.europe">Europe</str>
+		<str id="labels.korea">한국</str>
+		<str id="en_us">English (USA)</str>
+		<str id="en_gb">English (EU)</str>
+		<str id="de_de">Deutsch</str>
+		<str id="fr_fr">Français</str>
+		<str id="es_es">Español (EU)</str>
+		<str id="es_mx">Español (AL)</str>
+		<str id="ko_kr">한국어</str>
+		<str id="ru_ru">Русский</str>
+		<str id="zh_cn">简体中文</str>
+		<str id="zh_tw">繁體中文</str>
+
+		<str id="search.relevance">相关</str>
+		<str id="items.relevance.percent">% 相关</str>
+
+		<str id="labels.languagecolon">语言:</str>
+		<str id="labels.selectlanguagecolon">选择语言:</str>
+
+		<str id="menu.armory">英雄榜</str>
+		<str id="menu.arenateams">竞技场战队</str>
+		<str id="menu.characters">角色</str>
+		<str id="menu.guilds">公会</str>
+		<str id="menu.items">物品</str>
+		<str id="menu.arena">竞技场</str>
+		<str id="menu.profiles">档案</str>
+		<str id="menu.searches">搜索</str>
+
+		<str id="url.wow">http://www.wow-europe.com</str>
+		<str id="url.blizzard">http://eu.blizzard.com/de/</str>
+		<str id="url.armory">http://eu.wowarmory.com</str>
+
+		<str id="url.signup">http://signup.wow-europe.com</str>
+		<str id="url.loginsupport">http://www.wow-europe.com/login-support/</str>
+
+		<str id="url.privacy">https://www.battlenet.com.cn/account/legal/privacy.html</str>
+		<str id="url.legalfaq">https://www.battlenet.com.cn/account/legal/tou.html</str>
+
+		<str id="report-translation">通过此链接，您将离开英雄榜</str>
+		<str id="external-link">通过此链接，您将离开英雄榜</str>
+
+		<str id="report-error">到错误报告论坛上发表英雄榜相关的网站错误和问题</str>
+
+		<str id="labels.site">魔兽世界</str>
+
+		<str id="pin.searchforandpin">To pin a profile, search for and find a character</str>
+		<str id="pin.enabledual">比较装备</str>
+		<str id="pin.dualdesc">启用\'装备比较\'功能后，当鼠标悬停在某件装备时将同时显示您主要角色相应位置上的装备。</str>
+		<str id="pin.unpin">unpin this character</str>
+
+		<str id="labels.privacy">隐私政策</str>
+		<str id="labels.copyright">©2012 暴雪娱乐股份有限公司版权所有。</str>
+		<str id="labels.proprietary">本文中的数据是暴雪娱乐公司专有的，您被授予有限的许可使用，对于此处所含的信息仅用于非商业目的。</str>
+
+		<str id="searchBox.search-the-armory">搜索英雄榜</str>
+
+		<str id="guild-search.label.enter-guild-name">请输入公会名字</str>
+		<str id="character-search.label.enter-character-name">请输入角色名字</str>
+		<str id="character-search.label.enter-team-name">请输入战队名字</str>
+
+		<str id="armory.none">无</str>
+		<str id="user.select.character">选择角色</str>
+		<str id="user.bookmark.character">收藏角色</str>
+		<str id="user.bookmark.logintobookmark">登陆以收藏该角色</str>
+		<str id="user.bookmark.tooltip">You can bookmark up to 30 character profiles.</str>
+		<str id="user.bookmark.maxedtooltip">You can bookmark up to 30 character profiles. To access your bookmarks, use the options menu located on the upper right of the Armory window.</str>
+		<str id="user.bookmark.previous">更多</str>
+		<str id="user.bookmark.forward">返回</str>
+		<str id="user.change.character">主要角色</str>
+		<str id="user.change.bookmarks">主要收藏</str>
+		<str id="user.no.character">没有角色被选中</str>
+		<str id="user.manage.chars">管理角色</str>
+		<str id="user.manage.settings">设置</str>
+		<str id="user.manage.more">其他角色</str>
+		<str id="user.manage.switch">选为默认角色</str>
+		<str id="loading">载入...</str>
+		<str id="saving">保存...</str>
+		<str id="pose_saved">姿势已保存!</str>
+		<str id="social.media.links">The World of Warcraft Armory is also available on <param-html1/> and the <param-html2/>!</str>
+	</common>
+
+	<character>
+		<str id="charLevelStr">等级 <param1/> <param2/>-<param3/>
+    </str>
+    <!-- i.e. Level 80(param1) Dranei(param2) Paladin(param3)-->
+		<str id="character-name">角色名称</str>
+		<str id="character.health">生命值:</str>
+		<str id="character.rage">怒气值:</str>
+		<str id="character.energy">能量点:</str>
+		<str id="character.mana">法力值:</str>
+		<str id="character.runicpower">符文值:</str>
+		<str id="character-profile">角色信息</str>
+		<str id="character-profiles">角色信息</str>
+		<str id="character-level">等级</str>
+		<str id="character-level-sheet">等级</str>
+		<str id="noteten">10级以下的角色不显示</str>
+		<str id="character.tip.primary">这个角色将作为您的主要角色，角色资料链接将会出现在英雄榜右上方。</str>
+		<str id="character.tip.secondary">这个角色将出现现主要角色下的收藏栏里。点击以设置成为您的主要角色。</str>
+	</character>
+	<character-select>
+		<str id="makePrimary">选作主要角色</str>
+		<str id="removeFromEasyAccess">从菜单中删除我的角色</str>
+		<str id="selectedCharacters">我的角色</str>
+		<str id="inactiveLicense">该许可证不是活跃的</str>
+		<str id="availableSlot">可用的角色档案</str>
+		<str id="easyAccessLimit">The quick access character limit has been reached. Remove a character to add new ones.</str>
+		<str id="addToEasyAccess">添加至我的角色</str>
+		<str id="noCharsAvailable">该账号没有其他角色可供选择，这可能是因为该账号所有的角色已被选中。</str>
+		<str id="charSelection">角色选择</str>
+		<str>
+      <h1>角色选择</h1>
+		<p>This interface allows you to select up to <strong>three</strong> characters on this account to bookmark for easy access. If you have more than three eligible characters, you must first unselect a character before selecting a different one.</p>
+		<p>The characters you select will also receive alerts when any of them are invited to new calendar events.</p>
+    </str>
+        <str id="primaryChar">主要角色</str>
+	</character-select>
+	<custom-rss>
+		<str id="activity">活动</str>
+		<str id="facebook_link">前往 Facebook 英雄榜应用程序</str>
+		<str id="activity_desc">显示该角色的最近50个活动</str>
+		<str id="feedcustom">Character Feed Customization</str>
+		<str id="backtoprofile">« Back to default_chr's Profile</str>
+		<str id="feedoptions">Character Feed Options</str>	
+		<str id="whatisthis">What's this page for?</str>	
+		<str id="whatisthis.help">This customization tool allows you to tailor up to five characters' activity feeds to create a custom RSS/Atom feed, and export it to your RSS reader of choice.<p/>For more information on creating and exporting custom feeds, refer to the FAQ displayed below.</str>	
+		<filters>
+			<str id="achievements">Achievements</str>
+			<str id="criteria">Achievement Criteria</str>
+			<str id="bosskills">Boss Kills</str>
+			<str id="loot">Loot</str>
+			<str id="respec">Talent Respecs</str>
+		</filters>
+		<str id="more">more</str>
+		<str id="less">less</str>
+		<str id="min.rarity">Minimum Rarity</str>
+		<str id="min.ilvl">Minimum item level</str>
+		<str id="add_chars">Characters (up to 5):</str>
+		<str id="add_example">Example: </str>
+		<str id="add_example.char_realm">Character@Realm</str>
+		<str id="rss_url">Custom RSS URL:</str>
+		<str id="copy_to">Copy to Clipboard</str>
+		<str id="cantfind">Can't find XXX</str> <!-- XXX is replaced with the character and realm -->
+		<str id="no_char">No Character!</str>
+		<str id="no_realm">No Realm!</str>
+		<str id="char_remove">Removed</str>
+		<str id="copied">Copied!</str>
+		<str id="recent_act">最近的活动</str>
+		<str id="viewfull_feed">查看以前的活动</str>
+		<str id="currently_equipped">(装备)</str>
+		<str id="vendored">(已有)</str>
+		<str id="today">今天</str>
+		<str id="yesterday">昨天</str>
+		<str id="previous">更早的条目</str>
+	</custom-rss>
+	<dungeons>
+		<str id="dungeonsandraids">地下城和团队</str>
+		<str id="bosses">Boss</str>
+
+		<str id="difficulty.title">难度</str>
+		<str id="difficulty.all">普通及英雄</str>
+		<str id="difficulty.normal">普通模式</str>
+		<str id="difficulty.normalonly">仅普通模式</str>
+		<str id="difficulty.heroic">英雄模式</str>
+		<str id="difficulty.heroiconly">仅英雄模式</str>
+	</dungeons>
+
+    <guild>
+		<str id="guild">公会</str>
+		<str id="guild-rank-strOrder">级别 <param1/>
+    </str>
+    <!-- string order, ex: Rank 1 -->
+		<str id="guild-leader">会长</str>
+		<str id="guild-profile">公会信息</str>
+		<str id="guild-profiles">公会咨询</str>
+		<str id="members">成员</str>
+		<str id="totalmembers">所有成员</str>
+		<str id="member">个成员</str>
+		<str id="guildrank">公会阶级</str>
+		<str id="guild-rank">级别</str>
+		<str id="guild-leader">会长</str>
+		<str id="noteten">在10级以下的角色将不会显示</str>
+		<str id="toomany">仅显示公会高级成员</str>
+		<str id="searchroster">搜索公会名单</str>
+	</guild>
+
+<!--general strings-->
+    <general>
+		<str id="noresultsfound">无搜索结果</str>
+		<str id="race">种族</str>
+		<str id="class">职业</str>
+		<str id="sort">分类</str>
+		<str id="colon">:</str>
+		<str id="exclamation">!</str>
+		<str id="rank">排名</str>
+
+		<str id="armory.character.lastModified">最后更新:</str>
+		<str id="armory.labels.na">N.A.</str>
+		<str id="playervsenvironment">普通 (PvE)</str>
+		<str id="playervsplayer">PvP</str>
+
+		<str id="race-class">种族/职业</str>
+
+		<str id="percentagecolon">百分比: </str>
+		<str id="totalgamescolon">本赛季总共参与的比赛: </str>
+		<str id="totalopponentscolon">对手统计: </str>
+
+	</general>
+
+	<str id="armory.url.battlegroups">http://www.wow-europe.com/de/info/basics/battlegroups.html</str>
+	<str id="armory.url.blizzard">http://eu.blizzard.com/de/</str>
+	<str id="armory.url.wow">http://www.wow-europe.com</str>
+	<str id="armory.url.armory">http://eu.wowarmory.com</str>
+	<str id="armory.url.talents">http://www.wow-europe.com/de/info/basics/talents</str>
+	<str id="armory.path.talents">/shared/global/talents</str>
+	<str id="armory.path.talents.seasonone">/shared/global/talents/season1</str>
+	<str id="armory.talents.langDir">/de</str>
+	<str id="armory.url.forums.wow">http://forums.wow-europe.com/board.html</str>
+	<str id="armory.mark.colon">:</str>
+
+    <!-- strings used in a lot of pages -->
+	<semicommon>
+		<str id="realm">服务器</str>
+		<str id="faction">阵营</str>
+		<str id="horde">部落</str>
+		<str id="alliance">联盟</str>
+		<str id="factionrewards">声望奖励</str>
+		<str id="alliancerewards">联盟奖励</str>
+		<str id="horderewards">部落奖励</str>
+	</semicommon>
+
+	<arena>
+		<str id="arena-teams">竞技场战队</str>
+		<str id="select-battlegroup">选择一个战场群</str>
+		<str id="select-team-type">选择战队类型</str>
+		<str id="battlegroup">战场群</str>
+		<str id="arena">竞技场</str>
+		<str id="arena-ladders">竞技场排名</str>
+		<str id="team-profiles">战队信息</str>
+		<str id="arena-reports">竞技场报告</str>
+		<str id="team-profile">战队信息</str>
+		<str id="match-history">比赛记录</str>
+		<str id="match-report">比赛报告</str>
+		<str id="opponent">对手名字</str>
+		<str id="ratingchange">等级变化</str>
+		<str id="newrating">新等级</str>
+		<str id="date">日期</str>
+		<str id="through"> through </str>
+		<str id="current">current</str>
+		<str id="resultsPerPage">每页显示记录数</str>
+		<str id="to"> 至 </str>
+		<str id="time">时间</str>
+		<str id="findMatch">在图表中显示该场比赛</str>
+		<str id="goToMatchReport">进入比赛报告页面</str>
+		<str id="deletedTeam">该战队已经解散</str>
+		<str id="opponent-history">对手统计</str>
+		<str id="totalgames">总共进行过的比赛次数</str>
+		<str id="totalgames.short">场次</str>
+		<str id="wins">胜场次数</str>
+		<str id="wins.short">胜</str>
+		<str id="losses">败场次数</str>
+		<str id="losses.short">负</str>
+
+		<str id="winp">胜率 %</str>
+		<str id="avgchange">平均每场比赛变化</str>
+		<str id="overallchange">等级提升 Δ</str> <!-- Net Δ  -->
+		<str id="overallchange.tooltip">等级的总变化</str>
+
+		<str id="seasonbefore">第 </str>
+		<str id="seasonafter"> 赛季</str>
+
+		<str id="realmcolon">服务器:</str>
+		<str id="battlegroupcolon">战场群:</str>
+		<str id="killingblows">击杀数</str>
+		<str id="killingblows.short">击杀</str>
+
+		<str id="dmgin">比赛中承受的伤害</str>
+		<str id="dmgin.short">承受伤害</str>
+		<str id="dmgout">比赛中的伤害输出</str>
+		<str id="dmgout.short">伤害输出</str>
+		<str id="healout">比赛中的治疗输出</str>
+		<str id="healout.short">治疗输出</str>
+		<str id="healin">比赛中接受的治疗</str>
+		<str id="healin.short">接受治疗</str>
+		<str id="lastweek">上周</str>
+		<str id="team-name">战队名</str>
+		<str id="error.nodata">该页面没有数据。</str>
+		<str id="team-type">战队类型</str>
+		<str id="team-members">战队成员: </str>
+		<str id="teammembers">战队成员</str>
+		<str id="viewmatchhistory">查看与之竞技的战队</str>
+
+		<legend>
+			<str id="arenaladder.title">Arena Icon Legend</str>
+			<str id="arena.title">Arena Icon Legend</str>
+			<str id="arena">These special arena icons are a visible symbol of your team's prowess in the Arena. As your team's standing on the arena ladder increases, your icon will become correspondingly more impressive.</str>
+			<str id="arena.uranked">无排名</str>
+			<str id="arena.top1000">Top 1000</str>
+			<str id="arena.top500">Top 500</str>
+			<str id="arena.top100">Top 100</str>
+			<str id="arena.top10">Top 10</str>
+			<str id="arena.rank1">排名 1</str>
+		</legend>
+
+		<arenaLadderData>
+			<str id="armory.arena-ladder-data.header.arena.tournament">Arena Pass</str>
+			<str id="armory.arena-ladder-data.header.2v2">2V2竞技场排名结果</str>
+			<str id="armory.arena-ladder-data.header.3v3">3V3竞技场排名结果</str>
+			<str id="armory.arena-ladder-data.header.5v5">5V5竞技场排名结果</str>
+			<str id="armory.arena-ladder-data.tab.2v2">2v2竞技场战队</str>
+			<str id="armory.arena-ladder-data.tab.3v3">3v3竞技场战队</str>
+			<str id="armory.arena-ladder-data.tab.5v5">5v5竞技场战队</str>
+			<str id="armory.arena-ladder-data.results1">显示结果</str>
+			<str id="armory.arena-ladder-data.all-realms">全部服务器</str>
+			<str id="armory.arena-ladder-data.1st">.</str>
+			<str id="armory.arena-ladder-data.st">.</str>
+			<str id="armory.arena-ladder-data.nd">.</str>
+			<str id="armory.arena-ladder-data.rd">.</str>
+			<str id="armory.arena-ladder-data.th">.</str>
+		</arenaLadderData>
+	</arena>
+
+	<arenaReport>
+		<str id="reportHeader">
+      <param1/>v<param1/> 竞技场比赛报告</str>
+    <!-- string order, aka 5v5 Arena Match Report -->
+		<str id="viewTeamHistory">查看该战队的比赛历史记录</str>
+		<str id="viewTeamProfile">查看战队信息</str>
+		<str id="gameInfo.map">地图:</str>
+		<str id="gameInfo.matchLength">用时:</str>
+		<str id="gameInfo.startTime">开始时间:</str>	
+		<str id="filter.all">全部</str>
+		<str id="filter.ratingBetween">等级介于</str>
+		<str id="filter.ratingChange">等级变化</str>
+		<str id="filter.dateRange">日期范围</str>
+		<str id="graph.season">赛季 </str>
+		<str id="graph.graph"> 图表</str>
+		<str id="changeseason">更改赛季:</str>
+		<str id="seasonfirst">赛季 </str>
+		<str id="seasonsecond"/>
+		<str id="ratingcolon">等级:</str>
+		<str id="datecolon">日期:</str>
+		<str id="opponentcolon">对手:</str>
+		<str id="gamesdisplayed">当前显示的比赛:</str>
+		<str id="netchange.selection.short">等级变化：</str>
+		<str id="netchange.selection">选中项等级变化</str>
+		<str id="of">of</str>
+		<str id="averagechange">
+      <param-html1/>/每场平均.</str>
+		<str id="nogames">在选中的赛季中，该支战队没有进行过比赛。</str>
+		<str id="versus">v</str>
+		<str id="versuspt1"/>
+		<str id="versuspt2"> 竞技场 </str>
+		<str id="defeats">击败</str>
+		<str id="match-report">比赛报告</str>
+		<str id="matchhistorygraphfor">比赛历史记录</str>
+		<str id="matchhistoryfilters">比赛记录过滤器</str>
+		<str id="opponenthistoryfiltersfor">竞技对手过滤器</str>
+		<str id="matchstatistics">比赛统计</str>
+
+		<str id="clearmatchhighlight">清除比赛高亮显示</str>
+		<str id="viewrecentgames">查看最近的比赛</str>
+		<str id="viewcompleteseason">查看历史赛季</str>
+
+		<str id="matchlength">比赛时长: </str>
+		<str id="minutes"> 分钟 </str>
+		<str id="seconds"> 秒</str>
+		<str id="matchstart">比赛开始时间: </str>
+	</arenaReport>
+
+    <unsorted>
+		<str id="armory.labels.character-name">角色名字</str>
+		<str id="armory.labels.team-profiles">战队信息</str>
+		<str id="armory.labels.guild">公会</str>
+		<str id="armory.labels.guilds">公会</str>
+		<str id="armory.labels.characters">角色</str>
+		<str id="armory.labels.guild-profile">公会咨询</str>
+		<str id="armory.labels.guild-profiles">公会信息</str>
+		<str id="armory.labels.realm">服务器</str>
+		<str id="armory.labels.realmcolon">服务器:</str>
+		<str id="armory.labels.battlegroupcolon">战场群:</str>
+		<str id="armory.labels.noresultsfound">没有记录</str>
+		<str id="armory.labels.faction">阵营</str>
+		<str id="armory.labels.horde">部落</str>
+		<str id="armory.labels.alliance">联盟</str>
+		<str id="armory.labels.race">种族</str>
+		<str id="armory.labels.class">职业</str>
+		<str id="armory.labels.race-class">种族/职业</str>
+		<str id="armory.labels.sort">分类</str>
+		<str id="armory.labels.lastweek">上周</str>
+		<str id="armory.labels.rank">排名</str>
+		<str id="armory.labels.ranks">排名</str>
+		<str id="armory.labels.team-rank">战队排名</str>
+		<str id="armory.labels.team-name">战队名字</str>
+		<str id="armory.labels.team-type">战队类型</str>
+		<str id="armory.labels.team-members">战队成员: </str>
+		<str id="armory.labels.members">公会名单</str>
+		<str id="armory.labels.guildrank">公会排名</str>
+		<str id="armory.labels.guild-rank">排名 </str>
+		<str id="armory.labels.guild-leader">会长</str>
+		<str id="armory.labels.unique-members">Unique Members</str>
+		<str id="armory.labels.customrss">Custom Character Feed</str>
+		<str id="armory.labels.calendarfeed">Custom Calendar Feed</str>
+
+		<str id="armory.labels.item-results">搜索结果</str>
+		<str id="armory.labels.search">搜索</str>
+		<str id="armory.labels.browse">浏览</str>
+		<str id="armory.labels.arena-stats">竞技场战队统计</str>
+		<str id="armory.labels.search-results">搜索结果</str>
+		<str id="armory.labels.advanced-filter">高级过滤器选项</str>
+		<str id="armory.labels.wow">World of Warcraft</str>
+		<str id="armory.labels.copyright">©2010 Blizzard Entertainment, Inc. All rights reserved.</str>
+		<str id="armory.labels.external-link">This link will take you outside the Armory</str>
+		<str id="armory.labels.report-error">Post about Armory-related bugs and issues on the EN Website Error Reports Forum</str>
+		<str id="armory.labels.report-translation">This link will take you outside the Armory to EU translation forums.</str>
+		<str id="armory.labels.the-armory">英雄榜</str>
+		<str id="armory.labels.wow-the-armory">魔兽世界英雄榜</str>
+		<str id="armory.labels.armory">英雄榜</str>
+		<str id="armory.labels.arena">竞技场</str>
+		<str id="armory.labels.search-armory">搜索英雄榜</str>
+		<str id="armory.labels.home">首页</str>
+		<str id="armory.labels.item">物品</str>
+		<str id="armory.labels.items">物品</str>
+		<str id="armory.labels.item-lookup">物品查询</str>
+		<str id="armory.labels.type">类型</str>
+		<str id="armory.labels.item-level">物品等级</str>
+		<str id="armory.labels.req-level">需要等级</str>
+		<str id="armory.labels.sell-price">卖出价格</str>
+		<str id="armory.labels.slot">位置</str>
+		<str id="armory.labels.rarity">品质</str>
+		<str id="armory.labels.na">N/A</str>
+		<str id="armory.labels.notapplicable">不适用</str>
+		<str id="armory.labels.arenaTournament">竞技场</str>
+		<str id="armory.labels.comingsoon">即将推出</str>
+		<str id="armory.labels.period">.</str>
+
+		<str id="armory.arenatab.2v2-arena-ladder">2v2-天梯</str>
+		<str id="armory.arenatab.3v3-arena-ladder">3v3-天梯</str>
+		<str id="armory.arenatab.5v5-arena-ladder">5v5-天梯</str>
+		<str id="armory.arenatab.hof">名人堂</str>
+		<str id="armory.arenatab.arenaTournament">竞技场</str>
+		<str id="armory.arenatab.calc">竞技场计算器</str>
+
+		<str id="armory.arenatab.teamprofile">战队信息</str>
+		<str id="armory.arenatab.matchhistory">比赛记录</str>
+		<str id="armory.arenatab.opponenthistory">对手统计</str>
+
+		<str id="armory.dungeontab.wrath">巫妖王之怒</str>
+		<str id="armory.dungeontab.tbc">燃烧的远征</str>
+		<str id="armory.dungeontab.classic">经典旧世</str>
+
+		<str id="wotlk">巫妖王之怒</str>
+		<str id="bc">燃烧的远征</str>
+		<str id="classic">魔兽世界－经典旧世</str>
+
+		<str id="armory.labels.wins">胜利</str>
+		<str id="armory.labels.winpercentage">胜率 %</str>
+		<str id="armory.labels.losses">战败</str>
+		<str id="armory.labels.played">Played</str>
+		<str id="armory.labels.twoteamstats">2v2 战队统计</str>
+		<str id="armory.labels.threeteamstats">3v3 战队统计</str>
+		<str id="armory.labels.fiveteamstats">5v5 战队统计</str>
+		<str id="armory.labels.teamrating">等级</str>
+		<str id="armory.labels.personalrating">个人等级</str>
+		<str id="armory.labels.personalrating.short">个人等级</str>
+		<str id="armory.labels.personalratingcolon">个人等级: </str>
+		<str id="armory.labels.rating">等级</str>
+		<str id="armory.labels.ratingcolon">等级: </str>
+		<str id="armory.labels.realm-name">服务器</str>
+		<str id="armory.labels.date-joined">参与日前</str>
+		<str id="armory.labels.level">等级</str>
+		<str id="armory.labels.games">总场次</str>
+		<str id="armory.labels.win-loss">胜场 - 负场</str>
+		<str id="armory.labels.games-won">胜利</str>
+		<str id="armory.labels.thisweek">本周</str>
+		<str id="armory.labels.season">本赛季</str>
+		<str id="armory.labels.qualifier">Qualifier</str>
+		<str id="armory.labels.games-woncolon">Games Won:</str>
+		<str id="armory.labels.noteam">无战队</str>
+		<str id="armory.labels.games-played">Games Played</str>
+		<str id="armory.labels.last-played">Last Played</str>
+		<str id="armory.labels.team-results">Team Search Results for</str>
+		<str id="armory.labels.char-results">Character Search Results for</str>
+		<str id="armory.labels.guild-results">Guild Search Results for</str>
+		<str id="armory.labels.item-results-for">Item Search Results for</str>
+		<str id="armory.labels.back-to-results">返回搜索结果</str>
+		<str id="armory.search.over-one-thousand">The first 1000 matches of your search are displayed here. To narrow down your search, try searching for a specific string by using single quotation marks (example: 'shadow').</str>
+		<str id="armory.labels.stats">统计</str>
+
+		<str id="armory.labels.copyUrl">To link directly to this page, click on and copy the url below:</str>
+		<str id="armory.labels.copyThisUrl">Copy this URL</str>
+		<str id="armory.labels.pinThisProfile">Pin this Profile</str>
+
+		<str id="armory.labels.2v2">2v2</str>
+		<str id="armory.labels.3v3">3v3</str>
+		<str id="armory.labels.5v5">5v5</str>
+		<str id="armory.labels.all">全部</str>
+
+		<str id="armory.labels.whatsthis">这是什么?</str>
+
+		<str id="armory.labels.gender">性别</str>
+		<str id="armory.labels.both">全部</str>
+		<str id="armory.labels.gender.0">男性</str>
+		<str id="armory.labels.gender.1">女性</str>
+		<str id="armory.labels.faction.0">联盟</str>
+		<str id="armory.labels.faction.1">部落</str>
+
+		<str id="armory.labels.header.profile">个人档案</str>
+		<str id="armory.labels.header.reputation">声望</str>
+		<str id="armory.labels.header.pvp">PvP</str>
+		<str id="armory.labels.header.skills">技能</str>
+		<str id="armory.labels.header.talents">天赋</str>
+		<str id="armory.labels.header.arenateams">竞技场战队</str>
+		<str id="armory.labels.header.arena">竞技场</str>
+		<str id="armory.labels.header.guild">公会</str>
+		<str id="armory.labels.header.banklog">银行日志</str>
+		<str id="armory.labels.header.bankcontents">银行</str>
+		<str id="armory.labels.header.guild-stats">公会信息统计</str>
+		<str id="armory.labels.header.guild-stats-filters">信息统计－过滤器</str>
+		<str id="armory.labels.header.guild-roster">公会名单</str>
+		<str id="armory.labels.header.guild-roster-for">公会名单</str>
+		<str id="armory.labels.header.calendar">日历</str>
+
+		<str id="armory.var.level">@level</str>
+
+		<str id="armory.labels.morereputation">More Reputation</str>
+		<str id="armory.labels.morepvp">More PvP</str>
+		<str id="armory.labels.morearenateams">More Arena Teams</str>
+		<str id="armory.labels.exaltedwith">Exalted With:</str>
+		<str id="armory.labels.notranked">没有排名</str>
+		<str id="armory.labels.rankcolon">排名:</str>
+		<str id="armory.labels.standing">Standing</str>
+		<str id="armory.labels.standingcolon">Standing:</str>
+		<str id="armory.labels.teamnamecolon">战队名字:</str>
+
+		<str id="armory.labels.hks">Ehrenhafte Siege gesamt: </str>
+
+		<str id="armory.labels.2v2arena">2v2 竞技场</str>
+		<str id="armory.labels.3v3arena">3v3 竞技场</str>
+		<str id="armory.labels.5v5arena">5v5 竞技场</str>
+
+<!--tabs-->
+		<str id="armory.tabs.characterSheet">角色</str>
+		<str id="armory.tabs.profile">角色档案</str>
+		<str id="armory.tabs.talents_and_glyphs">天赋及雕纹</str>
+		<str id="armory.tabs.feed">最新活动</str>
+		<str id="armory.tabs.reputation">声望</str>
+		<str id="armory.tabs.calendar">日程</str>
+		<str id="armory.tabs.skills">技能</str>
+		<str id="armory.tabs.talents">天赋</str>
+		<str id="armory.tabs.arenateams">竞技场战队</str>
+		<str id="armory.tabs.achievements">成就</str>
+		<str id="armory.tabs.statistics">统计数据</str>
+		<str id="armory.tabs.characters">角色</str>
+		<str id="armory.tabs.guild">公会</str>
+		<str id="armory.tabs.guilds">公会</str>
+		<str id="armory.tabs.guildRoster">公会名单</str>
+		<str id="armory.tabs.guildStats">数据统计</str>
+		<str id="armory.tabs.guildBankContents">公会银行</str>
+		<str id="armory.tabs.guildBankLog">银行日志</str>
+		<str id="armory.tabs.items">物品</str>
+		<str id="armory.tabs.creatures">Kreaturen</str>
+		<str id="armory.tabs.spells">近战</str>
+		<str id="armory.tabs.dungeons">地下城与团队副本</str>
+		<str id="armory.tabs.bosses">Bosse</str>
+		<str id="armory.tabs.factions">阵营声望</str>
+		<str id="armory.tabs.talentcalc">天赋模拟器</str>
+		<str id="armory.tabs.pettalentcalc">宠物天赋模拟器</str>
+		<str id="armory.tabs.disableTab">Sections in the Armory belonging to inactive characters are disabled.</str>
+		
+		<str id="armory.tabs.class.1">战士</str>
+		<str id="armory.tabs.class.2">圣骑士</str>
+		<str id="armory.tabs.class.3">猎人</str>
+		<str id="armory.tabs.class.4">潜行者</str>
+		<str id="armory.tabs.class.5">牧师</str>
+		<str id="armory.tabs.class.6">死亡骑士</str>
+		<str id="armory.tabs.class.7">萨满</str>
+		<str id="armory.tabs.class.8">法师</str>
+		<str id="armory.tabs.class.9">术士</str>
+		<str id="armory.tabs.class.11">德鲁伊</str>
+		
+		<str id="armory.tabs.pet.cunning">狡诈</str>
+		<str id="armory.tabs.pet.tenacity">坚韧</str>
+		<str id="armory.tabs.pet.ferocity">狂野</str>
+		
+		<str id="armory.tabs.wotlk">巫妖王之怒</str>
+		<str id="armory.tabs.bc">燃烧的远征</str>
+		<str id="armory.tabs.classic">经典旧世</str>
+		
+		<!-- auction tabs -->
+		<str id="auction.tabs.summary">Summary</str>
+		<str id="auction.tabs.browseAuctions">Browse Auctions</str>
+		<str id="auction.tabs.myBids">My Bids</str>
+		<str id="auction.tabs.activeBids">Active Bids</str>
+		<str id="auction.tabs.completedAuctions">Completed Auctions</str>
+		<str id="auction.tabs.myAuctions">My Auctions</str>
+		<str id="auction.tabs.activeAuctions">Active Auctions</str>
+		<str id="auction.tabs.createAuction">Create Auctions</str>
+
+		<str id="armory.tabs.character.guild.mouseover">Clicking on this tab will take you to the Guilds section</str>
+		<str id="armory.tabs.character.arenateams.mouseover">Clicking on this tab will take you to the Arena Teams section</str>
+		<str id="armory.tabs.arenatournament.mouseover">Clicking on this tab will take you to the Arena Tournament section</str>
+		<str id="armory.tabs.hof.mouseover">Clicking on this tab will take you to the Hall of Fame section</str>
+		<str id="armory.arenatournament.tabs.ladder.mouseover">View the Qualification Round Ladder</str>
+
+		<!-- menu navigation strings not found in other places -->
+		<str id="armory.menu.itemCollections">物品合集</str>
+		<str id="armory.menu.heirloomItems">传家宝</str>
+		<str id="armory.menu.tokens">纹章兑换</str>
+		<str id="armory.menu.badgeofjustice">正义徽章</str>
+		<str id="armory.menu.emblemofheroism">英雄纹章</str>
+		<str id="armory.menu.emblemofvalor">勇气纹章</str>
+		<str id="armory.menu.emblemofconquest">征服纹章</str>
+		<str id="armory.menu.emblemoftriumph">凯旋纹章</str>
+		<str id="armory.menu.emblemoffrost">冰霜纹章</str>
+		<str id="armory.menu.pvpRewards">PvP 奖励</str>
+		<str id="armory.menu.arenaRewards">竞技场奖励</str>
+		<str id="armory.menu.season8">S8</str>
+		<str id="armory.menu.season7">S7</str>
+		<str id="armory.menu.season6">S6</str>
+		<str id="armory.menu.season5">S5</str>
+		<str id="armory.menu.season4">S4</str>
+		<str id="armory.menu.minor">小雕纹</str>
+		<str id="armory.menu.major">大雕纹</str>
+		<str id="armory.menu.companions">宠物</str>
+		<str id="armory.menu.adv-item-search">高级搜索</str>	
+		<str id="armory.menu.battlegroups">战场</str>
+		<str id="armory.menu.info">信息</str>
+		<str id="armory.menu.achievementFirsts">服务器第一</str>
+		<str id="armory.menu.updates">英雄榜更新</str>
+		<str id="armory.menu.faqs">常见问题</str>
+		<str id="armory.menu.tools">工具</str>
+		<str id="armory.menu.searchPlugin">浏览器搜索插件</str>	
+		<str id="armory.menu.auctionHouse">拍卖行</str>	
+		<str id="armory.menu.misc">其他</str>
+		<str id="armory.menu.ah.summary">摘要</str>	
+		<str id="armory.menu.ah.bids">出价</str>	
+		<str id="armory.menu.ah.browse">浏览</str>	
+		<str id="armory.menu.ah.auctions">竞拍</str>
+		<str id="armory.menu.ah.create">拍卖</str>
+		<str id="armory.menu.ah.faq">拍卖行 FAQ</str>
+
+<!--character profile header-->
+		<str id="armory.icon.realm">服务器</str>
+		<str id="armory.icon.battleGroup">战场群</str>
+		<str id="armory.forum.link.realm">点击此前往服务器论坛</str>
+		<str id="armory.forum.link.battleGroup">点击此前往战场群论坛</str>
+		<str id="armory.forum.link.arena">点击此前往竞技场论坛</str>
+
+<!--arena-tournament.xsl tabs-->
+		<str id="armory.arenatournament.tabs.news">News</str>
+		<str id="armory.arenatournament.tabs.info">Info</str>
+		<str id="armory.arenatournament.tabs.faq">FAQ</str>
+		<str id="armory.arenatournament.tabs.rules">Rules</str>
+		<str id="armory.arenatournament.tabs.venues">Venues</str>
+		<str id="armory.arenatournament.tabs.prizes">Prizes</str>
+		<str id="armory.arenatournament.tabs.partners">Partners</str>
+		<str id="armory.arenatournament.tabs.brackets">Brackets</str>
+		<str id="armory.arenatournament.tabs.ladder">Ladder</str>
+		<str id="armory.arenatournament.header.news">News</str>
+
+<!--battlegroups.xsl-->
+		<str id="armory.select-battlegroup.label.select-realm">或选择您所在的服务器:</str>
+		<str id="armory.select-battlegroup.label.coliseum">Coliseum</str>
+		<str id="armory.select-battlegroup.label.battlegroup-search">Don't know which <i>Battlegroup</i> your realm is in?</str>
+		<str id="armory.select-battlegroup.label.enter-realm-name">Enter Realm Name</str>
+		<str id="armory.select-battlegroup.link.view-realms">View all realms within your Battlegroup</str>
+		<str id="armory.select-battlegroup.link.battlegroupPage">http://www.wow-europe.com/en/info/basics/battlegroups.html</str>
+
+<!--select-team-type.xsl-->
+		<str id="armory.select-team-type.label.2v2team">2v2-战队</str>
+		<str id="armory.select-team-type.label.3v3team">3v3-战队</str>
+		<str id="armory.select-team-type.label.5v5team">5v5-战队</str>
+
+<!--character-info.xsl-->
+		<str id="armory.character-info.header.character-profile">Character Profile</str>
+		<str id="armory.character-info.label.member-of">Member of</str>
+		<str id="armory.character-info.label.total-guild-members">Total Guild Members:</str>
+		<str id="armory.character-info.label.2v2team">2v2 竞技场战队</str>
+		<str id="armory.character-info.label.3v3team">3v3 竞技场战队</str>
+		<str id="armory.character-info.label.5v5team">5v5 竞技场战队</str>
+		<str id="armory.character-info.teamPossessive"/>
+		<str id="armory.character-info.characterPossessive"/>
+		<str id="armory.character-info.statsBefore"></str>
+		<str id="armory.character-info.statsAfter">的个人统计:</str>
+
+<!--team-info.xsl-->
+		<str id="armory.team-info.2v2">2v2</str>
+		<str id="armory.team-info.3v3">3v3</str>
+		<str id="armory.team-info.5v5">5v5</str>
+		<str id="armory.team-info.titleAfter"/>
+		<str id="armory.team-info.titleAfter"> 竞技场战队统计</str>
+		<str id="armory.team-info.team-rating">等级</str>
+
+<!--character-search.xsl-->
+		<str id="armory.character-search.header.character-search">角色搜索</str>
+		<str id="armory.character-search.label.search-for-character">搜索角色档案</str>
+
+		<str id="armory.character-search.label.team-profile">战队信息</str>
+		<str id="armory.team-search.team-search">战队搜索</str>
+
+<!--guild-search.xsl-->
+		<str id="armory.guild-search.header.guild-search">Guild Search</str>
+		<str id="armory.guild-search.label.search-for-guild">Search for Guild Profiles</str>
+
+<!--guild-search.xsl-->
+		<str id="armory.item-search.header.item-search">Item Search</str>
+		<str id="armory.item-search.label.search-for-item">Search for Items</str>
+		<str id="armory.item-search.label.enter-item-name">Enter Item Name</str>
+
+<!--team-search.xsl-->
+		<str id="armory.team-search.title">Search for Team Profiles</str>
+
+<!--mini-search-templates.xsl-->
+		<str id="armory.mini-search.label.arena-ladder.2v2">2v2 Arena Ladder Standings</str>
+		<str id="armory.mini-search.label.arena-ladder.3v3">3v3 Arena Ladder Standings</str>
+		<str id="armory.mini-search.label.arena-ladder.5v5">5v5 Arena Ladder Standings</str>
+		<str id="armory.mini-search.label.arena-ladder.expand">Expand the Arena Ladder Listing</str>
+		<str id="armory.mini-search.label.arena-ladder.collapse">Collapse the Arena Ladder Listing</str>
+		<str id="armory.mini-search.label.search.expand">Expand the Search Results</str>
+		<str id="armory.mini-search.label.search.collapse">Collapse the Search Results</str>
+		<str id="armory.mini-search.label.character.expand">Expand the Character Listing</str>
+		<str id="armory.mini-search.label.character.collapse">Collapse the Character Listing</str>
+		<str id="armory.mini-search.label.character.default">Revert to Default Listing</str>
+		<str id="armory.mini-search.label.guild.expand">Expand the Guild Listing</str>
+		<str id="armory.mini-search.label.guild.collapse">Collapse the Guild Listing</str>
+		<str id="armory.mini-search.label.items.expand">Expand the Item Listing</str>
+		<str id="armory.mini-search.label.items.collapse">Collapse the Item Listing</str>
+		<str id="armory.mini-search.label.maxlength">16</str>
+		<str id="armory.mini-search.label.maxlength.arena">12</str>
+
+<!--character-sheet-Base Stats-->
+		<str id="armory.character.refreshheader">无法获取角色数据</str>
+
+		<str id="armory.character-sheet.ttip.loading">载入中...</str>
+
+<!--talents-->
+		<str id="talents.meleeRange">武器范围</str>
+		<str id="talents.rangedSpell">
+      <param1/> 码施法距离</str>
+    <!-- string order, ie 20 yd range -->
+		<str id="talents.cooldown.min">
+      <param1/> 分钟冷却时间</str>
+    <!-- string order, ie - 3 min cooldown -->
+		<str id="talents.cooldown.sec">
+      <param1/> 秒冷却时间</str>
+    <!-- string order, ie - 12 sec cooldown -->
+		<str id="talents.casttime.instant-cast"> 瞬发法术 </str>
+		<str id="talents.casttime.instant">瞬发</str>
+		<str id="talents.casttime.channeled">需引导</str>
+		<str id="talents.casttime.non-instant">
+      <param1/> 秒施法时间</str>
+    <!-- string order, ie - 1.5 sec cast -->
+		<str id="talents.spelltype.mana-percent">
+      <param1/>% 基础法力值</str>
+    <!-- string order, ie - 17% of base mana -->
+		<str id="talents.spelltype.mana">
+      <param1/> 法力</str>
+		<str id="talents.spelltype.energy">
+      <param1/> 能量</str>
+		<str id="talents.spelltype.rage">
+      <param1/> 怒气</str>
+		<str id="talents.spelltype.runic">
+      <param1/> 符能</str>
+		<str id="talents.spelltype.blood">
+      <param1/> 血魄符文</str>
+		<str id="talents.spelltype.unholy">
+      <param1/> 邪秽符文</str>
+		<str id="talents.spelltype.frost">
+      <param1/> 冰霜符文</str>
+		<str id="notApplicable">不适用</str>
+		<str id="notApplicable.tooltip">这个角色没有双天赋专精。</str>
+		<str id="emptyGlyph">空</str>
+		<str id="activeSpecTxt">Aktiv</str>
+		<str id="unused">未使用</str>
+		<str id="talents.reqTalents.single">需要 {0} 点 {1} 天赋.</str> <!-- ie: Requires 1 point in Amplify Curse. -->
+		<str id="talents.reqTalents.plural">需要 {0} 点 {1} 天赋.</str> <!-- ie: Requires 5 points in Contagion. -->
+		<str id="talents.reqTalentTree">需要 {0} 点 {1} 天赋.</str> <!-- ie: Requires 25 points in Holy Talents. -->
+		<str id="talents.rankStrOrder">等级 {0}/{1}</str>
+    <!-- ie: Rank 1/5 -->
+		<str id="talents.reset">重置</str>
+		<str id="talents.resetAll">全部重置</str>
+		<str id="talents.linkToBuild">链接到此天赋</str>
+		<str id="talents.linkToBuild.tooltip">点击此链接，然后从地址栏复制网址</str>
+		<str id="talents.pointsSpent">已花费</str>
+		<str id="talents.pointsLeft">剩余点</str>
+		<str id="talents.reqLevel">需要等级</str>
+		<str id="talents.nextRank">下一级</str>
+		<str id="armory.talents.export.click">点击此处以导入至天赋模拟器中</str>
+		<str id="armory.talents.export.exportbuild">导出天赋</str>
+		<str id="talents.print">打印</str>
+		<str id="talents.printable.classTalents">{0} 天赋</str>
+		<str id="talents.printable.minReqLevel">需要等级: {0}</str>
+		<str id="talents.printable.reqTalentPts">需要天赋点: {0}</str>
+		<str id="talents.printable.treeTalents">{0} 天赋</str>
+		<str id="talents.printable.ptsPerTree">{0} 点</str>
+		<str id="talents.printable.dontWastePaper">不要浪费纸张！</str>
+
+		<str id="armory.dungeons.badgeofjustice">正义徽章（英雄地下城获得）</str>
+
+<!--item-info.xsl-->
+		<str id="armory.creature.classification.1">Elite</str>
+		<str id="armory.creature.classification.2">Rare Elite</str>
+		<str id="armory.creature.classification.3">Boss</str>
+		<str id="armory.creature.classification.4">Rare</str>
+
+<!--search-data-items.xsl-->
+		<str id="armory.search-data-items.relatedfactions">Related Factions: </str>
+		<str id="armory.search-data-items.relateddungeons">Related Dungeons: </str>
+		<str id="armory.search-data-items.toomany">Too many search results. Try filtering.</str>
+
+<!--error2.xsl-->
+		<str id="armory.labels.errormessage">You have encountered an error.</str>
+		<str id="armory.labels.returntoprevious">Return to the Armory</str>
+		<str id="armory.labels.returntomain">Return to wow-europe.com</str>
+		<str id="armory.labels.error.nosearchresult">No Search Results Found</str>
+		<str id="armory.labels.error.filenotfound">File Not Found</str>
+		<str id="armory.labels.error.unavailable">Service Unavailable</str>
+		<str id="armory.labels.error.serverbusy">Server is busy. Please try again later.</str>
+
+<!--error-facebook.xsl-->
+		<str id="armory.labels.facebook.goback">Go back</str>
+		<str id="armory.labels.facebook.returntomyfeed">Return to "My Feed"</str>
+		<str id="armory.labels.facebook.returntofacebook">Return to Facebook</str>
+		<str id="armory.labels.facebook.selectotherregions">Character display issues may be corrected by switching the Armory's character feed to a different region: <a href="http://us.wowarmory.com/fb/my-feed.html?region=US&amp;fboverridep">Americas</a>, <a href="http://eu.wowarmory.com/fb/my-feed.html?region=EU&amp;fboverridep">Europe</a> or <a href="http://kr.wowarmory.com/fb/my-feed.html?region=KR&amp;fboverridep">Korea</a>.</str>		
+		<str id="armory.labels.facebook.error">Due to high server load, this information is currently unavailable. </str>
+		<str id="armory.labels.facebook.error2">Please try again shortly, as this is usually a temporary issue. You may also try logging out of and back into Facebook, as this may help resolve any errors.</str>
+		
+<!--error/Section.xsl-->
+		<str id="armory.labels.errorencountered">Error Encountered</str>
+		<str id="armory.labels.erroroccured">An error has occurred.</str>
+		<str id="armory.labels.accessdenied">Access Denied</str>
+		<str id="armory.labels.nocharacter">This character profile could not be displayed, possibly for one of the following reasons:<ul>
+        <li>The character has been inactive for an extended period of time.</li>
+        <li>The character name was spelled incorrectly.</li>
+        <li>The profile is temporarily unavailable while the character is in the midst of a process such as a realm transfer or faction change.</li>
+        <li>Characters that have been deleted are no longer available on the Armory.</li>
+      </ul>
+    </str>
+		<str id="armory.labels.noguild">This guild does not exist. Please ensure that the guild name was entered correctly. Guilds that have been disbanded are no longer available on the Armory.</str>
+		<str id="armory.labels.protectedcontent">This page contains login-protected content you do not have access to, since it is not associated with the World of Warcraft account currently logged in to the Armory. For more details about Armory Login access and login-protected content, refer to the <a href="/faq-login.xml">Armory Login FAQ</a>.</str>
+
+<!--dungeons.xsl-->
+		<str id="armory.dungeons.bc">燃烧的远征 - 地下城与团队副本</str>
+		<str id="armory.dungeons.classic">经典旧世 - 地下城与团队副本</str>
+		<str id="armory.dungeons.dungeon">地下城</str>
+		<str id="armory.dungeons">地下城与团队副本</str>
+		<str id="armory.dungeons.partysize.before"/>
+		<str id="armory.dungeons.partysize.after">人团队副本</str>
+		<str id="armory.dungeons.seealsocolon">查看: </str>
+		<str id="armory.dungeons.viewbosses">显示BOSS</str>
+		<str id="armory.dungeons.notecolon">Notes:</str>
+		<str id="armory.dungeons.notesparse">Items must appear in the current version of the game to be searchable in the Armory.</str>
+
+<!--factions.xsl-->
+		<str id="armory.factions.bc">燃烧的远征 - 声望</str>
+		<str id="armory.factions.classic">经典旧世 - 声望</str>
+		<str id="armory.factions">声望</str>
+
+<!-- faq -->
+		<str id="armory.faq.label">Frequently Asked Questions</str>
+		<str id="armory.faq.index">Frequently Asked Questions Index</str>
+		<str id="armory.faq.general">General</str>
+		<str id="armory.faq.achievements">成就</str>
+		<str id="armory.faq.arenacalculator">竞技场计算器</str>
+		<str id="armory.faq.arenaladder">竞技场排名</str>
+		<str id="armory.faq.login">Armory Login</str>
+		<str id="armory.faq.auctionhouse">Auction House</str>
+		<str id="armory.faq.characterfeeds">Character Feeds</str>
+		<str id="armory.faq.characterprofiles">Character Profiles</str>
+		<str id="armory.faq.recommended">Find an Upgrade</str>
+		<str id="armory.faq.guildprofiles">Guild Profiles</str>
+		<str id="armory.faq.items">物品</str>
+		<str id="armory.faq.matchhistory">比赛记录</str>  
+  		<str id="armory.faq.matchreports">Match Reports</str>
+		<str id="armory.faq.opponenthistory">对手统计</str>  
+		<str id="armory.faq.calendar">Player Calendar</str>
+		<str id="armory.faq.calendarfeeds">Player Calendar Feeds</str>
+		<str id="armory.faq.team">Team Profiles</str>
+		
+
+		<str id="armory.labels.honorpoints">荣誉点数</str>
+		<str id="armory.labels.arenapoints">竞技场点数</str>
+
+		<str id="armory.items.relevance.percent">% 匹配</str>
+
+		<str id="armory.labels.factionrewards">声望奖励</str>
+		<str id="armory.labels.pvprewards">PvP 奖励</str>
+		<str id="armory.labels.alliancerewards">联盟奖励</str>
+		<str id="armory.labels.horderewards">部落奖励</str>
+
+<!-- updates -->
+		<str id="armory.labels.updates">动态更新</str>
+		<str id="armory.updates.learnmore">了解更多</str>
+
+		<str id="armory.updates.armoryupdates">最近更新</str>
+		<str id="armory.updates.cache">** 为了看到最新增加的这个页面，你可能需要清除浏览器的缓存。 **</str>
+		<str id="armory.labels.close">关闭</str>
+		<str id="armory.labels.open">打开</str>
+		<str id="armory.labels.top">回到顶部</str>
+
+		<str id="armory.search.relevance">匹配</str>
+		<str id="armory.search.label.keywords">关键字: </str>
+		<str id="armory.search.label.category">分类: </str>
+		<str id="armory.search.openQuote">"</str>
+		<str id="armory.search.closeQuote">"</str>
+		<str id="armory.search.normalSpace"> </str>
+		<str id="armory.search.label.noSearchResults">无搜索结果</str>
+		<str id="armory.search.label.noSearchResultsText">你的搜索无法进行，为了正确搜索，请确保:</str>
+		<str id="armory.search.label.search.categories">只能搜索英雄榜中已有的物品、阵营、角色、成就</str>
+		<str id="armory.search.label.search.name">只能搜索名字</str>
+		<str id="armory.search.label.search.return">返回英雄榜</str>
+	</unsorted>
+
+	<deleted>
+		<str id="armory.search.noresultsTitle">Search Results</str>
+		<str id="armory.search.keywords">Keywords</str>
+		<str id="armory.search.category">Category</str>
+		<str id="armory.search.noresultsBefore">Your search - </str>
+		<str id="armory.search.noresultsAfter"> - did not return any results.</str>
+		<str id="armory.search.type">Type</str>
+		<str id="armory.search.requiredLevel">Req Lvl</str>
+		<str id="armory.search.relevance">匹配</str>
+		<str id="armory.search.label.keywords">Keywords: </str>
+		<str id="armory.search.label.category">Category: </str>
+		<str id="armory.search.oneResult">1 result for </str>
+		<str id="armory.search.resultsFor">results for</str>
+		<str id="armory.search.label.noSearchResults">No Search Results</str>
+		<str id="armory.search.label.noSearchResultsText">Your search did not produce any results. To ensure that you're searching by parameters allowed by the Armory, make sure to:</str>
+	</deleted>
+
+	<itemsSearch>
+		<str id="armory.search.weaponStats">武器数据</str>
+		<str id="armory.search.dps">伤害 / 秒</str>
+		<str id="armory.search.minDamage">最小伤害</str>
+		<str id="armory.search.maxDamage">最大伤害</str>
+		<str id="armory.search.speed">速度</str>
+
+		<str id="armory.search.baseStats">基础属性</str>
+		<str id="armory.search.strength">力量</str>
+		<str id="armory.search.agility">敏捷</str>
+		<str id="armory.search.stamina">耐力</str>
+		<str id="armory.search.intellect">智力</str>
+		<str id="armory.search.spirit">精神</str>
+
+		<str id="armory.search.physical">物理</str>
+		<str id="armory.search.attackPower">攻击强度</str>
+		<str id="armory.search.feralAttackPower">近战攻击强度</str>
+		<str id="armory.search.critRating">暴击等级</str>
+		<str id="armory.search.hitRating">命中等级</str>
+		<str id="armory.search.hasteRating">急速等级</str>
+		<str id="armory.search.ignoreArmor">护甲穿透</str>
+		<str id="armory.search.expertiseRating">熟练等级</str>
+
+		<str id="armory.search.spell">法术</str>
+		<str id="armory.search.spellHealing">治疗效果</str>
+		<str id="armory.search.spellDamage">法术伤害</str>
+		<str id="armory.search.spellPower">法术能量</str>
+		<str id="armory.search.spellCritRating">暴击等级</str>
+		<str id="armory.search.spellHitRating">命中等级</str>
+		<str id="armory.search.spellPenetration">法术穿透</str>
+		<str id="armory.search.spellManaRegen">法力恢复</str>
+		<str id="armory.search.spellHasteRating">急速等级</str>
+		<str id="armory.search.spellDamageArcane">奥术伤害</str>
+		<str id="armory.search.spellDamageHoly">神圣伤害</str>
+		<str id="armory.search.spellDamageShadow">暗影伤害</str>
+		<str id="armory.search.spellDamageNature">自然伤害</str>
+		<str id="armory.search.spellDamageFrost">冰霜伤害</str>
+		<str id="armory.search.spellDamageFire">火焰伤害</str>
+
+		<str id="armory.search.defense">防御</str>
+		<str id="armory.search.armor">护甲</str>
+		<str id="armory.search.blockRating">格挡等级</str>
+		<str id="armory.search.blockValue">格挡值</str>
+		<str id="armory.search.defenseRating">防御等级</str>
+		<str id="armory.search.dodgeRating">躲闪等级</str>
+		<str id="armory.search.parryRating">招架等级</str>
+		<str id="armory.search.resilience">韧性等级</str>
+		<str id="armory.search.healthRegen">生命恢复</str>
+
+		<str id="armory.search.resistances">抗性</str>
+		<str id="armory.search.resistArcane">奥术抗性</str>
+		<str id="armory.search.resistShadow">暗影抗性</str>
+		<str id="armory.search.resistNature">自然抗性</str>
+		<str id="armory.search.resistFrost">冰霜抗性</str>
+		<str id="armory.search.resistFire">火焰抗性</str>
+
+		<str id="armory.search.general">所有物品</str>
+		<str id="armory.search.itemLevel">物品等级</str>
+		<str id="armory.search.bindsPickedUp">拾取后绑定</str>
+		<str id="armory.search.bindsEquip">装备后绑定</str>
+		<str id="armory.search.bindsWhenUsed">使用后绑定</str>
+		<str id="armory.search.requiresProfession">需要职业</str>
+		<str id="armory.search.unique">唯一</str>
+		<str id="armory.search.uniqueEquipped">装备唯一</str>
+		<str id="armory.search.hasSpellEffect">物品特效...</str>
+	</itemsSearch>
+
+	<itemsSpellEffect>
+		<str id="armory.item-search.spelleffect.resist">有一定几率抵抗</str>
+		<str id="armory.item-search.spelleffect.interrupt">避免打断</str>
+		<str id="armory.item-search.spelleffect.proc">Chance on Hit/Cast</str>
+		<str id="armory.item-search.spelleffect.dispel">Dispel Effects</str>
+		<str id="armory.item-search.spelleffect.cooldown">Reduce Cooldown</str>
+		<str id="armory.item-search.spelleffect.casttime">Reduce Cast Time</str>
+		<str id="armory.item-search.spelleffect.spellcost">Reduce Spell Cost</str>
+		<str id="armory.item-search.spelleffect.duration">Increase Duration</str>
+		<str id="armory.item-search.spelleffect.range">Increase Range</str>
+		<str id="armory.item-search.spelleffect.threat">Reduce Threat</str>
+		<str id="armory.item-search.spelleffect.group">Group Buff</str>
+		<str id="armory.item-search.spelleffect.summon">Summon Creature</str>
+		<str id="armory.item-search.spelleffect.pvprewards">PvP 奖励:</str>
+	</itemsSpellEffect>
+
+	<releases>
+		<str id="armory.releases.wotlk">巫妖王之怒</str>
+		<str id="armory.releases.bc">燃烧的远征</str>
+		<str id="armory.releases.classic">经典旧世</str>
+	</releases>
+
+	<professions>
+		<str id="armory.item-search.leatherworking">制皮</str>
+		<str id="armory.item-search.tailoring">裁缝</str>
+		<str id="armory.item-search.engineering">工程</str>
+		<str id="armory.item-search.blacksmithing">锻造</str>
+		<str id="armory.item-search.cooking">烹饪</str>
+		<str id="armory.item-search.alchemy">炼金</str>
+		<str id="armory.item-search.firstaid">急救</str>
+		<str id="armory.item-search.enchanting">附魔</str>
+		<str id="armory.item-search.fishing">钓鱼</str>
+		<str id="armory.item-search.jewelcrafting">珠宝</str>
+	</professions>
+
+	<itemsOptions>
+		<str id="armory.item-search.usableby">仅限职业:</str>
+		<str id="armory.item-search.allclasses">所有职业</str>
+		<str id="armory.item-search.faction">阵营声望:</str>
+		<str id="armory.item-search.allpvprewardsdash">所有 PvP 奖励</str>
+		<str id="armory.item-search.allfactions">所有声望</str>
+		<str id="armory.item-search.levelrangeone"> (等级 </str>
+		<str id="armory.item-search.levelrangetwo"> 团队</str>
+		<str id="armory.item-search.levelrangethree">)</str>
+		<str id="armory.item-search.dropsfrom">掉落自:</str>
+		<str id="armory.item-search.alldungeons">所有地下城</str>
+		<str id="armory.item-search.allbosses">所有 Boss</str>
+		<str id="armory.item-search.recommanded">建议改善-</str>
+
+		<str id="armory.item-search.newsearch">开始搜索</str>
+		<str id="armory.item-search.resetform">重置选项</str>
+
+		<str id="armory.item-search.itemname">名称:</str>
+
+		<str id="armory.item-search.seealso">还见</str>
+
+		<str id="armory.item-search.enchP">物品增强－永久</str>
+		<str id="armory.item-search.enchT">物品增强－临时</str>
+
+		<str id="armory.item-search.allitemsadvanced">所有物品－高级搜索</str>
+
+		<str id="armory.item-search.allpvpsources">所有 PvP 来源</str>
+		<str id="armory.item-search.pvpsource">PvP 来源: </str>
+		<str id="armory.item-search.select.pvpsource">--选择 PvP 来源--</str>
+		<str id="armory.item-search.select.allfactions">所有阵营</str>
+		<str id="armory.item-search.select.dungeon">--选择地下城--</str>
+		<str id="armory.item-search.select.bojr">奖励 - 正义徽章</str>
+		<str id="armory.item-search.select.eovr">奖励 - 勇气纹章</str>
+		<str id="armory.item-search.select.eohr">奖励 - 英雄纹章</str>
+		<str id="armory.item-search.select.eocr">奖励 - 征服纹章</str>
+		<str id="armory.item-search.select.eotr">奖励 - 凯旋纹章</str>
+		<str id="armory.item-search.select.eofr">奖励 - 冰霜纹章</str>
+
+		<str id="armory.item-search.recipes">配方:</str>
+		<str id="armory.item-search.allrecipes">所有配方</str>
+		<str id="armory.item-search.books">书籍</str>
+
+		<str id="armory.item-search.itemlevel">物品等级:</str>
+		<str id="armory.item-search.requiredlevel">需要等级:</str>
+
+		<str id="armory.item-search.showadvanced">显示高级选项</str>
+		<str id="armory.item-search.advancedfilters">高级选项</str>
+		<str id="armory.item-search.addfilter">增加</str>
+		<str id="armory.item-search.showitemfilters">显示过滤器</str>
+
+		<str id="armory.item-search.matchall">符合所有</str>
+		<str id="armory.item-search.matchone">至少符合一项</str>
+		<str id="armory.item-search.predefinedfilters">预置过滤器</str>
+		<str id="armory.item-search.matchalltip">选中此选项以搜索符合以上所有过滤器条件的物品。&lt;br /&gt;例如：选出增加力量和增加耐力的物品</str>
+		<str id="armory.item-search.matchonetip">选中此选项以搜索至少符合一条过滤器条件的物品。&lt;br /&gt;例如：选出增加力量或者增加耐力的物品</str>
+
+		<str id="armory.item-search.selectclass">选择一个更好的预置过滤器</str>
+
+		<str id="armory.item-search.slot">位置:</str>
+
+		<str id="armory.item-search.requiredskilllevel">等级:</str>
+		<str id="armory.item-search.complex.weapons">武器</str>
+		<str id="armory.item-search.complex.armor">护甲</str>
+
+		<str id="armory.search.paging">第 <param-html1/> 页 共  <param-html2/> 页
+    </str>
+    <!-- for paging, param1-html is the page # box -->
+		<str id="armory.search.showing">显示第 <param-html1/> 条到第 <param-html2/> 条结果</str>
+    <!-- example: showing 0 of 0 results -->
+	</itemsOptions>
+
+	<items>
+		<str id="armory.item-search.selectfilter">--选择过滤器--</str>
+		<str id="armory.item-search.boss">BOSS: </str>
+		<str id="armory.item-search.bossesone">所有BOSS '</str>
+		<str id="armory.item-search.bossestwo">'</str>
+		<str id="armory.item-search.showitemfilters">显示过滤器</str>
+
+		<str id="armory.items.hover.desiredby">使用该过滤器配合插槽过滤器以给您列出各个职业最合适的物品清单。</str>
+
+		<sources>
+			<general>
+				<str id="armory.item-search.source">来源:</str>
+				<str id="armory.item-search.allsources">所有来源</str>
+				<str id="armory.item-search.dungeondrops">地下城</str>
+				<str id="armory.item-search.dungeonraiddrops">地下城团队</str>
+				<str id="armory.item-search.reputationrewards">声望奖励</str>
+				<str id="armory.item-search.questrewards">任务奖励</str>
+				<str id="armory.item-search.pvprewardsa">PvP 奖励-联盟</str>
+				<str id="armory.item-search.pvprewardsh">PvP 奖励-部落</str>
+			</general>
+			<dungeons>
+				<str id="armory.item-search.alldungeonraid">所有地下城与团队</str>
+				<str id="armory.item-search.dungeononly">地下城</str>
+				<str id="armory.item-search.raidonly">团队</str>
+			</dungeons>
+		</sources>
+		<types>
+			<str id="armory.item-search.itemtype">类型:</str>
+			<str id="armory.item-search.allitems">所有物品</str>
+			<str id="armory.item-search.weapons">武器</str>
+			<str id="armory.item-search.armor">护甲</str>
+			<str id="armory.item-search.gems">珠宝</str>
+			<str id="armory.item-search.containers">容器</str>
+			<str id="armory.item-search.consumables">消耗品</str>
+			<str id="armory.item-search.tradegoods">商品</str>
+			<str id="armory.item-search.projectiles">弹药</str>
+			<str id="armory.item-search.quivers">箭袋</str>
+			<str id="armory.item-search.recipes">配方</str>
+			<str id="armory.item-search.reagents">试剂</str>
+			<str id="armory.item-search.miscellaneous">其他</str>
+			<str id="armory.item-search.enchp">物品强化 - 永久</str>
+			<str id="armory.item-search.encht">物品强化 - 临时</str>
+			<str id="armory.item-search.enchantments">物品强化</str>
+			<str id="armory.item-search.mounts">坐骑</str>
+			<str id="armory.item-search.smallpets">小伙伴</str>
+			<str id="armory.item-search.glyphs">雕纹</str>
+			<str id="armory.item-search.keys">钥匙</str>
+		</types>
+    	<gems>
+			<str id="armory.item-search.gemtype">珠宝类型:</str>
+			<str id="armory.item-search.allgemtypes">所有珠宝</str>
+			<str id="armory.item-search.blue">蓝色</str>
+			<str id="armory.item-search.red">红色</str>
+			<str id="armory.item-search.yellow">黄色</str>
+			<str id="armory.item-search.meta">变换</str>
+			<str id="armory.item-search.green">绿色</str>
+			<str id="armory.item-search.orange">橘色</str>
+			<str id="armory.item-search.purple">紫色</str>
+			<str id="armory.item-search.prismatic">棱彩</str>
+		</gems>
+		<tradeGoods>		
+			<str id="reagents">试剂</str>
+			<str id="recipes">配方</str>
+			<str id="enchantments">物品强化</str>
+		</tradeGoods>
+		<quiverTypes>
+			<str id="armory.item-search.quiver.type">类型:</str>
+			<str id="armory.item-search.quiver.all">所有箭袋</str>
+			<str id="armory.item-search.quiver.quiver">箭袋</str>
+			<str id="armory.item-search.quiver.ammo">弹药袋</str>
+		</quiverTypes>
+		<projectileTypes>
+			<str id="armory.item-search.projectiles.type">类型:</str>
+			<str id="armory.item-search.projectiles.all">所有弹药</str>
+			<str id="armory.item-search.projectiles.arrow">箭</str>
+			<str id="armory.item-search.projectiles.bullet">子弹</str>
+		</projectileTypes>
+		<weaponSlots>
+			<str id="armory.item-search.weapons.allslots">所有位置</str>
+			<str id="armory.item-search.weapons.main">主手</str>
+			<str id="armory.item-search.weapons.off">副手</str>
+			<str id="armory.item-search.weapons.both">主手或副手</str>
+			<str id="armory.item-search.weapons.two">双手</str>
+			<str id="armory.item-search.weapons.ranged">远程武器</str>
+		</weaponSlots>
+		<weaponTypes>
+			<str id="armory.item-search.weapontype">武器类型:</str>
+			<str id="armory.item-search.allweapontypes">所有武器</str>
+			<str id="armory.item-search.oneaxes">单手斧</str>
+			<str id="armory.item-search.twoaxes">双手斧</str>
+			<str id="armory.item-search.bows">弓</str>
+			<str id="armory.item-search.guns">枪械</str>
+			<str id="armory.item-search.onemaces">单手锤</str>
+			<str id="armory.item-search.twomaces">双手锤</str>
+			<str id="armory.item-search.polearms">长柄武器</str>
+			<str id="armory.item-search.oneswords">单手剑</str>
+			<str id="armory.item-search.twoswords">双手剑</str>
+			<str id="armory.item-search.staves">法杖</str>
+			<str id="armory.item-search.fist">拳套</str>
+			<str id="armory.item-search.misc">其他</str>
+			<str id="armory.item-search.daggers">匕首</str>
+			<str id="armory.item-search.thrown">投掷武器</str>
+			<str id="armory.item-search.crossbows">弩</str>
+			<str id="armory.item-search.wands">魔杖</str>
+			<str id="armory.item-search.fishingpole">鱼竿</str>
+		</weaponTypes>
+		<bags>
+			<str id="armory.item-search.bags.bagtype">容器类型:</str>
+			<str id="armory.item-search.bags.allbags">所有容器</str>
+			<str id="armory.item-search.bags.bag">背包</str>
+			<str id="armory.item-search.bags.soul">灵魂裂片包</str>
+			<str id="armory.item-search.bags.herb">草药包</str>
+			<str id="armory.item-search.bags.enchanting">附魔包</str>
+			<str id="armory.item-search.bags.engineering">工程包</str>
+			<str id="armory.item-search.bags.gem">宝石包</str>
+			<str id="armory.item-search.bags.mining">矿石包</str>
+			<str id="armory.item-search.bags.leatherworking">制皮包</str>
+			<str id="armory.item-search.bags.inscription">铭文包</str>
+		</bags>
+		<armorType>
+			<str id="armory.item-search.armor.armortype">护甲类型:</str>
+			<str id="armory.item-search.armor.allarmortypes">所有护甲</str>
+			<str id="armory.item-search.armor.cloth">布甲</str>
+			<str id="armory.item-search.armor.leather">皮甲</str>
+			<str id="armory.item-search.armor.mail">锁甲</str>
+			<str id="armory.item-search.armor.plate">板甲</str>
+			<str id="armory.item-search.armor.shield">盾牌</str>
+			<str id="armory.item-search.armor.idol">神像</str>
+			<str id="armory.item-search.armor.libram">圣契</str>
+			<str id="armory.item-search.armor.totem">图腾</str>
+			<str id="armory.item-search.armor.sigil">符印</str>
+			<str id="armory.item-search.armor.misc">其他</str>
+		</armorType>
+    	<rarity>
+			<str id="armory.item-search.rarity">稀有程度:</str>
+			<str id="armory.item-search.all">所有</str>
+			<str id="armory.item-search.poor">劣质</str>
+			<str id="armory.item-search.common">普通</str>
+			<str id="armory.item-search.uncommon">优异</str>
+			<str id="armory.item-search.rare">稀有</str>
+			<str id="armory.item-search.epic">史诗</str>
+			<str id="armory.item-search.legendary">传说</str>
+			<str id="armory.item-search.heirloom">传家宝</str>
+		</rarity>
+		<slots>
+			<str id="allslots">所有位置</str>
+			<str id="head">头部</str>
+			<str id="neck">颈部</str>
+			<str id="shoulders">肩膀</str>
+			<str id="back">背部</str>
+			<str id="chest">胸部</str>
+			<str id="shirt">衬衣</str>
+			<str id="wrists">手腕</str>
+			<str id="hands">手部</str>
+			<str id="waist">腰部</str>
+			<str id="legs">腿部</str>
+			<str id="feet">脚</str>
+			<str id="finger">手指</str>
+			<str id="trinket">饰品</str>
+			<str id="shield">盾牌</str>
+			<str id="offhandfrill">副手物品</str>
+			<str id="main">主手</str>
+			<str id="off">副手</str>
+			<str id="both">主手或副手</str>
+			<str id="two">双手</str>
+			<str id="ranged">远程武器</str>
+			<str id="tabard">战袍</str>
+			<str id="weapon">武器</str>
+		</slots>
+	</items>
+
+	<itemsPredefined>
+		<str id="armory.predefined.druid.tank">德鲁伊 坦克</str>
+		<str id="armory.predefined.druid.melee">德鲁伊 野性</str>
+		<str id="armory.predefined.druid.caster">德鲁伊 法系DPS</str>
+		<str id="armory.predefined.druid.healer">德鲁伊 治疗</str>
+
+		<str id="armory.predefined.hunter.ranged">猎人 远程DPS</str>
+
+		<str id="armory.predefined.mage.caster">法师 法系DPS</str>
+
+		<str id="armory.predefined.paladin.tank">圣骑士 坦克</str>
+		<str id="armory.predefined.paladin.melee">圣骑士 近战DPS</str>
+		<str id="armory.predefined.paladin.caster">圣骑士 法系DPS</str>
+		<str id="armory.predefined.paladin.healer">圣骑士 治疗</str>
+
+		<str id="armory.predefined.priest.caster">牧师 法系DPS</str>
+		<str id="armory.predefined.priest.healer">牧师 治疗</str>
+
+		<str id="armory.predefined.rogue.melee">潜行者 物理DPS</str>
+
+		<str id="armory.predefined.shaman.melee">萨满 增强</str>
+		<str id="armory.predefined.shaman.caster">萨满 元素</str>
+		<str id="armory.predefined.shaman.healer">萨满 治疗</str>
+
+		<str id="armory.predefined.warlock.caster">术士 法系DPS</str>
+
+		<str id="armory.predefined.warrior.tank">战士 坦克</str>
+		<str id="armory.predefined.warrior.melee">战士 物理DPS</str>
+  </itemsPredefined>
+
+<!-- Please do not localize the faction names and icons -->
+	<factions>
+		<str id="factions">声望</str>
+		<str id="faction">声望</str>
+		<str id="side">阵营</str>
+		<str id="factions.other">其他</str>
+
+		<str id="factions.learnmore">想了解更多有关信息请点击查看相关的项目</str>
+
+		<str id="armory.character-reputation.name.darnassus">Darnassus</str>
+		<str id="armory.character-reputation.icon.darnassus">web-Spell_Arcane_TeleportDarnassus</str>
+		<str id="armory.character-reputation.url.darnassus">http://www.wow-europe.com/de/info/races/nightelves.html</str>
+
+		<str id="armory.character-reputation.name.gnomereganexiles">Gnomeregan Exiles</str>
+		<str id="armory.character-reputation.icon.gnomereganexiles">Spell_Arcane_PortalIronForge</str>
+		<str id="armory.character-reputation.url.gnomereganexiles">http://www.wow-europe.com/de/info/races/gnomes.html</str>
+
+		<str id="armory.character-reputation.name.ironforge">Ironforge</str>
+		<str id="armory.character-reputation.icon.ironforge">web-Spell_Arcane_TeleportIronForge</str>
+		<str id="armory.character-reputation.url.ironforge">http://www.wow-europe.com/de/info/races/dwarves.html</str>
+
+		<str id="armory.character-reputation.name.stormwind">Stormwind</str>
+		<str id="armory.character-reputation.icon.stormwind">web-Spell_Arcane_TeleportStormWind</str>
+		<str id="armory.character-reputation.url.stormwind">http://www.wow-europe.com/de/info/races/humans.html</str>
+
+		<str id="armory.character-reputation.name.exodar">Exodar</str>
+		<str id="armory.character-reputation.icon.exodar">Spell_Arcane_TeleportExodar</str>
+		<str id="armory.character-reputation.url.exodar">http://www.wow-europe.com/de/info/races/draenei.html</str>
+
+		<str id="armory.character-reputation.name.darkspeartrolls">Darkspear Trolls</str>
+		<str id="armory.character-reputation.icon.darkspeartrolls">Spell_Arcane_PortalOrgrimmar</str>
+		<str id="armory.character-reputation.url.darkspeartrolls">http://www.wow-europe.com/de/info/races/trolls.html</str>
+
+		<str id="armory.character-reputation.name.orgrimmar">Orgrimmar</str>
+		<str id="armory.character-reputation.icon.orgrimmar">web-Spell_Arcane_TeleportOrgrimmar</str>
+		<str id="armory.character-reputation.url.orgrimmar">http://www.wow-europe.com/de/info/races/orcs.html</str>
+
+		<str id="armory.character-reputation.name.thunderbluff">Thunder Bluff</str>
+		<str id="armory.character-reputation.icon.thunderbluff">web-Spell_Arcane_TeleportThunderBluff</str>
+		<str id="armory.character-reputation.url.thunderbluff">http://www.wow-europe.com/de/info/races/tauren.html</str>
+
+		<str id="armory.character-reputation.name.undercity">Undercity</str>
+		<str id="armory.character-reputation.icon.undercity">web-Spell_Arcane_TeleportUnderCity</str>
+		<str id="armory.character-reputation.url.undercity">http://www.wow-europe.com/de/info/races/undead.html</str>
+
+		<str id="armory.character-reputation.name.silvermooncity">Silvermoon City</str>
+		<str id="armory.character-reputation.icon.silvermooncity">Spell_Arcane_TeleportSilvermoon</str>
+		<str id="armory.character-reputation.url.silvermooncity">http://www.wow-europe.com/de/info/races/bloodelves.html</str>
+
+		<str id="armory.character-reputation.name.theleagueofarathor">The League of Arathor</str>
+		<str id="armory.character-reputation.icon.theleagueofarathor">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.theleagueofarathor">http://www.wow-europe.com/de/info/basics/battlegrounds/arathi/info.html</str>
+
+		<str id="armory.character-reputation.name.silverwingsentinels">Silverwing Sentinels</str>
+		<str id="armory.character-reputation.icon.silverwingsentinels">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.silverwingsentinels">http://www.wow-europe.com/de/info/basics/battlegrounds/warsong/info.html</str>
+
+		<str id="armory.character-reputation.name.stormpikeguard">Stormpike Guard</str>
+		<str id="armory.character-reputation.icon.stormpikeguard">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.stormpikeguard">http://www.wow-europe.com/de/info/basics/battlegrounds/alterac/info.html</str>
+
+		<str id="armory.character-reputation.name.frostwolfclan">Frostwolf Clan</str>
+		<str id="armory.character-reputation.icon.frostwolfclan">INV_Jewelry_FrostwolfTrinket_01</str>
+		<str id="armory.character-reputation.url.frostwolfclan">http://www.wow-europe.com/de/info/basics/battlegrounds/alterac/info.html</str>
+
+		<str id="armory.item-info.world">World</str>
+
+		<str id="armory.character-reputation.name.thedefilers">The Defilers</str>
+		<str id="armory.character-reputation.icon.thedefilers">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.thedefilers">http://www.wow-europe.com/de/info/basics/battlegrounds/arathi/info.html</str>
+
+		<str id="armory.character-reputation.name.warsongoutriders">Warsong Outriders</str>
+		<str id="armory.character-reputation.icon.warsongoutriders">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.warsongoutriders">http://www.wow-europe.com/de/info/basics/battlegrounds/warsong/info.html</str>
+
+		<str id="armory.character-reputation.name.ashtonguedeathsworn">Ashtongue Deathsworn</str>
+		<str id="armory.character-reputation.icon.ashtonguedeathsworn"/>
+
+		<str id="armory.character-reputation.name.kurenai">Kurenai</str>
+		<str id="armory.character-reputation.icon.kurenai">Spell_Holy_PersuitofJustice</str>
+		<str id="armory.character-reputation.url.kurenai">http://www.wow-europe.com/de/info/basics/factions/nagrand/index.html</str>
+
+		<str id="armory.character-reputation.name.themag'har">The Mag'har</str>
+		<str id="armory.character-reputation.icon.themag'har">Racial_Orc_BerserkerStrength</str>
+		<str id="armory.character-reputation.url.themag'har">http://www.wow-europe.com/de/info/basics/factions/nagrand/index.html</str>
+		<str id="armory.character-reputation.url.maghar">http://www.wow-europe.com/de/info/basics/factions/nagrand/index.html</str>
+
+		<str id="armory.character-reputation.name.netherwing">Netherwing</str>
+		<str id="armory.character-reputation.icon.netherwing">Spell_Arcane_Arcane03</str>
+		<str id="armory.character-reputation.url.netherwing">http://www.wow-europe.com/de/info/basics/mounts/netherwing-tips.html</str>
+
+		<str id="armory.character-reputation.name.ogri'la">Ogri'la</str>
+		<str id="armory.character-reputation.url.ogri'la">http://eu.wowarmory.com/search.xml?flsource=reputation&amp;flfaction=1038&amp;searchType=items</str>
+
+		<str id="armory.character-reputation.name.sha'tariskyguard">Sha'tari Skyguard</str>
+		<str id="armory.character-reputation.url.sha'tariskyguard">http://eu.wowarmory.com/search.xml?flsource=reputation&amp;flfaction=1031&amp;searchType=items</str>
+
+		<str id="armory.character-reputation.name.cenarionexpedition">Cenarion Expedition</str>
+		<str id="armory.character-reputation.icon.cenarionexpedition">Spell_Nature_NatureGuardian</str>
+		<str id="armory.character-reputation.url.cenarionexpedition">http://www.wow-europe.com/de/info/basics/factions/cenarionexpedition/index.html</str>
+
+		<str id="armory.character-reputation.name.honorhold">Honor Hold</str>
+		<str id="armory.character-reputation.icon.honorhold">INV_Misc_Token_HonorHold</str>
+		<str id="armory.character-reputation.url.honorhold">http://www.wow-europe.com/de/info/basics/factions/hellfire/index.html</str>
+
+		<str id="armory.character-reputation.name.sporeggar">Sporeggar</str>
+		<str id="armory.character-reputation.icon.sporeggar">INV_Mushroom_11</str>
+		<str id="armory.character-reputation.url.sporeggar">http://www.wow-europe.com/de/info/basics/factions/zangarmarsh/index.html</str>
+
+		<str id="armory.character-reputation.name.theconsortium">The Consortium</str>
+		<str id="armory.character-reputation.icon.theconsortium">INV_Misc_Bandage_Netherweave</str>
+		<str id="armory.character-reputation.url.theconsortium">http://www.wow-europe.com/de/info/basics/factions/consortium/index.html</str>
+
+		<str id="armory.character-reputation.name.thrallmar">Thrallmar</str>
+		<str id="armory.character-reputation.icon.thrallmar">INV_Misc_Token_Thrallmar</str>
+		<str id="armory.character-reputation.url.thrallmar">http://www.wow-europe.com/de/info/basics/factions/hellfire/index.html</str>
+
+		<str id="armory.character-reputation.name.lowercity">Lower City</str>
+		<str id="armory.character-reputation.icon.lowercity"/>
+		<str id="armory.character-reputation.url.lowercity">http://www.wow-europe.com/de/info/basics/factions/shattrath/index.html</str>
+
+		<str id="armory.character-reputation.name.thealdor">The Aldor</str>
+		<str id="armory.character-reputation.icon.thealdor">INV_Shield_30</str>
+		<str id="armory.character-reputation.url.thealdor">http://www.wow-europe.com/de/info/basics/factions/shattrath/index.html</str>
+
+		<str id="armory.character-reputation.name.thescryers">The Scryers</str>
+		<str id="armory.character-reputation.icon.thescryers">INV_Shield_31</str>
+		<str id="armory.character-reputation.url.thescryers">http://www.wow-europe.com/de/info/basics/factions/shattrath/index.html</str>
+
+		<str id="armory.character-reputation.name.thesha'tar">The Sha'tar</str>
+		<str id="armory.character-reputation.icon.thesha'tar">INV_Shield_33</str>
+		<str id="armory.character-reputation.url.thesha'tar">http://www.wow-europe.com/de/info/basics/factions/shattrath/index.html</str>
+
+		<str id="armory.character-reputation.name.bootybay">Booty Bay</str>
+		<str id="armory.character-reputation.icon.bootybay">Ability_Spy</str>
+		<str id="armory.character-reputation.url.bootybay">http://www.wow-europe.com/de/info/basics/factions/index.html#other</str>
+
+		<str id="armory.character-reputation.name.everlook">Everlook</str>
+		<str id="armory.character-reputation.icon.everlook">Spell_Frost_ArcticWinds</str>
+		<str id="armory.character-reputation.url.everlook">http://www.wow-europe.com/de/info/basics/factions/index.html#other</str>
+
+		<str id="armory.character-reputation.name.gadgetzan">Gadgetzan</str>
+		<str id="armory.character-reputation.icon.gadgetzan">INV_Misc_Gear_07</str>
+		<str id="armory.character-reputation.url.gadgetzan">http://www.wow-europe.com/de/info/basics/factions/index.html#other</str>
+
+		<str id="armory.character-reputation.name.ratchet">Ratchet</str>
+		<str id="armory.character-reputation.icon.ratchet">INV_Weapon_Rifle_16</str>
+		<str id="armory.character-reputation.url.ratchet">http://www.wow-europe.com/de/info/basics/factions/index.html#other</str>
+
+		<str id="armory.character-reputation.name.argentdawn">Argent Dawn</str>
+		<str id="armory.character-reputation.icon.argentdawn">INV_Misc_Token_ArgentDawn</str>
+		<str id="armory.character-reputation.url.argentdawn">http://www.wow-europe.com/de/info/basics/factions/argent/index.html</str>
+
+		<str id="armory.character-reputation.name.bloodsailbuccaneers">Bloodsail Buccaneers</str>
+		<str id="armory.character-reputation.icon.bloodsailbuccaneers">INV_Helmet_66</str>
+		<str id="armory.character-reputation.url.bloodsailbuccaneers">http://www.wow-europe.com/de/info/basics/factions/index.html#other</str>
+
+		<str id="armory.character-reputation.name.broodofnozdormu">Brood of Nozdormu</str>
+		<str id="armory.character-reputation.icon.broodofnozdormu">INV_Misc_Head_Dragon_Bronze</str>
+		<str id="armory.character-reputation.url.broodofnozdormu">http://www.wow-europe.com/de/info/basics/factions/nozdormu/index.html</str>
+
+		<str id="armory.character-reputation.name.cenarioncircle">Cenarion Circle</str>
+		<str id="armory.character-reputation.icon.cenarioncircle"/>
+		<str id="armory.character-reputation.url.cenarioncircle">http://www.wow-europe.com/de/info/basics/factions/cenarion/index.html</str>
+
+		<str id="armory.character-reputation.name.darkmoonfaire">Darkmoon Faire</str>
+		<str id="armory.character-reputation.icon.darkmoonfaire">INV_Misc_Ticket_Tarot_Stack_01</str>
+		<str id="armory.character-reputation.url.darkmoonfaire">http://www.wow-europe.com/de/info/basics/factions/darkmoon/index.html</str>
+
+		<str id="armory.character-reputation.name.gelkisclancentaur">Gelkis Clan Centaur</str>
+		<str id="armory.character-reputation.icon.gelkisclancentaur">INV_Misc_Head_Centaur_01</str>
+
+		<str id="armory.character-reputation.name.hydraxianwaterlords">Hydraxian Waterlords</str>
+		<str id="armory.character-reputation.icon.hydraxianwaterlords">Spell_Frost_SummonWaterElemental</str>
+		<str id="armory.character-reputation.url.hydraxianwaterlords">http://www.wow-europe.com/de/info/basics/factions/index.html#other</str>
+
+		<str id="armory.character-reputation.name.keepersoftime">Keepers of Time</str>
+		<str id="armory.character-reputation.icon.keepersoftime">INV_Misc_PocketWatch_01</str>
+		<str id="armory.character-reputation.url.keepersoftime">http://www.wow-europe.com/de/info/basics/factions/keepersoftime/index.html</str>
+
+		<str id="armory.character-reputation.name.magramclancentaur">Magram Clan Centaur</str>
+		<str id="armory.character-reputation.icon.magramclancentaur">INV_Misc_Head_Centaur_01</str>
+
+		<str id="armory.character-reputation.name.ravenholdt">Ravenholdt</str>
+		<str id="armory.character-reputation.icon.ravenholdt">Ability_Rogue_MasterOfSubtlety</str>
+
+		<str id="armory.character-reputation.name.thescaleofthesands">The Scale of the Sands</str>
+		<str id="armory.character-reputation.icon.thescaleofthesands">INV_Qiraj_JewelBlessed</str>
+		<str id="armory.character-reputation.url.thescaleofthesands">http://www.wow-europe.com/de/info/basics/factions/scaleofsands/index.html</str>
+		<str id="armory.character-reputation.url.scaleofthesands">http://www.wow-europe.com/de/info/basics/factions/scaleofsands/index.html</str>
+
+		<str id="armory.character-reputation.name.shendralar">Shendralar</str>
+		<str id="armory.character-reputation.icon.shendralar">INV_Offhand_Draenei_A_01</str>
+
+		<str id="armory.character-reputation.name.thoriumbrotherhood">Thorium Brotherhood</str>
+		<str id="armory.character-reputation.icon.thoriumbrotherhood">INV_Ore_Thorium_02</str>
+		<str id="armory.character-reputation.url.thoriumbrotherhood">http://www.wow-europe.com/de/info/basics/factions/thorium/index.html</str>
+
+		<str id="armory.character-reputation.name.timbermawhold">Timbermaw Hold</str>
+		<str id="armory.character-reputation.icon.timbermawhold">INV_Misc_MonsterClaw_04</str>
+		<str id="armory.character-reputation.url.timbermawhold">http://www.wow-europe.com/de/info/basics/factions/timbermaw/index.html</str>
+
+		<str id="armory.character-reputation.name.tranquillien">Tranquillien</str>
+		<str id="armory.character-reputation.icon.tranquillien">Spell_Shadow_DarkSummoning</str>
+
+		<str id="armory.character-reputation.name.wintersabertrainers">Wintersaber Trainers</str>
+		<str id="armory.character-reputation.icon.wintersabertrainers">Ability_Mount_WhiteTiger</str>
+		<str id="armory.character-reputation.url.wintersabertrainers">http://www.wow-europe.com/de/info/basics/factions/index.html#other</str>
+
+		<str id="armory.character-reputation.name.thevioleteye">The Violet Eye</str>
+		<str id="armory.character-reputation.icon.thevioleteye">INV_Jewelcrafting_Nightseye_01</str>
+		<str id="armory.character-reputation.url.thevioleteye">http://www.wow-europe.com/de/info/basics/factions/violeteye/index.html</str>
+
+		<str id="armory.character-reputation.name.zandalartribe">Zandalar Tribe</str>
+		<str id="armory.character-reputation.icon.zandalartribe">INV_Bijou_Gold</str>
+		<str id="armory.character-reputation.url.zandalartribe">http://www.wow-europe.com/de/info/basics/factions/zandalar/index.html</str>
+
+		<str id="armory.character-reputation.url.shatteredsunoffensive">search.xml?source=reputation&amp;faction=1077&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.ashtonguedeathsworn">search.xml?source=reputation&amp;faction=1012&amp;searchType=items</str>
+
+		<!-- WOTLK REPS -->
+		<!-- horde -->
+		<!--
+		<str id="armory.character-reputation.url.thehandofvengeance">search.xml?source=reputation&amp;faction=10650&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thesunreavers">search.xml?source=reputation&amp;faction=1124&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thetaunka">search.xml?source=reputation&amp;faction=1064&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.warsongoffensive">search.xml?source=reputation&amp;faction=1085&amp;searchType=items</str>
+		-->
+
+		<!-- alliance -->
+		<!--
+		<str id="armory.character-reputation.url.explorersleague">search.xml?source=reputation&amp;faction=1068&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thefrostborn">search.xml?source=reputation&amp;faction=1126&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thesilvercovenant">search.xml?source=reputation&amp;faction=1094&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.valianceexpedition">search.xml?source=reputation&amp;faction=1050&amp;searchType=items</str>
+		-->
+
+		<!-- both factions -->
+		<str id="armory.character-reputation.url.argentcrusade">search.xml?source=reputation&amp;faction=1106&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.kirintor">search.xml?source=reputation&amp;faction=1090&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.knightsoftheebonblade">search.xml?source=reputation&amp;faction=1098&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thekalu'ak">search.xml?source=reputation&amp;faction=1073&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thewyrmrestaccord">search.xml?source=reputation&amp;faction=1091&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.frenzyhearttribe">search.xml?source=reputation&amp;faction=1104&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.theoracles">search.xml?source=reputation&amp;faction=1105&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thesonsofhodir">search.xml?source=reputation&amp;faction=1119&amp;searchType=items</str>
+		
+		<str id="armory.character-reputation.group.grouped">默认视图</str>
+		<str id="armory.character-reputation.group.ungrouped">查看列表</str>
+		<str id="armory.character-reputation.sort.faction">按名称排列</str>
+		<str id="armory.character-reputation.sort.reputation">按声望排列</str>
+		<str id="armory.character-reputation.noreputation">该角色还没获得任何阵营的声望。</str>
+	</factions>
+
+<!--item-tooltip.xsl-->
+	<itemTooltip>
+		<str id="armory.item-tooltip.conjured">召唤</str>
+		<str id="armory.item-tooltip.binds-pickup">拾取后绑定</str>
+		<str id="armory.item-tooltip.binds-equipped">装备后绑定</str>
+		<str id="armory.item-tooltip.binds-used">使用后绑定</str>
+		<str id="armory.item-tooltip.quest-item">任务物品</str>
+		<str id="armory.item-tooltip.unique">唯一</str>
+		<str id="armory.item-tooltip.unique-equipped">装备唯一</str>
+		<str id="armory.item-tooltip.begins-quest">该物品将触发一个任务</str>
+		<str id="armory.item-tooltip.slot">位置</str>
+		<str id="armory.item-tooltip.projectile">弹药</str>
+
+		<str id="armory.item-tooltip.non-equip">INDEX_NON_EQUIP_TYPE</str>
+		<str id="armory.item-tooltip.one-hand">单手</str>
+		<str id="armory.item-tooltip.two-hand">双手</str>
+		<str id="armory.item-tooltip.held-off-hand">副手</str>
+		<str id="armory.item-tooltip.thrown">投掷武器</str>
+		<str id="armory.item-tooltip.bag-type">INDEX_BAG_TYPE</str>
+		<str id="armory.item-tooltip.quiver-type">INDEX_QUIVER_TYPE</str>
+
+		<str id="armory.item-tooltip.adds">造成</str>
+		<str id="armory.item-tooltip.dps">伤害 / 秒</str>
+		<str id="armory.item-tooltip.speed">速度</str>
+		<str id="armory.item-tooltip.damage">伤害</str>
+		<str id="armory.item-tooltip.holy-damage">神圣伤害</str>
+		<str id="armory.item-tooltip.fire-damage">火焰伤害</str>
+		<str id="armory.item-tooltip.nature-damage">自然伤害</str>
+		<str id="armory.item-tooltip.frost-damage">冰霜伤害</str>
+		<str id="armory.item-tooltip.shadow-damage">暗影伤害</str>
+		<str id="armory.item-tooltip.arcane-damage">奥术伤害</str>
+
+		<str id="armory.item-tooltip.armor">护甲</str>
+		<str id="armory.item-tooltip.block">格挡值</str>
+		<str id="armory.item-tooltip.strength">力量</str>
+		<str id="armory.item-tooltip.agility">敏捷</str>
+		<str id="armory.item-tooltip.stamina">耐力</str>
+		<str id="armory.item-tooltip.intellect">智力</str>
+		<str id="armory.item-tooltip.spirit">精神</str>
+		<str id="armory.item-tooltip.fire-resistance">火焰抗性</str>
+		<str id="armory.item-tooltip.nature-resistance">自然抗性</str>
+		<str id="armory.item-tooltip.frost-resistance">冰霜抗性</str>
+		<str id="armory.item-tooltip.shadow-resistance">暗影抗性</str>
+		<str id="armory.item-tooltip.arcane-resistance">奥术抗性</str>
+		<str id="armory.item-tooltip.socket-bonus">镶孔奖励:</str>
+
+		<str id="armory.item-tooltip.meta-socket">变换插槽</str>
+		<str id="armory.item-tooltip.red-socket">红色插槽</str>
+		<str id="armory.item-tooltip.yellow-socket">黄色插槽</str>
+		<str id="armory.item-tooltip.blue-socket">蓝色插槽</str>
+
+		<str id="armory.item-tooltip.random-enchant">随机附魔</str>
+		<str id="armory.item-tooltip.durability">耐久度</str>
+
+		<str id="armory.item-tooltip.races">种族</str>
+		<str id="armory.item-tooltip.classes">职业</str>
+		<str id="armory.item-tooltip.requires-level">需要等级</str>
+		<str id="armory.item-tooltip.requires">需要</str>
+
+		<str id="armory.item-tooltip.requires.personalarena">需要个人竞技场等级</str>
+
+<!--reputation status 0= male 1= female no number= neutral-->
+		<str id="armory.item-tooltip.hated">仇恨</str>
+		<str id="armory.item-tooltip.hostile">敌对</str>
+		<str id="armory.item-tooltip.unfriendly">冷漠</str>
+		<str id="armory.item-tooltip.neutral">中立</str>
+		<str id="armory.item-tooltip.friendly">友好</str>
+		<str id="armory.item-tooltip.honored">尊敬</str>
+		<str id="armory.item-tooltip.revered">崇敬</str>
+		<str id="armory.item-tooltip.exalted">崇拜</str>
+
+		<str id="armory.item-tooltip.hated.0">仇恨</str>
+		<str id="armory.item-tooltip.hostile.0">敌对</str>
+		<str id="armory.item-tooltip.unfriendly.0">冷漠</str>
+		<str id="armory.item-tooltip.neutral.0">中立</str>
+		<str id="armory.item-tooltip.friendly.0">友好</str>
+		<str id="armory.item-tooltip.honored.0">尊敬</str>
+		<str id="armory.item-tooltip.revered.0">崇敬</str>
+		<str id="armory.item-tooltip.exalted.0">崇拜</str>
+
+		<str id="armory.item-tooltip.hated.1">仇恨</str>
+		<str id="armory.item-tooltip.hostile.1">敌对</str>
+		<str id="armory.item-tooltip.unfriendly.1">冷漠</str>
+		<str id="armory.item-tooltip.neutral.1">中立</str>
+		<str id="armory.item-tooltip.friendly.1">友好</str>
+		<str id="armory.item-tooltip.honored.1">尊敬</str>
+		<str id="armory.item-tooltip.revered.1">崇敬</str>
+		<str id="armory.item-tooltip.exalted.1">崇拜</str>
+
+		<str id="armory.item-tooltip.increase-defense">装备：防御等级提高</str>
+		<str id="armory.item-tooltip.increase-dodge">装备：躲闪等级提高</str>
+		<str id="armory.item-tooltip.bonusParryRating">装备：招架等级提高</str>
+		<str id="armory.item-tooltip.bonusBlockRating">装备：格挡等级提高</str>
+		<str id="armory.item-tooltip.bonusHitMeleeRating">bonusHitMeleeRating</str>
+		<str id="armory.item-tooltip.bonusHitRangedRating">bonusHitRangedRating</str>
+		<str id="armory.item-tooltip.improve-spell">装备：法术命中等级提高</str>
+		<str id="armory.item-tooltip.bonusCritMeleeRating">bonusCritMeleeRating</str>
+		<str id="armory.item-tooltip.bonusCritRangedRating">bonusCritRangedRating</str>
+		<str id="armory.item-tooltip.improve-spell-crit">装备：法术暴击等级提高</str>
+		<str id="armory.item-tooltip.bonusHitTakenMeleeRating">bonusHitTakenMeleeRating</str>
+		<str id="armory.item-tooltip.bonusHitTakenRangedRating">bonusHitTakenRangedRating</str>
+		<str id="armory.item-tooltip.bonusHitTakenSpellRating">bonusHitTakenSpellRating</str>
+		<str id="armory.item-tooltip.bonusCritTakenMeleeRating">bonusCritTakenMeleeRating</str>
+		<str id="armory.item-tooltip.bonusCritTakenRangedRating">bonusCritTakenRangedRating</str>
+		<str id="armory.item-tooltip.bonusCritTakenSpellRating">bonusCritTakenSpellRating</str>
+		<str id="armory.item-tooltip.bonusHasteMeleeRating">bonusHasteMeleeRating</str>
+		<str id="armory.item-tooltip.bonusHasteRangedRating">bonusHasteRangedRating</str>
+		<str id="armory.item-tooltip.bonusHasteSpellRating">装备：施法速度提高</str>
+		<str id="armory.item-tooltip.improve-hit-rating">装备：命中等级提高</str>
+		<str id="armory.item-tooltip.improve-crit-strike">装备：爆击等级提高</str>
+		<str id="armory.item-tooltip.bonusHitTakenRating">装备：躲闪等级提高</str>
+		<str id="armory.item-tooltip.bonusCritTakenRating">bonusCritTakenRating</str>
+		<str id="armory.item-tooltip.improve-resilience">装备：韧性等级提高</str>
+		<str id="armory.item-tooltip.bonusHasteRating">装备：急速等级提高</str>
+		<str id="armory.item-tooltip.bonusSpellPower">装备：法术强度提高</str>
+
+		<!-- new in 3.02 -->
+		<str id="armory.item-tooltip.bonusAttackPower">装备：攻击强度提高</str>
+		<str id="armory.item-tooltip.bonusExpertiseRating">装备：熟练等级提高</str>
+		<str id="armory.item-tooltip.bonusRangedAttackPower">装备：远程攻击强度提高</str>
+		<str id="armory.item-tooltip.bonusFeralAttackPower">装备：近战攻击强度提高</str>
+		<str id="armory.item-tooltip.bonusManaRegen">装备：每 5 秒恢复</str>
+		<str id="armory.item-tooltip.bonusManaRegenPer5">法力</str>
+		<str id="armory.item-tooltip.bonusArmorPenetration">装备：使你的护甲穿透等级提高</str>
+		<str id="armory.item-tooltip.bonusBlockValue">装备：使你的盾牌格挡值提高</str>
+		<str id="armory.item-tooltip.bonusHealthRegen">装备：使你的生命恢复速度提高</str>
+		<str id="armory.item-tooltip.bonusSpellPenetration">装备：法术穿透提高</str>
+
+		<str id="armory.item-tooltip.requiredLevelMin">需要等级</str>
+		<str id="armory.item-tooltip.requiredLevelMax">级</str>
+
+		<str id="armory.item-tooltip.charges">售价</str>
+		<str id="armory.item-tooltip.use">使用</str>
+		<str id="armory.item-tooltip.equip">装备</str>
+		<str id="armory.item-tooltip.chance-on-hit">击中时可能</str>
+		<str id="armory.item-tooltip.set">套装</str>
+
+		<str id="armory.item-tooltip.majorglyph">大雕纹</str>
+		<str id="armory.item-tooltip.minorglyph">小调纹</str>
+	</itemTooltip>
+
+	<itemSlot>
+		<str id="armory.itemslot.slot.head">头部</str>
+		<str id="armory.itemslot.slot.neck">颈部</str>
+		<str id="armory.itemslot.slot.shoulders">肩膀</str>
+		<str id="armory.itemslot.slot.back">背部</str>
+		<str id="armory.itemslot.slot.chest">胸部</str>
+		<str id="armory.itemslot.slot.shirt">衬衣</str>
+		<str id="armory.itemslot.slot.tabard">战袍</str>
+		<str id="armory.itemslot.slot.wrist">手腕</str>
+		<str id="armory.itemslot.slot.hands">手部</str>
+		<str id="armory.itemslot.slot.hand">手部</str>
+		<str id="armory.itemslot.slot.waist">腰部</str>
+		<str id="armory.itemslot.slot.legs">腿部</str>
+		<str id="armory.itemslot.slot.feet">脚</str>
+		<str id="armory.itemslot.slot.finger">手指</str>
+		<str id="armory.itemslot.slot.trinket">饰品</str>
+		<str id="armory.itemslot.slot.mainHand">主手</str>
+		<str id="armory.itemslot.slot.offHand">副手</str>
+		<str id="armory.itemslot.slot.ranged">远程武器</str>
+		<str id="armory.itemslot.slot.relic">圣物</str>
+		<str id="armory.itemslot.slot.ammo">弹药</str>
+	</itemSlot>
+
+	<spellType>
+		<str id="armory.spell-type.fire">火焰</str>
+		<str id="armory.spell-type.arcane">奥术</str>
+		<str id="armory.spell-type.holy">神圣</str>
+		<str id="armory.spell-type.shadow">暗影</str>
+		<str id="armory.spell-type.nature">自然</str>
+		<str id="armory.spell-type.frost">冰霜</str>
+	</spellType>
+
+<!--item types - DO NOT CHANGE THE IDS-->
+	<itemType>
+		<str id="armory.item-type.Two-Handed Axes">双手斧</str>
+		<str id="armory.item-type.One-Handed Axes">单手斧</str>
+		<str id="armory.item-type.Bows">弓</str>
+		<str id="armory.item-type.Bucklers">圆盾</str>
+		<str id="armory.item-type.Crossbows">弩</str>
+		<str id="armory.item-type.Daggers">匕首</str>
+		<str id="armory.item-type.One-Handed Exotics">单手圣物</str>
+		<str id="armory.item-type.Two-Handed Exotics">双手圣物</str>
+		<str id="armory.item-type.Fist Weapons">拳套</str>
+		<str id="armory.item-type.Guns">枪械</str>
+		<str id="armory.item-type.Idols">神像</str>
+		<str id="armory.item-type.Librams">圣契</str>
+		<str id="armory.item-type.One-Handed Maces">单手锤</str>
+		<str id="armory.item-type.Two-Handed Maces">双手锤</str>
+		<str id="armory.item-type.Polearms">长柄武器</str>
+		<str id="armory.item-type.Shields">盾牌</str>
+		<str id="armory.item-type.Spears">矛</str>
+		<str id="armory.item-type.Staves">法杖</str>
+		<str id="armory.item-type.Two-Handed Swords">双手剑</str>
+		<str id="armory.item-type.One-Handed Swords">单手剑</str>
+		<str id="armory.item-type.Totems">图腾</str>
+		<str id="armory.item-type.Sigils">符印</str>
+		<str id="armory.item-type.Wands">魔杖</str>
+	</itemType>
+
+	<talents>
+		<str id="url.talents">http://www.wow-europe.com/de/info/basics/talents</str>
+		<str id="path.talents">/shared/global/talents</str>
+		<str id="talents.langDir">/zh</str>
+
+		<str id="armory.class6.talents.tree.one">鲜血</str>
+		<str id="armory.class6.talents.tree.two">冰霜</str>
+		<str id="armory.class6.talents.tree.three">邪秽</str>
+
+		<str id="armory.class11.talents.tree.one">平衡</str>
+		<str id="armory.class11.talents.tree.two">野性战斗</str>
+		<str id="armory.class11.talents.tree.three">恢复</str>
+
+		<str id="armory.class3.talents.tree.one">野兽控制</str>
+		<str id="armory.class3.talents.tree.two">射击</str>
+		<str id="armory.class3.talents.tree.three">生存</str>
+
+		<str id="armory.class8.talents.tree.one">奥术</str>
+		<str id="armory.class8.talents.tree.two">火焰</str>
+		<str id="armory.class8.talents.tree.three">冰霜</str>
+
+		<str id="armory.class2.talents.tree.one">神圣</str>
+		<str id="armory.class2.talents.tree.two">防御</str>
+		<str id="armory.class2.talents.tree.three">惩戒</str>
+
+		<str id="armory.class5.talents.tree.one">戒律</str>
+		<str id="armory.class5.talents.tree.two">神圣</str>
+		<str id="armory.class5.talents.tree.three">暗影</str>
+
+		<str id="armory.class4.talents.tree.one">刺杀</str>
+		<str id="armory.class4.talents.tree.two">战斗</str>
+		<str id="armory.class4.talents.tree.three">敏锐</str>
+
+		<str id="armory.class7.talents.tree.one">元素战斗</str>
+		<str id="armory.class7.talents.tree.two">增强</str>
+		<str id="armory.class7.talents.tree.three">恢复</str>
+
+		<str id="armory.class9.talents.tree.one">痛苦</str>
+		<str id="armory.class9.talents.tree.two">恶魔学识</str>
+		<str id="armory.class9.talents.tree.three">毁灭</str>
+
+		<str id="armory.class1.talents.tree.one">武器</str>
+		<str id="armory.class1.talents.tree.two">狂暴</str>
+		<str id="armory.class1.talents.tree.three">防御</str>
+	</talents>
+
+<!--item-info -->
+	<itemInfo>
+		<str id="currentlyEquipped">当前装备</str>
+		<str id="armory.item-info.drop-rate.0">无</str>
+		<str id="armory.item-info.drop-rate.1">极低 (1% - 2%)</str>
+		<str id="armory.item-info.drop-rate.2">非常低 (3% - 14%)</str>
+		<str id="armory.item-info.drop-rate.3">低 (15% - 24%)</str>
+		<str id="armory.item-info.drop-rate.4">中等 (25% - 49%)</str>
+		<str id="armory.item-info.drop-rate.5">高 (50-99%)</str>
+		<str id="armory.item-info.drop-rate.6">确保的 (100%)</str>
+
+		<str id="armory.item-info.label.name">名称</str>
+		<str id="armory.item-info.label.location">地域</str>
+		<str id="armory.item-info.label.drop">几率</str>
+		<str id="armory.item-info.label.level">等级</str>
+		<str id="armory.item-info.label.reagents">Zutaten</str>
+		<str id="armory.item-info.label.cost">价格</str>
+		<str id="armory.item-info.label.count">个数</str>
+		<str id="armory.item-info.label.title">头衔</str>
+		<str id="armory.item-info.label.reqlevel">需要等级</str>
+		<str id="armory.item-info.label.type">类型</str>
+		<str id="armory.item-info.label.enchantment">附魔</str>
+		<str id="armory.item-info.label.effects">效果</str>
+		<str id="armory.item-info.label.items_detailed">模型显示</str>
+		<str id="armory.item-info.label.items_list">物品清单</str>
+
+		<str id="armory.item-info.title.dropped">掉落自</str>
+		<str id="armory.item-info.title.pickpocketed">拾取自</str>
+		<str id="armory.item-info.title.skinned">剥皮自</str>
+		<str id="armory.item-info.title.gathered">草药采集自</str>
+		<str id="armory.item-info.title.mined">采矿自</str>
+		<str id="armory.item-info.title.starts">始于</str>
+		<str id="armory.item-info.title.provided">提供</str>
+		<str id="armory.item-info.title.objective">目标于</str>
+		<str id="armory.item-info.title.reward">奖励自</str>
+
+		<str id="armory.item-info.randomenchants">随机附魔:</str>
+		<str id="armory.item-info.itemlevel">物品等级:</str>
+		<str id="armory.item-info.dropsfrom">掉落自:</str>
+		<str id="armory.item-info.contained">包含于:</str>
+		<str id="armory.item-info.bought">买入价格:</str>
+		<str id="armory.item-info.sells">卖出价格:</str>
+		<str id="armory.item-info.disenchantable">可分解:</str>
+		<str id="armory.item-info.heroic"> (英雄模式)</str>
+		<str id="armory.item-info.soldby">出售于</str>
+		<str id="armory.item-info.reqregeants">Created by</str>
+		<str id="armory.item-info.plans">Plans for</str>
+		<str id="armory.item-info.regeantsfor">Reagent for</str>
+		<str id="armory.item-info.currency">Currency for</str>
+		<str id="armory.item-info.disinto">分解得到</str>
+		<str id="armory.item-info.transinto">Opposite-faction equivalent:</str>
+		<str id="armory.item-info.transinto.alliance">Alliance Equivalent:</str>
+		<str id="armory.item-info.transinto.horde">Horde Equivalent:</str>
+		<str id="armory.item-info.randomwdrop">Random world drop from &lt;strong&gt;humanoids&lt;/strong&gt; and &lt;strong&gt;beasts&lt;/strong&gt;, levels 49-66.</str>
+
+		<str id="armory.item-info.disenchant.tooltip.before">Requires &lt;strong&gt;</str>
+		<str id="armory.item-info.disenchant.tooltip.after">&lt;/strong&gt; Enchanting to disenchant</str>
+		<str id="item.fact">物品信息</str>
+	</itemInfo>
+
+<!-- Character races & classes 0= male 1= female no number= neutral-->
+	<races>
+		<str id="armory.races.race.3">矮人</str>
+		<str id="armory.races.race.3.0">矮人</str>
+		<str id="armory.races.race.3.1">矮人</str>
+		<str id="armory.races.race.1">人类</str>
+		<str id="armory.races.race.1.0">人类</str>
+		<str id="armory.races.race.1.1">人类</str>
+		<str id="armory.races.race.4">暗夜精灵</str>
+		<str id="armory.races.race.4.0">暗夜精灵</str>
+		<str id="armory.races.race.4.1">暗夜精灵</str>
+		<str id="armory.races.race.7">侏儒</str>
+		<str id="armory.races.race.7.0">侏儒</str>
+		<str id="armory.races.race.7.1">侏儒</str>
+		<str id="armory.races.race.11">德莱尼</str>
+		<str id="armory.races.race.11.0">德莱尼</str>
+		<str id="armory.races.race.11.1">德莱尼</str>
+		<str id="armory.races.race.2">兽人</str>
+		<str id="armory.races.race.2.0">兽人</str>
+		<str id="armory.races.race.2.1">兽人</str>
+		<str id="armory.races.race.5">亡灵</str>
+		<str id="armory.races.race.5.0">亡灵</str>
+		<str id="armory.races.race.5.1">亡灵</str>
+		<str id="armory.races.race.10">血精灵</str>
+		<str id="armory.races.race.10.0">血精灵</str>
+		<str id="armory.races.race.10.1">血精灵</str>
+		<str id="armory.races.race.6">牛头人</str>
+		<str id="armory.races.race.6.0">牛头人</str>
+		<str id="armory.races.race.6.1">牛头人</str>
+		<str id="armory.races.race.8">巨魔</str>
+		<str id="armory.races.race.8.0">巨魔</str>
+		<str id="armory.races.race.8.1">巨魔</str>
+		<str id="armory.races.race.tuskarr">海象人</str>
+	</races>
+
+	<classes>
+		<str id="armory.classes.class.1">战士</str>
+		<str id="armory.classes.class.1.0">战士</str>
+		<str id="armory.classes.class.1.1">战士</str>
+		<str id="armory.classes.class.11">德鲁伊</str>
+		<str id="armory.classes.class.11.0">德鲁伊</str>
+		<str id="armory.classes.class.11.1">德鲁伊</str>
+		<str id="armory.classes.class.2">圣骑士</str>
+		<str id="armory.classes.class.2.0">圣骑士</str>
+		<str id="armory.classes.class.2.1">圣骑士</str>
+		<str id="armory.classes.class.5">牧师</str>
+		<str id="armory.classes.class.5.0">牧师</str>
+		<str id="armory.classes.class.5.1">牧师</str>
+		<str id="armory.classes.class.4">潜行者</str>
+		<str id="armory.classes.class.4.0">潜行者</str>
+		<str id="armory.classes.class.4.1">潜行者</str>
+		<str id="armory.classes.class.9">术士</str>
+		<str id="armory.classes.class.9.0">术士</str>
+		<str id="armory.classes.class.9.1">术士</str>
+		<str id="armory.classes.class.7">萨满</str>
+		<str id="armory.classes.class.7.0">萨满</str>
+		<str id="armory.classes.class.7.1">萨满</str>
+		<str id="armory.classes.class.3">猎人</str>
+		<str id="armory.classes.class.3.0">猎人</str>
+		<str id="armory.classes.class.3.1">猎人</str>
+		<str id="armory.classes.class.8">法师</str>
+		<str id="armory.classes.class.8.0">法师</str>
+		<str id="armory.classes.class.8.1">法师</str>
+		<str id="armory.classes.class.6">死亡骑士</str>
+		<str id="armory.classes.class.6.0">死亡骑士</str>
+		<str id="armory.classes.class.6.1">死亡骑士</str>
+	
+		<str id="item-filter.anytype">所有类型</str>
+		<str id="item-filter.tank">坦克</str>
+		<str id="item-filter.meleedps">近战DPS</str>
+		<str id="item-filter.casterdps">法系DPS</str>
+		<str id="item-filter.healer">治疗</str>
+     </classes>
+		<str id="items.warlocks.damage">+ 伤害</str>
+		<str id="items.warlocks.damagecrit">+ 伤害 &amp; 暴击等级</str>
+
+		<role>
+			<str id="armory.item-search.tank">坦克</str>
+			<str id="armory.item-search.physicaldps">物理DPS</str>
+			<str id="armory.item-search.casterdps">法系DPS</str>
+			<str id="armory.item-search.healer">治疗</str>
+		</role>
+	
+
+	<guildStats>
+		<str id="armory.guild-stats.minlvl">最低等级</str>
+		<str id="armory.guild-stats.maxlvl">最高等级</str>
+		<str id="armory.guild-stats.matching">符合搜索条件的角色</str>
+		<str id="armory.guild-stats.totalChars">公会总计角色</str>
+		<str id="armory.guild-stats.number">在等级不高于 </str>
+		<str id="armory.guild-stats.numberAfter"> 级的角色有</str>
+		<str id="armory.guild-stats.percentage">在等级不高于 </str>
+		<str id="armory.guild-stats.percentageAfter"> 级的角色占</str>
+		<str id="armory.guild-stats.race.breakdown">按种族</str>
+		<str id="armory.guild-stats.class.breakdown">按职业</str>
+		<str id="armory.guild-stats.level.breakdown">按等级</str>
+	</guildStats>
+
+	<itemsSearchColumns>
+		<str id="armory.hover.questReward">任务奖励</str>
+		<str id="armory.hover.requiredLevel">需要等级:</str>
+		<str id="armory.hover.dungeon">地下城:</str>
+		<str id="armory.hover.heroic">(英雄模式)</str>
+		<str id="armory.hover.droprate">掉率:</str>
+		<str id="armory.hover.boss">Boss:</str>
+		<str id="armory.hover.bossdrop">Boss掉落</str>
+
+		<str id="armory.searchColumn.speed">速度</str>
+		<str id="armory.searchColumn.dps">伤害 / 秒</str>
+
+		<str id="armory.searchColumn.type">类型</str>
+		<str id="armory.searchColumn.requiredLevel">需要等级</str>
+		<str id="armory.searchColumn.itemLevel">物品等级</str>
+
+		<str id="armory.searchColumn.source">来源</str>
+
+		<str id="armory.searchColumn.sourceType.questReward">任务奖励</str>
+		<str id="armory.searchColumn.sourceType.none"> - </str>
+		<str id="armory.searchColumn.sourceType.creatureDrop">掉落</str>
+		<str id="armory.searchColumn.sourceType.gameObjectDrop">箱子掉落</str>
+		<str id="armory.searchColumn.sourceType.factionReward">声望</str>
+		<str id="armory.searchColumn.sourceType.pvpReward">PvP 奖励</str>
+		<str id="armory.searchColumn.sourceType.vendorPvP">PvP 奖励</str>
+		<str id="armory.searchColumn.sourceType.vendor">商人</str>
+		<str id="armory.searchColumn.sourceType.pickPocket">窃取</str>
+		<str id="armory.searchColumn.sourceType.creatureSkin">剥皮</str>
+		<str id="armory.searchColumn.sourceType.creatureMine">采矿</str>
+		<str id="armory.searchColumn.sourceType.creatureHerb">草药</str>
+		<str id="armory.searchColumn.sourceType.startsQuest">任务物品</str>
+		<str id="armory.searchColumn.sourceType.providedQuest">任务物品</str>
+		<str id="armory.searchColumn.sourceType.objQuest">任务物品</str>
+
+		<str id="armory.searchColumn.sourceType.createdBySpell">制造</str>
+		<str id="armory.searchColumn.sourceType.reagentSpell">试剂</str>
+		<str id="armory.searchColumn.sourceType.createdByPlans">制造</str>
+		<str id="armory.searchColumn.sourceType.currency">货币</str>
+
+		<str id="armory.searchColumn.sourceType.planForItem">一般</str>
+		<str id="armory.searchColumn.sourceType.worldDrop">掉落</str>
+
+		<str id="armory.searchColumn.inventoryType">类型</str>
+
+		<str id="armory.searchColumn.requiredSkill">需要技能</str>
+
+		<str id="armory.searchColumn.containerSlots">位置</str>
+
+		<str id="armory.searchColumn.slot.1">头部</str>
+		<str id="armory.searchColumn.slot.2">颈部</str>
+		<str id="armory.searchColumn.slot.3">肩膀</str>
+		<str id="armory.searchColumn.slot.16">背部</str>
+		<str id="armory.searchColumn.slot.5">胸部</str>
+		<str id="armory.searchColumn.slot.20">胸部</str>
+		<str id="armory.searchColumn.slot.4">cy</str>
+		<str id="armory.searchColumn.slot.18">战袍</str>
+		<str id="armory.searchColumn.slot.9">手腕</str>
+		<str id="armory.searchColumn.slot.10">手部</str>
+		<str id="armory.searchColumn.slot.6">腰部</str>
+		<str id="armory.searchColumn.slot.7">腿部</str>
+		<str id="armory.searchColumn.slot.8">脚</str>
+		<str id="armory.searchColumn.slot.11">手指</str>
+		<str id="armory.searchColumn.slot.12">饰品</str>
+		<str id="armory.searchColumn.slot.14">盾牌</str>
+		<str id="armory.searchColumn.slot.15">主手</str>
+		<str id="armory.searchColumn.slot.23">副手</str>
+		<str id="armory.searchColumn.slot.17">远程武器</str>
+		<str id="armory.searchColumn.slot.28">圣物</str>
+
+		<str id="armory.searchColumn.weaponStats">武器数据</str>
+		<str id="armory.searchColumn.dps">伤害 / 秒</str>
+		<str id="armory.searchColumn.minDamage">最小伤害</str>
+		<str id="armory.searchColumn.maxDamage">最大伤害</str>
+		<str id="armory.searchColumn.speed">速度</str>
+
+		<str id="armory.searchColumn.baseStats">基础属性</str>
+		<str id="armory.searchColumn.strength">力量</str>
+		<str id="armory.searchColumn.agility">敏捷</str>
+		<str id="armory.searchColumn.stamina">耐力</str>
+		<str id="armory.searchColumn.intellect">智力</str>
+		<str id="armory.searchColumn.spirit">精神</str>
+
+		<str id="armory.searchColumn.physical">近战伤害</str>
+		<str id="armory.searchColumn.attackPower">攻击强度</str>
+		<str id="armory.searchColumn.feralAttackPower">近战攻击强度</str>
+		<str id="armory.searchColumn.critRating">暴击等级</str>
+		<str id="armory.searchColumn.hitRating">命中等级</str>
+		<str id="armory.searchColumn.hasteRating">急速等级</str>
+		<str id="armory.searchColumn.expertiseRating">熟练等级</str>
+
+		<str id="armory.searchColumn.spell">法术伤害</str>
+		<str id="armory.searchColumn.spellHealing">治疗效果</str>
+		<str id="armory.searchColumn.spellPower">法术能量</str>
+		<str id="armory.searchColumn.spellCritRating">暴击等级</str>
+		<str id="armory.searchColumn.spellHitRating">命中等级</str>
+		<str id="armory.searchColumn.spellPenetration">穿透</str>
+		<str id="armory.searchColumn.spellManaRegen">法力恢复</str>
+		<str id="armory.searchColumn.spellHasteRating">急速等级</str>
+		<str id="armory.searchColumn.spellDamageArcane">奥术伤害</str>
+		<str id="armory.searchColumn.spellDamageHoly">神圣伤害</str>
+		<str id="armory.searchColumn.spellDamageShadow">暗影伤害</str>
+		<str id="armory.searchColumn.spellDamageNature">自然伤害</str>
+		<str id="armory.searchColumn.spellDamageFrost">冰霜伤害</str>
+		<str id="armory.searchColumn.spellDamageFire">火焰伤害</str>
+
+		<str id="armory.searchColumn.defense">防御值</str>
+		<str id="armory.searchColumn.armor">护甲</str>
+		<str id="armory.searchColumn.blockRating">格挡等级</str>
+		<str id="armory.searchColumn.blockValue">格挡值</str>
+		<str id="armory.searchColumn.defenseRating">防御等级</str>
+		<str id="armory.searchColumn.dodgeRating">躲闪等级</str>
+		<str id="armory.searchColumn.parryRating">招架等级</str>
+		<str id="armory.searchColumn.resilience">韧性等级</str>
+		<str id="armory.searchColumn.healthRegen">生命恢复</str>
+
+		<str id="armory.searchColumn.resistances">抗性</str>
+		<str id="armory.searchColumn.resistArcane">奥术抗性</str>
+		<str id="armory.searchColumn.resistShadow">暗影抗性</str>
+		<str id="armory.searchColumn.resistNature">自然抗性</str>
+		<str id="armory.searchColumn.resistFrost">冰霜抗性</str>
+		<str id="armory.searchColumn.resistFire">火焰抗性</str>
+
+		<str id="armory.searchColumn.general">普通</str>
+		<str id="armory.searchColumn.bindsPickedUp">拾取后绑定</str>
+		<str id="armory.searchColumn.bindsEquip">装备后绑定</str>
+		<str id="armory.searchColumn.bindsWhenUsed">使用后绑定</str>
+		<str id="armory.searchColumn.requiresProfession">职业</str>
+		<str id="armory.searchColumn.unique">唯一</str>
+		<str id="armory.searchColumn.uniqueEquipped">装备唯一</str>
+		<str id="armory.searchColumn.hasSpellEffect">具有效果...</str>
+
+		<str id="armory.searchColumn.relevance">相关</str>
+	</itemsSearchColumns>
+
+	<guildBank>
+		<str id="emptyLogs">未找到公会银行日志信息。</str>
+		<str id="col.origin">O</str>
+		<str id="col.origin.tooltip">来源</str>
+		<str id="col.action">A</str>
+		<str id="col.action.tooltip">动作</str>
+		<str id="col.destination">D</str>
+		<str id="col.destination.tooltip">去处</str>
+		<str id="col.item">物品</str>
+		<str id="subtype">子类别</str>
+		<str id="type">类别</str>
+		<str id="resetfilters">重置过滤器</str>
+		<str id="runfilters">开始搜索</str>
+		<str id="charnamec">角色名称: </str>
+		<str id="guildrankc">公会等级: </str>
+		<str id="origin">来源: </str>
+		<str id="ttype">交易类型: </str>
+		<str id="allbags">所有标签</str>
+		<str id="destination">去处: </str>
+		<str id="itemname">物品名称: </str>
+		<str id="itemquality">物品品质: </str>
+		<str id="itemtype">物品类型: </str>
+		<str id="itemcost">物品花费: </str>
+		<str id="itemsubtype">物品子类别: </str>
+		<str id="date">日前: </str>
+		<str id="bag">标签: </str>
+		<str id="bagnoc">标签 </str>
+		<str id="bagnospaceone">标签</str>
+		<str id="bagnospacetwo"/>
+		<str id="resultsover">Too many search results. Only the 2000 most recent transactions are being displayed. Please enter a smaller time interval.</str>
+		<str id="bagnocafter"/>
+		<str id="resultsfound">找到结果</str>
+		<str id="transactionsfound">找到交易</str>
+		<str id="notetime">以本地时间显示</str>
+		<str id="nopermission">你没有访问权限。</str>
+		<str id="none">--无--</str>
+		<str id="alltypes">所有物品类型</str>
+		<str id="bankcontents">公会银行</str>
+		<str id="banklog">银行日志</str>
+		<str id="banklogresults">日志过滤器</str>
+		<str id="characterfilters">角色过滤器</str>
+		<str id="itemfilters">物品过滤器</str>
+		<str id="datefilters">日前过滤器</str>
+		<str id="transactionfilters">交易过滤器</str>
+		<str id="all">全部</str>
+		<str id="transaction.1">存入物品</str>
+		<str id="transaction.2">取出物品</str>
+		<str id="transaction.3">移动</str>
+		<str id="transaction.4">存入</str>
+		<str id="transaction.5">提取</str>
+		<str id="transaction.6">修理</str>
+		<str id="transaction.7">移动</str>
+		<str id="transaction.8">提取</str>
+		<str id="transaction.9">购买公会仓库</str>
+		<str id="deposititem">存入物品</str>
+		<str id="withdrawitem">取出物品</str>
+		<str id="depositmoney">存入</str>
+		<str id="withdrawmoney">提取</str>
+		<str id="buytab">购买公会仓库</str>
+		<str id="repair">修理</str>
+		<str id="moveitem">移动</str>
+		<str id="banktabselect">bank tabs</str>
+		<str id="goldinbank">gold in bank</str>
+		<str id="contentsof">Contents of</str>
+		<str id="bankcontentsfilters">公会银行过滤器</str>
+		<str id="refreshtab">Seite erneut laden</str>
+		<str id="noaccess">Diese Gildenbank ist nicht verfügbar. Bitte stellt sicher, dass euer World of Warcraft-Account einen Charakter enthält, der Mitglied dieser Gilde ist, und dass euer Gildenrang euch Zugriff auf die Gildenbank erlaubt. Gildenbanken können wegen Inaktivität deaktiviert werden.</str>
+		<str id="guildmsgotd">公会今日信息:</str>
+		<str id="guildmsginfo">公会信息:</str>
+		<str id="showguildinfo">显示公会信息</str>
+		<str id="hideguildinfo">隐藏公会信息</str>
+		<str id="name">名字:</str>
+		<str id="level">登记:</str>
+		<str id="race">种族:</str>
+		<str id="gender">性别:</str>
+		<str id="class">职业:</str>
+		<str id="rank">排名:</str>
+		<str id="both">全部</str>
+		<str id="male">男性</str>
+		<str id="female">女性</str>
+		<str id="allranks">所有级别</str>
+		<str id="daytitle">日</str>
+		<str id="monthtitle">月</str>
+		<str id="yeartitle">年</str>
+		<str id="timetitle">时间</str>
+		<str id="from">从:</str>
+		<str id="to">到:</str>
+		<str id="search">搜索</str>
+		<str id="datesearch">日期搜索</str>
+		<str id="guildrosterfilters">公会名单过滤器</str>
+		<str id="guildlogincharacter">You must log in and have a character in this guild in order to see this page.</str>
+		<str id="guildloginpermission">You don't have permission to view this page.</str>
+		<str id="error.notabaccess">You do not have access to any Guild Bank tabs.</str>
+		<str id="error.loginrequired">Login Required</str>
+		<str id="error.accessdenied">Access Denied</str>
+		<str id="error.notmember">In order to view this Guild Bank, you must have a character that is a member of this guild on your account and the account itself must not be inactive, banned, or otherwise inaccessible.</str>
+		<str id="error.gologin">The Guild Banks are a login-protected area of the Armory. You must log in with a World of Warcraft account that includes a character in this guild in order to view its Guild Bank.</str>
+		<str id="error.loginarmory">Log in to the Armory</str>
+		<str id="set">Group</str>
+		<str id="nextset">Next Group</str>
+		<str id="previousset">Previous Group</str>
+		<str id="currentset">Transaction Group</str>
+		<str id="totalresults">Total Results:</str>
+		<str id="information">Information:</str>
+		<str id="firstgroup">1</str>
+		<str id="note">Note:</str>
+		<str id="in">in</str>
+		<str id="abouttransactions">About Transaction Groups:</str>
+		<str id="notetransactions1">A single transaction group consists of over one thousand transactions</str>
+		<str id="notetransactions2">The most recent group of transactions is displayed first</str>
+		<str id="notetransactions3">Searching and sorting results only affects the currently displayed group</str>
+		<str id="notetransactions4">Navigate to different groups with the arrow buttons above</str>
+		<str id="notetransactions5">Depending on your guild bank permissions, you may not see all transactions recorded in a group.</str>
+		<str id="noaccess">You do not have access to this tab</str>
+		<str id="errortitle">Information Temporarily Unavailable</str>
+		<str id="errorcontent">The information you are trying to view is currently unavailable. Please try again at a later time.</str>
+		<str id="empty.title">Guild Bank Empty</str>
+		<str id="empty.content">This Guild Bank is currently empty, or no bank tabs have been purchased by the guild master.</str>
+	</guildBank>
+
+	<login>
+		<str id="armory.login.loginrequired">需要注册</str>
+		<str id="armory.login.access">登录后才能使用此功能</str>
+		<str id="armory.login.accountname">帐号</str>
+		<str id="armory.login.password">密码</str>
+		<str id="armory.login.noaccount">您忘记了您的帐户名？</str>
+		<str id="armory.login.forgotpassword">您忘记了密码？</str>
+		<str id="armory.login.forgotpassword.tooltip">您忘记了密码？&lt;br/&gt;点击这里找回密码。</str>
+		<str id="armory.login.welcome">欢迎</str>
+		<str id="armory.login.logged">您登陆为</str>
+		<str id="armory.login.mustlogin">登陆至英雄榜以在计算器中显示您主要角色的竞技场信息</str>
+		<str id="armory.login.nochars">此帐户没有角色角色</str>
+		<str id="armory.login.loginbtn">登陆</str>
+		<str id="armory.login.login">登陆</str>
+		<str id="armory.login.cancel">取消</str>
+		<str id="armory.login.logout">登出</str>
+		<str id="armory.login.close">关闭</str>
+		<str id="armory.login.help">帮助</str>
+		<str id="armory.login.mustlog">您必需登陆至英雄榜以使用高级功能。</str> 
+		<str id="armory.login.error">该帐户信息输入不正确，请再试一次。</str>
+		<str id="armory.login.invites">邀请：</str>
+		<str id="armory.login.invitations">邀请</str>
+		<str id="armory.login.invites.youhave">还剩余： </str>
+		<str id="armory.login.invites.pending">您有未处理的邀请</str>
+		<str id="armory.login.calendar.pending">未处理的日程邀请</str>
+		<str id="armory.login.achievements">成就点</str>
+		<str id="armory.login.bookmark.remove">移除该收藏</str>
+		<str id="armory.login.bookmark.nobookmark">您还没有收藏</str>
+		<str id="armory.login.bookmark.nobookmark.desc">要收藏一个角色，搜索并点击收藏链接</str>
+	</login>
+
+	<pvpSource>
+		<str id="armory.pvprewards.wintergrasp">冬拥湖</str>
+		<str id="armory.pvprewards.arena8">竞技场奖励: 第 8 赛季</str>
+		<str id="armory.pvprewards.arena7">竞技场奖励: 第 7 赛季</str>
+		<str id="armory.pvprewards.arena6">竞技场奖励: 第 6 赛季</str>
+		<str id="armory.pvprewards.arena5">竞技场奖励: 第 5 赛季</str>
+		<str id="armory.pvprewards.arena4">竞技场奖励: 第 4 赛季</str>
+		<str id="armory.pvprewards.arena3">竞技场奖励: 第 3 赛季</str>
+		<str id="armory.pvprewards.arena2">竞技场奖励: 第 2 赛季</str>
+		<str id="armory.pvprewards.arena1">竞技场奖励: 第 1 赛季</str>
+		<str id="armory.pvprewards.honor4">荣誉奖励: 第 4 赛季</str>
+		<str id="armory.pvprewards.honor3">荣誉奖励: 第 3 赛季</str>
+		<str id="armory.pvprewards.honor2">荣誉奖励: 第 2 赛季</str>
+		<str id="armory.pvprewards.honor1">荣誉奖励: 第 1 赛季</str>
+		<str id="armory.pvprewards.honor">荣誉奖励</str>
+		<str id="armory.pvprewards.av">奥特兰克山谷</str>
+		<str id="armory.pvprewards.ab">阿拉希盆地</str>
+		<str id="armory.pvprewards.wsg">战歌峡谷</str>
+		<str id="armory.pvprewards.halaa">哈兰</str>
+		<str id="armory.pvprewards.honorhold">荣誉堡</str>
+		<str id="armory.pvprewards.thrallmar">索尔玛</str>
+		<str id="armory.pvprewards.terrokar">泰罗卡森林</str>
+		<str id="armory.pvprewards.zangarmarsh">赞加沼泽</str>
+	</pvpSource>
+
+    <characterSheet>
+		<str id="armory.character.refresh">由于长期未活动或者服务器连接失败，该角色角色无法获取</str>
+		<str id="armory.character.talent-specialization">天赋</str>
+		<str id="armory.character.resistances">抗性:</str>
+		<str id="armory.character.professions-primary">商业技能</str>
+
+		<str id="armory.character.list.name">物品名称</str>
+		<str id="armory.character.list.lvl">物品等级</str>
+		<str id="armory.character.list.gems">宝石</str>
+		<str id="armory.character.list.ench">附魔</str>
+		
+		<str id="armory.character-sheet.base-stats.display">基础属性</str>
+		<str id="armory.character-sheet.melee.display">近战</str>
+		<str id="armory.character-sheet.ranged.display">远程</str>
+		<str id="armory.character-sheet.spell.display">法术</str>
+		<str id="armory.character-sheet.defenses.display">防御</str>
+
+		<str id="armory.character-sheet.prompt.levelTen">在10级以下的角色将不会显示</str>
+		<str id="armory.character-sheet.currentLevel">当前等级</str>
+
+		<str id="armory.character-sheet.findupgrade">检索晋级物品</str>
+	</characterSheet>
+
+	<embed>
+		<str id="armory.embed.trial">免费试玩《魔兽世界》</str>
+		<str id="armory.embed.armorylink">我的英雄榜</str>
+	</embed>
+	
+	<arenaCalc>
+		<str id="twohand">双手武器</str>
+		<str id="crossbow">弩</str>
+		<str id="mainhand">主手武器</str>
+		<str id="onehand">单手武器</str>
+		<str id="offhand">副手武器</str>
+		<str id="shield">盾牌</str>
+		<str id="head">头部</str>
+		<str id="chest">胸部</str>
+		<str id="legs">腿部</str>
+		<str id="shoulder">肩膀</str>
+		<str id="hands">手部</str>
+		<str id="offhandfrill">副手物品</str>
+		<str id="thrown">投掷武器</str>
+		<str id="wand">魔杖</str>
+		<str id="idol">神像</str>
+		<str id="totem">图腾</str>
+		<str id="sigil">符印</str>
+		<str id="libram">圣契</str>
+		<str id="title">竞技场计算器</str>
+		<str id="selectCalc">选择一种计算器:</str>
+		<str id="calc.arenaPoints">竞技场点数计算器</str>
+		<str id="calc.arenaPoints.question">本周我能获得多少竞技场点数呢?</str>
+		<str id="calc.rating">竞技场等级计算器</str>
+		<str id="calc.rating.question">想得到期望的竞技场装备平均需要多少竞技场等级?</str>
+		<str id="calc.time">竞技场时间计算器</str>
+		<str id="calc.time.question">我什么时候可以得到竞技场奖励？</str>
+		<str id="intro">
+      <p>Each team has a Team Rating. This rating reflects how well your team is doing in the Arena System; the higher your rating, the better. Every time your team wins a match, your rating goes up, and every time you lose a match, your rating goes down. The amount by which your rating changes depends on your team's rating compared to the other team's rating. As a frame of reference, playing a team with a rating within a close range of your own team's rating will result in a net change of 16 rating.</p>
+      <p>At the end of each week, your Team Rating is used to calculate how many Arena Points your team will receive for this week. Your team must have played a minimum of ten matches per week to be rewarded with Arena Points, and a team member must have been in at least 30% of the week’s matches to be eligible for that week's points. It is important to note that the points you receive in a given week is determined by only one team, and not by combining all your teams' points. Whichever team you are a member of that would receive the most points after accounting for Team Rating and team type becomes the sole source for your points for that week. Note that 2v2 and 3v3 teams are subject to a handicap where they receive fewer points than a 5v5 team with the same Team Rating.</p>
+      <p>Arena Points are used as currency to purchase Arena Rewards. You can stockpile a maximum of 5,000 Arena Points and they do not decay over time. The Arena Calculator will help you determine how many points you will gain from a given rating and how many weeks it will take you to earn your next arena reward with a given rating.</p>
+    </str>
+		<str id="title.about">竞技场等级和点数是如何计算的？</str>
+		<str id="penalty.title">惩罚:</str>
+		<str id="penalty.two">2v2竞技场战队仅能获得同等级5v5竞技场战队所获点数的<strong>76%</strong>。</str>
+		<str id="penalty.three">3v3竞技场战队仅能获得同等级5v5竞技场战队所获点数的<strong>88%</strong>。</str>
+		<str id="title.formulae">竞技场点数计算公式</str>
+		<str id="formula.ifrating">如果 <span class="ratingcolor">等级</span>
+    </str>
+		<str id="decimal">,</str>
+		<str id="formula.one">如果等级&lt;=1500 那么 竞技场点数=0.22*等级+14</str>
+		<str id="formula.two">如果等级&gt;1500 那么 竞技场点数=1511.26/(1+1639.28*2.71828<sup>-0.00412*等级</sup>)</str>
+		<str id="title.itemCosts">物品花费</str>
+		<str id="title.arenaRewardCosts">竞技场装备花费</str>
+		<str id="ninerepeating1">
+      <a href="http://www.blizzard.com/press/040401.shtml">0.999... =</a>
+    </str>
+		<str id="ninerepeating2">
+      <a href="http://www.blizzard.com/press/040401.shtml">1</a>
+    </str>
+		<str id="items.8">第8赛季物品</str>
+		<str id="items.7">第7赛季物品</str>
+		<str id="items.6">第6赛季物品</str>
+		<str id="items.5">第5赛季物品</str>
+		<str id="items.4">第4赛季物品</str>
+		<str id="items.3">第3赛季物品</str>
+		<str id="items.2">第2赛季物品</str>
+		<str id="items.1">第1赛季物品</str>
+
+		<str id="arenapoints">竞技场点数</str>
+		<str id="points">点数</str>
+
+		<str id="rating">等级</str>
+		<str id="ratingColon">等级:</str>
+		<str id="averageRatingColon">平均等级:</str>
+		<str id="pointsNeededColon">需要点数:</str>
+		<str id="itemCostColon">花费:</str>
+		<str id="itemCost">花费点数</str>
+		<str id="haveArenaPointsColon">已有点数:</str>
+
+		<str id="avgtwo">2v2-平均等级</str>
+		<str id="avgthree">3v3-平均等级</str>
+		<str id="avgfive">5v5-平均等级</str>
+		<str id="referenceSheet">参考列表:</str>
+
+		<str id="pinnedProfile">主要信息</str>
+		<str id="noPinnedProfile">No Profile Bookmarked</str>
+		<str id="noPinnedProfile.explanation">
+      <i>Bookmark a profile</i> to auto-populate some of the fields in the calculator. Click <a href="character-search.xml">here</a> to search for a profile.</str>
+
+		<str id="disclaimer.stats">竞技场统计数据并不实时更新。<br/>
+并且只显示来自一个战队的等级。</str>
+
+		<str id="twoVcolon">2v2:</str>
+		<str id="threeVcolon">3v3:</str>
+		<str id="fiveVcolon">5v5:</str>
+
+		<str id="numWeeks">周数</str>
+
+		<str id="week0">0 周</str>
+
+		<str id="week1">1 周:</str>
+		<str id="week2">2 周:</str>
+		<str id="week3">3 周:</str>
+		<str id="week4">4 周:</str>
+		<str id="week5">5 周:</str>
+		<str id="week6">6 周:</str>
+		<str id="week7">7 周:</str>
+		<str id="week8">8 周:</str>
+		<str id="week9">9 周:</str>
+		<str id="week10">10 周:</str>
+		<str id="week11">11 周:</str>
+		<str id="week12">12 周:</str>
+
+		<str id="weapons">武器</str>
+		<str id="armor">护甲</str>
+
+		<str id="or">或</str>
+		<str id="impossible">不可能</str>
+		<str id="colon">:</str>
+		<str id="honorone">Arena rewards from Season <param1/> are now purchased with Honor Points and Battleground Marks of Honor.</str>
+		<str id="honortwo">View the full set of Season <param1/> rewards at the link below.</str>
+		<str id="seasononelink">Season <param1/> Arena Rewards</str>
+	</arenaCalc>
+
+	<searchPlugin>
+		<str id="searchengine">Search Engine</str>
+		<str id="title">Browser Search Plugin</str>
+		<str id="maintitle">More convenient searching.</str>
+		<str id="subtitle">Add the World of Warcraft Armory search field to your browser for instant Armory access from anywhere on the web!</str>
+		<str id="installnow">Install Now</str>
+		<str id="operaplugintitle">WoW Armory</str>
+		<str id="instructionsforopera">Instructions for Opera:</str>
+		<str id="instructionsforopera1">Click the <strong>Install Now</strong> button.</str>
+		<str id="instructionsforopera2">Click <strong>Yes</strong> in the popup dialogue.</str>
+		<str id="instructionsforopera3">Drag the "WoW Armory" box from <strong>Appearance → Buttons → My buttons</strong> to your browser bar.</str>
+		<str id="instructionsforopera4">Or</str>
+		<str id="instructionsforopera5">To add the Armory to Opera's default search engine list:</str>
+		<str id="instructionsforopera6">Go to <strong>Tools → Preferences → Search</strong>.</str>
+		<str id="instructionsforopera7">Click on <strong>Add</strong>.</str>
+		<str id="instructionsforopera8">Enter the following information into the popup dialogue and click <strong>OK</strong>:</str>
+		<str id="instructionsforopera9">
+      <b>Name:</b> WoW Armory<br/>
+      <b>Keyword:</b> wow<br/>
+      <b>Address:</b> http://www.wowarmory.com/search.xml?searchQuery=%s&amp;searchType=all</str>
+		<str id="instructionsforopera10">You should now be able to select "WoW Armory" from the dropdown list of search engines.</str>
+	</searchPlugin>
+
+	<archives>
+		<str id="archives.title">英雄榜归档</str>
+		<str id="archives.arena.seasonone">Arena Hall of Fame: Season One</str>
+	</archives>
+
+	<months>
+		<str id="month1">一月</str>
+		<str id="month2">二月</str>
+		<str id="month3">三月</str>
+		<str id="month4">四月</str>
+		<str id="month5">五月</str>
+		<str id="month6">六月</str>
+		<str id="month7">七月</str>
+		<str id="month8">八月</str>
+		<str id="month9">九月</str>
+		<str id="month10">十月</str>
+		<str id="month11">十一月</str>
+		<str id="month12">十二月</str>
+	</months>
+
+	<monthsAbb>
+		<str id="month1">一月</str>
+		<str id="month2">二月</str>
+		<str id="month3">三月</str>
+		<str id="month4">四月</str>
+		<str id="month5">五月</str>
+		<str id="month6">六月</str>
+		<str id="month7">七月</str>
+		<str id="month8">八月</str>
+		<str id="month9">九月</str>
+		<str id="month10">十月</str>
+		<str id="month11">十一月</str>
+		<str id="month12">十二月</str>
+	</monthsAbb>
+
+	<weekdays>
+		<str id="day1">周日</str>
+		<str id="day2">周一</str>
+		<str id="day3">周二</str>
+		<str id="day4">周三</str>
+		<str id="day5">周四</str>
+		<str id="day6">周五</str>
+		<str id="day7">周六</str>
+	</weekdays>
+
+	<time>
+		<str id="time0">0:01</str>
+		<str id="time1">1:00</str>
+		<str id="time2">2:00</str>
+		<str id="time3">3:00</str>
+		<str id="time4">4:00</str>
+		<str id="time5">5:00</str>
+		<str id="time6">6:00</str>
+		<str id="time7">7:00</str>
+		<str id="time8">8:00</str>
+		<str id="time9">9:00</str>
+		<str id="time10">10:00</str>
+		<str id="time11">11:00</str>
+		<str id="time12">12:00</str>
+		<str id="time13">13:00</str>
+		<str id="time14">14:00</str>
+		<str id="time15">15:00</str>
+		<str id="time16">16:00</str>
+		<str id="time17">17:00</str>
+		<str id="time18">18:00</str>
+		<str id="time19">19:00</str>
+		<str id="time20">20:00</str>
+		<str id="time21">21:00</str>
+		<str id="time22">22:00</str>
+		<str id="time23">23:00</str>
+		<str id="time24">23:59</str>
+	</time>
+
+	<redirect>
+		<str id="redirecting">重定向...</str>
+		<str id="notredirectone">如果10秒内浏览器没有自动定向，请点击 </str>
+		<str id="notredirecttwo">这里</str>
+		<str id="notredirectthree">。</str>
+	</redirect>
+
+	<serverBusy>
+		<str id="refreshpage">刷新页面</str>
+		<str id="content">英雄榜服务器正处理大量连接请求，请过几分钟在尝试。</str>
+		<str id="title">服务器正忙</str>
+	</serverBusy>
+
+	<propass>
+		<str id="forum.link.mouseover">Clicking this link will take you to the Arena Pass Forum</str>
+		<str id="forum.link">http://forums.wow-europe.com/board.html?forumId=3901822&amp;sid=1</str>
+		<str id="teamstats">Arena Pass Team Statistics</str>
+		<str id="pvpinfo">Personal PvP Information:</str>
+		<str id="personalrating">PERSONAL RATING: </str>
+		<str id="winrecord">WIN RECORD: </str>
+		<str id="winpercentage">WIN PERCENTAGE: </str>
+		<str id="coliseums">Coliseums: </str>
+		<str id="usoceanic">USA &amp; Oceanic</str>
+		<str id="europe">Europe</str>
+		<str id="korea">Korea</str>
+		<str id="taiwan">Taiwan, Hong Kong, &amp; Macau</str>
+
+		<str id="winloseone"/>
+		<str id="winlosetwo"> wins - </str>
+		<str id="winlosethree"> losses</str>
+		<str id="winpercentageone"/>
+		<str id="winpercentagetwo">% Win Percentage</str>
+
+		<str id="teaminfo">Team Information</str>
+		<str id="arena">竞技场</str>
+		<str id="tournament">Arena Pass</str>
+		<str id="rating">RATING: </str>
+	</propass>
+
+	<esrb>
+		<str id="ratingsurl">http://www.esrb.org/esrbratings_guide.asp</str>
+		<str id="privacyurl">http://eu.blizzard.com/en-gb/company/about/privacy.html</str>
+	</esrb>
+
+	<calendar>
+		<str id="noscript">日历功能需要在浏览器中启用JavaScript。</str>
+		<str id="eventList">所有事件</str>
+		<str id="viewEvent">查看事件</str>
+		<str id="viewAnnouncement">查看公告</str>
+		<str id="filters">过滤器</str>
+		<str id="timesettings">时间设定</str>
+		<str id="locked">(锁定)</str>
+		<str id="accept">接受</str>
+		<str id="tentative">可选</str>
+		<str id="decline">拒绝</str>
+		<str id="remove">移除</str>
+		<str id="signup">登陆</str>
+		<str id="spam">报告垃圾邮件</str>
+		<str id="player">玩家</str>
+		<str id="class">职业</str>
+		<str id="status">状态</str>
+		<str id="complaint">投诉登记</str>
+		<str id="complaintlong">您的投诉已被记录。</str>
+		<str id="ok">好</str>
+		<str id="desc">说明</str>
+		<str id="close">关闭</str>
+		<str id="closelong">关闭窗口</str>
+		<str id="att">参与者</str>
+		<str id="attt">所有参与者</str>
+		<str id="details">详细情况</str>
+		<str id="loading">载入...</str>
+		<str id="eventoverflow">这一天有多个日程安排，点击箭头以显示全部安排。</str>
+		<str id="moreinfo">
+      <a>详细了解该日程</a>
+    </str>
+		<str id="creator">您是该项日程的创建者或管理者。</str>
+		<error id="accessdenied">
+      <div class="guilderrortitle">拒绝访问</div>本页面内容仅限注册用户查看，您必需拥有相对应的魔兽世界英雄榜帐号。如需更多关于帐号的信息，请查看常见问题<a href="/faq-login.xml">登陆英雄榜</a>。</error>
+		<time>
+			<str id="info">信息</str>
+			<str id="realm">服务器:</str>
+			<str id="local">当地时间:</str>
+			<str id="hour24">24 小时制</str>
+			<str id="useLocal">使用本地时间</str>
+		</time>
+		<dungeon>
+			<str id="heroic">(英雄模式)</str>
+			<str id="10-player">(10 人)</str>
+			<str id="25-player">(25 人)</str>
+			<str id="20-player">(20 人)</str>
+			<str id="40-player">(40 人)</str>		
+		</dungeon>
+		<dynamic>
+			<str id="eventOwner">This is your event</str>
+			<str id="invitedBy">Invited by {0}</str>
+			<str id="announcementOwner">This is your announcement</str>
+			<str id="createdBy">Created by {0}</str>
+			<str id="attendees">{0} Accepted/Confirmed Attendees</str>
+			<str id="eventStarts">{0} Begins</str>
+			<str id="eventEnds">{0} Ends</str>
+			<str id="eventResets">{0} Resets</str>
+			<str id="eventResetsDescription">{0} resets at {1}.</str>
+			<str id="eventUnlocks">{0} Unlocks</str>
+			<str id="eventUnlocksDescription">Your {0} instance unlocks at {1}.</str>
+			<str id="error">错误</str>
+			<str id="errorDescription">在日历中有些日程无法加载。\n\n请过几分钟再尝试一次。</str>
+			<str id="characterErrorDescription">出现在日历中的必需是最近活跃的角色角色，并且要求不低于10级。</str>
+		</dynamic>
+		<event-type>
+			<str>战场节日</str>
+			<str>暗月马戏团</str>
+			<str>主动RAID锁定</str>
+			<str>副本重置</str>
+			<str>节假日</str>
+		</event-type>
+		<player-event-type>
+			<str>Raid</str>
+			<str>Dungeon</str>
+			<str>PvP</str>
+			<str>Meeting</str>
+			<str>Other</str>
+		</player-event-type>
+		<event-status>
+			<str>Invited</str>
+			<str>Tentative</str>
+			<str>Accepted</str>
+			<str>Declined</str>
+			<str>Confirmed</str>
+			<str>Out</str>
+			<str>Standby</str>
+			<str>Signed Up</str>
+		</event-status>
+		<format> <!-- JavaScript -->
+			<str id="firstDayOfWeek">1</str> <!-- 0-6, 0 = Sunday, 1 = Monday, … -->
+			<str id="use24HourFormat">false</str>
+			<str id="dateFormat">return CALENDAR_STRINGS.days[date.getDay()] + ' ' + date.getDate() + ' ' + CALENDAR_STRINGS.months[date.getMonth()] + ' ' + date.getFullYear();</str> <!-- order of number/day/month/year -->
+			<str id="time12HourFormat">return displayHour + ':' + padLeft(date.getMinutes().toString(), 2, '0') + (hours &gt;= 12 ? ' PM' : ' AM');</str>
+		</format>
+		<links base="/cn/info/basics/"> <!-- prefixed by url.wow -->
+			<event id="Fireworks">events/newyear/index.html</event>
+			<event id="LoveInTheAir">events/loveisintheair/index.html</event>
+			<event id="HarvestFestival">events/harvestfestival/index.html</event>
+			<event id="LunarFestival">events/lunarfestival/index.html</event>
+			<event id="WinterVeil">events/winterveil/index.html</event>
+			<event id="HallowsEnd">events/hallowsend/index.html</event>
+			<event id="Olymics">events/spiritofcompetition/index.html</event>
+			<event id="PiratesDay">events/piratesday/index.html</event>
+			<event id="Brewfest">events/brewfest/index.html</event>
+			<event id="Midsummer">events/midsummer/index.html</event>
+			<event id="FishingExtravaganza">events/stranglethorn/fishing.html</event>
+			<event id="StranglethornFishingExtravaganza">events/stranglethorn/fishing.html</event>
+			<event id="FeastofWinterVeil">events/winterveil/index.html</event>
+			<event id="DarkmooonFaire">factions/darkmoon/index.html</event>
+			<event id="DayoftheDead">events/dayofthedead/index.html</event>
+			<event id="PilgrimsBounty">events/pilgrimsbounty/index.html</event>
+			<event id="MidsummerFireFestival">events/midsummer/index.html</event>
+			<event id="ChildrensWeek">events/childrensweek/index.html</event>
+
+
+		</links>
+		<feed>
+			<str id="faqLinkButtonText">Calendar Feed FAQ</str>
+			<str id="faqLinkButtonURL">/faq-calendar-feed.xml</str>
+			<str id="subscribe">Calendar Feed</str>
+			<str id="subscribeMessage">将此日历导入至您默认的应用程序</str>
+      <!--Gleicht euren Spielerkalender mit eurem bevorzugten Terminplaner ab.-->
+			<str id="pageTitle">Calendar Feed Customization</str>
+			<str id="pageSubTitle">Calendar Feed Options</str>
+			<str id="errorPageSubTitle">No Eligible Characters</str>
+			<str id="errorMessage">A character must be recently active, on an account in good standing, on a European realm, and be at least level 10 to appear on a calendar feed you create here.<p/>To select characters from a different region, such as Europe, use the region selection menu at the bottom of the page.</str>
+			<str id="filters">Filters</str>
+			<str id="playerCalendars">Player Calendars (up to 5):</str>
+			<str id="noCharacter">&lt;click to select&gt;</str>
+			<str id="feedUrl">Calendar Feed URL:</str>
+			<str id="resetButton">Reset Security Key</str>
+			<str id="copyButton">Copy to Clipboard</str>
+			<str id="noButton">Cancel</str>
+			<str id="yesButton">Yes, Reset Key</str>
+			<str id="resetMessage">Your Calendar Feed URL contains a unique security key. Are you sure you want to reset this key and create a new URL?</str>
+			<str id="resetConfirmedMessage">Your calendar feed now has a new URL. Update this new URL in your online calendars to resynch them to your calendar feed.</str>
+			<str id="aboutTitle">What's this page for?</str>
+			<str id="aboutMessage1">This customization tool allows you to create a custom calendar feed for up to five of your characters' player calendars. The feed can be used to synchronize your characters' Player Calendars with any compatible online calendar application, such as Google Calendar, and Apple's iCal, to name a few.</str>
+			<str id="aboutMessage2">For more information on creating and exporting custom feeds, refer to the FAQ displayed below.</str>
+			<event-type>
+				<str id="bgholidays">Battleground Holidays</str>
+				<str id="darkmoon">Darkmoon Faire</str>
+				<str id="raidlockouts">Active Raid Lockouts</str>
+				<str id="raidresets">Raid Resets</str>
+				<str id="holidays">Weekly Holidays</str>
+			</event-type>
+		</feed>
+		<tooltips>
+			<str id="previousMonth">Previous Month</str>
+			<str id="nextMonth">Next Month</str>
+			<str id="filters">Select the event categories you wish to appear.</str>
+			<str id="timeSettings">Choose a time format and time zone.</str>
+		</tooltips>
+	</calendar>
+	<achievements>
+		<str id="points">点数</str>
+		<str id="progress">总体进展</str>
+		<str id="recent">最近的成就</str>
+		<str id="achievements.summary">摘要</str>
+		<str id="realmfirst">服务器第一!</str>
+		<str id="achievementfirst">服务器第一:</str>
+		<str id="achievementfirsts">服务器第一</str>
+		<str id="serverfirsts.realmnav.myrealms">我的服务器</str>
+		<str id="serverfirsts.realmnav.viewing">查看</str>
+		<str id="serverfirsts.realmnav.otherrealms">其他服务器</str>
+		<str id="serverfirsts.realmnav.otherregions">其他分区</str>
+		<str id="error">发生错误。</str>
+		<str id="error.noData">服务器 '<param1/>' 无相关数据。</str>
+		<str id="error.unknown">请创建一个新的请求。</str>
+		<str id="achv.by">获得者 </str>
+		<str id="achv.and">和</str>
+		<str id="achv.solo">Solo</str>
+		<str id="achv.earned">获得</str>
+		<str id="achv.on">于</str>
+		<str id="compare.achievements">添加角色比较</str>
+		<str id="compare.achievements.button">比较</str>
+				<str id="compare.max">You can compare up to <param1/> characters at one time. You must remove a character below before adding another.</str>
+		<str id="stats.latest">最近更新统计</str>
+		<str id="stats.latest.compare">
+      <param1/>的最新更新统计</str>
+		<err id="notfound">角色 "<param1/>" 无法在服务器 "<param2/>上找到."</err>
+		<str id="totalcompleted">总计完成:</str>
+		<str id="solo">Solo</str>
+		<str id="date.format">{
+			withinHour: "{0} 分钟前",
+			withinHourSingular: "{0} 分钟前",
+			withinDay: "{0} 小时前",
+			withinDaySingular: "{0} 小时前",
+			today: "今天, {0}",
+			yesterday: "昨天",
+			date: "yyyy-M-d"
+		}</str>
+	</achievements>
+	
+	<mobileArmoryPage>
+		<str id="download.btn">Download Now</str>
+		<str id="intro">Ever wanted to check your raid schedule, look up a piece of PvP gear, or concoct a new talent spec while on the go? The World of Warcraft Mobile Armory app for iPhone™ and iPod touch® lets you access the official Armory database from anywhere you have a mobile connection, and features much of the same functionality as the Armory website, including:</str>
+		<str id="outro">The World of Warcraft Mobile Armory is available now as a free download from the Apple App Store.</str>
+		<str id="feature.search">Search for and view any character, item, guild, or Arena team in World of Warcraft.</str>
+		<str id="feature.import">Seamlessly import your own character, guild, and Arena team profiles.</str>
+		<str id="feature.calendar">Access your in-game calendar of events.</str>
+		<str id="feature.achievments">View achievement-point leaderboards.</str>
+		<str id="feature.talents">Plan out talent specs using the fully functional talent calculator.</str>
+		<str id="feature.more">And much more!</str>
+		<str id="movie.name">iphone_armory_en</str>
+	</mobileArmoryPage>
+
+	<mobileArmoryInterstitial>
+		<str id="continue">Continue to the Armory</str>
+		<str id="download">Download from iTunes</str>
+		<str id="intro">There's a new way to browse the Armory from your iPhone™ or iPod touch®. Check out the World of Warcraft Mobile Armory, available now as a free download from the Apple App Store.</str>
+	</mobileArmoryInterstitial>
+	
+	<wowRemotePage>
+		<str id="intro.title">World of Warcraft Remote Auction House</str>
+		<str id="intro.text">Now you can access the World of Warcraft Auction House from your web browser or mobile device. Browse the Auction House for free, or with a subscription to the new World of Warcraft Remote service, you can:</str>
+		<str id="feature.browse">Bid on and buy out auctions with real-time results.</str>
+		<str id="feature.create">Create auctions from items in your bags, bank, or mailbox.</str>
+		<str id="feature.collect">Collect gold earned in your auctions.</str>
+		<str id="price.period">per 30 days</str>
+		<str id="price.only">Only</str>		
+		<str id="price.notice">*Prices may vary by country and currency.</str>
+		<str id="try.free.title">Browse the World of Warcraft Remote Auction House for FREE </str>
+		<str id="try.wr.text">Anyone can browse the Auction House via the Armory website or mobile device for FREE. Follow the links below to visit the Auction House website or download the free app on iTunes® for the iPhone® or iPod touch®. Additional mobile devices will be supported in the future.</str>
+		<str id="try.wr.faq">Learn more about <br/>World of Warcraft Remote.</str>
+		<str id="try.notice">iPhone and iPod touch are trademarks of Apple Inc., registered in the U.S. and other countries.</str>
+		<str id="btn.try.web">FREE Web Auction House</str>
+		<str id="btn.try.mobile">FREE Mobile Auction House on iTunes</str>
+		<str id="btn.subscribe">Subscribe Now</str>
+		<str id="btn.subscribe.beta">Coming Soon</str>
+		<str id="table.descrip.head">World of Warcraft Remote Auction House Features</str>
+		<str id="table.free.head">Free</str>
+		<str id="table.wr.head">Subscription</str>
+		<str id="table.descrip.1">Browse the Auction House</str>
+		<str id="table.descrip.2">Get real-time notifications when your auctions sell or expire</str>
+		<str id="table.descrip.3">Get real-time notifications when you win auctions or when you are outbid</str>
+		<str id="table.descrip.4">View your characters' current gold</str>
+		<str id="table.descrip.5">View the status of your auctions and search for similar auctions</str>
+		<str id="table.descrip.6">View the items you can sell in your bags, bank, and mailbox</str>
+		<str id="table.descrip.7">View the status of auctions you are bidding on</str>
+		<str id="table.descrip.8">View the items you've sold in the Auction House</str>
+		<str id="table.descrip.9">View your expired auctions</str>
+		<str id="table.descrip.10">View the status of auctions you created</str>
+		<str id="table.descrip.11">View your successful auctions</str>
+		<str id="table.descrip.12">Bid on auctions</str>
+		<str id="table.descrip.13">Buy out auctions</str>
+		<str id="table.descrip.14">Create auctions from items in your bags, bank, and mailbox</str>
+		<str id="table.descrip.15">Collect gold from successful auctions</str>
+		<str id="table.descrip.16">Collect gold from unsuccessful bids</str>
+		<str id="table.descrip.17">Collect all outstanding gold with a single click</str>
+		<str id="table.descrip.18">Cancel your auctions</str>
+		<str id="table.descrip.19">Relist items for sale from your expired auctions</str>
+	</wowRemotePage>
+	
+	<auctionHouse>
+		<str id="auctionHouse">Auction House</str>
+		<str id="auctions">Auctions</str>
+		<str id="auctions.create">Create Auctions</str>
+		<str id="auctions.create2">Create</str>
+		<str id="auctions.browse">Browse Auctions</str>
+		<str id="auctions.browse2">Browse</str>
+		<str id="auctions.active">Active Auctions</str>
+		<str id="auctions.similar">Similar Auctions</str>
+		<str id="auctions.sold">Sold</str>
+		<str id="auctions.ended">Ended</str>
+		<str id="auctions.ended.tip">You must reclaim your items in-game within the remaining time or they will be deleted.</str>
+		<str id="auctions.won">Won</str>
+		<str id="auctions.won.tip">These items have been delivered to your in-game mailbox.</str>
+		<str id="auctions.lost">Didn't Win</str>
+		<str id="auctions.my">My Auctions</str>
+		<str id="bids">Bids</str>
+		<str id="bids.my">My Bids</str>
+		<str id="bids.active">Active Bids</str>
+		<str id="sort.name">Name</str>
+		<str id="sort.rarity">Rarity</str>
+		<str id="sort.qty">Quantity</str>
+		<str id="sort.qty2">Qty</str>
+		<str id="sort.level">Required Level</str>
+		<str id="sort.level2">Req. Level</str>
+		<str id="sort.timeLeft">Time Left</str>
+		<str id="sort.buyout">Buyout</str>
+		<str id="sort.buyoutPrice">Buyout Price</str>
+		<str id="sort.buyoutPriceUnit">Buyout Price Per Item</str>
+		<str id="sort.bid">Bid</str>
+		<str id="sort.bidBuyout">Bid / Buyout</str>
+		<str id="sort.bidPrice">Bid Price</str>
+		<str id="sort.bidPriceUnit">Bid Price Per Item</str>
+		<str id="sort.winPrice">Win Price</str>
+		<str id="sort.highBidder">High Bidder</str>
+		<str id="sort.options">Options</str>
+		<str id="sort.soldPrice">卖出价格</str>
+		<str id="sort.buyer">Buyer</str>
+		<str id="sort.status">Status</str>
+		<str id="sort.seller">Seller</str>
+		<str id="sort.moneyEarned">Gold Earned</str>
+		<str id="sort.house">House</str>
+        <str id="sort.minRarity">Minimum Rarity</str>
+        <str id="sort.itemLevel">物品等级</str>
+		<str id="money.getAll">Claim All Gold</str>
+		<str id="money.get">Claim Gold</str>
+		<str id="money.claim">You must claim your gold within the remaining time or it will be deleted.</str>
+		<str id="money.claimItem">You must claim your item within the remaining time or it will be deleted.</str>
+		<str id="money.claimBoth">You must claim your gold / item(s) within the remaining time or they will be deleted.</str>
+		<str id="browse.itemName">物品名称</str>
+		<str id="browse.categories">Categories</str>
+		<str id="browse.levelRange">Level Range</str>
+		<str id="browse.choose">Choose</str>
+		<str id="browse.useable">Usable</str>
+		<str id="browse.reset">Reset</str>
+		<str id="browse.search">搜索</str>
+		<str id="browse.noResults">Your search did not produce any results, please try again.</str>
+		<str id="status.noBids">No Bids</str>
+		<str id="status.highBidder">High Bidder</str>
+		<str id="status.noBuyer">No Buyer</str>
+		<str id="status.outbid">Outbid</str>
+		<str id="status.expired">Expired</str>
+		<str id="status.cancelled">Canceled</str>
+		<str id="summary.select">Select an Auction House</str>
+		<str id="summary.alliance">联盟</str>
+		<str id="summary.alliance.house">Alliance Auction House</str>
+		<str id="summary.horde">部落</str>
+		<str id="summary.horde.house">Horde Auction House</str>
+		<str id="summary.neutral">中立</str>
+		<str id="summary.neutral.house">Neutral Auction House</str>
+		<str id="summary.title">Remote Auction House</str>
+		<str id="summary.desc">The Remote Auction House lets you browse your realm's auction house through a web browser or the iPhone's Armory app. With a subscription to World of Warcraft Remote, you can also both bid on (or buy out) existing auctions as well as list your own items for sale from your bags, bank, and mailbox.</str>
+		<str id="summary.activity">
+      <param1/>'s Auction Activity</str>
+		<str id="summary.mailbox">邮箱</str>
+		<str id="summary.mailTotal">Total Mail Items</str>
+		<str id="summary.selling">Selling</str>
+		<str id="summary.goldEarned">Gold Earned</str>
+		<str id="summary.mailbox">Mailbox</str>
+		<str id="summary.mailFull">Your mailbox is full! Only the 50 most recent messages can be accessed for selling purposes.</str>
+		<str id="button.cancel">Cancel</str>
+		<str id="button.cancelAuction">Cancel</str>
+		<str id="button.buyout">Buyout</str>
+		<str id="button.rebid">Bid Again</str>
+		<str id="button.bid">Bid</str>
+		<str id="button.confirm">Confirm</str>
+		<str id="button.confirmBid">Confirm Bid</str>
+		<str id="button.confirmBuyout">Confirm Buyout</str>
+		<str id="button.ok">OK</str>
+		<str id="button.no">否</str>
+		<str id="button.yes">是</str>
+		<str id="button.upgrade">Upgrade Subscription</str>
+		<str id="button.filter">过滤</str>
+		<str id="button.create">创建</str>
+		<str id="button.stop">停止</str>
+		<str id="button.finish">完成</str>
+		<str id="button.retry">重试</str>
+        <str id="button.search">搜索</str>
+        <str id="button.continue">继续</str>
+        <str id="button.close">关闭</str>
+		<str id="msg.error">An error occurred when attempting this action, please try again later.</str>
+		<str id="msg.maxBids">You've exceeded the number of auctions that you can bid on or buy out within 1 hour. Please try again later.</str>
+		<str id="msg.cancelAuction">If you cancel this auction, the listing fee will not be refunded. Proceed?</str>
+		<str id="msg.subscription">Bidding on auctions requires an Auction House subscription.</str>
+		<str id="msg.errorMoney">You don't have enough gold to bid on or buy out this auction.</str>
+		<str id="msg.confirmation">Don't show this message again</str>
+		<str id="msg.buyout">You are buying out this item for the following amount, are you sure?</str>
+		<str id="msg.enterBid">Enter your bid</str>
+		<str id="msg.noBids">You have not bid on any auctions.</str>
+		<str id="msg.noWonLost">You have not participated in any auctions.</str>
+		<str id="msg.browseListing">Browse the auction house.</str>
+		<str id="msg.noListings">You have not created any auctions.</str>
+		<str id="msg.createAuction">Create an auction to sell your items.</str>
+		<str id="msg.isSeller">You are the seller</str>
+		<str id="msg.bidFinish">Your bid has been placed!</str>
+		<str id="msg.buyoutFinish">You have successfully bought out this auction and should receive your item(s) shortly!</str>
+		<str id="msg.noSimilar">No similar items found.</str>
+		<str id="msg.highPriceUnit">Highest Price / Item</str>
+		<str id="msg.lowPriceUnit">Lowest Price / Item</str>
+		<str id="msg.stopCreation">Leaving this screen or clicking Stop will interrupt the creation process.</str>
+		<str id="msg.auctionCreated">Your auction(s) have been created!</str>
+        <str id="msg.myAuction">Your Auction</str>
+        <str id="msg.noBladeData1">You are not bidding on any auctions.</str>
+		<str id="msg.noBladeData2">You have not won any auctions.</str>
+		<str id="msg.noBladeData3">You have not lost any auctions.</str>
+		<str id="msg.noBladeData4">You have no active auctions.</str>
+		<str id="msg.noBladeData5">You have not sold any auctions.</str>
+		<str id="msg.noBladeData6">You have no expired auctions.</str>
+        <str id="msg.logoutOfGame">You must log out of the game before you can access this page.</str>
+        <str id="msg.beginSearch">Enter your search criteria and click "Search".</str>
+        <str id="msg.auctionLimitReached">Only the 500 most recent auctions are displayed.</str>
+        <str id="msg.bidsLimitReached">Only the 500 most recent bids are displayed.</str>
+		<str id="time.short">Short</str>
+		<str id="time.short.msg">Less than 30 mins</str>
+		<str id="time.medium">Medium</str>
+		<str id="time.medium.msg">Between 30 mins and 2 hours</str>
+		<str id="time.long">Long</str>
+		<str id="time.long.msg">Between 2 hours and 12 hours</str>
+		<str id="time.verylong">Very Long</str>
+		<str id="time.verylong.msg">Greater than 12 hours</str>
+		<str id="buyoutTotal">Buyout Total</str>
+		<str id="relist">Relist</str>
+		<str id="active">Active</str>
+		<str id="completed">Completed</str>
+		<str id="days">Days</str>
+		<str id="won">Won</str>
+		<str id="lost">Didn't Win</str>
+		<str id="cancelled">Canceled</str>
+		<str id="expired">Expired</str>
+		<str id="sold">Sold</str>
+		<str id="outbid">Outbid</str>
+		<str id="pending">Pending</str>
+		<str id="create.stackSize">Stack Size</str>
+		<str id="create.totalStacks">Total Stacks</str>
+		<str id="create.minRarity">Min. Rarity</str>
+		<str id="create.mailbox">Mail</str>
+		<str id="create.bags">Bags</str>
+		<str id="create.bank">Bank</str>
+		<str id="create.inventory">Inventory</str>
+		<str id="create.all">全部</str>
+		<str id="create.max">Max</str>
+		<str id="create.quantity">Quantity</str>
+		<str id="create.stacks">Stacks</str>
+		<str id="create.pricePer">Price</str>
+		<str id="create.perStack">Per stack</str>
+		<str id="create.perItem">Per item</str>
+		<str id="create.duration">Duration</str>
+		<str id="create.startPrice">Starting Price</str>
+		<str id="create.buyoutPrice">Buyout Price</str>
+		<str id="create.optional">optional</str>
+		<str id="create.deposit">Deposit Total</str>
+		<str id="create.creating">Creating <param-html1/> of <param-html2/> auctions</str>
+		<str id="create.12hours">12 Hours</str>
+		<str id="create.24hours">24 Hours</str>
+		<str id="create.48hours">48 Hours</str>
+		<str id="create.filter.all">All My Items</str>
+		<str id="create.filter.co">Consumables</str>
+		<str id="create.filter.tr">Trade Goods</str>
+		<str id="create.filter.eq">Equipable Items</str>
+		<str id="create.maxQty">Max Quantity Per Stack</str>
+		<str id="create.qtyLeft">Stack Quantity Remaining</str>
+        <str id="create.depositFee">You do not have enough gold to cover the deposit fee.</str>
+		<str id="create.chooseItem">What do you want to sell?</str>
+		<str id="create.chooseInfo1">Begin by selecting an item to the left. You can sell any transferable item (excluding account-bound items) from your bags, bank, or mailbox.</str>
+		<str id="create.chooseInfo2">Once selected, you can set a starting price, a buyout price, the quantity you wish to sell, and the number of stacks (to create multiple auctions for that item).</str>
+		<str id="create.mailboxNotice">You have over 50 messages in your mailbox. Items attached to&lt;br /&gt; messages that are older than the most recent 50 cannot be accessed.</str>
+        <str id="upgrade.title">Upgrade to World of Warcraft Remote</str>
+		<str id="upgrade.button">Upgrade Subscription</str>
+		<str id="upgrade.text1">Buy Out and Bid on Auctions</str>
+		<str id="upgrade.text2">Retrieve Gold from Your Mailbox</str>
+		<str id="upgrade.text3">Create Auctions!</str>
+		<str id="toast.bid">Your bid has been placed.</str>
+		<str id="toast.sold">An auction has sold.</str>
+		<str id="toast.won">You won an auction!</str>
+		<str id="toast.cancelled">Auction cancelled.</str>
+		<str id="toast.created">Auction created.</str>
+		<str id="toast.outbid">You have been outbid!</str>
+		<str id="toast.expired">An auction has expired.</str>
+		<str id="toast.interrupted">Process interrupted.</str>
+		<str id="toast.totalCreated">{total} auction(s) created.</str>
+		<str id="error">Auction House Error</str>
+		<str id="na">N/A</str>
+		<str id="find">Find In Auction House</str>
+        <str id="viewAll">View All</str>
+        <str id="house.switchAlliance">Switch to the Alliance Auction House</str>
+        <str id="house.switchHorde">Switch to the Horde Auction House</str>
+        <str id="house.switchNeutral">Switch to the Neutral Auction House</str>
+        <str id="house.changeChar">Change Character</str>
+        <str id="remote.required">World of Warcraft Remote Required</str>
+        <str id="remote.message">You must have a subscription to World of Warcraft Remote in order to buy and sell items on the Auction House.</str>
+	</auctionHouse>
+    <login>
+        <str id="login-title">魔兽世界帐号－登陆</str>
+        <str id="login-jquery-processed">登陆中</str>
+        <str id="login-username-label">魔兽世界帐号</str>
+        <str id="login-password-label">密码</str>
+        <str id="login-auth-button">登陆</str>
+        <str id="login-return-to-armory">返回英雄榜</str>
+        <str id="login-error-username">帐号是必需的</str>
+        <str id="login-error-password">密码是必需的</str>
+        <str id="login-error-incorrect-password">密码错误</str>
+        <str id="logoff-you-logged-off">您已成功登出</str>
+        <str id="logoff-redirect-info">您已登出，並会在三秒内自动转向。</str>
+        <str id="logoff-redirect-link-1">如果您没有自动转向，</str>
+        <str id="logoff-redirect-link-2">请点击这里</str>
+        <str id="logoff-redirect-link-3">以继续。</str>
+    </login>
+</strs>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Anmeldung im Arsenal">
+	<faqlist>
+		<faq question="我应该用哪个账号登录英雄榜？>
+			在登录英雄榜时要用到《魔兽世界》的账号信息。
+		</faq>
+		<faq question="为什么英雄榜会要求我登录？">
+			英雄榜的特定页面，由于其内容的性质，会要求玩家登录才能查看，如玩家日历。以后我们可能还会加入更多登录保护页面。
+		</faq>
+		<faq question="查找结果显示页面上的 “匹配度” 一词是什么意思？">
+			与搜索引擎的匹配等级类似，英雄榜也引入了匹配度的概念，将查询结果按照匹配度的高低顺次排列。匹配度由的高低由系统在对一系列决定因素加以计算后决定。根据检索的类别不同，决定因素也不尽相同。
+			<p/>
+			例如，在对某角色名进行查找时，起作用的即为角色等级、最后登录时间以及其它相关因素。
+		</faq>
+		<faq question="英雄榜推荐和支持的浏览器有哪些？">
+			英雄榜支持IE（6.0版本及以上）、Opera 9以及Safari浏览器。在Firefox浏览器上表现得最为出色。此外，某些特色需要安装Flash 播放器才可体验。
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="冰霜纹章奖励" url="search.xml?source=dungeon&amp;dungeon=emblemoffrost&amp;type=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none"/>		
+		<relatedlink name="凯旋纹章奖励" url="search.xml?source=dungeon&amp;dungeon=emblemoftriumph&amp;type=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none"/>		
+		<relatedlink name="传家宝" url="search.xml?source=all&amp;type=all&amp;usbleBy=all&amp;rqrMin=&amp;rqrMax=&amp;rrt=hm&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="地下城与团队副本" url="dungeons.xml"/>
+		<relatedlink name="声望奖励" url="factions.xml"/>
+		<relatedlink name="PvP 奖励" url="pvprewards.xml"/>		
+		<relatedlink type="hr"/>
+		<relatedlink name="战斗等级" type="external" url="http://www.wow-europe.com/de/info/basics/characters.html"/>				
+		<relatedlink name="物品信息" type="external" url="http://www.wow-europe.com/de/info/items/basics.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="常见问题" url="faq-armory.xml"/>		
+		<relatedlink name="已知问题" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016252444&amp;sid=3"/>
+		<relatedlink name="报告错我" type="report" url="http://forums.wow-europe.com/board.html?forumId=11088&amp;sid=1"/>
+		<relatedlink name="玩家交流" type="translation" url="http://5151wow.gicp.net/bbs/"/>
+	</relatedlinks>
+</relatedinfo>

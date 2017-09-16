@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="人物">
+	<faqlist>
+		<faq question="角色信息页面上物品旁边的“检索晋级物品”选项有什么用？">
+				在角色信息页面下，将鼠标移至任何该角色所装备的物品，即会显示一个小箭头，指向旁边的按钮。<p/>点击这个名为“检索晋级物品”按钮，会跳转至查找结果显示页面。在此页面中会显示所有对该角色相同部位有所提升的物品列表。
+		</faq>
+		<faq question="查找结果显示页面上的“匹配度”一词是什么意思？">
+				与搜索引擎的匹配等级类似，英雄榜也引入了匹配度的概念，将查询结果按照匹配度的高低顺次排列。
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="冰霜纹章奖励" url="search.xml?source=dungeon&amp;dungeon=emblemoffrost&amp;type=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none"/>		
+		<relatedlink name="凯旋纹章奖励" url="search.xml?source=dungeon&amp;dungeon=emblemoftriumph&amp;type=all&amp;rrt=all&amp;rqrMin=&amp;rqrMax=&amp;usbleBy=all&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none"/>		
+		<relatedlink name="传家宝" url="search.xml?source=all&amp;type=all&amp;usbleBy=all&amp;rqrMin=&amp;rqrMax=&amp;rrt=hm&amp;advOptName=none&amp;andor=and&amp;searchType=items&amp;advOpt=none"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="地下城与团队副本" url="dungeons.xml"/>
+		<relatedlink name="声望奖励" url="factions.xml"/>
+		<relatedlink name="PvP 奖励" url="pvprewards.xml"/>		
+		<relatedlink type="hr"/>
+		<relatedlink name="战斗等级" type="external" url="http://www.wow-europe.com/de/info/basics/characters.html"/>				
+		<relatedlink name="物品信息" type="external" url="http://www.wow-europe.com/de/info/items/basics.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="常见问题" url="faq-armory.xml"/>		
+		<relatedlink name="已知问题" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016252444&amp;sid=3"/>
+		<relatedlink name="报告错我" type="report" url="http://forums.wow-europe.com/board.html?forumId=11088&amp;sid=1"/>
+		<relatedlink name="玩家交流" type="translation" url="http://5151wow.gicp.net/bbs/"/>
+	</relatedlinks>
+</relatedinfo>

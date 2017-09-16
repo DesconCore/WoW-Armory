@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="MageFrost" icon="spell_frost_frostbolt02" key="Frost" name="冰霜" order="2">
+      <talent column="0" icon="spell_frost_frostarmor" key="38" name="霜寒刺骨" tier="0">
+        <rank description="使你的冰冷效果有5%的機率將目標冰凍5秒。" lvl="1"/>
+        <rank description="使你的冰冷效果有10%的機率將目標冰凍5秒。" lvl="2"/>
+        <rank description="使你的冰冷效果有15%的機率將目標冰凍5秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_frostbolt02" key="37" name="強化寒冰箭" tier="0">
+        <rank description="使你寒冰箭的施法時間縮短0.1秒。" lvl="1"/>
+        <rank description="使你寒冰箭的施法時間縮短0.2秒。" lvl="2"/>
+        <rank description="使你寒冰箭的施法時間縮短0.3秒。" lvl="3"/>
+        <rank description="使你寒冰箭的施法時間縮短0.4秒。" lvl="4"/>
+        <rank description="使你寒冰箭的施法時間縮短0.5秒。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_frost_icefloes" key="62" name="浮冰" tier="0">
+        <rank description="使你冰霜新星、冰錐術、寒冰屏障及冰寒脈動的冷卻時間縮短7%。" lvl="1"/>
+        <rank description="使你冰霜新星、冰錐術、寒冰屏障及冰寒脈動的冷卻時間縮短14%。" lvl="2"/>
+        <rank description="使你冰霜新星、冰錐術、寒冰屏障及冰寒脈動的冷卻時間縮短20%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_iceshard" key="73" name="寒冰裂片" tier="1">
+        <rank description="使你冰霜法術的致命一擊傷害加成提高33%。" lvl="1"/>
+        <rank description="使你冰霜法術的致命一擊傷害加成提高66%。" lvl="2"/>
+        <rank description="使你冰霜法術的致命一擊傷害加成提高100%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_frostward" key="70" name="冰霜結界" tier="1">
+        <rank description="使你霜甲術和冰甲術所提供的護甲值和抗性提高25%。另外，你的防護冰霜結界與防護火焰結界啟動時有15%的機率將防護的法術中和，並回復同等於傷害量的法力。" lvl="1"/>
+        <rank description="使你霜甲術和冰甲術所提供的護甲值和抗性提高50%。另外，你的防護冰霜結界與防護火焰結界啟動時有30%的機率將防護的法術中和，並回復同等於傷害量的法力。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_ice_magicdamage" key="1649" name="精準" tier="1">
+        <rank description="使你法術的法力消耗降低且命中率提高1%。" lvl="1"/>
+        <rank description="使你法術的法力消耗降低且命中率提高2%。" lvl="2"/>
+        <rank description="使你法術的法力消耗降低且命中率提高3%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_frost_wisp" key="65" name="極寒冰霜" tier="1">
+        <rank description="使你冰冷效果的持續時間延長1秒，並使目標的移動速度額外降低4%，受到的治療效果降低7%。" lvl="1"/>
+        <rank description="使你冰冷效果的持續時間延長2秒，並使目標的移動速度額外降低7%，受到的治療效果降低13%。" lvl="2"/>
+        <rank description="使你冰冷效果的持續時間延長3秒，並使目標的移動速度額外降低10%，受到的治療效果降低20%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_frostbolt" key="61" name="刺骨寒冰" tier="2">
+        <rank description="使你冰霜法術所造成的傷害提高2%。" lvl="1"/>
+        <rank description="使你冰霜法術所造成的傷害提高4%。" lvl="2"/>
+        <rank description="使你冰霜法術所造成的傷害提高6%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_coldhearted" key="69" name="冰寒脈動" tier="2">
+        <rank description="加速你的施法，使施法速度提高20%，並且在施法時因受到傷害性攻擊而損失的施法時間縮短100%，持續20秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000">
+          <power cost="3" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_frost_icestorm" key="63" name="強化暴風雪" tier="2">
+        <rank description="為你的暴風雪法術增加冰冷效果，使目標的移動速度降低25%。持續1.5秒。" lvl="1"/>
+        <rank description="為你的暴風雪法術增加冰冷效果，使目標的移動速度降低40%。持續1.5秒。" lvl="2"/>
+        <rank description="為你的暴風雪法術增加冰冷效果，使目標的移動速度降低50%。持續1.5秒。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_darkritual" key="741" name="極寒延伸" tier="3">
+        <rank description="使你寒冰箭、冰霜長矛、極度冰凍和暴風雪的射程延長10%，冰霜新星和冰錐術的有效半徑延長10%。" lvl="1"/>
+        <rank description="使你寒冰箭、冰霜長矛、極度冰凍和暴風雪的射程延長20%，冰霜新星和冰錐術的有效半徑延長20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_frost_stun" key="66" name="冰霜導能" tier="3">
+        <rank description="使你所有法術所消耗的法力降低4%，並使冰霜法術所產生的威脅值降低4%。" lvl="1"/>
+        <rank description="使你所有法術所消耗的法力降低7%，並使冰霜法術所產生的威脅值降低7%。" lvl="2"/>
+        <rank description="使你所有法術所消耗的法力降低10%，並使冰霜法術所產生的威脅值降低10%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_frost_frostshock" key="67" name="碎冰" tier="3">
+        <rank description="使你所有法術在擊中被冰凍的敵人時造成致命一擊的機率提高17%。" lvl="1"/>
+        <rank description="使你所有法術在擊中被冰凍的敵人時造成致命一擊的機率提高34%。" lvl="2"/>
+        <rank description="使你所有法術在擊中被冰凍的敵人時造成致命一擊的機率提高50%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_wizardmark" key="72" name="急速冷卻" tier="4">
+        <rank description="啟動之後，使你所有冰霜法術的冷卻時間結束。" lvl="1"/>
+        <spell castTime="0" cooldown="480000"/>
+      </talent>
+      <talent column="2" icon="spell_frost_glacier" key="64" name="強化冰錐術" tier="4">
+        <rank description="使你冰錐術所造成的傷害提高15%。" lvl="1"/>
+        <rank description="使你冰錐術所造成的傷害提高25%。" lvl="2"/>
+        <rank description="使你冰錐術所造成的傷害提高35%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_frost_frozencore" key="1736" name="冰霜之心" tier="4">
+        <rank description="使你受到的所有法術傷害降低2%。" lvl="1"/>
+        <rank description="使你受到的所有法術傷害降低4%。" lvl="2"/>
+        <rank description="使你受到的所有法術傷害降低6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_mage_coldasice" key="1737" name="冷若冰霜" requires="72" tier="5">
+        <rank description="使你的急速冷卻、寒冰護體和召喚水元素法術的冷卻時間縮短10%。" lvl="1"/>
+        <rank description="使你的急速冷卻、寒冰護體和召喚水元素法術的冷卻時間縮短20%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_frost_chillingblast" key="68" name="深冬之寒" tier="5">
+        <rank description="使你寒冰箭造成致命一擊的機率提高1%，並且你的冰霜法術有33%的機率附帶深冬之寒的效果，使目標受到的法術致命一擊機率提高1%，持續15秒。最多可堆疊5次。" lvl="1"/>
+        <rank description="使你寒冰箭造成致命一擊的機率提高2%，並且你的冰霜法術有66%的機率附帶深冬之寒的效果，使目標受到的法術致命一擊機率提高1%，持續15秒。最多可堆疊5次。" lvl="2"/>
+        <rank description="使你寒冰箭造成致命一擊的機率提高3%，並且你的冰霜法術有100%的機率附帶深冬之寒的效果，使目標受到的法術致命一擊機率提高1%，持續15秒。最多可堆疊5次。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_mage_shattershield" key="2214" name="碎裂屏障" requires="71" tier="6">
+        <rank description="使你的寒冰護體在碎裂時有50%的機率冰凍0碼範圍內的所有敵人，持續8秒 。" lvl="1"/>
+        <rank description="使你的寒冰護體在碎裂時有100%的機率冰凍0碼範圍內的所有敵人，持續8秒 。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_ice_lament" key="71" name="寒冰護體" requires="72" tier="6">
+        <rank description="立即為你加上魔法護盾，可吸收438點傷害，持續1分钟。只要護盾存在，施法就不會因受到傷害而延遲。" lvl="1"/>
+        <spell castTime="0" cooldown="30000">
+          <power cost="21" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_frost_arcticwinds" key="1738" name="寒地之風" tier="6">
+        <rank description="使你造成的所有冰霜傷害提高1%，同時近戰和遠程攻擊命中你的機率降低1%。" lvl="1"/>
+        <rank description="使你造成的所有冰霜傷害提高2%，同時近戰和遠程攻擊命中你的機率降低2%。" lvl="2"/>
+        <rank description="使你造成的所有冰霜傷害提高3%，同時近戰和遠程攻擊命中你的機率降低3%。" lvl="3"/>
+        <rank description="使你造成的所有冰霜傷害提高4%，同時近戰和遠程攻擊命中你的機率降低4%。" lvl="4"/>
+        <rank description="使你造成的所有冰霜傷害提高5%，同時近戰和遠程攻擊命中你的機率降低5%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_frost_frostbolt02" key="1740" name="強力寒冰箭" tier="7">
+        <rank description="使你的寒冰箭傷害提高相當於你5%的法術能量，並且施法時間縮短0.1秒。" lvl="1"/>
+        <rank description="使你的寒冰箭傷害提高相當於你10%的法術能量，並且施法時間縮短0.2秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_mage_wintersgrasp" key="1853" name="冰霜之指" tier="7">
+        <rank description="你的冰冷效果有7%的機率賦予你冰霜之指的效果，使你接下來施放的2發法術視同目標處於冰凍狀態，持續15秒。" lvl="1"/>
+        <rank description="你的冰冷效果有15%的機率賦予你冰霜之指的效果，使你接下來施放的2發法術視同目標處於冰凍狀態，持續15秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_mage_brainfreeze" key="1854" name="腦部凍結" tier="8">
+        <rank description="使你附帶冰冷效果的冰霜系傷害法術有5%的機率令你的下一個火球術變成瞬發法術，且不需消耗法力。" lvl="1"/>
+        <rank description="使你附帶冰冷效果的冰霜系傷害法術有10%的機率令你的下一個火球術變成瞬發法術，且不需消耗法力。" lvl="2"/>
+        <rank description="使你附帶冰冷效果的冰霜系傷害法術有15%的機率令你的下一個火球術變成瞬發法術，且不需消耗法力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_summonwaterelemental_2" key="1741" name="召喚水元素" tier="8">
+        <rank description="'召喚一隻水元素來替施法者作戰，持續45秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_frost_summonwaterelemental_2" key="1855" name="恆常凜冬" requires="1741" tier="8">
+        <rank description="使你召喚水元素法術的持續時間延長5秒，並且你的寒冰箭有33%的機率使最多10名小隊或團隊成員獲得每秒恢復0.25%總法力的回復效果，持續15秒。此效果每6秒只能發動一次。" lvl="1"/>
+        <rank description="使你召喚水元素法術的持續時間延長10秒，並且你的寒冰箭有66%的機率使最多10名小隊或團隊成員獲得每秒恢復0.25%總法力的回復效果，持續15秒。此效果每6秒只能發動一次。" lvl="2"/>
+        <rank description="使你召喚水元素法術的持續時間延長15秒，並且你的寒冰箭有100%的機率使最多10名小隊或團隊成員獲得每秒恢復0.25%總法力的回復效果，持續15秒。此效果每6秒只能發動一次。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_mage_chilledtothebone" key="1856" name="徹骨之寒" tier="9">
+        <rank description="使你的寒冰箭、霜火箭和冰霜長矛造成的傷害提高1%，並使你的所有冰冷效果額外降低2%移動速度。" lvl="1"/>
+        <rank description="使你的寒冰箭、霜火箭和冰霜長矛造成的傷害提高2%，並使你的所有冰冷效果額外降低4%移動速度。" lvl="2"/>
+        <rank description="使你的寒冰箭、霜火箭和冰霜長矛造成的傷害提高3%，並使你的所有冰冷效果額外降低6%移動速度。" lvl="3"/>
+        <rank description="使你的寒冰箭、霜火箭和冰霜長矛造成的傷害提高4%，並使你的所有冰冷效果額外降低8%移動速度。" lvl="4"/>
+        <rank description="使你的寒冰箭、霜火箭和冰霜長矛造成的傷害提高5%，並使你的所有冰冷效果額外降低10%移動速度。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_mage_deepfreeze" key="1857" name="極度冰凍" tier="10">
+        <rank description="使目標昏迷5秒。只能使用於被冰凍的目標。對永久免疫昏迷的目標可造成1469到1741點傷害。" lvl="1"/>
+        <spell castTime="0" cooldown="30000" maxRange="30">
+          <power cost="9" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="MageFire" icon="spell_fire_firebolt02" key="Fire" name="火焰" order="1">
+      <talent column="0" icon="spell_fire_fireball" key="27" name="強化火焰衝擊" tier="0">
+        <rank description="使你火焰衝擊的冷卻時間縮短1秒。" lvl="1"/>
+        <rank description="使你火焰衝擊的冷卻時間縮短2秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_fire_flameshock" key="1141" name="焚化" tier="0">
+        <rank description="使你火焰衝擊、灼燒、秘法衝擊和冰錐術法術造成致命一擊的機率提高2%。" lvl="1"/>
+        <rank description="使你火焰衝擊、灼燒、秘法衝擊和冰錐術法術造成致命一擊的機率提高4%。" lvl="2"/>
+        <rank description="使你火焰衝擊、灼燒、秘法衝擊和冰錐術法術造成致命一擊的機率提高6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_fire_flamebolt" key="26" name="強化火球術" tier="0">
+        <rank description="使你火球術的施法時間縮短0.1秒。" lvl="1"/>
+        <rank description="使你火球術的施法時間縮短0.2秒。" lvl="2"/>
+        <rank description="使你火球術的施法時間縮短0.3秒。" lvl="3"/>
+        <rank description="使你火球術的施法時間縮短0.4秒。" lvl="4"/>
+        <rank description="使你火球術的施法時間縮短0.5秒。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_fire_incinerate" key="34" name="點燃" tier="1">
+        <rank description="你的火焰傷害法術造成致命一擊後使目標燃燒，使其在4秒內承受相當於該法術8%的額外傷害。" lvl="1"/>
+        <rank description="你的火焰傷害法術造成致命一擊後使目標燃燒，使其在4秒內承受相當於該法術16%的額外傷害。" lvl="2"/>
+        <rank description="你的火焰傷害法術造成致命一擊後使目標燃燒，使其在4秒內承受相當於該法術24%的額外傷害。" lvl="3"/>
+        <rank description="你的火焰傷害法術造成致命一擊後使目標燃燒，使其在4秒內承受相當於該法術32%的額外傷害。" lvl="4"/>
+        <rank description="你的火焰傷害法術造成致命一擊後使目標燃燒，使其在4秒內承受相當於該法術40%的額外傷害。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_fire_totemofwrath" key="2212" name="燃燒的決心" tier="1">
+        <rank description="當你被中斷或沉默時，有50%的機率免疫下一個中斷或沉默的機制，持續20秒。" lvl="1"/>
+        <rank description="當你被中斷或沉默時，有100%的機率免疫下一個中斷或沉默的機制，持續20秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_mage_worldinflames" key="31" name="焚世烈焰" tier="1">
+        <rank description="使你烈焰風暴、炎爆術、衝擊波、龍之吐息、活體爆彈、暴風雪和魔爆術造成致命一擊的機率提高2%。" lvl="1"/>
+        <rank description="使你烈焰風暴、炎爆術、衝擊波、龍之吐息、活體爆彈、暴風雪和魔爆術造成致命一擊的機率提高4%。" lvl="2"/>
+        <rank description="使你烈焰風暴、炎爆術、衝擊波、龍之吐息、活體爆彈、暴風雪和魔爆術造成致命一擊的機率提高6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_fire_flare" key="28" name="烈焰投擲" tier="2">
+        <rank description="使你除了霜火箭之外的所有火焰法術射程延長3碼。" lvl="1"/>
+        <rank description="使你除了霜火箭之外的所有火焰法術射程延長6碼。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_fire_meteorstorm" key="30" name="衝擊" tier="2">
+        <rank description="使你的傷害法術有4%的機率令你施放的下一發火焰衝擊可擊昏目標，持續2秒。" lvl="1"/>
+        <rank description="使你的傷害法術有7%的機率令你施放的下一發火焰衝擊可擊昏目標，持續2秒。" lvl="2"/>
+        <rank description="使你的傷害法術有10%的機率令你施放的下一發火焰衝擊可擊昏目標，持續2秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_fire_fireball02" key="29" name="炎爆術" tier="2">
+        <rank description="發射一枚巨大的火球，對目標造成141到187點火焰傷害，並在12秒內造成總計點額外的火焰傷害。" lvl="1"/>
+        <spell castTime="5000" maxRange="35">
+          <power cost="22" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="3" icon="spell_fire_fire" key="23" name="燃燒之魂" tier="2">
+        <rank description="使你施放火焰法術時，因受到傷害性攻擊而損失的施法時間縮短35%，並使你的火焰法術產生的威脅值減少5%。" lvl="1"/>
+        <rank description="使你施放火焰法術時，因受到傷害性攻擊而損失的施法時間縮短70%，並使你的火焰法術產生的威脅值減少10%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_fire_soulburn" key="25" name="強化灼燒" tier="3">
+        <rank description="使你灼燒、火球術和霜火箭造成致命一擊的機率提高1%，並且你的灼燒法術命中時有33%的機率令目標更易受到法術傷害，使目標受到法術的致命一擊機率提高5%，持續30秒。" lvl="1"/>
+        <rank description="使你灼燒、火球術和霜火箭造成致命一擊的機率提高2%，並且你的灼燒法術命中時有66%的機率令目標更易受到法術傷害，使目標受到法術的致命一擊機率提高5%，持續30秒。" lvl="2"/>
+        <rank description="使你灼燒、火球術和霜火箭造成致命一擊的機率提高3%，並且你的灼燒法術命中時有100%的機率令目標更易受到法術傷害，使目標受到法術的致命一擊機率提高5%，持續30秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_fire_firearmor" key="24" name="熔火護盾" tier="3">
+        <rank description="使你的防護火焰結界與防護冰霜結界啟動時有15%的機率反射所防護的法術，並使你的熔火護甲有50%的機率作用於受到的遠程和法術攻擊上。" lvl="1"/>
+        <rank description="使你的防護火焰結界與防護冰霜結界啟動時有30%的機率反射所防護的法術，並使你的熔火護甲有100%的機率作用於受到的遠程和法術攻擊上。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_fire_masterofelements" key="1639" name="元素大師" tier="3">
+        <rank description="你的法術造成致命一擊後可恢復施法者該法術所消耗基礎法力的10%。" lvl="1"/>
+        <rank description="你的法術造成致命一擊後可恢復施法者該法術所消耗基礎法力的20%。" lvl="2"/>
+        <rank description="你的法術造成致命一擊後可恢復施法者該法術所消耗基礎法力的30%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_fire_playingwithfire" key="1730" name="玩火" tier="4">
+        <rank description="使所有法術所造成的傷害提高1%和承受法術攻擊時所受到的傷害提高1%。" lvl="1"/>
+        <rank description="使所有法術所造成的傷害提高2%和承受法術攻擊時所受到的傷害提高2%。" lvl="2"/>
+        <rank description="使所有法術所造成的傷害提高3%和承受法術攻擊時所受到的傷害提高3%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_wispheal" key="33" name="火焰重擊" tier="4">
+        <rank description="使你火焰法術造成致命一擊的機率提高2%。" lvl="1"/>
+        <rank description="使你火焰法術造成致命一擊的機率提高4%。" lvl="2"/>
+        <rank description="使你火焰法術造成致命一擊的機率提高6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_excorcism_02" key="32" name="衝擊波" requires="29" tier="4">
+        <rank description="施法者放出一道烈焰衝擊波，所有被衝擊波觸及的敵人都會受到154到186點火焰傷害，同時被擊退且暈眩6秒。" lvl="1"/>
+        <spell castTime="0" cooldown="30000">
+          <power cost="7" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_fire_burningspeed" key="1731" name="熾烈迅捷" tier="5">
+        <rank description="使你被近戰或遠程攻擊命中後有5%的機率使移動速度提升50%，同時驅散所有限制移動的效果。此效果持續8秒。" lvl="1"/>
+        <rank description="使你被近戰或遠程攻擊命中後有10%的機率使移動速度提升50%，同時驅散所有限制移動的效果。此效果持續8秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_fire_immolation" key="35" name="火焰強化" tier="5">
+        <rank description="使你火焰法術所造成的傷害提高2%。" lvl="1"/>
+        <rank description="使你火焰法術所造成的傷害提高4%。" lvl="2"/>
+        <rank description="使你火焰法術所造成的傷害提高6%。" lvl="3"/>
+        <rank description="使你火焰法術所造成的傷害提高8%。" lvl="4"/>
+        <rank description="使你火焰法術所造成的傷害提高10%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_fire_burnout" key="1733" name="火焰狂熱" tier="6">
+        <rank description="使你的致命一擊機率提高1%，並且在施法時仍保持17%的法力恢復速度。" lvl="1"/>
+        <rank description="使你的致命一擊機率提高2%，並且在施法時仍保持33%的法力恢復速度。" lvl="2"/>
+        <rank description="使你的致命一擊機率提高3%，並且在施法時仍保持50%的法力恢復速度。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_fire_sealoffire" key="36" name="燃火" requires="33" tier="6">
+        <rank description="啟動之後，此法術可使你火焰法術的致命一擊傷害加成提高50%，同時你每一個命中目標的火焰傷害法術會增加你火焰傷害法術10%的致命一擊機率。此效果會持續到你非週期性的火焰法術造成3次致命一擊為止。" lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="2" icon="spell_fire_moltenblood" key="1732" name="熔火之怒" tier="6">
+        <rank description="使你所有法術對生命力低於35%的目標造成的傷害提高6%。" lvl="1"/>
+        <rank description="使你所有法術對生命力低於35%的目標造成的傷害提高12%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_mage_fierypayback" key="1848" name="熾熱代價" tier="7">
+        <rank description="當你的生命力低於35%時，受到的所有傷害降低10%，並且縮短你的炎爆術施法時間1.75秒，但冷卻時間延長2.5秒。此外，當你受到近戰或遠程攻擊時，有5%的機率令攻擊者的主手與遠程武器被繳械。" lvl="1"/>
+        <rank description="當你的生命力低於35%時，受到的所有傷害降低20%，並且縮短你的炎爆術施法時間3.5秒，但冷卻時間延長5秒。此外，當你受到近戰或遠程攻擊時，有10%的機率令攻擊者的主手與遠程武器被繳械。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_fire_flamebolt" key="1734" name="強力火焰" tier="7">
+        <rank description="使你的火球術和霜火箭造成的傷害提高相當於你5%的法術能量。此外，每當你的點燃天賦造成傷害時，有33%的機率使你獲得2%的基礎法力。" lvl="1"/>
+        <rank description="使你的火球術和霜火箭造成的傷害提高相當於你10%的法術能量。此外，每當你的點燃天賦造成傷害時，有67%的機率使你獲得2%的基礎法力。" lvl="2"/>
+        <rank description="使你的火球術和霜火箭造成的傷害提高相當於你15%的法術能量。此外，每當你的點燃天賦造成傷害時，有100%的機率使你獲得2%的基礎法力。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_mage_firestarter" key="1849" name="煽風點火" requires="1735" tier="8">
+        <rank description="你的衝擊波和龍之吐息法術造成傷害時，有50%的機率使你的下一個烈焰風暴變成瞬發法術且不消耗法力，持續10秒。" lvl="1"/>
+        <rank description="你的衝擊波和龍之吐息法術造成傷害時，有100%的機率使你的下一個烈焰風暴變成瞬發法術且不消耗法力，持續10秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="inv_misc_head_dragon_01" key="1735" name="龍之吐息" requires="36" tier="8">
+        <rank description="施法者面前錐形範圍內的所有目標將受到370到430點火焰傷害同時困惑5秒。任何直接傷害將會使困惑中的目標甦醒。使用時會停止你的攻擊。" lvl="1"/>
+        <spell castTime="0" cooldown="20000">
+          <power cost="7" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_mage_hotstreak" key="1850" name="焦炎之痕" tier="8">
+        <rank description="當你火球術、火焰衝擊、灼燒、活體爆彈或霜火箭的非週期性傷害連續造成2次致命一擊時，你有33%的機率使你在10秒內施放的下一發炎爆術變成瞬發法術。" lvl="1"/>
+        <rank description="當你火球術、火焰衝擊、灼燒、活體爆彈或霜火箭的非週期性傷害連續造成2次致命一擊時，你有66%的機率使你在10秒內施放的下一發炎爆術變成瞬發法術。" lvl="2"/>
+        <rank description="當你火球術、火焰衝擊、灼燒、活體爆彈或霜火箭的非週期性傷害連續造成2次致命一擊時，你有100%的機率使你在10秒內施放的下一發炎爆術變成瞬發法術。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_mage_burnout" key="1851" name="燃盡" tier="9">
+        <rank description="使你所有法術的致命一擊傷害加成提高10%，但你的非週期性傷害法術造成致命一擊時，將額外消耗該法術1%的法力。" lvl="1"/>
+        <rank description="使你所有法術的致命一擊傷害加成提高20%，但你的非週期性傷害法術造成致命一擊時，將額外消耗該法術2%的法力。" lvl="2"/>
+        <rank description="使你所有法術的致命一擊傷害加成提高30%，但你的非週期性傷害法術造成致命一擊時，將額外消耗該法術3%的法力。" lvl="3"/>
+        <rank description="使你所有法術的致命一擊傷害加成提高40%，但你的非週期性傷害法術造成致命一擊時，將額外消耗該法術4%的法力。" lvl="4"/>
+        <rank description="使你所有法術的致命一擊傷害加成提高50%，但你的非週期性傷害法術造成致命一擊時，將額外消耗該法術5%的法力。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_mage_livingbomb" key="1852" name="活體爆彈" tier="10">
+        <rank description="令目標化身為活體爆彈，12秒內受到點火焰傷害。在12秒後或是法術被驅散後產生大爆炸，對10碼範圍內的所有敵人額外造成306點火焰傷害。" lvl="1"/>
+        <spell castTime="0" maxRange="35">
+          <power cost="22" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="MageArcane" icon="spell_holy_magicalsentry" key="Arcane" name="秘法" order="0">
+      <talent column="0" icon="spell_holy_dispelmagic" key="74" name="秘法精妙" tier="0">
+        <rank description="使你的助益法術和持續傷害的法術效果被驅散的機率降低15%，並且令你的秘法法術產生的威脅值降低20%。" lvl="1"/>
+        <rank description="使你的助益法術和持續傷害的法術效果被驅散的機率降低30%，並且令你的秘法法術產生的威脅值降低40%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_devotion" key="76" name="秘法集中" tier="0">
+        <rank description="同時提高你的秘法法術命中率和降低你的秘法法術法力消耗1%。" lvl="1"/>
+        <rank description="同時提高你的秘法法術命中率和降低你的秘法法術法力消耗2%。" lvl="2"/>
+        <rank description="同時提高你的秘法法術命中率和降低你的秘法法術法力消耗3%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_starfall" key="80" name="秘法穩定" tier="0">
+        <rank description="使你施放秘法飛彈和秘法衝擊時因受到傷害性攻擊而損失的施法時間縮短20%。" lvl="1"/>
+        <rank description="使你施放秘法飛彈和秘法衝擊時因受到傷害性攻擊而損失的施法時間縮短40%。" lvl="2"/>
+        <rank description="使你施放秘法飛彈和秘法衝擊時因受到傷害性攻擊而損失的施法時間縮短60%。" lvl="3"/>
+        <rank description="使你施放秘法飛彈和秘法衝擊時因受到傷害性攻擊而損失的施法時間縮短80%。" lvl="4"/>
+        <rank description="使你施放秘法飛彈和秘法衝擊時因受到傷害性攻擊而損失的施法時間縮短100%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_arcane_arcaneresilience" key="85" name="秘法堅韌" tier="1">
+        <rank description="使你的護甲值提高相當於你50%的智力。" lvl="1"/>
+        <rank description="使你的護甲值提高相當於你100%的智力。" lvl="2"/>
+        <rank description="使你的護甲值提高相當於你150%的智力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_astralrecalgroup" key="1650" name="魔法吸收" tier="1">
+        <rank description="每個等級可使你的所有抗性提高0.5點，並且在完全抵抗任何法術後可以恢復總法力的1%。冷卻時間為1秒。" lvl="1"/>
+        <rank description="每個等級可使你的所有抗性提高1點，並且在完全抵抗任何法術後可以恢復總法力的2%。冷卻時間為1秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_manaburn" key="75" name="秘法專注" tier="1">
+        <rank description="使你有2%的機率在傷害性法術命中目標之後進入節能施法狀態。節能施法狀態可以使你的下一個傷害性法術所消耗的法力減少100%。" lvl="1"/>
+        <rank description="使你有4%的機率在傷害性法術命中目標之後進入節能施法狀態。節能施法狀態可以使你的下一個傷害性法術所消耗的法力減少100%。" lvl="2"/>
+        <rank description="使你有6%的機率在傷害性法術命中目標之後進入節能施法狀態。節能施法狀態可以使你的下一個傷害性法術所消耗的法力減少100%。" lvl="3"/>
+        <rank description="使你有8%的機率在傷害性法術命中目標之後進入節能施法狀態。節能施法狀態可以使你的下一個傷害性法術所消耗的法力減少100%。" lvl="4"/>
+        <rank description="使你有10%的機率在傷害性法術命中目標之後進入節能施法狀態。節能施法狀態可以使你的下一個傷害性法術所消耗的法力減少100%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_abolishmagic" key="82" name="魔法調和" tier="2">
+        <rank description="使你秘法法術的射程延長3碼，魔法抑制和魔法增效的效果提高25%。" lvl="1"/>
+        <rank description="使你秘法法術的射程延長6碼，魔法抑制和魔法增效的效果提高50%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_wispsplode" key="81" name="法術衝擊力" tier="2">
+        <rank description="使你魔爆術、秘法衝擊、衝擊波、火焰衝擊、灼燒、火球術、冰霜長矛以及冰錐術造成的傷害額外提高2%。" lvl="1"/>
+        <rank description="使你魔爆術、秘法衝擊、衝擊波、火焰衝擊、灼燒、火球術、冰霜長矛以及冰錐術造成的傷害額外提高4%。" lvl="2"/>
+        <rank description="使你魔爆術、秘法衝擊、衝擊波、火焰衝擊、灼燒、火球術、冰霜長矛以及冰錐術造成的傷害額外提高6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_mage_studentofthemind" key="1845" name="探索心智" tier="2">
+        <rank description="使你的總精神提高4%。" lvl="1"/>
+        <rank description="使你的總精神提高7%。" lvl="2"/>
+        <rank description="使你的總精神提高10%" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_arcane_studentofmagic" key="2211" name="魔法凝聚" tier="2">
+        <rank description="使目標所有法術造成致命一擊的機率提高3%。當目標造成致命一擊時，施法者的法術造成致命一擊的機率將提高3%，持續10秒。無法施放於自己身上。" lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="6" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_shadow_detectlesserinvisibility" key="83" name="秘法屏護" tier="3">
+        <rank description="當法力護盾生效時，承受每點傷害所耗損的法力降低17%，並提高魔甲術所增加的抗性25%。" lvl="1"/>
+        <rank description="當法力護盾生效時，承受每點傷害所耗損的法力降低33%，並提高魔甲術所增加的抗性50%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_frost_iceshock" key="88" name="強化法術反制" tier="3">
+        <rank description="你的法術反制同時使目標沉默2秒。" lvl="1"/>
+        <rank description="你的法術反制同時使目標沉默4秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_siphonmana" key="1142" name="秘法冥想" tier="3">
+        <rank description="使你在施法時仍保持17%的法力恢復速度。" lvl="1"/>
+        <rank description="使你在施法時仍保持33%的法力恢復速度。" lvl="2"/>
+        <rank description="使你在施法時仍保持50%的法力恢復速度。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_mage_tormentoftheweak" key="2222" name="折磨弱者" tier="3">
+        <rank description="你的寒冰箭、火球術、霜火箭、秘法飛彈、秘法衝擊和秘法彈幕對被減緩移動或攻擊速度的目標所造成的傷害提高4%。" lvl="1"/>
+        <rank description="你的寒冰箭、火球術、霜火箭、秘法飛彈、秘法衝擊和秘法彈幕對被減緩移動或攻擊速度的目標所造成的傷害提高8%。" lvl="2"/>
+        <rank description="你的寒冰箭、火球術、霜火箭、秘法飛彈、秘法衝擊和秘法彈幕對被減緩移動或攻擊速度的目標所造成的傷害提高12%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_arcane_blink" key="1724" name="強化閃現術" tier="4">
+        <rank description="使你閃現術的法力消耗降低25%，並且施放閃現術後的4秒內被所有攻擊和法術擊中的機率降低15%。" lvl="1"/>
+        <rank description="使你閃現術的法力消耗降低50%，並且施放閃現術後的4秒內被所有攻擊和法術擊中的機率降低30%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_enchantarmor" key="86" name="氣定神閒" tier="4">
+        <rank description="啟動之後，你的下一個施法時間低於10秒的法師法術將成為瞬發法術。" lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_charm" key="77" name="秘法心智" tier="4">
+        <rank description="使你的總智力提高3%。" lvl="1"/>
+        <rank description="使你的總智力提高6%。" lvl="2"/>
+        <rank description="使你的總智力提高9%。" lvl="3"/>
+        <rank description="使你的總智力提高12%。" lvl="4"/>
+        <rank description="使你的總智力提高15%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_arcane_prismaticcloak" key="1726" name="稜彩庇護" tier="5">
+        <rank description="使你受到的所有傷害降低2%，並且縮短隱形術開始消逝的時間1秒。" lvl="1"/>
+        <rank description="使你受到的所有傷害降低4%，並且縮短隱形術開始消逝的時間2秒。" lvl="2"/>
+        <rank description="使你受到的所有傷害降低6%，並且縮短隱形術開始消逝的時間3秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_teleport" key="421" name="秘法增效" requires="86" tier="5">
+        <rank description="使你法術造成的傷害和致命一擊機率提高1%。" lvl="1"/>
+        <rank description="使你法術造成的傷害和致命一擊機率提高2%。" lvl="2"/>
+        <rank description="使你法術造成的傷害和致命一擊機率提高3%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_arcanepotency" key="1725" name="秘法潛能" requires="86" tier="5">
+        <rank description="使你獲得節能施法以及氣定神閒效果時，施放下一個傷害法術造成致命一擊的機率提高15%。" lvl="1"/>
+        <rank description="使你獲得節能施法以及氣定神閒效果時，施放下一個傷害法術造成致命一擊的機率提高30%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_nature_starfall" key="1727" name="秘法活化" tier="6">
+        <rank description="使你的秘法飛彈傷害提高相當於你15%的法術能量，並使你的秘法衝擊傷害提高相當於你3%的法術能量。此外，每當你的秘法飛彈、魔爆術、秘法衝擊或秘法彈幕造成致命一擊時，所有小隊與團隊成員造成的傷害將提高1%，持續10秒。" lvl="1"/>
+        <rank description="使你的秘法飛彈傷害提高相當於你30%的法術能量，並使你的秘法衝擊傷害提高相當於你6%的法術能量。此外，每當你的秘法飛彈、魔爆術、秘法衝擊或秘法彈幕造成致命一擊時，所有小隊與團隊成員造成的傷害將提高2%，持續10秒。" lvl="2"/>
+        <rank description="使你的秘法飛彈傷害提高相當於你45%的法術能量，並使你的秘法衝擊傷害提高相當於你9%的法術能量。此外，每當你的秘法飛彈、魔爆術、秘法衝擊或秘法彈幕造成致命一擊時，所有小隊與團隊成員造成的傷害將提高3%，持續10秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_lightning" key="87" name="秘法強化" requires="421" tier="6">
+        <rank description="啟動之後，你的法術會造成20%的額外傷害，但同時也要消耗20%的額外法力才能施放。這個效果可以持續15秒。" lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="2" icon="ability_mage_incantersabsorbtion" key="1844" name="咒法移轉" tier="6">
+        <rank description="當你吸收傷害時，使你吸收的5%傷害轉而提高你的法術傷害，持續10秒。提高法術傷害的數值無法超過相當於你5%的生命力。" lvl="1"/>
+        <rank description="當你吸收傷害時，使你吸收的5%傷害轉而提高你的法術傷害，持續10秒。提高法術傷害的數值無法超過相當於你10%的生命力。" lvl="2"/>
+        <rank description="當你吸收傷害時，使你吸收的5%傷害轉而提高你的法術傷害，持續10秒。提高法術傷害的數值無法超過相當於你15%的生命力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_mage_potentspirit" key="1843" name="秘法脈流" requires="87" tier="7">
+        <rank description="使你的氣定神閒、秘法強化與隱形術的冷卻時間縮短15%，喚醒的冷卻時間縮短1分鐘。" lvl="1"/>
+        <rank description="使你的氣定神閒、秘法強化與隱形術的冷卻時間縮短30%，喚醒的冷卻時間縮短2分鐘。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_mindmastery" key="1728" name="精通心靈" tier="7">
+        <rank description="使法術能量提高相當於你總智力的3%。" lvl="1"/>
+        <rank description="使法術能量提高相當於你總智力的6%。" lvl="2"/>
+        <rank description="使法術能量提高相當於你總智力的9%。" lvl="3"/>
+        <rank description="使法術能量提高相當於你總智力的12%。" lvl="4"/>
+        <rank description="使法術能量提高相當於你總智力的15%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_nature_slow" key="1729" name="減速術" tier="8">
+        <rank description="使目標移動速度降低60%，遠程攻擊間隔時間延長60%且施法時間延長30%，持續15秒。減速術同時間只能影響一個目標。" lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="12" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_mage_missilebarrage" key="2209" name="飛彈彈幕" tier="8">
+        <rank description="使你的秘法衝擊有8%的機率，同時秘法彈幕、火球術、寒冰箭和霜火箭法術有4%的機率令下一發秘法飛彈的法力消耗降低100%，並且引導時間縮短2.5秒，每0.5秒發射一發飛彈。" lvl="1"/>
+        <rank description="使你的秘法衝擊有16%的機率，同時秘法彈幕、火球術、寒冰箭和霜火箭法術有8%的機率令下一發秘法飛彈的法力消耗降低100%，並且引導時間縮短2.5秒，每0.5秒發射一發飛彈。" lvl="2"/>
+        <rank description="使你的秘法衝擊有24%的機率，同時秘法彈幕、火球術、寒冰箭和霜火箭法術有12%的機率令下一發秘法飛彈的法力消耗降低100%，並且引導時間縮短2.5秒，每0.5秒發射一發飛彈。" lvl="3"/>
+        <rank description="使你的秘法衝擊有32%的機率，同時秘法彈幕、火球術、寒冰箭和霜火箭法術有16%的機率令下一發秘法飛彈的法力消耗降低100%，並且引導時間縮短2.5秒，每0.5秒發射一發飛彈。" lvl="4"/>
+        <rank description="使你的秘法衝擊有40%的機率，同時秘法彈幕、火球術、寒冰箭和霜火箭法術有20%的機率令下一發秘法飛彈的法力消耗降低100%，並且引導時間縮短2.5秒，每0.5秒發射一發飛彈。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_mage_netherwindpresence" key="1846" name="靈風威儀" tier="9">
+        <rank description="使你的施法加速提高2%。" lvl="1"/>
+        <rank description="使你的施法加速提高4%。" lvl="2"/>
+        <rank description="使你的施法加速提高6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_arcanetorrent" key="1826" name="法術能量" tier="9">
+        <rank description="使你所有法術的致命一擊傷害加成提高25%。" lvl="1"/>
+        <rank description="使你所有法術的致命一擊傷害加成提高50%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_mage_arcanebarrage" key="1847" name="秘法彈幕" tier="10">
+        <rank description="對敵方目標發射數發飛彈，造成386到470點秘法傷害。" lvl="1"/>
+        <spell castTime="0" cooldown="3000" maxRange="30">
+          <power cost="18" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="WarlockDestruction" icon="spell_shadow_rainoffire" key="Destruction" name="毀滅" order="2">
+      <talent column="1" icon="spell_shadow_shadowbolt" key="944" name="強化暗影箭" tier="0">
+        <rank description="暗影箭造成的傷害提高2%，並且你的暗影箭有20%的機率讓目標受到法術傷害時更為脆弱，使其受到法術的致命一擊機率提高5%。此效果可持續30秒。" lvl="1"/>
+        <rank description="暗影箭造成的傷害提高4%，並且你的暗影箭有40%的機率讓目標受到法術傷害時更為脆弱，使其受到法術的致命一擊機率提高5%。此效果可持續30秒。" lvl="2"/>
+        <rank description="暗影箭造成的傷害提高6%，並且你的暗影箭有60%的機率讓目標受到法術傷害時更為脆弱，使其受到法術的致命一擊機率提高5%。此效果可持續30秒。" lvl="3"/>
+        <rank description="暗影箭造成的傷害提高8%，並且你的暗影箭有80%的機率讓目標受到法術傷害時更為脆弱，使其受到法術的致命一擊機率提高5%。此效果可持續30秒。" lvl="4"/>
+        <rank description="暗影箭造成的傷害提高10%，並且你的暗影箭有100%的機率讓目標受到法術傷害時更為脆弱，使其受到法術的致命一擊機率提高5%。此效果可持續30秒。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_deathpact" key="943" name="災禍" tier="0">
+        <rank description="使你暗影箭、混沌箭和獻祭的施法時間縮短0.1秒，靈魂之火的施法時間縮短0.4秒。" lvl="1"/>
+        <rank description="使你暗影箭、混沌箭和獻祭的施法時間縮短0.2秒，靈魂之火的施法時間縮短0.8秒。" lvl="2"/>
+        <rank description="使你暗影箭、混沌箭和獻祭的施法時間縮短0.3秒，靈魂之火的施法時間縮短1.2秒。" lvl="3"/>
+        <rank description="使你暗影箭、混沌箭和獻祭的施法時間縮短0.4秒，靈魂之火的施法時間縮短1.6秒。" lvl="4"/>
+        <rank description="使你暗影箭、混沌箭和獻祭的施法時間縮短0.4秒，靈魂之火的施法時間縮短2秒。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_fire_fire" key="982" name="清算" tier="1">
+        <rank description="使你獻祭造成的週期性傷害提高3%，並且焚燒有50%的機率令目標暈眩5秒。" lvl="1"/>
+        <rank description="使你獻祭造成的週期性傷害提高6%，並且焚燒有100%的機率令目標暈眩5秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_mage_moltenarmor" key="1887" name="熔火之膚" tier="1">
+        <rank description="受到的所有傷害降低2%。" lvl="1"/>
+        <rank description="受到的所有傷害降低4%。" lvl="2"/>
+        <rank description="受到的所有傷害降低6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_fire_windsofwoe" key="941" name="災變" tier="1">
+        <rank description="使你毀滅系法術的法力消耗降低4%。" lvl="1"/>
+        <rank description="使你毀滅系法術的法力消耗降低7%。" lvl="2"/>
+        <rank description="使你毀滅系法術的法力消耗降低10%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_fire_firebolt" key="983" name="惡魔之能" tier="2">
+        <rank description="使魅魔劇痛鞭笞的冷卻時間縮短3秒，小鬼火焰箭的施法時間縮短0.25秒。" lvl="1"/>
+        <rank description="使魅魔劇痛鞭笞的冷卻時間縮短6秒，小鬼火焰箭的施法時間縮短0.5秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_scourgebuild" key="963" name="暗影灼燒" tier="2">
+        <rank description="立即使用暗影能量衝擊目標，對其造成87到99點暗影傷害。如果目標被暗影灼燒後5秒內死亡，且施法者因此獲得經驗值或榮譽值，則施法者獲得一塊靈魂裂片。" lvl="1"/>
+        <spell castTime="0" cooldown="15000" maxRange="20">
+          <power cost="20" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_shadowwordpain" key="967" name="毀滅" tier="2">
+        <rank description="使你毀滅系法術以及小鬼火焰箭的致命一擊傷害加成提高20%。" lvl="1"/>
+        <rank description="使你毀滅系法術以及小鬼火焰箭的致命一擊傷害加成提高40%。" lvl="2"/>
+        <rank description="使你毀滅系法術以及小鬼火焰箭的致命一擊傷害加成提高60%。" lvl="3"/>
+        <rank description="使你毀滅系法術以及小鬼火焰箭的致命一擊傷害加成提高80%。" lvl="4"/>
+        <rank description="使你毀滅系法術以及小鬼火焰箭的致命一擊傷害加成提高100%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_fire_lavaspawn" key="985" name="激化" tier="3">
+        <rank description="使你在施放或引導毀滅系法術時，因受到傷害性攻擊而損失的施法時間縮短35%。" lvl="1"/>
+        <rank description="使你在施放或引導毀滅系法術時，因受到傷害性攻擊而損失的施法時間縮短70%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_corpseexplode" key="964" name="毀滅延伸" tier="3">
+        <rank description="使你毀滅系法術的射程延長10%，並且產生的威脅值降低10%。" lvl="1"/>
+        <rank description="使你毀滅系法術的射程延長20%，並且產生的威脅值降低20%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_fire_soulburn" key="965" name="強化灼熱之痛" tier="3">
+        <rank description="使你灼熱之痛造成致命一擊的機率提高4%。" lvl="1"/>
+        <rank description="使你灼熱之痛造成致命一擊的機率提高7%。" lvl="2"/>
+        <rank description="使你灼熱之痛造成致命一擊的機率提高10%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_fire_playingwithfire" key="1817" name="反衝" requires="985" tier="4">
+        <rank description="使你法術造成致命一擊的機率額外提高1%，並賦予你8%的機率在被物理攻擊命中後使你的下一個暗影箭或燒盡的施法時間縮短100%。此效果可持續8秒，並且無法在8秒內再次啟動。" lvl="1"/>
+        <rank description="使你法術造成致命一擊的機率額外提高2%，並賦予你16%的機率在被物理攻擊命中後使你的下一個暗影箭或燒盡的施法時間縮短100%。此效果可持續8秒，並且無法在8秒內再次啟動。" lvl="2"/>
+        <rank description="使你法術造成致命一擊的機率額外提高3%，並賦予你25%的機率在被物理攻擊命中後使你的下一個暗影箭或燒盡的施法時間縮短100%。此效果可持續8秒，並且無法在8秒內再次啟動。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_fire_immolation" key="961" name="強化獻祭" tier="4">
+        <rank description="使你獻祭法術造成的傷害提高10%。" lvl="1"/>
+        <rank description="使你獻祭法術造成的傷害提高20%。" lvl="2"/>
+        <rank description="使你獻祭法術造成的傷害提高30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_fire_flameshock" key="981" name="破壞" requires="967" tier="4">
+        <rank description="使你毀滅系法術造成致命一擊的機率提高5%。" lvl="1"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_netherprotection" key="1679" name="虛空保護" tier="5">
+        <rank description="在被法術擊中之後，你有10%的機率獲得虛空保護，使你受到該系法術的傷害降低30%，持續8秒。" lvl="1"/>
+        <rank description="在被法術擊中之後，你有20%的機率獲得虛空保護，使你受到該系法術的傷害降低30%，持續8秒。" lvl="2"/>
+        <rank description="在被法術擊中之後，你有30%的機率獲得虛空保護，使你受到該系法術的傷害降低30%，持續8秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_fire_selfdestruct" key="966" name="餘燼風暴" tier="5">
+        <rank description="使你火焰法術造成的傷害提高3%，燒盡法術的施法時間縮短0.05秒。" lvl="1"/>
+        <rank description="使你火焰法術造成的傷害提高6%，燒盡法術的施法時間縮短0.1秒。" lvl="2"/>
+        <rank description="使你火焰法術造成的傷害提高9%，燒盡法術的施法時間縮短0.15秒。" lvl="3"/>
+        <rank description="使你火焰法術造成的傷害提高12%，燒盡法術的施法時間縮短0.2秒。" lvl="4"/>
+        <rank description="使你火焰法術造成的傷害提高15%，燒盡法術的施法時間縮短0.25秒。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_fire_fireball" key="968" name="焚燒" requires="961" tier="6">
+        <rank description="]消耗一個敵方目標身上的獻祭或暗影之焰效果，立即對其造成相當於你獻祭或暗影之焰的60%傷害，同時在6秒內額外造成相當於其20%的傷害。" lvl="1"/>
+        <spell castTime="0" cooldown="10000" maxRange="30">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_soulleech_3" key="1678" name="靈魂汲取" tier="6">
+        <rank description="使你的暗影箭、暗影灼燒、混沌箭、靈魂之火、燒盡、灼熱之痛及焚燒法術有10%的機率恢復相當於所造成20%傷害的生命力。" lvl="1"/>
+        <rank description="使你的暗影箭、暗影灼燒、混沌箭、靈魂之火、燒盡、灼熱之痛及焚燒法術有20%的機率恢復相當於所造成20%傷害的生命力。" lvl="2"/>
+        <rank description="使你的暗影箭、暗影灼燒、混沌箭、靈魂之火、燒盡、灼熱之痛及焚燒法術有30%的機率恢復相當於所造成20%傷害的生命力。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_fire_volcano" key="986" name="火焰衝撞" tier="6">
+        <rank description="當你的灼熱之痛或焚燒造成致命一擊時，你的火焰和暗影法術傷害可提高2%，持續10秒。" lvl="1"/>
+        <rank description="當你的灼熱之痛或焚燒造成致命一擊時，你的火焰和暗影法術傷害可提高4%，持續10秒。" lvl="2"/>
+        <rank description="當你的灼熱之痛或焚燒造成致命一擊時，你的火焰和暗影法術傷害可提高6%，持續10秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowandflame" key="1677" name="暗影與火焰" tier="7">
+        <rank description="你的暗影箭、暗影灼燒、混沌箭和燒盡法術從你的法術傷害加成效果中獲得額外4%的效果。" lvl="1"/>
+        <rank description="你的暗影箭、暗影灼燒、混沌箭和燒盡法術從你的法術傷害加成效果中獲得額外8%的效果。" lvl="2"/>
+        <rank description="你的暗影箭、暗影灼燒、混沌箭和燒盡法術從你的法術傷害加成效果中獲得額外12%的效果。" lvl="3"/>
+        <rank description="你的暗影箭、暗影灼燒、混沌箭和燒盡法術從你的法術傷害加成效果中獲得額外16%的效果。" lvl="4"/>
+        <rank description="你的暗影箭、暗影灼燒、混沌箭和燒盡法術從你的法術傷害加成效果中獲得額外20%的效果。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_warlock_improvedsoulleech" key="1889" name="強化靈魂汲取" requires="1678" tier="7">
+        <rank description="你的靈魂汲取效果可同時使你和你召喚的惡魔恢復相當於法力上限1%的法力，並且有50%的機率提供最多10名小隊或團隊成員每5秒相當於法力上限1%的法力恢復速度，持續15秒。" lvl="1"/>
+        <rank description="你的靈魂汲取效果可同時使你和你召喚的惡魔恢復相當於法力上限2%的法力，並且有100%的機率提供最多10名小隊或團隊成員每5秒相當於法力上限1%的法力恢復速度，持續15秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_warlock_backdraft" key="1888" name="爆燃" requires="968" tier="8">
+        <rank description="當你施放焚燒時，你的下三個毀滅系法術的施法時間和共用冷卻時間縮短10%，持續15秒。" lvl="1"/>
+        <rank description="當你施放焚燒時，你的下三個毀滅系法術的施法時間和共用冷卻時間縮短20%，持續15秒。" lvl="2"/>
+        <rank description="當你施放焚燒時，你的下三個毀滅系法術的施法時間和共用冷卻時間縮短30%，持續15秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowfury" key="1676" name="暗影之怒" tier="8">
+        <rank description="釋放暗影之怒，造成343到407點暗影傷害並使半徑8碼範圍內的所有敵人昏迷，持續3秒。" lvl="1"/>
+        <spell castTime="0" cooldown="20000" maxRange="30">
+          <power cost="27" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_warlock_empoweredimp" key="2045" name="強力小鬼" tier="8">
+        <rank description="使你小鬼造成的傷害提高5%，並在造成致命一擊時有33%的機率使你下一個法術的致命一擊機率提高100%。此效果可持續8秒。" lvl="1"/>
+        <rank description="使你小鬼造成的傷害提高10%，並在造成致命一擊時有66%的機率使你下一個法術的致命一擊機率提高100%。此效果可持續8秒。" lvl="2"/>
+        <rank description="使你小鬼造成的傷害提高15%，並在造成致命一擊時有100%的機率使你下一個法術的致命一擊機率提高100%。此效果可持續8秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_warlock_fireandbrimstone" key="1890" name="硫磺與火焰" tier="9">
+        <rank description="使你的燒盡和混沌箭法術對受你獻祭法術影響的目標所造成的傷害提高2%，並且提高焚燒的致命一擊機率5%。" lvl="1"/>
+        <rank description="使你的燒盡和混沌箭法術對受你獻祭法術影響的目標所造成的傷害提高4%，並且提高焚燒的致命一擊機率10%。" lvl="2"/>
+        <rank description="使你的燒盡和混沌箭法術對受你獻祭法術影響的目標所造成的傷害提高6%，並且提高焚燒的致命一擊機率15%。" lvl="3"/>
+        <rank description="使你的燒盡和混沌箭法術對受你獻祭法術影響的目標所造成的傷害提高8%，並且提高焚燒的致命一擊機率20%。" lvl="4"/>
+        <rank description="使你的燒盡和混沌箭法術對受你獻祭法術影響的目標所造成的傷害提高10%，並且提高焚燒的致命一擊機率25%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_warlock_chaosbolt" key="1891" name="混沌箭" tier="10">
+        <rank description="對敵人射出一發混沌火焰之箭，造成837到1061點火焰傷害。混沌箭無法被抵抗，並且可以穿透所有吸收傷害的效果。" lvl="1"/>
+        <spell castTime="2500" cooldown="12000" maxRange="30">
+          <power cost="7" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="WarlockSummoning" icon="spell_shadow_metamorphosis" key="Demonology" name="惡魔學識" order="1">
+      <talent column="0" icon="inv_stone_04" key="1221" name="強化治療石" tier="0">
+        <rank description="使你治療石所恢復的生命力增加10%。" lvl="1"/>
+        <rank description="使你治療石所恢復的生命力增加20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_summonimp" key="1222" name="強化小鬼" tier="0">
+        <rank description="使小鬼火焰箭、火焰之盾和血之契印的效果提高10%。" lvl="1"/>
+        <rank description="使小鬼火焰箭、火焰之盾和血之契印的效果提高20%。" lvl="2"/>
+        <rank description="使小鬼火焰箭、火焰之盾和血之契印的效果提高30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_metamorphosis" key="1223" name="惡魔之擁" tier="0">
+        <rank description="提高你的總耐力4%。" lvl="1"/>
+        <rank description="提高你的總耐力7%。" lvl="2"/>
+        <rank description="提高你的總耐力10%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_felmending" key="1883" name="惡魔協調" tier="0">
+        <rank description="你有50%的機率將你造成的15%法術傷害轉而治療你的寵物。" lvl="1"/>
+        <rank description="你有100%的機率將你造成的15%法術傷害轉而治療你的寵物。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_lifedrain" key="1224" name="強化生命通道" tier="1">
+        <rank description="使你生命通道法術所傳送的生命力提高10%，並且消耗的生命力降低10%。此外，你召喚的惡魔在生命通道的影響下所受到的傷害降低15%。" lvl="1"/>
+        <rank description="使你生命通道法術所傳送的生命力提高20%，並且消耗的生命力降低20%。此外，你召喚的惡魔在生命通道的影響下所受到的傷害降低30%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_summonvoidwalker" key="1225" name="魔性暴虐" tier="1">
+        <rank description="使你虛無行者的折磨、吞噬暗影、犧牲和受難法術的效果提高10%，並使你惡魔守衛的惡魔狂亂攻擊強度加成提高1%。" lvl="1"/>
+        <rank description="使你虛無行者的折磨、吞噬暗影、犧牲和受難法術的效果提高20%，並使你惡魔守衛的惡魔狂亂攻擊強度加成提高2%。" lvl="2"/>
+        <rank description="使你虛無行者的折磨、吞噬暗影、犧牲和受難法術的效果提高30%，並使你惡魔守衛的惡魔狂亂攻擊強度加成提高3%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_magicalsentry" key="1242" name="惡魔活力" tier="1">
+        <rank description="使你小鬼、虛無行者、魅魔、惡魔獵犬和惡魔守衛的耐力及智力增加5%，並使你的生命力和法力上限提高1%。" lvl="1"/>
+        <rank description="使你小鬼、虛無行者、魅魔、惡魔獵犬和惡魔守衛的耐力及智力增加10%，並使你的生命力和法力上限提高2%。" lvl="2"/>
+        <rank description="使你小鬼、虛無行者、魅魔、惡魔獵犬和惡魔守衛的耐力及智力增加15%，並使你的生命力和法力上限提高3%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_summonsuccubus" key="1243" name="強化魅魔" tier="2">
+        <rank description="使你魅魔的誘惑施法時間縮短22%，並使魅魔的誘惑和次級隱形術持續時間延長10%。" lvl="1"/>
+        <rank description="使你魅魔的誘惑施法時間縮短44%，並使魅魔的誘惑和次級隱形術持續時間延長20%。" lvl="2"/>
+        <rank description="使你魅魔的誘惑施法時間縮短66%，並使魅魔的誘惑和次級隱形術持續時間延長30%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_gathershadows" key="1282" name="靈魂鏈結" tier="2">
+        <rank description="啟動之後，施法者承受的傷害有20%改由你的小鬼、虛無行者、魅魔、惡魔獵犬、惡魔守衛或者奴役中的惡魔來承擔。只要惡魔保持啟動且受控制的狀態，此傷害分攤的效果將不受其他因素所影響。" lvl="1"/>
+        <spell castTime="0" maxRange="100">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_nature_removecurse" key="1226" name="惡魔支配" tier="2">
+        <rank description="你的下一個召喚小鬼、虛無行者、魅魔、惡魔獵犬和惡魔守衛的法術施法時間縮短5.5秒，法力消耗減少50%。" lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_ragingscream" key="1671" name="惡魔庇護" tier="2">
+        <rank description="使你惡魔護甲和魔化護甲的效果提高10%。" lvl="1"/>
+        <rank description="使你惡魔護甲和魔化護甲的效果提高20%。" lvl="2"/>
+        <rank description="使你惡魔護甲和魔化護甲的效果提高30%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowworddominate" key="1262" name="邪惡強化" requires="1282" tier="3">
+        <rank description="使你的虛無行者、魅魔、惡魔獵犬和惡魔守衛的近戰攻擊，以及小鬼火焰箭所造成的傷害提高4%。" lvl="1"/>
+        <rank description="使你的虛無行者、魅魔、惡魔獵犬和惡魔守衛的近戰攻擊，以及小鬼火焰箭所造成的傷害提高8%。" lvl="2"/>
+        <rank description="使你的虛無行者、魅魔、惡魔獵犬和惡魔守衛的近戰攻擊，以及小鬼火焰箭所造成的傷害提高12%。" lvl="3"/>
+        <rank description="使你的虛無行者、魅魔、惡魔獵犬和惡魔守衛的近戰攻擊，以及小鬼火焰箭所造成的傷害提高16%。" lvl="4"/>
+        <rank description="使你的虛無行者、魅魔、惡魔獵犬和惡魔守衛的近戰攻擊，以及小鬼火焰箭所造成的傷害提高20%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_impphaseshift" key="1227" name="召喚大師" requires="1226" tier="3">
+        <rank description="使你召喚小鬼、虛無行者、魅魔、惡魔獵犬和惡魔守衛的施法時間縮短2秒，法力消耗降低20%。" lvl="1"/>
+        <rank description="使你召喚小鬼、虛無行者、魅魔、惡魔獵犬和惡魔守衛的施法時間縮短4秒，法力消耗降低40%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_manafeed" key="1281" name="法力餵食" requires="1262" tier="4">
+        <rank description="當你從吸取法力或生命分流獲得法力時，你召喚的惡魔將得到相當於你獲得100%的法力。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="inv_ammo_firetar" key="1261" name="魔石專精" tier="4">
+        <rank description="使你召喚的火焰石和法術石所提供的戰鬥屬性等級提高150%。" lvl="1"/>
+        <rank description="使你召喚的火焰石和法術石所提供的戰鬥屬性等級提高300%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowpact" key="1244" name="惡魔學識大師" requires="1262" tier="5">
+        <rank description="使術士和其召喚的惡魔均獲得一個特殊效果，只要該惡魔處於啟動狀態就不會消失。&lt;br/&gt;&lt;br/&gt;小鬼 - 使你的火焰傷害提高1%，並使你的火焰法術造成致命一擊的機率提高1%。&lt;br/&gt;&lt;br/&gt;虛無行者 - 受到的物理傷害降低2%。&lt;br/&gt;&lt;br/&gt;魅魔 - 使你的暗影傷害提高1%，並使你的暗影法術造成致命一擊的機率提高1%。&lt;br/&gt;&lt;br/&gt;惡魔獵犬 - 受到的所有法術傷害降低2%。&lt;br/&gt;&lt;br/&gt;惡魔守衛 - 造成的所有傷害提高1%，受到的所有傷害降低1%。" lvl="1"/>
+        <rank description="使術士和其召喚的惡魔均獲得一個特殊效果，只要該惡魔處於啟動狀態就不會消失。&lt;br/&gt;&lt;br/&gt;小鬼 - 使你的火焰傷害提高2%，並使你的火焰法術造成致命一擊的機率提高2%。&lt;br/&gt;&lt;br/&gt;虛無行者 - 受到的物理傷害降低4%。&lt;br/&gt;&lt;br/&gt;魅魔 - 使你的暗影傷害提高2%，並使你的暗影法術造成致命一擊的機率提高2%。&lt;br/&gt;&lt;br/&gt;惡魔獵犬 - 受到的所有法術傷害降低4%。&lt;br/&gt;&lt;br/&gt;惡魔守衛 - 造成的所有傷害提高2%，受到的所有傷害降低2%。" lvl="2"/>
+        <rank description="使術士和其召喚的惡魔均獲得一個特殊效果，只要該惡魔處於啟動狀態就不會消失。&lt;br/&gt;&lt;br/&gt;小鬼 - 使你的火焰傷害提高3%，並使你的火焰法術造成致命一擊的機率提高3%。&lt;br/&gt;&lt;br/&gt;虛無行者 - 受到的物理傷害降低6%。&lt;br/&gt;&lt;br/&gt;魅魔 - 使你的暗影傷害提高3%，並使你的暗影法術造成致命一擊的機率提高3%。&lt;br/&gt;&lt;br/&gt;惡魔獵犬 - 受到的所有法術傷害降低6%。&lt;br/&gt;&lt;br/&gt;惡魔守衛 - 造成的所有傷害提高3%，受到的所有傷害降低3%。" lvl="3"/>
+        <rank description="使術士和其召喚的惡魔均獲得一個特殊效果，只要該惡魔處於啟動狀態就不會消失。&lt;br/&gt;&lt;br/&gt;小鬼 - 使你的火焰傷害提高4%，並使你的火焰法術造成致命一擊的機率提高4%。&lt;br/&gt;&lt;br/&gt;虛無行者 - 受到的物理傷害降低8%。&lt;br/&gt;&lt;br/&gt;魅魔 - 使你的暗影傷害提高4%，並使你的暗影法術造成致命一擊的機率提高4%。&lt;br/&gt;&lt;br/&gt;惡魔獵犬 - 受到的所有法術傷害降低8%。&lt;br/&gt;&lt;br/&gt;惡魔守衛 - 造成的所有傷害提高4%，受到的所有傷害降低4%。" lvl="4"/>
+        <rank description="使術士和其召喚的惡魔均獲得一個特殊效果，只要該惡魔處於啟動狀態就不會消失。&lt;br/&gt;&lt;br/&gt;小鬼 - 使你的火焰傷害提高5%，並使你的火焰法術造成致命一擊的機率提高5%。&lt;br/&gt;&lt;br/&gt;虛無行者 - 受到的物理傷害降低10%。&lt;br/&gt;&lt;br/&gt;魅魔 - 使你的暗影傷害提高5%，並使你的暗影法術造成致命一擊的機率提高5%。&lt;br/&gt;&lt;br/&gt;惡魔獵犬 - 受到的所有法術傷害降低10%。&lt;br/&gt;&lt;br/&gt;惡魔守衛 - 造成的所有傷害提高5%，受到的所有傷害降低5%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_warlock_moltencore" key="1283" name="熔火之心" tier="5">
+        <rank description="使你獻祭的持續時間延長3秒，同時當你的腐蝕術造成傷害時有4%的機率獲得熔火之心效果。熔火之心可強化你在15秒內施放的的下3個燒盡或靈魂之火法術。&lt;br/&gt;&lt;br/&gt;燒盡 - 造成的傷害提高6%，施法時間縮短10%。&lt;br/&gt;&lt;br/&gt;靈魂之火 - 造成的傷害提高6%，致命一擊機率提高5%。" lvl="1"/>
+        <rank description="使你獻祭的持續時間延長6秒，同時當你的腐蝕術造成傷害時有8%的機率獲得熔火之心效果。熔火之心可強化你在15秒內施放的的下3個燒盡或靈魂之火法術。&lt;br/&gt;&lt;br/&gt;燒盡 - 造成的傷害提高12%，施法時間縮短20%。&lt;br/&gt;&lt;br/&gt;靈魂之火 - 造成的傷害提高12%，致命一擊機率提高10%。" lvl="2"/>
+        <rank description="使你獻祭的持續時間延長9秒，同時當你的腐蝕術造成傷害時有12%的機率獲得熔火之心效果。熔火之心可強化你在15秒內施放的的下3個燒盡或靈魂之火法術。&lt;br/&gt;&lt;br/&gt;燒盡 - 造成的傷害提高18%，施法時間縮短30%。&lt;br/&gt;&lt;br/&gt;靈魂之火 - 造成的傷害提高18%，致命一擊機率提高15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_demonicfortitude" key="1680" name="惡魔韌性" tier="6">
+        <rank description="使你被近戰攻擊和法術命中時造成致命一擊的機率降低1%，並使你召喚的惡魔受到的傷害降低5%。" lvl="1"/>
+        <rank description="使你被近戰攻擊和法術命中時造成致命一擊的機率降低2%，並使你召喚的惡魔受到的傷害降低10%。" lvl="2"/>
+        <rank description="使你被近戰攻擊和法術命中時造成致命一擊的機率降低3%，並使你召喚的惡魔受到的傷害降低15%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_warlock_demonicempowerment" key="1880" name="魔性活化" requires="1244" tier="6">
+        <rank description="強化術士召喚的惡魔。&lt;br/&gt;&lt;br/&gt;小鬼 - 提高小鬼的法術致命一擊機率20%，持續30秒。&lt;br/&gt;&lt;br/&gt;虛無行者 - 提高虛無行者的生命力20%，並使其法術和攻擊造成的威脅值提高20%，持續20秒。&lt;br/&gt;&lt;br/&gt;魅魔 - 立即消失，使魅魔進入強化隱形的狀態。此消失的效果可移除魅魔身上所有昏迷、緩速和限制移動的效果。&lt;br/&gt;&lt;br/&gt;惡魔獵犬 - 驅散惡魔獵犬身上所有的魔法效果。&lt;br/&gt;&lt;br/&gt;惡魔守衛 - 提高惡魔守衛的攻擊速度20%，移除所有昏迷、緩速和限制移動的效果，並且在15秒內免疫這些效果。" lvl="1"/>
+        <spell castTime="0" cooldown="60000" maxRange="100">
+          <power cost="6" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_improvedvampiricembrace" key="1263" name="惡魔知識" tier="6">
+        <rank description="使你的法術傷害提高相當於你目前寵物的耐力加上智力的4%。" lvl="1"/>
+        <rank description="使你的法術傷害提高相當於你目前寵物的耐力加上智力的8%。" lvl="2"/>
+        <rank description="使你的法術傷害提高相當於你目前寵物的耐力加上智力的12%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_demonictactics" key="1673" name="惡魔策略" tier="7">
+        <rank description="同時提高你和你召喚的惡魔所造成的近戰攻擊以及法術致命一擊機率2%。" lvl="1"/>
+        <rank description="同時提高你和你召喚的惡魔所造成的近戰攻擊以及法術致命一擊機率4%。" lvl="2"/>
+        <rank description="同時提高你和你召喚的惡魔所造成的近戰攻擊以及法術致命一擊機率6%。" lvl="3"/>
+        <rank description="同時提高你和你召喚的惡魔所造成的近戰攻擊以及法術致命一擊機率8%。" lvl="4"/>
+        <rank description="同時提高你和你召喚的惡魔所造成的近戰攻擊以及法術致命一擊機率10%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_fire_fireball02" key="2261" name="屠虐" tier="7">
+        <rank description="當你的暗影箭、燒盡或靈魂之火命中生命力處於35%或以下的目標時，你的靈魂之火施法時間將縮短20%，持續10秒。在屠虐效果影響下所施放的靈魂之火不會消耗靈魂裂片。" lvl="1"/>
+        <rank description="當你的暗影箭、燒盡或靈魂之火命中生命力處於35%或以下的目標時，你的靈魂之火施法時間將縮短40%，持續10秒。在屠虐效果影響下所施放的靈魂之火不會消耗靈魂裂片。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_warlock_improveddemonictactics" key="1882" name="強化惡魔策略" requires="1673" tier="8">
+        <rank description="使你召喚的惡魔造成致命一擊的機率提高，其數值相當於你造成致命一擊機率的10%。" lvl="1"/>
+        <rank description="使你召喚的惡魔造成致命一擊的機率提高，其數值相當於你造成致命一擊機率的20%。" lvl="2"/>
+        <rank description="使你召喚的惡魔造成致命一擊的機率提高，其數值相當於你造成致命一擊機率的30%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_summonfelguard" key="1672" name="召喚惡魔守衛'" tier="8">
+        <rank description="召喚一個惡魔守衛為術士作戰。" lvl="1"/>
+        <spell castTime="10000">
+          <power cost="80" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_demonicempathy" key="1884" name="劫難" tier="8">
+        <rank description="使你魔性活化、惡魔化身和惡魔支配的冷卻時間縮短10%。" lvl="1"/>
+        <rank description="使你魔性活化、惡魔化身和惡魔支配的冷卻時間縮短20%。" lvl="2"/>
+        <rank description="使你魔性活化、惡魔化身和惡魔支配的冷卻時間縮短30%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_demonicpact" key="1885" name="惡魔契印" tier="9">
+        <rank description="使你的法術能量提高1%，同時你寵物造成的致命一擊將會使你的小隊和團隊成員獲得惡魔契印的效果。惡魔契印可提高相當於你2%法術傷害的法術能量，持續12秒。奴役的惡魔無法發動此效果。" lvl="1"/>
+        <rank description="使你的法術能量提高2%，同時你寵物造成的致命一擊將會使你的小隊和團隊成員獲得惡魔契印的效果。惡魔契印可提高相當於你4%法術傷害的法術能量，持續12秒。奴役的惡魔無法發動此效果。" lvl="2"/>
+        <rank description="使你的法術能量提高3%，同時你寵物造成的致命一擊將會使你的小隊和團隊成員獲得惡魔契印的效果。惡魔契印可提高相當於你6%法術傷害的法術能量，持續12秒。奴役的惡魔無法發動此效果。" lvl="3"/>
+        <rank description="使你的法術能量提高4%，同時你寵物造成的致命一擊將會使你的小隊和團隊成員獲得惡魔契印的效果。惡魔契印可提高相當於你8%法術傷害的法術能量，持續12秒。奴役的惡魔無法發動此效果。" lvl="4"/>
+        <rank description="使你的法術能量提高5%，同時你寵物造成的致命一擊將會使你的小隊和團隊成員獲得惡魔契印的效果。惡魔契印可提高相當於你10%法術傷害的法術能量，持續12秒。奴役的惡魔無法發動此效果。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_demonform" key="1886" name="惡魔化身" tier="10">
+        <rank description="你變身為惡魔，持續30秒。在此形態下你的護甲值提高600%，造成的傷害提高20%，受到近戰攻擊致命一擊的機率降低6%，並且使你受到的昏迷和緩速效果持續時間縮短50%。你可額外獲得特殊的惡魔技能。冷卻時間為3分鐘。'" lvl="1"/>
+      </talent>
+    </tree>
+   	<tree bgImage="WarlockCurses" icon="spell_shadow_deathcoil" key="Affliction" name="痛苦" order="0">
+      <talent column="0" icon="spell_shadow_curseofsargeras" key="1284" name="強化痛苦詛咒" tier="0">
+        <rank description="使你痛苦詛咒所造成的傷害提高5%。" lvl="1"/>
+        <rank description="使你痛苦詛咒所造成的傷害提高10%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_unsummonbuilding" key="1005" name="鎮壓" tier="0">
+        <rank description="使你法術的命中機率提高1%，並且痛苦系法術消耗的法力降低2%。" lvl="1"/>
+        <rank description="使你法術的命中機率提高2%，並且痛苦系法術消耗的法力降低4%。" lvl="2"/>
+        <rank description="使你法術的命中機率提高3%，並且痛苦系法術消耗的法力降低6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_abominationexplosion" key="1003" name="強化腐蝕術" tier="0">
+        <rank description="使你腐蝕術造成的傷害提高2%，並且腐蝕種子造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你腐蝕術造成的傷害提高4%，並且腐蝕種子造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你腐蝕術造成的傷害提高6%，並且腐蝕種子造成致命一擊的機率提高3%。" lvl="3"/>
+        <rank description="使你腐蝕術造成的傷害提高6%，並且腐蝕種子造成致命一擊的機率提高4%。" lvl="4"/>
+        <rank description="使你腐蝕術造成的傷害提高6%，並且腐蝕種子造成致命一擊的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_curseofmannoroth" key="1006" name="強化虛弱詛咒" tier="1">
+        <rank description="使你虛弱詛咒降低的攻擊強度提高10%。" lvl="1"/>
+        <rank description="使你虛弱詛咒降低的攻擊強度提高20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_haunting" key="1101" name="強化吸取靈魂" tier="1">
+        <rank description="若目標死於你的吸取靈魂過程中，你將獲得法力上限7%的法力。此外，你的痛苦系法術所產生的威脅值降低10%。" lvl="1"/>
+        <rank description="若目標死於你的吸取靈魂過程中，你將獲得法力上限15%的法力。此外，你的痛苦系法術所產生的威脅值降低20%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_burningspirit" key="1007" name="強化生命分流" tier="1">
+        <rank description="使你生命分流法術所轉化的法力提高10%。" lvl="1"/>
+        <rank description="使你生命分流法術所轉化的法力提高20%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_lifedrain02" key="1004" name="靈魂虹吸" tier="1">
+        <rank description="目標身上每一個由你所施放的痛苦系法術均會使你的吸取生命和吸取靈魂法術所吸取的數值額外提高3%，額外提高的效果上限為9%。" lvl="1"/>
+        <rank description="目標身上每一個由你所施放的痛苦系法術均會使你的吸取生命和吸取靈魂法術所吸取的數值額外提高6%，額外提高的效果上限為18%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_possession" key="2205" name="強化恐懼術" tier="2">
+        <rank description="使你的恐懼術效果結束時，對目標造成夢魘的效果。此效果可降低目標15%的移動速度，持續5秒。" lvl="1"/>
+        <rank description="使你的恐懼術效果結束時，對目標造成夢魘的效果。此效果可降低目標30%的移動速度，持續5秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_fingerofdeath" key="1001" name="惡魔專注" tier="2">
+        <rank description="使你在施放吸取生命、吸取法力、吸取靈魂、痛苦動盪和蝕魂術時，因受到傷害性攻擊而損失的施法時間縮短23%。" lvl="1"/>
+        <rank description="使你在施放吸取生命、吸取法力、吸取靈魂、痛苦動盪和蝕魂術時，因受到傷害性攻擊而損失的施法時間縮短46%。" lvl="2"/>
+        <rank description="使你在施放吸取生命、吸取法力、吸取靈魂、痛苦動盪和蝕魂術時，因受到傷害性攻擊而損失的施法時間縮短70%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_contagion" key="1061" name="詛咒增幅" tier="2">
+        <rank description="使你詛咒的共用冷卻時間縮短0.5秒。" lvl="1"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_callofbone" key="1021" name="無情延伸" tier="3">
+        <rank description="使你痛苦系法術的射程延長10%。" lvl="1"/>
+        <rank description="使你痛苦系法術的射程延長20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_twilight" key="1002" name="夜暮" tier="3">
+        <rank description="使你腐蝕術和吸取生命法術有2%的機率在對敵人造成傷害之後令你進入暗影冥思狀態。暗影冥思狀態令你下一個暗影箭法術的施法時間縮短100%。" lvl="1"/>
+        <rank description="使你腐蝕術和吸取生命法術有4%的機率在對敵人造成傷害之後令你進入暗影冥思狀態。暗影冥思狀態令你下一個暗影箭法術的施法時間縮短100%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_abominationexplosion" key="1764" name="強力腐蝕術" tier="3">
+        <rank description="使你的腐蝕術傷害提高相當於你12%的法術能量。" lvl="1"/>
+        <rank description="使你的腐蝕術傷害提高相當於你24%的法術能量。" lvl="2"/>
+        <rank description="使你的腐蝕術傷害提高相當於你36%的法術能量。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowembrace" key="1763" name="暗影之擁" tier="4">
+        <rank description="你的暗影箭和蝕魂術將造成暗影之擁的效果，令目標受到你所造成的所有暗影週期性傷害提高1%，並使目標受到的所有週期性治療效果降低3%，持續12秒。最多可堆疊2次。" lvl="1"/>
+        <rank description="你的暗影箭和蝕魂術將造成暗影之擁的效果，令目標受到你所造成的所有暗影週期性傷害提高2%，並使目標受到的所有週期性治療效果降低6%，持續12秒。最多可堆疊2次。" lvl="2"/>
+        <rank description="你的暗影箭和蝕魂術將造成暗影之擁的效果，令目標受到你所造成的所有暗影週期性傷害提高3%，並使目標受到的所有週期性治療效果降低9%，持續12秒。最多可堆疊2次。" lvl="3"/>
+        <rank description="你的暗影箭和蝕魂術將造成暗影之擁的效果，令目標受到你所造成的所有暗影週期性傷害提高4%，並使目標受到的所有週期性治療效果降低12%，持續12秒。最多可堆疊2次。" lvl="4"/>
+        <rank description="你的暗影箭和蝕魂術將造成暗影之擁的效果，令目標受到你所造成的所有暗影週期性傷害提高5%，並使目標受到的所有週期性治療效果降低15%，持續12秒。最多可堆疊2次。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_requiem" key="1041" name="生命虹吸" tier="4">
+        <rank description="當你的腐蝕術造成傷害時，你可立即恢復相當於其傷害值40%的生命力。此外，你的腐蝕術、腐蝕種子和痛苦動盪造成的持續傷害提高5%。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_grimward" key="1081" name="疲勞詛咒" requires="1061" tier="4">
+        <rank description="使目標的移動速度降低30%，持續12秒。每個術士只能對一個目標施加一種詛咒。" lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="6" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_shadow_summonfelhunter" key="1873" name="強化惡魔獵犬" tier="5">
+        <rank description="當你惡魔獵犬的暗影撕咬擊中敵人時可獲得法力上限8%的法力，並且此技能的冷卻時間縮短2秒。此外，惡魔獵犬的惡魔智力效果提高5%。" lvl="1"/>
+        <rank description="當你惡魔獵犬的暗影撕咬擊中敵人時可獲得法力上限8%的法力，並且此技能的冷卻時間縮短4秒。此外，惡魔獵犬的惡魔智力效果提高10%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadetruesight" key="1042" name="精通暗影" requires="1041" tier="5">
+        <rank description="使你暗影法術造成的傷害或吸取的生命力，以及惡魔獵犬的暗影撕咬傷害提高3%。" lvl="1"/>
+        <rank description="使你暗影法術造成的傷害或吸取的生命力，以及惡魔獵犬的暗影撕咬傷害提高6%。" lvl="2"/>
+        <rank description="使你暗影法術造成的傷害或吸取的生命力，以及惡魔獵犬的暗影撕咬傷害提高9%。" lvl="3"/>
+        <rank description="使你暗影法術造成的傷害或吸取的生命力，以及惡魔獵犬的暗影撕咬傷害提高12%。" lvl="4"/>
+        <rank description="使你暗影法術造成的傷害或吸取的生命力，以及惡魔獵犬的暗影撕咬傷害提高15%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_warlock_eradication" key="1878" name="滅絕" tier="6">
+        <rank description="你的腐蝕術每次造成傷害時，有6%的機率使你的施法速度提高6%，持續10秒。" lvl="1"/>
+        <rank description="你的腐蝕術每次造成傷害時，有6%的機率使你的施法速度提高12%，持續10秒。" lvl="2"/>
+        <rank description="你的腐蝕術每次造成傷害時，有6%的機率使你的施法速度提高20%，持續10秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_painfulafflictions" key="1669" name="傳染" tier="6">
+        <rank description="使你痛苦詛咒、腐蝕術和腐蝕種子的傷害提高1%，並且令你痛苦系的助益法術和持續傷害的法術效果被驅散的機率降低6%。" lvl="1"/>
+        <rank description="使你痛苦詛咒、腐蝕術和腐蝕種子的傷害提高2%，並且令你痛苦系的助益法術和持續傷害的法術效果被驅散的機率降低12%。" lvl="2"/>
+        <rank description="使你痛苦詛咒、腐蝕術和腐蝕種子的傷害提高3%，並且令你痛苦系的助益法術和持續傷害的法術效果被驅散的機率降低18%。" lvl="3"/>
+        <rank description="使你痛苦詛咒、腐蝕術和腐蝕種子的傷害提高4%，並且令你痛苦系的助益法術和持續傷害的法術效果被驅散的機率降低24%。" lvl="4"/>
+        <rank description="使你痛苦詛咒、腐蝕術和腐蝕種子的傷害提高5%，並且令你痛苦系的助益法術和持續傷害的法術效果被驅散的機率降低30%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_darkritual" key="1022" name="黑暗契約" tier="6">
+        <rank description="從你召喚的惡魔身上抽取305點法力，並使你恢復其100%的法力值。" lvl="1"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_deathscream" key="1668" name="強化恐懼嚎叫" tier="7">
+        <rank description="使你恐懼嚎叫法術的施法時間縮短0.8秒。" lvl="1"/>
+        <rank description="使你恐懼嚎叫法術的施法時間縮短1.5秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_curseofachimonde" key="1667" name="憎惡" tier="7">
+        <rank description="使你的法術傷害提高1%，並且腐蝕術和痛苦動盪造成致命一擊的機率提高3%。" lvl="1"/>
+        <rank description="使你的法術傷害提高2%，並且腐蝕術和痛苦動盪造成致命一擊的機率提高6%。" lvl="2"/>
+        <rank description="使你的法術傷害提高3%，並且腐蝕術和痛苦動盪造成致命一擊的機率提高9%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_deathsembrace" key="1875" name="死亡之擁" tier="8">
+        <rank description="當你的生命力處於20%或以下時，你的吸取生命所吸收的生命力提高10%。當你的目標生命力處於35%或以下時，你的暗影法術所造成的傷害提高4%。" lvl="1"/>
+        <rank description="當你的生命力處於20%或以下時，你的吸取生命所吸收的生命力提高20%。當你的目標生命力處於35%或以下時，你的暗影法術所造成的傷害提高8%。" lvl="2"/>
+        <rank description="當你的生命力處於20%或以下時，你的吸取生命所吸收的生命力提高30%。當你的目標生命力處於35%或以下時，你的暗影法術所造成的傷害提高12%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_unstableaffliction_3" key="1670" name="痛苦動盪" requires="1669" tier="8">
+        <rank description="暗影能量緩慢傷害目標，在15秒內造成點傷害。另外，如果痛苦動盪被驅散，將對驅散法術者造成990點傷害，並使他們沉默5秒。" lvl="1"/>
+        <spell castTime="1500" maxRange="30">
+          <power cost="15" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_unstableaffliction_2" key="2245" name="惡化" requires="1670" tier="8">
+        <rank description="賦予你腐蝕術和痛苦動盪的週期性傷害造成致命一擊的能力，可額外造成100%的傷害，並且使你蝕魂術的致命一擊傷害加成提高100%。" lvl="1"/>
+      </talent>
+      <talent column="1" icon="ability_warlock_everlastingaffliction" key="1876" name="無間痛苦" tier="9">
+        <rank description="你的腐蝕術和痛苦動盪可從你的法術傷害加成中額外獲得1%的加成，同時你的吸取生命和蝕魂術有20%的機率使你在目標身上的腐蝕術持續時間重新計算。" lvl="1"/>
+        <rank description="你的腐蝕術和痛苦動盪可從你的法術傷害加成中額外獲得2%的加成，同時你的吸取生命和蝕魂術有40%的機率使你在目標身上的腐蝕術持續時間重新計算。" lvl="2"/>
+        <rank description="你的腐蝕術和痛苦動盪可從你的法術傷害加成中額外獲得3%的加成，同時你的吸取生命和蝕魂術有60%的機率使你在目標身上的腐蝕術持續時間重新計算。" lvl="3"/>
+        <rank description="Y你的腐蝕術和痛苦動盪可從你的法術傷害加成中額外獲得4%的加成，同時你的吸取生命和蝕魂術有80%的機率使你在目標身上的腐蝕術持續時間重新計算。" lvl="4"/>
+        <rank description="你的腐蝕術和痛苦動盪可從你的法術傷害加成中額外獲得5%的加成，同時你的吸取生命和蝕魂術有100%的機率使你在目標身上的腐蝕術持續時間重新計算。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_warlock_haunt" key="2041" name="蝕魂術" tier="10">
+        <rank description="指使一個鬼魅之魂入侵目標體內，造成405到473點暗影傷害並且使你在目標身上的週期性暗影傷害效果提高20%，持續12秒。當蝕魂術結束或者被驅散時，該靈魂會回到你身上並治療你相當於其對目標造成100%的傷害。" lvl="1"/>
+        <spell castTime="1500" cooldown="8000" maxRange="30">
+          <power cost="12" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

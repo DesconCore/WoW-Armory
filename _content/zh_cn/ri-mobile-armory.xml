@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Mobile Armory">
+	<faqlist>
+		<faq question="什么是魔兽世界英雄榜？">
+				英雄榜是用作《魔兽世界》信息查询的庞大数据库，数据皆为从服务器端提取的真实数据，以友好的界面呈现给用户。
+				<p/>
+				由于英雄榜从游戏的真实服务器端提取数据，其所涵盖的数据范围包括《魔兽世界》游戏中现存的全部角色信息、竞技场战队信息、公会信息和物品信息，数据十分全面且有着极强的时效性。
+		</faq>
+		<faq question="我能在英雄榜上查找什么？">
+				通过英雄榜可以查询角色、物品、公会、竞技场战队以及声望奖励。可先从位于屏幕上方的下拉菜单中选择对应的查询类别，再输入关键词进行查询。
+				<p/>
+				通过英雄榜的查询，一般来讲，在服务器每周维护或者特定维护的情况下，数据会有一到两天的延迟，另外也存在某些特定时段无法访问的情况，耐心等待即可。
+		</faq>
+		<faq question="登录英雄榜后可体验到什么其它特色？">
+				在英雄榜页面的右上角有"登陆"按键。 点击此按键即可在不离开当前页面的情况下，使用《魔兽世界》账号信息登录英雄榜，登录后屏幕右上角会优先显示该账号下匹配度最高的角色名，可点此角色名跳转到该角色所在的英雄榜页面。
+				<p/>
+				点击角色名旁的“我的角色”选项，即可跳转到该账号下其他角色的英雄榜页面。登陆后，可浏览该账号下所有登录后才可浏览的内容，如公会银行和游戏日历等。
+		</faq>
+		<faq question="英雄榜推荐和支持的浏览器有哪些？">
+				英雄榜支持IE（6.0版本及以上）、Opera9以及Safari浏览器。在Firefox浏览器上表现得最为出色。此外，某些特色需要安装Flash 播放器才可体验。
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="iTunes 链接" type="external" url="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=321057000&amp;mt=8"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="常见问题" url="faq-armory.xml"/>		
+		<relatedlink name="已知问题" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016252444&amp;sid=3"/>
+		<relatedlink name="报告错我" type="report" url="http://forums.wow-europe.com/board.html?forumId=11088&amp;sid=1"/>
+		<relatedlink name="玩家交流" type="translation" url="http://5151wow.gicp.net/bbs/"/>
+	</relatedlinks>
+</relatedinfo>

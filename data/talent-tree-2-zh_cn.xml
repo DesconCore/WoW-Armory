@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="PaladinCombat" icon="spell_holy_auraoflight" key="Retribution" name="懲戒" order="2">
+      <talent column="1" icon="ability_parry" key="1403" name="偏斜" tier="0">
+        <rank description="使你的招架機率提高1%。" lvl="1"/>
+        <rank description="使你的招架機率提高2%。" lvl="2"/>
+        <rank description="使你的招架機率提高3%。" lvl="3"/>
+        <rank description="使你的招架機率提高4%。" lvl="4"/>
+        <rank description="使你的招架機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_frost_windwalkon" key="1407" name="祈福" tier="0">
+        <rank description="使你所有瞬發法術所消耗的法力降低2%。" lvl="1"/>
+        <rank description="使你所有瞬發法術所消耗的法力降低4%。" lvl="2"/>
+        <rank description="使你所有瞬發法術所消耗的法力降低6%。" lvl="3"/>
+        <rank description="使你所有瞬發法術所消耗的法力降低8%。" lvl="4"/>
+        <rank description="使你所有瞬發法術所消耗的法力降低10%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_righteousfury" key="1631" name="強化審判" tier="1">
+        <rank description="使你審判法術的冷卻時間縮短1秒。" lvl="1"/>
+        <rank description="使你審判法術的冷卻時間縮短2秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_holysmite" key="1464" name="十字軍之心" tier="1">
+        <rank description="除了一般效果外，你的審判法術同時會使該目標受到所有攻擊的致命一擊機率額外提高1%。" lvl="1"/>
+        <rank description="除了一般效果外，你的審判法術同時會使該目標受到所有攻擊的致命一擊機率額外提高2%。" lvl="2"/>
+        <rank description="除了一般效果外，你的審判法術同時會使該目標受到所有攻擊的致命一擊機率額外提高3%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_fistofjustice" key="1401" name="強化力量祝福" tier="1">
+        <rank description="使你力量祝福所賦予的攻擊強度加成提高12%。" lvl="1"/>
+        <rank description="使你力量祝福所賦予的攻擊強度加成提高25%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_vindication" key="1633" name="辯護" tier="2">
+        <rank description="使聖騎士的傷害性攻擊有一定的機率降低目標23點攻擊強度，持續10秒。" lvl="1"/>
+        <rank description="使聖騎士的傷害性攻擊有一定的機率降低目標46點攻擊強度，持續10秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_retributionaura" key="1411" name="定罪" tier="2">
+        <rank description="使你的所有法術和攻擊造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你的所有法術和攻擊造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你的所有法術和攻擊造成致命一擊的機率提高3%。" lvl="3"/>
+        <rank description="使你的所有法術和攻擊造成致命一擊的機率提高4%。" lvl="4"/>
+        <rank description="使你的所有法術和攻擊造成致命一擊的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_warrior_innerrage" key="1481" name="命令聖印" tier="2">
+        <rank description="所有的近戰攻擊均可額外造成1到2點神聖傷害。當你的攻擊或技能擊中單體目標時，此額外的神聖傷害將會同時擊中2名額外的目標。命令聖印可持續30分钟。&lt;br/&gt;&lt;br/&gt;釋放這種聖印的能量將對目標造成審判效果，對其立即造成3到3點神聖傷害。" lvl="1"/>
+        <spell castTime="0">
+          <power cost="14" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="3" icon="spell_holy_persuitofjustice" key="1634" name="正義追擊" tier="2">
+        <rank description="受到的所有繳械效果持續時間縮短25%，並且移動速度和坐騎移動速度提高8%。此效果無法與其他提升移動速度的效果堆疊。" lvl="1"/>
+        <rank description="受到的所有繳械效果持續時間縮短50%，並且移動速度和坐騎移動速度提高15%。此效果無法與其他提升移動速度的效果堆疊。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_eyeforaneye" key="1632" name="以眼還眼" tier="3">
+        <rank description="你受到的所有致命一擊都會令攻擊者受到其5%的傷害，但最大數值不會超過聖騎士總生命力的50%。" lvl="1"/>
+        <rank description="你受到的所有致命一擊都會令攻擊者受到其10%的傷害，但最大數值不會超過聖騎士總生命力的50%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_holy_holysmite" key="1761" name="戰鬥聖諭" tier="3">
+        <rank description="使你所有法術和攻擊的致命一擊機率提高1%，並使你的驅邪術和十字軍聖擊造成的傷害提高5%。" lvl="1"/>
+        <rank description="使你所有法術和攻擊的致命一擊機率提高2%，並使你的驅邪術和十字軍聖擊造成的傷害提高10%。" lvl="2"/>
+        <rank description="使你所有法術和攻擊的致命一擊機率提高3%，並使你的驅邪術和十字軍聖擊造成的傷害提高15%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_holy_crusade" key="1755" name="十字軍" tier="3">
+        <rank description="使造成的所有傷害提高1%，並使你對人型生物、惡魔、不死生物和元素生物所造成的所有傷害額外提高1%。" lvl="1"/>
+        <rank description="使造成的所有傷害提高2%，並使你對人型生物、惡魔、不死生物和元素生物所造成的所有傷害額外提高2%。" lvl="2"/>
+        <rank description="使造成的所有傷害提高3%，並使你對人型生物、惡魔、不死生物和元素生物所造成的所有傷害額外提高3%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="inv_hammer_04" key="1410" name="雙手武器專精" tier="4">
+        <rank description="使你雙手近戰武器所造成的傷害提高2%。" lvl="1"/>
+        <rank description="使你雙手近戰武器所造成的傷害提高4%。" lvl="2"/>
+        <rank description="使你雙手近戰武器所造成的傷害提高6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_mindvision" key="1756" name="聖化懲罰" tier="4">
+        <rank description="使你懲罰光環的傷害提高50%，並使受你任一光環影響的友方目標造成的所有傷害提高3%。" lvl="1"/>
+      </talent>
+      <talent column="1" icon="ability_racial_avatar" key="1402" name="復仇" requires="1411" tier="5">
+        <rank description="使你武器攻擊、法術或技能在對敵人造成致命一擊之後有1%的物理和神聖傷害加成，持續30秒。此效果最多可堆疊3次。" lvl="1"/>
+        <rank description="使你武器攻擊、法術或技能在對敵人造成致命一擊之後有2%的物理和神聖傷害加成，持續30秒。此效果最多堆疊3次。" lvl="2"/>
+        <rank description="使你武器攻擊、法術或技能在對敵人造成致命一擊之後有3%的物理和神聖傷害加成，持續30秒。此效果最多堆疊3次。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_divinepurpose" key="1757" name="神聖意圖" tier="5">
+        <rank description="使你被法術和遠程攻擊命中的機率降低2%，並使你的自由聖禦法術有50%的機率移除目標身上的昏迷效果。" lvl="1"/>
+        <rank description="使你被法術和遠程攻擊命中的機率降低4%，並使你的自由聖禦法術有100%的機率移除目標身上的昏迷效果。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_paladin_artofwar" key="2176" name="戰爭藝術" tier="6">
+        <rank description="使你的審判、十字軍聖擊和神性風暴造成的傷害提高5%，並且當你的近戰攻擊造成致命一擊時，下一發聖光閃現或驅邪術的施法時間將縮短0.75秒。" lvl="1"/>
+        <rank description="使你的審判、十字軍聖擊和神性風暴造成的傷害提高10%，並且當你的近戰攻擊造成致命一擊時，下一發聖光閃現或驅邪術將變成瞬發法術。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_prayerofhealing" key="1441" name="懺悔" tier="6">
+        <rank description="使目標進入冥想狀態，令其癱瘓最多持續1分钟。任何傷害都會喚醒目標。只對惡魔、龍類、巨人、人型生物和不死生物有效。" lvl="1"/>
+        <spell castTime="0" cooldown="60000" maxRange="20">
+          <power cost="9" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_paladin_judgementofthewise" key="1758" name="睿智審判" tier="6">
+        <rank description="你傷害性的審判法術有33%的機率使最多10名小隊或團隊成員獲得每5秒恢復1%總法力的回復效果，持續15秒，並使你立即恢復25%的基本法力。" lvl="1"/>
+        <rank description="你傷害性的審判法術有66%的機率使最多10名小隊或團隊成員獲得每5秒恢復1%總法力的回復效果，持續15秒，並使你立即恢復25%的基本法力。" lvl="2"/>
+        <rank description="你傷害性的審判法術有100%的機率使最多10名小隊或團隊成員獲得每5秒恢復1%總法力的回復效果，持續15秒，並使你立即恢復25%的基本法力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_fanaticism" key="1759" name="狂熱" requires="1441" tier="7">
+        <rank description="使你所有審判造成致命一擊的機率提高6%，並且在不受正義之怒影響時，造成的所有威脅值降低10%。" lvl="1"/>
+        <rank description="使你所有審判造成致命一擊的機率提高12%，並且在不受正義之怒影響時，造成的所有威脅值降低20%。" lvl="2"/>
+        <rank description="使你所有審判造成致命一擊的機率提高18%，並且在不受正義之怒影響時，造成的所有威脅值降低30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_paladin_sanctifiedwrath" key="2147" name="聖化之怒" tier="7">
+        <rank description="憤怒之錘造成致命一擊的機率提高25%，復仇之怒的冷卻時間縮短30秒，並且在復仇之怒影響下造成的25%所有傷害可無視傷害減免的效果。" lvl="1"/>
+        <rank description="憤怒之錘造成致命一擊的機率提高50%，復仇之怒的冷卻時間縮短60秒，並且在復仇之怒影響下造成的50%所有傷害可無視傷害減免的效果。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_paladin_swiftretribution" key="2148" name="迅捷懲戒" tier="8">
+        <rank description="你的光環可同時提高施法、遠程和近戰攻擊速度1%。" lvl="1"/>
+        <rank description="你的光環可同時提高施法、遠程和近戰攻擊速度2%。" lvl="2"/>
+        <rank description="你的光環可同時提高施法、遠程和近戰攻擊速度3%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_crusaderstrike" key="1823" name="十字軍聖擊'" tier="8">
+        <rank description="立即對敵人造成75%武器傷害。" lvl="1"/>
+        <spell castTime="0" cooldown="4000" maxRange="5">
+          <power cost="5" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_paladin_sheathoflight" key="2179" name="聖光之鞘" tier="8">
+        <rank description="使你的法術能量提高相當於你10%的攻擊強度，並且使你造成極效治療效果的法術可在12秒內恢復相當於該治療量20%的生命力。" lvl="1"/>
+        <rank description="使你的法術能量提高相當於你20%的攻擊強度，並且使你造成極效治療效果的法術可在12秒內恢復相當於該治療量40%的生命力。" lvl="2"/>
+        <rank description="使你的法術能量提高相當於你30%的攻擊強度，並且使你造成極效治療效果的法術可在12秒內恢復相當於該治療量60%的生命力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_paladin_righteousvengeance" key="2149" name="公正復仇" tier="9">
+        <rank description="當你的審判、十字軍聖擊與神性風暴法術造成致命一擊時，可使目標在8秒內額外受到其10%的傷害。" lvl="1"/>
+        <rank description="當你的審判、十字軍聖擊與神性風暴法術造成致命一擊時，可使目標在8秒內額外受到其20%的傷害。" lvl="2"/>
+        <rank description="當你的審判、十字軍聖擊與神性風暴法術造成致命一擊時，可使目標在8秒內額外受到其30%的傷害。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_paladin_divinestorm" key="2150" name="神性風暴" tier="10">
+        <rank description="立即對0碼範圍內最多1個敵人造成110%武器傷害。神性風暴可同時治療最多3名小隊或團隊成員，治療量的總和相當於造成的25%傷害。" lvl="1"/>
+        <spell castTime="0" cooldown="10000">
+          <power cost="12" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="PaladinProtection" icon="spell_holy_devotionaura" key="Protection" name="防護" order="1">
+      <talent column="1" icon="spell_holy_blindingheal" key="1442" name="聖潔" tier="0">
+        <rank description="使你造成的所有治療效果，以及受到的所有治療效果提高1%。" lvl="1"/>
+        <rank description="使你造成的所有治療效果，以及受到的所有治療效果提高2%。" lvl="2"/>
+        <rank description="使你造成的所有治療效果，以及受到的所有治療效果提高3%。" lvl="3"/>
+        <rank description="使你造成的所有治療效果，以及受到的所有治療效果提高4%。" lvl="4"/>
+        <rank description="使你造成的所有治療效果，以及受到的所有治療效果提高5%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_golemthunderclap" key="2185" name="神聖之力" tier="0">
+        <rank description="使你的總力量提高3%。" lvl="1"/>
+        <rank description="使你的總力量提高6%。" lvl="2"/>
+        <rank description="使你的總力量提高9%。" lvl="3"/>
+        <rank description="使你的總力量提高12%。" lvl="4"/>
+        <rank description="使你的總力量提高15%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_stoicism" key="1748" name="堅忍" tier="1">
+        <rank description="受到所有昏迷效果的持續時間縮短10%，並且令你的助益法術和持續傷害的法術效果被驅散的機率降低10%。" lvl="1"/>
+        <rank description="受到所有昏迷效果的持續時間縮短20%，並且令你的助益法術和持續傷害的法術效果被驅散的機率降低20%。" lvl="2"/>
+        <rank description="受到所有昏迷效果的持續時間縮短30%，並且令你的助益法術和持續傷害的法術效果被驅散的機率降低30%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_sealofprotection" key="1425" name="守護者的恩眷" tier="1">
+        <rank description="使你保護聖禦的冷卻時間縮短60秒，自由聖禦的持續時間延長2秒。" lvl="1"/>
+        <rank description="使你保護聖禦的冷卻時間縮短2分鐘，自由聖禦的持續時間延長4秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_magic_lesserinvisibilty" key="1629" name="預知" tier="1">
+        <rank description="使你的閃躲機率提高1%。" lvl="1"/>
+        <rank description="使你的閃躲機率提高2%。" lvl="2"/>
+        <rank description="使你的閃躲機率提高3%。" lvl="3"/>
+        <rank description="使你的閃躲機率提高4%。" lvl="4"/>
+        <rank description="使你的閃躲機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_powerwordbarrier" key="2280" name="神性犧牲" tier="2">
+        <rank description="周围半径30码范围内的小队成员受到的所有伤害的30%由圣骑士分担（该值最多不超过圣骑士生命值的40%乘以队员数量）。使圣骑士的生命值降至20%以下的伤害会打断神圣牺牲效果。持续10秒。" lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="1" icon="spell_holy_sealoffury" key="1501" name="強化正義之怒" tier="2">
+        <rank description="正義之怒啟動時，可使你受到的所有傷害減少2%。" lvl="1"/>
+        <rank description="正義之怒啟動時，可使你受到的所有傷害減少4%。" lvl="2"/>
+        <rank description="正義之怒啟動時，可使你受到的所有傷害減少6%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_devotion" key="1423" name="堅韌" tier="2">
+        <rank description="使你從裝備獲得的護甲值提高2%，且所有減緩移動速度效果的持續時間縮短6%。" lvl="1"/>
+        <rank description="使你從裝備獲得的護甲值提高4%，且所有減緩移動速度效果的持續時間縮短12%。" lvl="2"/>
+        <rank description="使你從裝備獲得的護甲值提高6%，且所有減緩移動速度效果的持續時間縮短18%。" lvl="3"/>
+        <rank description="使你從裝備獲得的護甲值提高8%，且所有減緩移動速度效果的持續時間縮短24%。" lvl="4"/>
+        <rank description="使你從裝備獲得的護甲值提高10%，且所有減緩移動速度效果的持續時間縮短30%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_powerwordbarrier" key="2281" name="神性守護" requires="2280" tier="3">
+        <rank description="當你的神性犧牲啟動時，將使你30碼範圍內的所有小隊或團隊成員受到的傷害降低10%，持續6秒。此外，你的崇聖護盾持續時間延長50%，同時吸收的傷害值提高10%。" lvl="1"/>
+        <rank description="當你的神性犧牲啟動時，將使你30碼範圍內的所有小隊或團隊成員受到的傷害降低20%，持續6秒。此外，你的崇聖護盾持續時間延長100%，同時吸收的傷害值提高20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_sealofmight" key="1521" name="強化制裁之錘" tier="3">
+        <rank description="使你制裁之錘的冷卻時間縮短10秒。" lvl="1"/>
+        <rank description="使你制裁之錘的冷卻時間縮短20秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_holy_devotionaura" key="1422" name="強化虔誠光環" tier="3">
+        <rank description="使你虔誠光環所賦予的護甲值加成提高17%，並使受你任一光環影響的目標所受到的治療量提高2%。" lvl="1"/>
+        <rank description="使你虔誠光環所賦予的護甲值加成提高34%，並使受你任一光環影響的目標所受到的治療量提高4%。" lvl="2"/>
+        <rank description="使你虔誠光環所賦予的護甲值加成提高50%，並使受你任一光環影響的目標所受到的治療量提高6%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_lightningshield" key="1431" name="庇護祝福" tier="4">
+        <rank description="為友方目標施加祝福，使其受到所有類型的傷害降低3%，並且力量與耐力提高10%，持續10分钟。此外，當目標格擋、招架或閃躲近戰攻擊時，將獲得2%的法力。每個聖騎士在同一時間內只能給目標施加一種祝福。" lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="7" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_blessingofstrength" key="1426" name="清算" tier="4">
+        <rank description="使你被任何傷害性的攻擊命中之後有2%的機率在接下來8秒內展開的4次攻擊中皆獲得一次額外的攻擊機會。" lvl="1"/>
+        <rank description="使你被任何傷害性的攻擊命中之後有4%的機率在接下來8秒內展開的4次攻擊中皆獲得一次額外的攻擊機會。" lvl="2"/>
+        <rank description="使你被任何傷害性的攻擊命中之後有6%的機率在接下來8秒內展開的4次攻擊中皆獲得一次額外的攻擊機會。" lvl="3"/>
+        <rank description="使你被任何傷害性的攻擊命中之後有8%的機率在接下來8秒內展開的4次攻擊中皆獲得一次額外的攻擊機會。" lvl="4"/>
+        <rank description="使你被任何傷害性的攻擊命中之後有10%的機率在接下來8秒內展開的4次攻擊中皆獲得一次額外的攻擊機會。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_divineintervention" key="1750" name="神聖職責" tier="5">
+        <rank description="使你的總耐力提高4%，並且縮短聖盾術與聖佑術的冷卻時間30秒。" lvl="1"/>
+        <rank description="使你的總耐力提高8%，並且縮短聖盾術與聖佑術的冷卻時間60秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="inv_sword_20" key="1429" name="單手武器專精" tier="5">
+        <rank description="當裝備單手近戰武器時你所造成的所有傷害提高4%。" lvl="1"/>
+        <rank description="當裝備單手近戰武器時你所造成的所有傷害提高7%。" lvl="2"/>
+        <rank description="當裝備單手近戰武器時你所造成的所有傷害提高10%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_revivechampion" key="2282" name="精神調和" tier="6">
+        <rank description="當被其他友方目標的法術治療時賦予聖騎士法力的一個被動技能。所獲得的法力相當於被治療的5%生命力。" lvl="1"/>
+        <rank description="當被其他友方目標的法術治療時賦予聖騎士法力的一個被動技能。所獲得的法力相當於被治療的10%生命力。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_blessingofprotection" key="1430" name="神聖之盾" requires="1431" tier="6">
+        <rank description="使你的格擋機率提高30%，持續10秒。在此期間每次成功格擋都會對攻擊者造成79點神聖傷害。每次成功格擋會消耗一次格擋機會，最多可格擋8次。" lvl="1"/>
+        <spell castTime="0" cooldown="8000">
+          <power cost="10" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_ardentdefender" key="1751" name="忠誠防衛者" tier="6">
+        <rank description="任何會使你生命力降至35%以下的傷害均減少7%。此外，當你受到可將你擊殺的攻擊時將會獲得一治療效果，使你的生命力提升至上限的10%(治療量將視防禦技能而定)。此治療效果每2分钟只能發動一次。" lvl="1"/>
+        <rank description="任何會使你生命力降至35%以下的傷害均減少13%。此外，當你受到可將你擊殺的攻擊時將會獲得一治療效果，使你的生命力提升至上限的20%(治療量將視防禦技能而定)。此治療效果每2分钟只能發動一次。" lvl="2"/>
+        <rank description="任何會使你生命力降至35%以下的傷害均減少20%。此外，當你受到可將你擊殺的攻擊時將會獲得一治療效果，使你的生命力提升至上限的30%(治療量將視防禦技能而定)。此治療效果每2分钟只能發動一次。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_defend" key="1421" name="盾牌壁壘" tier="7">
+        <rank description="使你的格擋值提高10%，並且每次受到近戰和遠程攻擊後有10%的機率使你格擋的機率提高10%。盾牌壁壘可持續10秒或格擋5次攻擊為止。" lvl="1"/>
+        <rank description="使你的格擋值提高20%，並且每次受到近戰和遠程攻擊後有10%的機率使你格擋的機率提高20%。盾牌壁壘可持續10秒或格擋5次攻擊為止。" lvl="2"/>
+        <rank description="使你的格擋值提高30%，並且每次受到近戰和遠程攻擊後有10%的機率使你格擋的機率提高30%。盾牌壁壘可持續10秒或格擋5次攻擊為止。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_weaponmastery" key="1753" name="戰鬥熟練'" tier="7">
+        <rank description="使你的熟練技能提高2點，總耐力和致命一擊機率提高2%。" lvl="1"/>
+        <rank description="使你的熟練技能提高4點，總耐力和致命一擊機率提高4%。" lvl="2"/>
+        <rank description="使你的熟練技能提高6點，總耐力和致命一擊機率提高6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_paladin_touchedbylight" key="2195" name="聖光之觸" tier="8">
+        <rank description="使你的法術能量提高相當於你20%的力量，並使你極效治療效果的治療量提高10%。" lvl="1"/>
+        <rank description="使你的法術能量提高相當於你40%的力量，並使你極效治療效果的治療量提高20%。" lvl="2"/>
+        <rank description="使你的法術能量提高相當於你60%的力量，並使你極效治療效果的治療量提高30%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_avengersshield" key="1754" name="復仇之盾" requires="1430" tier="8">
+        <rank description="對目標發射神聖之盾，442到538點神聖傷害，使其暈眩後彈至其他附近目標。共可攻擊3個目標。暈眩效果持續10秒。" lvl="1"/>
+        <spell castTime="0" cooldown="30000" maxRange="30">
+          <power cost="26" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_paladin_gaurdedbythelight" key="2194" name="聖光守護" tier="8">
+        <rank description="使你受到的法術傷害降低3%，並且當你擊中敵人時有50%的機率令你神性祈求的持續時間重新計算。此外，你的神性祈求被驅散的機率降低50%。" lvl="1"/>
+        <rank description="使你受到的法術傷害降低6%，並且當你擊中敵人時有100%的機率令你神性祈求的持續時間重新計算。此外，你的神性祈求被驅散的機率降低100%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_paladin_shieldofthetemplar" key="2204" name="聖殿騎士之盾" requires="1754" tier="9">
+        <rank description="使你受到的傷害降低1%，並且復仇之盾有33%的機率令目標沉默3秒。" lvl="1"/>
+        <rank description="使你受到的傷害降低2%，並且復仇之盾有66%的機率令目標沉默3秒。" lvl="2"/>
+        <rank description="使你受到的傷害降低3%，並且復仇之盾有100%的機率令目標沉默3秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_paladin_judgementsofthejust" key="2200" name="J剛正審判" tier="9">
+        <rank description="使你制裁之錘的冷卻時間縮短5秒，並延長公正聖印的持續時間0.5秒，同時你的審判法術可降低目標10%的近戰攻擊速度。" lvl="1"/>
+        <rank description="使你制裁之錘的冷卻時間縮短10秒，並延長公正聖印的持續時間1秒，同時你的審判法術可降低目標20%的近戰攻擊速度。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_paladin_hammeroftherighteous" key="2196" name="公正之錘" tier="10">
+        <rank description="對當前目標及其周圍2名額外的目標施展錘擊，造成相當於主手武器每秒傷害4倍的神聖傷害。" lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="5">
+          <power cost="6" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="PaladinHoly" icon="spell_holy_holybolt" key="Holy" name="神聖" order="0">
+      <talent column="1" icon="spell_arcane_blink" key="1432" name="精神集中" tier="0">
+        <rank description="使你在施放聖光閃現和聖光術時，因受到傷害性攻擊而損失的施法時間縮短14%。" lvl="1"/>
+        <rank description="使你在施放聖光閃現和聖光術時，因受到傷害性攻擊而損失的施法時間縮短28%。" lvl="2"/>
+        <rank description="使你在施放聖光閃現和聖光術時，因受到傷害性攻擊而損失的施法時間縮短42%。" lvl="3"/>
+        <rank description="使你在施放聖光閃現和聖光術時，因受到傷害性攻擊而損失的施法時間縮短56%。" lvl="4"/>
+        <rank description="使你在施放聖光閃現和聖光術時，因受到傷害性攻擊而損失的施法時間縮短70%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_thunderbolt" key="1463" name="純潔聖印" tier="0">
+        <rank description="使你正義聖印、復仇聖印和腐化聖印，及其審判效果造成的傷害提高3%。" lvl="1"/>
+        <rank description="使你正義聖印、復仇聖印和腐化聖印，及其審判效果造成的傷害提高6%。" lvl="2"/>
+        <rank description="使你正義聖印、復仇聖印和腐化聖印，及其審判效果造成的傷害提高9%。" lvl="3"/>
+        <rank description="使你正義聖印、復仇聖印和腐化聖印，及其審判效果造成的傷害提高12%。" lvl="4"/>
+        <rank description="使你正義聖印、復仇聖印和腐化聖印，及其審判效果造成的傷害提高15%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_holybolt" key="1444" name="治療之光" tier="1">
+        <rank description="使你聖光術和聖光閃現的治療效果，以及神聖震擊的效果提高4%。" lvl="1"/>
+        <rank description="使你聖光術和聖光閃現的治療效果，以及神聖震擊的效果提高8%。" lvl="2"/>
+        <rank description="使你聖光術和聖光閃現的治療效果，以及神聖震擊的效果提高12%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_sleep" key="1449" name="神聖智力" tier="1">
+        <rank description="使你的總智力提高2%。" lvl="1"/>
+        <rank description="使你的總智力提高4%。" lvl="2"/>
+        <rank description="使你的總智力提高6%。" lvl="3"/>
+        <rank description="使你的總智力提高8%。" lvl="4"/>
+        <rank description="使你的總智力提高10%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_unyieldingfaith" key="1628" name="不滅信念" tier="1">
+        <rank description="受到恐懼和困惑效果的持續時間縮短15%。" lvl="1"/>
+        <rank description="受到恐懼和困惑效果的持續時間縮短30%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_auramastery" key="1435" name="精通光環" tier="2">
+        <rank description="使你的專注光環可使所有受影響的目標免疫沉默以及中斷的效果，並且使其他所有光環的效果提高100%。持續6秒。" lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="1" icon="spell_holy_greaterheal" key="1461" name="啟發" tier="2">
+        <rank description="在你的聖光閃現、聖光術或神聖震擊的治療法術造成極致治療效果之後，你有20%的機率獲得該法術基礎法力消耗的30%法力。" lvl="1"/>
+        <rank description="在你的聖光閃現、聖光術或神聖震擊的治療法術造成極致治療效果之後，你有40%的機率獲得該法術基礎法力消耗的30%法力。" lvl="2"/>
+        <rank description="在你的聖光閃現、聖光術或神聖震擊的治療法術造成極致治療效果之後，你有60%的機率獲得該法術基礎法力消耗的30%法力。" lvl="3"/>
+        <rank description="在你的聖光閃現、聖光術或神聖震擊的治療法術造成極致治療效果之後，你有80%的機率獲得該法術基礎法力消耗的30%法力。" lvl="4"/>
+        <rank description="在你的聖光閃現、聖光術或神聖震擊的治療法術造成極致治療效果之後，你有100%的機率獲得該法術基礎法力消耗的30%法力。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_layonhands" key="1443" name="強化聖療術" tier="2">
+        <rank description="使你聖療術治療目標時，可使其受到的物理傷害降低10%，持續15秒。此外，你的聖療術冷卻時間縮短2分鐘。" lvl="1"/>
+        <rank description="使你聖療術治療目標時，可使其受到的物理傷害降低20%，持續15秒。此外，你的聖療術冷卻時間縮短4分鐘。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_mindsooth" key="1450" name="強化專注光環" tier="3">
+        <rank description="使你專注光環的效果提高5%，並使所有獲得你任一光環效果影響的隊友受到沉默和中斷效果時，縮短其持續時間10%。這個縮短沉默和中斷持續時間的效果無法與其它效果堆疊。" lvl="1"/>
+        <rank description="使你專注光環的效果提高10%，並使所有獲得你任一光環效果影響的隊友受到沉默和中斷效果時，縮短其持續時間20%。這個縮短沉默和中斷持續時間的效果無法與其它效果堆疊。" lvl="2"/>
+        <rank description="使你專注光環的效果提高15%，並使所有獲得你任一光環效果影響的隊友受到沉默和中斷效果時，縮短其持續時間30%。這個縮短沉默和中斷持續時間的效果無法與其它效果堆疊。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_sealofwisdom" key="1446" name="強化智慧祝福" tier="3">
+        <rank description="使你智慧祝福的效果提高10%。" lvl="1"/>
+        <rank description="使你智慧祝福的效果提高20%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_paladin_blessedhands" key="2198" name="祝福聖禦" tier="3">
+        <rank description="使你自由聖禦、犧牲聖禦和拯救聖禦的法力消耗降低15%，並且拯救聖禦的效果提高50%，犧牲聖禦的效果提高5%。" lvl="1"/>
+        <rank description="使你自由聖禦、犧牲聖禦和拯救聖禦的法力消耗降低30%，並且拯救聖禦的效果提高100%，犧牲聖禦的效果提高10%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_pureofheart" key="1742" name="純淨之心" tier="4">
+        <rank description="受到詛咒、疾病和中毒效果的持續時間縮短15%。" lvl="1"/>
+        <rank description="受到詛咒、疾病和中毒效果的持續時間縮短30%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_heal" key="1433" name="神恩術" requires="1461" tier="4">
+        <rank description="啟動之後，使你的下一個聖光閃現、聖光術或神聖震擊有100%的機率造成致命一擊或極效治療。" lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="3" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_healingaura" key="1465" name="聖化之光" tier="4">
+        <rank description="使你的聖光術和神聖震擊造成致命一擊與極效治療效果的機率提高2%。" lvl="1"/>
+        <rank description="使你的聖光術和神聖震擊造成致命一擊與極效治療效果的機率提高4%。" lvl="2"/>
+        <rank description="使你的聖光術和神聖震擊造成致命一擊與極效治療效果的機率提高6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_purifyingpower" key="1743" name="淨化能量" tier="5">
+        <rank description="使你淨化術、純淨術和奉獻法術所消耗的法力降低5%，驅邪術和神聖憤怒的冷卻時間縮短17%。" lvl="1"/>
+        <rank description="使你淨化術、純淨術和奉獻法術所消耗的法力降低10%，驅邪術和神聖憤怒的冷卻時間縮短33%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_holy_power" key="1627" name="神聖強化" tier="5">
+        <rank description="使你神聖法術造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你神聖法術造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你神聖法術造成致命一擊的機率提高3%。" lvl="3"/>
+        <rank description="使你神聖法術造成致命一擊的機率提高4%。" lvl="4"/>
+        <rank description="使你神聖法術造成致命一擊的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_lightsgrace" key="1745" name="光明賜福" tier="6">
+        <rank description="使你聖光術有33%的機率讓下一次的聖光術施法時間縮短0.5秒。此效果持續15秒。" lvl="1"/>
+        <rank description="使你聖光術有66%的機率讓下一次的聖光術施法時間縮短0.5秒。此效果持續15秒。" lvl="2"/>
+        <rank description="使你聖光術有100%的機率讓下一次的聖光術施法時間縮短0.5秒。此效果持續15秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_searinglight" key="1502" name="神聖震擊" requires="1433" tier="6">
+        <rank description="以神聖的能量衝擊目標，造成314到340點神聖傷害，或為盟友恢復481到519點生命力。" lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="20">
+          <power cost="18" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_blessedlife" key="1744" name="神聖生命" tier="6">
+        <rank description="所有對你的攻擊有4%的機率減半傷害。" lvl="1"/>
+        <rank description="所有對你的攻擊有7%的機率減半傷害。" lvl="2"/>
+        <rank description="所有對你的攻擊有10%的機率減半傷害。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_paladin_sacredcleansing" key="2190" name="崇聖淨化" tier="7">
+        <rank description="你的淨化術有10%的機率提高目標對疾病、魔法與中毒30%的抗性，持續10秒。" lvl="1"/>
+        <rank description="你的淨化術有20%的機率提高目標對疾病、魔法與中毒30%的抗性，持續10秒。" lvl="2"/>
+        <rank description="你的淨化術有30%的機率提高目標對疾病、魔法與中毒30%的抗性，持續10秒。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_holyguidance" key="1746" name="神聖導引" tier="7">
+        <rank description="使你的法術能量提高相當於你總智力的4%。" lvl="1"/>
+        <rank description="使你的法術能量提高相當於你總智力的8%。" lvl="2"/>
+        <rank description="使你的法術能量提高相當於你總智力的12%。" lvl="3"/>
+        <rank description="使你的法術能量提高相當於你總智力的16%。" lvl="4"/>
+        <rank description="使你的法術能量提高相當於你總智力的20%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_divineillumination" key="1747" name="神聖啟發" tier="8">
+        <rank description="使所有法術所消耗的法力降低50%，持續15秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="ability_paladin_judgementofthepure" key="2199" name="純潔審判" tier="8">
+        <rank description="使你聖印和審判法術造成的傷害提高5%，並且你的審判法術可令你的施法和近戰加速提高3%，持續1分钟。" lvl="1"/>
+        <rank description="使你聖印和審判法術造成的傷害提高10%，並且你的審判法術可令你的施法和近戰加速提高3%，持續1分钟。" lvl="2"/>
+        <rank description="使你聖印和審判法術造成的傷害提高15%，並且你的審判法術可令你的施法和近戰加速提高3%，持續1分钟。" lvl="3"/>
+        <rank description="使你聖印和審判法術造成的傷害提高20%，並且你的審判法術可令你的施法和近戰加速提高3%，持續1分钟。" lvl="4"/>
+        <rank description="使你聖印和審判法術造成的傷害提高25%，並且你的審判法術可令你的施法和近戰加速提高3%，持續1分钟。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_paladin_infusionoflight" key="2193" name="聖光灌注" requires="1502" tier="9">
+        <rank description="你的神聖震擊造成致命一擊時，可使你下一個聖光閃現的施法時間縮短0.75秒，或者使你下一個聖光術造成極效治療效果的機率提高10%。此外，你的聖光閃現將可對受崇聖護盾保護的目標在12秒內額外治療50%的生命力。" lvl="1"/>
+        <rank description="你的神聖震擊造成致命一擊時，可使你下一個聖光閃現的施法時間縮短1.5秒，或者使你下一個聖光術造成極效治療效果的機率提高20%。此外，你的聖光閃現將可對受崇聖護盾保護的目標在12秒內額外治療100%的生命力。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_paladin_enlightenedjudgements" key="2191" name="崇光審判" tier="9">
+        <rank description="使你光明審判和智慧審判法術的射程延長15碼，並使你的命中率提高2%。" lvl="1"/>
+        <rank description="使你光明審判和智慧審判法術的射程延長30碼，並使你的命中率提高4%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_paladin_beaconoflight" key="2192" name="聖光信標" tier="10">
+        <rank description="使目標變成其60碼範圍內所有小隊與團隊成員的聖光信標。你對任何小隊或團隊成員施放治療法術時，將同時治療該信標相當於其100%治療量的生命力。同一時間內只能指定一個目標作為聖光信標，持續1分钟。" lvl="1"/>
+        <spell castTime="0" maxRange="60">
+          <power cost="35" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

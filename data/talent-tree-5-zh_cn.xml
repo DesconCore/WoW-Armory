@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="zh_cn" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="PriestDiscipline" icon="spell_holy_wordfortitude" key="Discipline" name="戒律" order="0">
+      <talent column="1" icon="spell_magic_magearmor" key="342" name="堅定意志" tier="0">
+        <rank description="使你受到昏迷、恐懼和沉默效果的持續時間縮短6%。" lvl="1"/>
+        <rank description="使你受到昏迷、恐懼和沉默效果的持續時間縮短12%。" lvl="2"/>
+        <rank description="使你受到昏迷、恐懼和沉默效果的持續時間縮短18%。" lvl="3"/>
+        <rank description="使你受到昏迷、恐懼和沉默效果的持續時間縮短24%。" lvl="4"/>
+        <rank description="使你受到昏迷、恐懼和沉默效果的持續時間縮短30%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_sealofvengeance" key="1898" name="雙重戒律" tier="0">
+        <rank description="使你瞬發法術所造成的傷害和治療效果提高1%。" lvl="1"/>
+        <rank description="使你瞬發法術所造成的傷害和治療效果提高2%。" lvl="2"/>
+        <rank description="使你瞬發法術所造成的傷害和治療效果提高3%。" lvl="3"/>
+        <rank description="使你瞬發法術所造成的傷害和治療效果提高4%。" lvl="4"/>
+        <rank description="使你瞬發法術所造成的傷害和治療效果提高5%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_manaregentotem" key="352" name="無聲消退" tier="1">
+        <rank description="使你的神聖系和戒律系法術威脅值降低7%，同時使你的助益法術和持續傷害的法術效果被驅散的機率降低10%。" lvl="1"/>
+        <rank description="使你的神聖系和戒律系法術威脅值降低14%，同時使你的助益法術和持續傷害的法術效果被驅散的機率降低20%。" lvl="2"/>
+        <rank description="使你的神聖系和戒律系法術威脅值降低20%，同時使你的助益法術和持續傷害的法術效果被驅散的機率降低30%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_innerfire" key="346" name="強化心靈之火" tier="1">
+        <rank description="使你心靈之火的效果提高15%，使用次數提高4次。" lvl="1"/>
+        <rank description="使你心靈之火的效果提高30%，使用次數提高8次。" lvl="2"/>
+        <rank description="使你心靈之火的效果提高45%，使用次數提高12次。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_wordfortitude" key="344" name="強化真言術:韌" tier="1">
+        <rank description="使你真言術:韌及堅韌禱言的效果提高15%，並且令你的總耐力提高2%。" lvl="1"/>
+        <rank description="使你真言術:韌及堅韌禱言的效果提高30%，並且令你的總耐力提高4%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_nature_tranquility" key="321" name="殉難" tier="1">
+        <rank description="使你有50%的機率在受到敵人的近戰或遠程致命一擊後獲得專注施法的效果，持續6秒。專注施法的效果可防止因受到傷害性攻擊而損失牧師法術的施法時間，並縮短中斷效果的持續時間10%。" lvl="1"/>
+        <rank description="使你有100%的機率在受到敵人的近戰或遠程致命一擊後獲得專注施法的效果，持續6秒。專注施法的效果可防止因受到傷害性攻擊而損失牧師法術的施法時間，並縮短中斷效果的持續時間20%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_nature_sleep" key="347" name="冥想" tier="2">
+        <rank description="使你在施法時仍保持17%的法力恢復速度。" lvl="1"/>
+        <rank description="使你在施法時仍保持33%的法力恢復速度。'" lvl="2"/>
+        <rank description="使你在施法時仍保持50%的法力恢復速度。'" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_windwalkon" key="348" name="心靈專注" tier="2">
+        <rank description="啟動之後，使你的下一個法術所消耗的法力減少100%，造成致命一擊的機率提高25%(如果有可能造成致命一擊)。" lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="spell_holy_powerwordshield" key="343" name="強化真言術:盾" tier="2">
+        <rank description="使你真言術:盾所吸收的傷害值提高5%。" lvl="1"/>
+        <rank description="使你真言術:盾所吸收的傷害值提高10%。" lvl="2"/>
+        <rank description="使你真言術:盾所吸收的傷害值提高15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_absolution" key="1769" name="赦免" tier="3">
+        <rank description="使你驅散魔法、祛病術、驅除疾病和群體驅魔所消耗的法力降低5%。" lvl="1"/>
+        <rank description="使你驅散魔法、祛病術、驅除疾病和群體驅魔所消耗的法力降低10%。" lvl="2"/>
+        <rank description="使你驅散魔法、祛病術、驅除疾病和群體驅魔所消耗的法力降低15%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_hibernation" key="341" name="精神敏銳" tier="3">
+        <rank description="使你瞬發法術所消耗的法力降低4%。" lvl="1"/>
+        <rank description="使你瞬發法術所消耗的法力降低7%。" lvl="2"/>
+        <rank description="使你瞬發法術所消耗的法力降低10%。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_manaburn" key="350" name="強化法力燃燒" tier="3">
+        <rank description="使你法力燃燒的施法時間縮短0.5秒。" lvl="1"/>
+        <rank description="使你法力燃燒的施法時間縮短1秒。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_powerwordshield" key="2268" name="反射護盾" tier="4">
+        <rank description="使你身上的真言術:盾所吸收的22%傷害反射給攻擊者。此傷害不會產生威脅值。" lvl="1"/>
+        <rank description="使你身上的真言術:盾所吸收的45%傷害反射給攻擊者。此傷害不會產生威脅值。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_enchantarmor" key="1201" name="心靈之力" tier="4">
+        <rank description="使你的總智力提高3%。" lvl="1"/>
+        <rank description="使你的總智力提高6%。" lvl="2"/>
+        <rank description="使你的總智力提高9%。" lvl="3"/>
+        <rank description="使你的總智力提高12%。" lvl="4"/>
+        <rank description="使你的總智力提高15%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_pureofheart" key="351" name="靈魂結界" requires="343" tier="4">
+        <rank description="使你真言術:盾的冷卻時間縮短4秒，法力消耗降低15%。" lvl="1"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_focusedpower" key="1771" name="能量專注" tier="5">
+        <rank description="使你法術造成的傷害與治療效果提高2%。此外，你的群體驅魔施法時間縮短0.5秒。" lvl="1"/>
+        <rank description="使你法術造成的傷害與治療效果提高2%。此外，你的群體驅魔施法時間縮短1秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_mindmastery" key="1772" name="啟蒙" tier="5">
+        <rank description="使你的總精神提高2%，法術加速提高2%。" lvl="1"/>
+        <rank description="使你的總精神提高4%，法術加速提高4%。" lvl="2"/>
+        <rank description="使你的總精神提高6%，法術加速提高6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_arcane_focusedpower" key="1858" name="意志專注" tier="6">
+        <rank description="使你的法術致命一擊機率提高1%。當你受到致命一擊時可獲得意志專注的效果，使你受到的所有傷害降低2%，並且受到的治療效果提高3%。此效果最多可堆疊3次。持續8秒。" lvl="1"/>
+        <rank description="使你的法術致命一擊機率提高2%。當你受到致命一擊時可獲得意志專注的效果，使你受到的所有傷害降低3%，並且受到的治療效果提高4%。此效果最多可堆疊3次。持續8秒。" lvl="2"/>
+        <rank description="使你的法術致命一擊機率提高3%。當你受到致命一擊時可獲得意志專注的效果，使你受到的所有傷害降低4%，並且受到的治療效果提高5%。此效果最多可堆疊3次。持續8秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_powerinfusion" key="322" name="注入能量" requires="1201" tier="6">
+        <rank description="對目標注入能量，使其施法速度提高20%，施放所有法術的法力消耗降低20%。持續15秒。" lvl="1"/>
+        <spell castTime="0" cooldown="120000" maxRange="30">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_chastise" key="1773" name="強化快速治療" tier="6">
+        <rank description="使你快速治療的法力消耗降低5%，並令其對生命力處於50%或以下的友方目標產生極效治療效果的機率提高4%。" lvl="1"/>
+        <rank description="使你快速治療的法力消耗降低10%，並令其對生命力處於50%或以下的友方目標產生極效治療效果的機率提高7%。" lvl="2"/>
+        <rank description="使你快速治療的法力消耗降低15%，並令其對生命力處於50%或以下的友方目標產生極效治療效果的機率提高10%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_holyprotection" key="2235" name="嶄新希望" tier="7">
+        <rank description="使你快速治療、強效治療術和懺悟法術的治療效果對於受虛弱靈魂效果影響的目標造成致命一擊的機率提高2%，並且當你施放真言術:盾時，有50%的機率令所有友方隊伍和團隊成員受到的傷害降低3%，持續20秒。" lvl="1"/>
+        <rank description="使你快速治療、強效治療術和懺悟法術的治療效果對於受虛弱靈魂效果影響的目標造成致命一擊的機率提高4%，並且當你施放真言術:盾時，有100%的機率令所有友方隊伍和團隊成員受到的傷害降低3%，持續20秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_rapture" key="1896" name="狂喜" tier="7">
+        <rank description="當你的真言術:盾吸收應達的傷害或被驅散時，你將立即獲得總法力的1.5%，同時受護盾保護的目標亦有33%的機率獲得2%的總法力、8點怒氣、16點能量或32點符能。此效果每12秒只能發動一次。" lvl="1"/>
+        <rank description="當你的真言術:盾吸收應達的傷害或被驅散時，你將立即獲得總法力的2%，同時受護盾保護的目標亦有66%的機率獲得2%的總法力、8點怒氣、16點能量或32點符能。此效果每12秒只能發動一次。" lvl="2"/>
+        <rank description="當你的真言術:盾吸收應達的傷害或被驅散時，你將立即獲得總法力的2.5%，同時受護盾保護的目標亦有100%的機率獲得2%的總法力、8點怒氣、16點能量或32點符能。此效果每12秒只能發動一次。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_aspiration" key="1894" name="堅定志向" tier="7">
+        <rank description="使你的心靈專注、注入能量、痛苦鎮壓和懺悟的法術冷卻時間縮短10%。" lvl="1"/>
+        <rank description="使你的心靈專注、注入能量、痛苦鎮壓和懺悟的法術冷卻時間縮短20%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_devineaegis" key="1895" name="神禦之盾" tier="8">
+        <rank description="你的極效治療效果將在目標身上製造一個護盾，可吸收該法術10%治療量的傷害，持續12秒。" lvl="1"/>
+        <rank description="你的極效治療效果將在目標身上製造一個護盾，可吸收該法術20%治療量的傷害，持續12秒。" lvl="2"/>
+        <rank description="你的極效治療效果將在目標身上製造一個護盾，可吸收該法術30%治療量的傷害，持續12秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_painsupression" key="1774" name="痛苦鎮壓" tier="8">
+        <rank description="立即降低一名友方目標的威脅值5%，使其承受的所有傷害降低40%，同時提高對所有驅散效果的抗性65%，持續8秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="40">
+          <power cost="8" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_hopeandgrace" key="1901" name="恩典" tier="8">
+        <rank description="你的快速治療、強效治療術和懺悟法術有50%的機率給予目標恩典的祝福，使其受到該牧師的所有治療效果提高3%。此效果最高可堆疊3次。效果可持續15秒。同一時間內恩典只能作用於一個目標的身上。" lvl="1"/>
+        <rank description="你的快速治療、強效治療術和懺悟法術有100%的機率給予目標恩典的祝福，使其受到該牧師的所有治療效果提高3%。此效果最高可堆疊3次。效果可持續15秒。同一時間內恩典只能作用於一個目標的身上。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_borrowedtime" key="1202" name="預支時間" tier="9">
+        <rank description="在施放真言術:盾後，使你的下一發法術獲得5%的法術加速，並提高真言術:盾吸收的傷害值，相當於你8%的法術能量。" lvl="1"/>
+        <rank description="在施放真言術:盾後，使你的下一發法術獲得10%的法術加速，並提高真言術:盾吸收的傷害值，相當於你16%的法術能量。" lvl="2"/>
+        <rank description="在施放真言術:盾後，使你的下一發法術獲得15%的法術加速，並提高真言術:盾吸收的傷害值，相當於你24%的法術能量。" lvl="3"/>
+        <rank description="在施放真言術:盾後，使你的下一發法術獲得20%的法術加速，並提高真言術:盾吸收的傷害值，相當於你32%的法術能量。" lvl="4"/>
+        <rank description="在施放真言術:盾後，使你的下一發法術獲得25%的法術加速，並提高真言術:盾吸收的傷害值，相當於你40%的法術能量。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_holy_penance" key="1897" name="懺悟" tier="10">
+        <rank description="立即對目標發出數道神聖之光，每1秒可對敵人造成240點神聖傷害，或者治療一名盟友670到756點生命力，持續2秒。" lvl="1"/>
+        <spell castTime="0" channeled="1" cooldown="12000" maxRange="30">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="PriestHoly" icon="spell_holy_guardianspirit" key="Holy" name="神聖" order="1">
+      <talent column="0" icon="spell_holy_healingfocus" key="410" name="專注治療" tier="0">
+        <rank description="使你在施放治療法術的時候因受到傷害性攻擊而損失的施法時間縮短35%。" lvl="1"/>
+        <rank description="使你在施放治療法術的時候因受到傷害性攻擊而損失的施法時間縮短70%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_renew" key="406" name="強化恢復" tier="0">
+        <rank description="使你恢復法術的治療效果提高5%。" lvl="1"/>
+        <rank description="使你恢復法術的治療效果提高10%。" lvl="2"/>
+        <rank description="使你恢復法術的治療效果提高15%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_sealofsalvation" key="401" name="神聖專精" tier="0">
+        <rank description="使你神聖法術造成致命一擊的機率提高1%。" lvl="1"/>
+        <rank description="使你神聖法術造成致命一擊的機率提高2%。" lvl="2"/>
+        <rank description="使你神聖法術造成致命一擊的機率提高3%。" lvl="3"/>
+        <rank description="使你神聖法術造成致命一擊的機率提高4%。" lvl="4"/>
+        <rank description="使你神聖法術造成致命一擊的機率提高5%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_holy_spellwarding" key="411" name="抗法結界" tier="1">
+        <rank description="使你受到的所有法術傷害降低2%。" lvl="1"/>
+        <rank description="使你受到的所有法術傷害降低4%。" lvl="2"/>
+        <rank description="使你受到的所有法術傷害降低6%。" lvl="3"/>
+        <rank description="使你受到的所有法術傷害降低8%。" lvl="4"/>
+        <rank description="使你受到的所有法術傷害降低10%。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_sealofwrath" key="1181" name="神聖之怒" tier="1">
+        <rank description="使你懲擊、神聖之火、治療術和強效治療術的施法時間縮短0.1秒。" lvl="1"/>
+        <rank description="使你懲擊、神聖之火、治療術和強效治療術的施法時間縮短0.2秒。" lvl="2"/>
+        <rank description="使你懲擊、神聖之火、治療術和強效治療術的施法時間縮短0.3秒。" lvl="3"/>
+        <rank description="使你懲擊、神聖之火、治療術和強效治療術的施法時間縮短0.4秒。" lvl="4"/>
+        <rank description="使你懲擊、神聖之火、治療術和強效治療術的施法時間縮短0.5秒。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_restoration" key="442" name="絕望禱言" tier="2">
+        <rank description="立即治療施法者，恢復263到325點生命力。" lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="21" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_holy_blessedrecovery" key="1636" name="祝福復元" tier="2">
+        <rank description="受到近戰或遠程攻擊的致命一擊後，祝福復元將在6秒內治療你相當於該傷害5%的生命力。在此效果的持續時間內受到額外的致命一擊時，將提高此效果治療的數值。" lvl="1"/>
+        <rank description="受到近戰或遠程攻擊的致命一擊後，祝福復元將在6秒內治療你相當於該傷害10%的生命力。在此效果的持續時間內受到額外的致命一擊時，將提高此效果治療的數值。" lvl="2"/>
+        <rank description="受到近戰或遠程攻擊的致命一擊後，祝福復元將在6秒內治療你相當於該傷害15%的生命力。在此效果的持續時間內受到額外的致命一擊時，將提高此效果治療的數值。" lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_holy_layonhands" key="361" name="靈感" tier="2">
+        <rank description="當你的快速治療、治療術、強效治療術、束縛治療、懺悟、癒合禱言、治療禱言或治療之環造成極效治療效果時，目標受到的物理傷害將降低3%，持續15秒。" lvl="1"/>
+        <rank description="當你的快速治療、治療術、強效治療術、束縛治療、懺悟、癒合禱言、治療禱言或治療之環造成極效治療效果時，目標受到的物理傷害將降低7%，持續15秒。" lvl="2"/>
+        <rank description="當你的快速治療、治療術、強效治療術、束縛治療、懺悟、癒合禱言、治療禱言或治療之環造成極效治療效果時，目標受到的物理傷害將降低10%，持續15秒。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_purify" key="1635" name="神聖延伸" tier="3">
+        <rank description="使你懲擊與神聖之火法術的射程，以及治療禱言、神聖新星、神聖禮頌和治療之環法術的有效半徑延長10%。" lvl="1"/>
+        <rank description="使你懲擊與神聖之火法術的射程，以及治療禱言、神聖新星、神聖禮頌和治療之環法術的有效半徑延長20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_heal02" key="408" name="強化治療術" tier="3">
+        <rank description="使你次級治療術、治療術、強效治療術、神聖禮頌和懺悟所消耗的法力降低5%。" lvl="1"/>
+        <rank description="使你次級治療術、治療術、強效治療術、神聖禮頌和懺悟所消耗的法力降低10%。" lvl="2"/>
+        <rank description="使你次級治療術、治療術、強效治療術、神聖禮頌和懺悟所消耗的法力降低15%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_searinglightpriest" key="403" name="灼熱之光" requires="1181" tier="3">
+        <rank description="使你懲擊、神聖之火、神聖新星和懺悟法術的傷害提高5%。" lvl="1"/>
+        <rank description="使你懲擊、神聖之火、神聖新星和懺悟法術的傷害提高10%。" lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_prayerofhealing02" key="413" name="強化治療禱言" tier="4">
+        <rank description="使你的治療禱言和癒合禱言所消耗的法力減少10%。" lvl="1"/>
+        <rank description="使你的治療禱言和癒合禱言所消耗的法力減少20%。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="inv_enchant_essenceeternallarge" key="1561" name="救贖之靈" tier="4">
+        <rank description="使總精神提高5%，並使牧師在死亡時變為救贖之靈，持續15秒。救贖之靈無法移動、攻擊，且不受任何法術或效果攻擊或鎖定。進入此形態，牧師可不消耗法力施放任何治療法術。效果結束後，牧師就會死亡。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_holy_spiritualguidence" key="402" name="精神導引" tier="4">
+        <rank description="提高相當於你總精神值5%的法術能量。" lvl="1"/>
+        <rank description="提高相當於你總精神值10%的法術能量。" lvl="2"/>
+        <rank description="提高相當於你總精神值15%的法術能量。" lvl="3"/>
+        <rank description="提高相當於你總精神值20%的法術能量。" lvl="4"/>
+        <rank description="提高相當於你總精神值25%的法術能量。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_surgeoflight" key="1766" name="光之澎湃" tier="5">
+        <rank description="你的法術致命一擊有25%的機率使你的下一個懲擊或快速治療法術變成瞬發法術，不消耗法力但無法造成致命一擊。效果持續10秒。" lvl="1"/>
+        <rank description="你的法術致命一擊有50%的機率使你的下一個懲擊或快速治療法術變成瞬發法術，不消耗法力但無法造成致命一擊。效果持續10秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_nature_moonglow" key="404" name="精神治療" tier="5">
+        <rank description="使你治療法術的治療效果提高2%。" lvl="1"/>
+        <rank description="使你治療法術的治療效果提高4%。" lvl="2"/>
+        <rank description="使你治療法術的治療效果提高6%。" lvl="3"/>
+        <rank description="使你治療法術的治療效果提高8%。" lvl="4"/>
+        <rank description="使你治療法術的治療效果提高10%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_fanaticism" key="1768" name="神聖專注" tier="6">
+        <rank description="當你的快速治療、強效治療術、束縛治療或強力恢復造成極效治療效果時，你從精神獲得的法力恢復速度將提高16%，持續8秒。" lvl="1"/>
+        <rank description="當你的快速治療、強效治療術、束縛治療或強力恢復造成極效治療效果時，你從精神獲得的法力恢復速度將提高32%，持續8秒。" lvl="2"/>
+        <rank description="當你的快速治療、強效治療術、束縛治療或強力恢復造成極效治療效果時，你從精神獲得的法力恢復速度將提高50%，持續8秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_summonlightwell" key="1637" name="光束泉" requires="1561" tier="6">
+        <rank description="製造一個神聖光束泉。小隊或團隊成員可以點擊光束泉，在6秒內恢復8634點生命力。對你造成相當於30%總生命力的傷害會取消此效果。光束泉可持續3分钟或使用10次。" lvl="1"/>
+        <spell castTime="500" cooldown="180000" maxRange="40">
+          <power cost="17" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_blessedresillience" key="1765" name="祝福韌性" tier="6">
+        <rank description="使你治療法術的效果提高1%，並且當你受到致命一擊後有20%的機率防止你在6秒內再度受到致命一擊。" lvl="1"/>
+        <rank description="使你治療法術的效果提高2%，並且當你受到致命一擊後有40%的機率防止你在6秒內再度受到致命一擊。" lvl="2"/>
+        <rank description="使你治療法術的效果提高3%，並且當你受到致命一擊後有60%的機率防止你在6秒內再度受到致命一擊。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_symbolofhope" key="2279" name="身心合一" tier="7">
+        <rank description="當你施放真言術:盾時，可使目標的移動速度提高30%，持續4秒，並且當你對自己施放驅除疾病時，除了原先淨化疾病的效果外，你有50%的機率可額外淨化1個中毒效果。" lvl="1"/>
+        <rank description="當你施放真言術:盾時，可使目標的移動速度提高60%，持續4秒，並且當你對自己施放驅除疾病時，除了原先淨化疾病的效果外，你有100%的機率可額外淨化1個中毒效果。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_greaterheal" key="1767" name="強力治療術" tier="7">
+        <rank description="你的強效治療術從你的治療加成獲得額外8%的治療效果，快速治療和束縛治療從你的治療加成獲得額外4%的治療效果。" lvl="1"/>
+        <rank description="你的強效治療術從你的治療加成獲得額外16%的治療效果，快速治療和束縛治療從你的治療加成獲得額外8%的治療效果。" lvl="2"/>
+        <rank description="你的強效治療術從你的治療加成獲得額外24%的治療效果，快速治療和束縛治療從你的治療加成獲得額外12%的治療效果。" lvl="3"/>
+        <rank description="你的強效治療術從你的治療加成獲得額外32%的治療效果，快速治療和束縛治療從你的治療加成獲得額外16%的治療效果。" lvl="4"/>
+        <rank description="你的強效治療術從你的治療加成獲得額外40%的治療效果，快速治療和束縛治療從你的治療加成獲得額外20%的治療效果。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_serendipity" key="1904" name="機緣回復" tier="7">
+        <rank description="當你施放束縛治療或快速治療時，你的下一個強效治療術或治療禱言的施法時間將縮短4%，最多可堆疊3次，持續20秒。" lvl="1"/>
+        <rank description="當你施放束縛治療或快速治療時，你的下一個強效治療術或治療禱言的施法時間將縮短8%，最多可堆疊3次，持續20秒。" lvl="2"/>
+        <rank description="當你施放束縛治療或快速治療時，你的下一個強效治療術或治療禱言的施法時間將縮短12%，最多可堆疊3次，持續20秒。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_paladin_infusionoflight" key="1902" name="強力恢復" tier="8">
+        <rank description="使你的恢復法術可額外獲得你5%的治療加成效果，並且你的恢復可立即治療目標相當於其總週期性治療效果5%的生命力。" lvl="1"/>
+        <rank description="使你的恢復法術可額外獲得你10%的治療加成效果，並且你的恢復可立即治療目標相當於其總週期性治療效果10%的生命力。" lvl="2"/>
+        <rank description="使你的恢復法術可額外獲得你15%的治療加成效果，並且你的恢復可立即治療目標相當於其總週期性治療效果15%的生命力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_circleofrenewal" key="1815" name="治療之環" tier="8">
+        <rank description="治療目標0碼範圍內最多5名小隊或團隊成員343到379點生命力。" lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="40">
+          <power cost="21" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_testoffaith" key="1903" name="信念試煉" tier="8">
+        <rank description="當友方目標的生命力處於50%或以下時，你對其造成的治療效果將提高4%。" lvl="1"/>
+        <rank description="當友方目標的生命力處於50%或以下時，你對其造成的治療效果將提高8%。" lvl="2"/>
+        <rank description="當友方目標的生命力處於50%或以下時，你對其造成的治療效果將提高12%。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_divineprovidence" key="1905" name="天佑之福" tier="9">
+        <rank description="使你治療之環、束縛治療、神聖新星、治療禱言、神聖禮頌和癒合禱言的治療量提高2%，並且縮短癒合禱言的冷卻時間6%。" lvl="1"/>
+        <rank description="使你治療之環、束縛治療、神聖新星、治療禱言、神聖禮頌和癒合禱言的治療量提高4%，並且縮短癒合禱言的冷卻時間12%。" lvl="2"/>
+        <rank description="使你治療之環、束縛治療、神聖新星、治療禱言、神聖禮頌和癒合禱言的治療量提高6%，並且縮短癒合禱言的冷卻時間18%。" lvl="3"/>
+        <rank description="使你治療之環、束縛治療、神聖新星、治療禱言、神聖禮頌和癒合禱言的治療量提高8%，並且縮短癒合禱言的冷卻時間24%。" lvl="4"/>
+        <rank description="使你治療之環、束縛治療、神聖新星、治療禱言、神聖禮頌和癒合禱言的治療量提高10%，並且縮短癒合禱言的冷卻時間30%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_holy_guardianspirit" key="1911" name="守護聖靈" tier="10">
+        <rank description="呼喚一名守護聖靈來守護友方目標。聖靈可使目標受到的治療效果提高40%。此外，聖靈將犧牲自己以擋住令守護目標死亡的攻擊。犧牲之後將使效果中斷，並治療目標生命力上限的50%，持續10秒。" lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="40">
+          <power cost="6" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="PriestShadow" icon="spell_shadow_shadowwordpain" key="Shadow" name="暗影" order="2">
+      <talent column="0" icon="spell_shadow_requiem" key="465" name="精神分流" tier="0">
+        <rank description="使你有33%的機率在殺死一個敵人並因此獲得經驗或榮譽值之後精神屬性提高100%。在這段時間裡，你的法力可以在施法時仍保持83%的恢復速度。持續15秒。" lvl="1"/>
+        <rank description="使你有66%的機率在殺死一個敵人並因此獲得經驗或榮譽值之後精神屬性提高100%。在這段時間裡，你的法力可以在施法時仍保持83%的恢復速度。持續15秒。" lvl="2"/>
+        <rank description="使你有100%的機率在殺死一個敵人並因此獲得經驗或榮譽值之後精神屬性提高100%。在這段時間裡，你的法力可以在施法時仍保持83%的恢復速度。持續15秒。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_requiem" key="2027" name="強化精神分流" requires="465" tier="0">
+        <rank description="你的心靈震爆和暗言術:死造成致命一擊之後有100%的機率，精神鞭笞造成致命一擊之後有50%的機率使你的總精神提高5%。在此期間內，你的法力可以在施法時仍保持17%的恢復速度。持續8秒。" lvl="1"/>
+        <rank description="你的心靈震爆和暗言術:死造成致命一擊之後有100%的機率，精神鞭笞造成致命一擊之後有50%的機率使你的總精神提高10%。在此期間內，你的法力可以在施法時仍保持33%的恢復速度。持續8秒。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_twilight" key="462" name="黑暗" tier="0">
+        <rank description="使你的暗影法術傷害提高2%。" lvl="1"/>
+        <rank description="使你的暗影法術傷害提高4%。" lvl="2"/>
+        <rank description="使你的暗影法術傷害提高6%。" lvl="3"/>
+        <rank description="使你的暗影法術傷害提高8%。" lvl="4"/>
+        <rank description="使你的暗影法術傷害提高10%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowward" key="466" name="暗影親和" tier="1">
+        <rank description="使你的暗影法術造成的威脅值降低8%，並且當你的暗言術:痛或吸血之觸法術被驅散時可獲得5%的基礎法力。" lvl="1"/>
+        <rank description="使你的暗影法術造成的威脅值降低16%，並且當你的暗言術:痛或吸血之觸法術被驅散時可獲得10%的基礎法力。" lvl="2"/>
+        <rank description="使你的暗影法術造成的威脅值降低25%，並且當你的暗言術:痛或吸血之觸法術被驅散時可獲得15%的基礎法力。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowwordpain" key="482" name="強化暗言術:痛" tier="1">
+        <rank description="使你暗言術:痛的傷害提高3%。" lvl="1"/>
+        <rank description="使你暗言術:痛的傷害提高6%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_burningspirit" key="463" name="暗影集中" tier="1">
+        <rank description="使你暗影法術的命中率提高1%，法力消耗降低2%。" lvl="1"/>
+        <rank description="使你暗影法術的命中率提高2%，法力消耗降低4%。" lvl="2"/>
+        <rank description="使你暗影法術的命中率提高3%，法力消耗降低6%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_psychicscream" key="542" name="強化心靈尖嘯" tier="2">
+        <rank description="使你心靈尖嘯的冷卻時間縮短2秒。" lvl="1"/>
+        <rank description="使你心靈尖嘯的冷卻時間縮短4秒。" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_unholyfrenzy" key="481" name="強化心靈震爆" tier="2">
+        <rank description="使你心靈震爆的冷卻時間縮短0.5秒。此外，在暗影形態下你的心靈震爆有20%的機率使目標受到的所有治療效果降低20%，持續10秒。" lvl="1"/>
+        <rank description="使你心靈震爆的冷卻時間縮短1秒。此外，在暗影形態下你的心靈震爆有40%的機率使目標受到的所有治療效果降低20%，持續10秒。" lvl="2"/>
+        <rank description="使你心靈震爆的冷卻時間縮短1.5秒。此外，在暗影形態下你的心靈震爆有60%的機率使目標受到的所有治療效果降低20%，持續10秒。" lvl="3"/>
+        <rank description="使你心靈震爆的冷卻時間縮短2秒。此外，在暗影形態下你的心靈震爆有80%的機率使目標受到的所有治療效果降低20%，持續10秒。" lvl="4"/>
+        <rank description="使你心靈震爆的冷卻時間縮短2.5秒。此外，在暗影形態下你的心靈震爆有100%的機率使目標受到的所有治療效果降低20%，持續10秒。" lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_siphonmana" key="501" name="精神鞭笞" tier="2">
+        <rank description="以暗影能量攻擊目標的心智，在3秒內對其造成總計點暗影傷害，並使其移動速度降低50%。" lvl="1"/>
+        <spell castTime="0" channeled="1" maxRange="30">
+          <power cost="9" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_magic_lesserinvisibilty" key="483" name="暗影之幕" tier="3">
+        <rank description="漸隱術的冷卻時間縮短3秒，暗影惡魔的冷卻時間縮短1分鐘。" lvl="1"/>
+        <rank description="漸隱術的冷卻時間縮短6秒，暗影惡魔的冷卻時間縮短2分鐘。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_chilltouch" key="881" name="暗影延伸" tier="3">
+        <rank description="使你暗影系的傷害性法術射程延長10%。" lvl="1"/>
+        <rank description="使你暗影系的傷害性法術射程延長20%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_blackplague" key="461" name="暗影交織" tier="3">
+        <rank description="你的暗影系傷害性法術有33%的機率使你造成的暗影傷害提高2%，持續15秒。此效果最多可堆疊5次。" lvl="1"/>
+        <rank description="你的暗影系傷害性法術有66%的機率使你造成的暗影傷害提高2%，持續15秒。此效果最多可堆疊5次。" lvl="2"/>
+        <rank description="你的暗影系傷害性法術有100%的機率使你造成的暗影傷害提高2%，持續15秒。此效果最多可堆疊5次。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_impphaseshift" key="541" name="沉默" requires="542" tier="4">
+        <rank description="使目標沉默，並使其在5秒內不能施法。非玩家目標的施法將同時被中斷，持續3秒。" lvl="1"/>
+        <spell castTime="0" cooldown="45000" maxRange="30">
+          <power cost="225" type="unknown"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_shadow_unsummonbuilding" key="484" name="吸血鬼的擁抱" tier="4">
+        <rank description="使你凝聚暗影的能量，令你造成的15%單體暗影法術傷害可同時治療你自己，並且造成的3%單體暗影法術傷害可同時治療其他隊友，持續30分钟。" lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_improvedvampiricembrace" key="1638" name="強化吸血鬼的擁抱" requires="484" tier="4">
+        <rank description="從吸血鬼的擁抱獲得的治療效果提高33%。" lvl="1"/>
+        <rank description="從吸血鬼的擁抱獲得的治療效果提高67%。" lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_nature_focusedmind" key="1777" name="精神專注" tier="4">
+        <rank description="使你心靈震爆、精神控制、精神鞭笞和心靈烙印法術所消耗的法力降低5%。" lvl="1"/>
+        <rank description="使你心靈震爆、精神控制、精神鞭笞和心靈烙印法術所消耗的法力降低10%。" lvl="2"/>
+        <rank description="使你心靈震爆、精神控制、精神鞭笞和心靈烙印法術所消耗的法力降低15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_skull" key="1781" name="心靈熔蝕" tier="5">
+        <rank description="使你的心靈震爆、精神鞭笞和心靈烙印造成致命一擊的機率提高2%，並且使你的吸血之觸、噬靈瘟疫和暗言術:痛的週期性傷害造成致命一擊的機率提高3%。" lvl="1"/>
+        <rank description="使你的心靈震爆、精神鞭笞和心靈烙印造成致命一擊的機率提高4%，並且使你的吸血之觸、噬靈瘟疫和暗言術:痛的週期性傷害造成致命一擊的機率提高6%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_devouringplague" key="2267" name="強化噬靈瘟疫" tier="5">
+        <rank description="使你噬靈瘟疫造成的週期性傷害提高5%，並且當你施放噬靈瘟疫時可立即造成相當於其總週期性傷害10%的傷害。" lvl="1"/>
+        <rank description="使你噬靈瘟疫造成的週期性傷害提高10%，並且當你施放噬靈瘟疫時可立即造成相當於其總週期性傷害20%的傷害。" lvl="2"/>
+        <rank description="使你噬靈瘟疫造成的週期性傷害提高15%，並且當你施放噬靈瘟疫時可立即造成相當於其總週期性傷害30%的傷害。" lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowform" key="521" name="暗影形態" requires="484" tier="6">
+        <rank description="進入暗影形態，使你造成的暗影傷害提高15%，受到的所有傷害降低15%，以及造成的威脅值降低30%。但是在此形態下，除了祛病術和驅除疾病之外，你無法施放神聖系的法術。此外，你的暗言術:痛、噬靈瘟疫和吸血之觸的週期性傷害可造成致命一擊，傷害額外提高100%，同時噬靈瘟疫與吸血之觸可受到加速屬性的加成。" lvl="1"/>
+        <spell castTime="0" cooldown="1500">
+          <power cost="13" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_shadowpower" key="1778" name="暗影強化" tier="6">
+        <rank description="使你心靈震爆、精神鞭笞和暗言術:死造成致命一擊的傷害加成提高20%。" lvl="1"/>
+        <rank description="使你心靈震爆、精神鞭笞和暗言術:死造成致命一擊的傷害加成提高40%。" lvl="2"/>
+        <rank description="使你心靈震爆、精神鞭笞和暗言術:死造成致命一擊的傷害加成提高60%。" lvl="3"/>
+        <rank description="使你心靈震爆、精神鞭笞和暗言術:死造成致命一擊的傷害加成提高80%。" lvl="4"/>
+        <rank description="使你心靈震爆、精神鞭笞和暗言術:死造成致命一擊的傷害加成提高100%。" lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_summonvoidwalker" key="1906" name="強化暗影形態" requires="521" tier="7">
+        <rank description="你的漸隱術在暗影形態下使用時，有50%的機率移除所有移動限制的效果，並使你在暗影形態下施放暗影法術時因受傷而損失的施法或引導時間縮短35%。" lvl="1"/>
+        <rank description="你的漸隱術在暗影形態下使用時，有100%的機率移除所有移動限制的效果，並使你在暗影形態下施放暗影法術時因受傷而損失的施法或引導時間縮短70%。" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_misery" key="1816" name="苦難" tier="7">
+        <rank description="你的暗言術:痛、精神鞭笞和吸血之觸法術可同時使目標被有害法術命中的機率提高1%，持續24秒。此外，使你的心靈震爆、精神鞭笞和心靈烙印從法術能量獲得的加成提高5%。" lvl="1"/>
+        <rank description="你的暗言術:痛、精神鞭笞和吸血之觸法術可同時使目標被有害法術命中的機率提高2%，持續24秒。此外，使你的心靈震爆、精神鞭笞和心靈烙印從法術能量獲得的加成提高10%。" lvl="2"/>
+        <rank description="你的暗言術:痛、精神鞭笞和吸血之觸法術可同時使目標被有害法術命中的機率提高3%，持續24秒。此外，使你的心靈震爆、精神鞭笞和心靈烙印從法術能量獲得的加成提高15%。" lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_psychichorrors" key="1908" name="心靈恐慌" tier="8">
+        <rank description="令目標陷入恐懼之中，使其在恐慌之中顫抖，持續3秒，同時卸下主手與遠程武器，持續10秒。" lvl="1"/>
+        <spell castTime="0" cooldown="120000" maxRange="30">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_holy_stoicism" key="1779" name="吸血之觸" requires="521" tier="8">
+        <rank description="在15秒內對你的目標造成點暗影傷害，並且當你的心靈震爆造成傷害時可使最多10名小隊或團隊成員每5秒恢復法力上限的1%。此外，當吸血之觸被驅散時將對受影響的目標造成720點傷害。" lvl="1"/>
+        <spell castTime="1500" maxRange="30">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_painandsuffering" key="1909" name="苦痛受難" tier="8">
+        <rank description="你的精神鞭笞有33%的機率使你在目標身上的暗言術:痛持續時間重新計算，同時使你的暗言術:死對你造成的傷害降低10%。" lvl="1"/>
+        <rank description="你的精神鞭笞有66%的機率使你在目標身上的暗言術:痛持續時間重新計算，同時使你的暗言術:死對你造成的傷害降低20%。" lvl="2"/>
+        <rank description="你的精神鞭笞有100%的機率使你在目標身上的暗言術:痛持續時間重新計算，同時使你的暗言術:死對你造成的傷害降低30%。" lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_mindtwisting" key="1907" name="扭曲信念" tier="9">
+        <rank description="你的法術能量提高相當於你4%的總精神，如果目標受到你暗言術:痛的影響，則你的精神鞭笞和心靈震爆造成的傷害提高2%。" lvl="1"/>
+        <rank description="你的法術能量提高相當於你8%的總精神，如果目標受到你暗言術:痛的影響，則你的精神鞭笞和心靈震爆造成的傷害提高4%。" lvl="2"/>
+        <rank description="你的法術能量提高相當於你12%的總精神，如果目標受到你暗言術:痛的影響，則你的精神鞭笞和心靈震爆造成的傷害提高6%。" lvl="3"/>
+        <rank description="你的法術能量提高相當於你16%的總精神，如果目標受到你暗言術:痛的影響，則你的精神鞭笞和心靈震爆造成的傷害提高8%。" lvl="4"/>
+        <rank description="你的法術能量提高相當於你20%的總精神，如果目標受到你暗言術:痛的影響，則你的精神鞭笞和心靈震爆造成的傷害提高10%。" lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_dispersion" key="1910" name="影散" requires="1779" tier="10">
+        <rank description="你散化為純淨的暗影能量，受到的所有傷害降低90%。在此期間內你無法攻擊或施法，但每1秒可恢復6%法力，持續6秒。影散可在昏迷、恐懼或沉默狀態下施放。施放時可清除所有緩速和無法移動的效果，並且在持續時間內對其免疫。" lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>
