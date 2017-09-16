@@ -1,0 +1,25 @@
+﻿Last updated: Mar-5-2013
+
+Attention!
+Currently 3D Viewer is not yet fully completed - there's no saving character poses, full screen mode
+and some other features.
+
+To work correctly, you need to download an archive with the model textures (~297 MB compressed).
+
+All files from archive must be unpacked to the 'models' folder. The unpacked files are approximately 465 megabytes.
+Directory tree:
+ - models
+         |- bgs
+         |- character
+         |- flash
+         |- images
+         |- item
+                |- objectcomponents
+                |- texturecomponents
+         |- spells
+
+If you find a bug, please report them here:
+https://github.com/Takenbacon/wowarmory/issues?state=open
+
+Download link for 3D Viewer Models:
+http://uploading.com/files/8acm6582/models.rar/

@@ -1,0 +1,22 @@
+=========================
+How to install WoW Armory
+=========================
+
+SYSTEM REQUIREMENTS:
+1. Apache HTTP Server with mod_rewrite
+2. PHP 5.3 or higher with XMLWriter package installed and enabled (XMLWriter is installed and enabled by default since PHP 5.1.2)
+3. MySQL 5 Server or higher
+
+INSTALLATION STEPS:
+1. Go to the patch folder and upload armory.sql (Will automatically create the database `armory`).
+2. Rename includes/classes/configuration.php.default to configuration.php and edit this file (read comments).
+   Characters DB configs are stored in
+       $ArmoryConfig['multiRealm'][1]['*_characters']
+   And World DB configs are stored in
+       $ArmoryConfig['multiRealm'][1]['*_mangos']
+   You should edit these values according with your MySQL configs (user/password/dbname).
+3. Downloads the icons archive from: http://www.mediafire.com/download.php?2newd68vnz847pv and unpack it to "wow-icons/_images/"
+4. For 3D Viewer installation info read 3DViewer_info.txt
+5. For full work you need to patch MaNGOS/Trinity core with the appropriate patch file found in the patch folder
+   and to update your characters DB with the provided SQL update (characters.sql - in the patch folder).
+6. If you use a UNIX system, you need to manage access rights to allow script write data to 'cache' folder.

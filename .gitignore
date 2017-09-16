@@ -1,0 +1,10 @@
+# Add ignore files here
+.DS_Store
+
+.buildpath
+.project
+.settings/org.eclipse.php.core.prefs
+.settings/com.zend.php.remoteproject.core.prefs
+.settings/org.eclipse.php.server.core.phpServersPrefs.prefs
+.settings/org.eclipse.core.resources.prefs
+includes/classes/configuration.php
