@@ -234,9 +234,9 @@ Class Mangos {
             $name = Armory::$wDB->selectCell("SELECT `name` FROM `creature_template` WHERE `entry`=%d LIMIT 1", $creature_id);
         }
         else {
-            $name = Armory::$wDB->selectCell("SELECT `name_loc%d` FROM `locales_creature` WHERE `entry` = %d LIMIT 1", Armory::GetLoc(), $creature_id);
+            $name = Armory::$wDB->selectCell("SELECT `name` FROM `creature_template_locale` WHERE `entry` = %d LIMIT 1", Armory::GetLoc(), $creature_id);
             if(!$name) {
-                $name = Armory::$wDB->selectCell("SELECT `name_loc%d` FROM `locales_creature` WHERE `entry` = %d LIMIT 1", Armory::GetLoc(), $npc);
+                $name = Armory::$wDB->selectCell("SELECT `name` FROM `creature_template_locale` WHERE `entry` = %d LIMIT 1", Armory::GetLoc(), $npc);
                 if(!$name) {
                     $name = Armory::$wDB->selectCell("SELECT `name` FROM `creature_template` WHERE `entry`=%d LIMIT 1", $npc);
                 }
@@ -328,7 +328,7 @@ Class Mangos {
                     return Armory::$wDB->selectCell("SELECT `subname` FROM `creature_template` WHERE `entry`=%d LIMIT 1", $npc);
                 }
                 else {
-                    $info = Armory::$wDB->selectCell("SELECT `subname_loc%d` FROM `locales_creature` WHERE `entry`=%d LIMIT 1", Armory::GetLoc(), $npc);
+                    $info = Armory::$wDB->selectCell("SELECT `title` FROM `creature_template_locale` WHERE `entry`=%d LIMIT 1", Armory::GetLoc(), $npc);
                     if(!$info) {
                         $killCredit = Armory::$wDB->selectRow("SELECT `KillCredit1`, `KillCredit2` FROM `creature_template` WHERE `entry`=%d", $npc);
                         $kc_entry = false;
@@ -339,10 +339,10 @@ Class Mangos {
                             $kc_entry = $killCredit['KillCredit2'];
                         }
                         if($kc_entry) {
-                            $info = Armory::$wDB->selectCell("SELECT `subname_loc%d` FROM `locales_creature` WHERE `entry`=%d LIMIT 1", Armory::GetLoc(), $kc_entry);
+                            $info = Armory::$wDB->selectCell("SELECT `title` FROM `creature_template_locale` WHERE `entry`=%d LIMIT 1", Armory::GetLoc(), $kc_entry);
                         }
                         if(!$info) {
-                            $info = Armory::$wDB->selectCell("SELECT `subname_loc%d` FROM `locales_creature` WHERE `entry`=%d LIMIT 1", Armory::GetLoc(), $npc);
+                            $info = Armory::$wDB->selectCell("SELECT `title` FROM `creature_template_locale` WHERE `entry`=%d LIMIT 1", Armory::GetLoc(), $npc);
                         }
                     }
                 }
