@@ -53,21 +53,21 @@ $ArmoryConfig['multiRealm'] = array();
 #      Default: mysql
 ##############################################################################################
 
-$ArmoryConfig['mysql']['host_armory']     = 'localhost';
-$ArmoryConfig['mysql']['user_armory']     = 'root';
-$ArmoryConfig['mysql']['pass_armory']     = '';
-$ArmoryConfig['mysql']['port_armory']     = 3306;
-$ArmoryConfig['mysql']['name_armory']     = 'wowarmory';
-$ArmoryConfig['mysql']['charset_armory']  = 'UTF8';
+$ArmoryConfig['mysql']['host_armory']     = 'localhost'; // SQL server IP
+$ArmoryConfig['mysql']['user_armory']     = 'root';      // SQL server loguin
+$ArmoryConfig['mysql']['pass_armory']     = '';          // SQL server pass
+$ArmoryConfig['mysql']['port_armory']     = 3306;        // SQL server port
+$ArmoryConfig['mysql']['name_armory']     = 'wowarmory'; // wowarmory DB name
+$ArmoryConfig['mysql']['charset_armory']  = 'UTF8';      // SQL connection encoding
 
-$ArmoryConfig['mysql']['host_realmd']     = 'localhost';
-$ArmoryConfig['mysql']['user_realmd']     = 'root';
-$ArmoryConfig['mysql']['pass_realmd']     = '';
-$ArmoryConfig['mysql']['port_realmd']     = 3306;
-$ArmoryConfig['mysql']['name_realmd']     = 'realmd';
-$ArmoryConfig['mysql']['charset_realmd']  = 'UTF8';
+$ArmoryConfig['mysql']['host_realmd']     = 'localhost'; // SQL server IP
+$ArmoryConfig['mysql']['user_realmd']     = 'root';      // SQL server loguin
+$ArmoryConfig['mysql']['pass_realmd']     = '';          // SQL server pass
+$ArmoryConfig['mysql']['port_realmd']     = 3306;        // SQL server port
+$ArmoryConfig['mysql']['name_realmd']     = '';          // SQL server db(auth Trinitycore, realmd Mangos)
+$ArmoryConfig['mysql']['charset_realmd']  = 'UTF8';      // SQL connection encoding
 
-$ArmoryConfig['mysql']['DbExtension']     = 'mysql';
+$ArmoryConfig['mysql']['DbExtension']     = 'mysql';     // SQL server type
 
 ##############################################################################################
 # Armory configuration
@@ -201,37 +201,37 @@ $ArmoryConfig['settings']['cachePrefix']      = 'armory';
 ##############################################################################################
 
 $ArmoryConfig['multiRealm'][1]['id']                 = 1;
-$ArmoryConfig['multiRealm'][1]['name']               = 'Armory Realm';
-$ArmoryConfig['multiRealm'][1]['type']               = SERVER_TRINITY;
-$ArmoryConfig['multiRealm'][1]['host_characters']    = 'localhost';
-$ArmoryConfig['multiRealm'][1]['user_characters']    = 'root';
-$ArmoryConfig['multiRealm'][1]['pass_characters']    = '';
-$ArmoryConfig['multiRealm'][1]['port_characters']    = 3306;
-$ArmoryConfig['multiRealm'][1]['name_characters']    = 'characters';
-$ArmoryConfig['multiRealm'][1]['charset_characters'] = 'UTF8';
-$ArmoryConfig['multiRealm'][1]['host_world']         = 'localhost';
-$ArmoryConfig['multiRealm'][1]['user_world']         = 'root';
-$ArmoryConfig['multiRealm'][1]['pass_world']         = '';
-$ArmoryConfig['multiRealm'][1]['port_world']         = 3306;
-$ArmoryConfig['multiRealm'][1]['name_world']         = 'mangos';
-$ArmoryConfig['multiRealm'][1]['charset_world']      = 'UTF8';
-
+$ArmoryConfig['multiRealm'][1]['name']               = '';               // Name Armory Realm
+$ArmoryConfig['multiRealm'][1]['type']               = SERVER_TRINITY;   // type server TrinityCore
+$ArmoryConfig['multiRealm'][1]['host_characters']    = 'localhost';      // SQL server IP
+$ArmoryConfig['multiRealm'][1]['user_characters']    = 'root';           // SQL server login
+$ArmoryConfig['multiRealm'][1]['pass_characters']    = '';               // SQL server pass
+$ArmoryConfig['multiRealm'][1]['port_characters']    = 3306;             // SQL server port
+$ArmoryConfig['multiRealm'][1]['name_characters']    = '';               // SQL server db characters
+$ArmoryConfig['multiRealm'][1]['charset_characters'] = 'UTF8';           // SQL connection encoding
+$ArmoryConfig['multiRealm'][1]['host_world']         = 'localhost';      // SQL server IP
+$ArmoryConfig['multiRealm'][1]['user_world']         = 'root';           // SQL server login
+$ArmoryConfig['multiRealm'][1]['pass_world']         = '';               // SQL server pass
+$ArmoryConfig['multiRealm'][1]['port_world']         = 3306;             // SQL server IP:port
+$ArmoryConfig['multiRealm'][1]['name_world']         = '';               // SQL server db world
+$ArmoryConfig['multiRealm'][1]['charset_world']      = 'UTF8';           // SQL connection encoding
+// server Mangos
 /*
 $ArmoryConfig['multiRealm'][2]['id']                 = 2;
-$ArmoryConfig['multiRealm'][2]['name']               = 'Armory Realm 2';
-$ArmoryConfig['multiRealm'][2]['type']               = SERVER_TRINITY;
-$ArmoryConfig['multiRealm'][2]['host_characters']    = 'localhost';
-$ArmoryConfig['multiRealm'][2]['user_characters']    = 'root';
-$ArmoryConfig['multiRealm'][2]['pass_characters']    = '';
-$ArmoryConfig['multiRealm'][2]['port_characters']    = 3306;
-$ArmoryConfig['multiRealm'][2]['name_characters']    = 'characters_trinity';
-$ArmoryConfig['multiRealm'][2]['charset_characters'] = 'UTF8';
-$ArmoryConfig['multiRealm'][2]['host_world']         = 'localhost';
-$ArmoryConfig['multiRealm'][2]['user_world']         = 'root';
-$ArmoryConfig['multiRealm'][2]['pass_world']         = '';
-$ArmoryConfig['multiRealm'][2]['port_world']         = 3306;
-$ArmoryConfig['multiRealm'][2]['name_world']         = 'trinity_world';
-$ArmoryConfig['multiRealm'][2]['charset_world']      = 'UTF8';
+$ArmoryConfig['multiRealm'][2]['name']               = '';               // Name Armory Realm
+$ArmoryConfig['multiRealm'][2]['type']               = SERVER_MANGOS;    // type server Mangos
+$ArmoryConfig['multiRealm'][2]['host_characters']    = 'localhost';      // SQL server IP
+$ArmoryConfig['multiRealm'][2]['user_characters']    = 'root';           // SQL server login
+$ArmoryConfig['multiRealm'][2]['pass_characters']    = '';               // SQL server pass
+$ArmoryConfig['multiRealm'][2]['port_characters']    = 3306;             // SQL server port
+$ArmoryConfig['multiRealm'][2]['name_characters']    = '';               // SQL server db characters
+$ArmoryConfig['multiRealm'][2]['charset_characters'] = 'UTF8';           // SQL connection encoding
+$ArmoryConfig['multiRealm'][2]['host_world']         = 'localhost';      // SQL server IP
+$ArmoryConfig['multiRealm'][2]['user_world']         = 'root';           // SQL server login
+$ArmoryConfig['multiRealm'][2]['pass_world']         = '';               // SQL server pass
+$ArmoryConfig['multiRealm'][2]['port_world']         = 3306;             // SQL server port
+$ArmoryConfig['multiRealm'][2]['name_world']         = '';               // SQL server db world
+$ArmoryConfig['multiRealm'][2]['charset_world']      = 'UTF8';           // SQL connection encoding
 */
 
 ##############################################################################################
