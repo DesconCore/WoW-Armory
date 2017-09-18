@@ -22,4 +22,4 @@ If you find a bug, please report them here:
 https://github.com/Takenbacon/wowarmory/issues?state=open
 
 Download link for 3D Viewer Models:
-http://uploading.com/files/8acm6582/models.rar/
+http://www.mediafire.com/file/l7brab31hkvmh78/models.rar
