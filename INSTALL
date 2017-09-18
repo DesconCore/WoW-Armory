@@ -15,8 +15,7 @@ INSTALLATION STEPS:
    And World DB configs are stored in
        $ArmoryConfig['multiRealm'][1]['*_mangos']
    You should edit these values according with your MySQL configs (user/password/dbname).
-3. Downloads the icons archive from: http://www.mediafire.com/file/5xc13x31f449165/_images.rar and unpack it to "wow-icons/_images/"
-4. For 3D Viewer installation info read 3DViewer_info.txt
-5. For full work you need to patch MaNGOS/Trinity core with the appropriate patch file found in the patch folder
+3. For 3D Viewer installation info read 3DViewer_info.txt
+4. For full work you need to patch MaNGOS/Trinity core with the appropriate patch file found in the patch folder
    and to update your characters DB with the provided SQL update (characters.sql - in the patch folder).
-6. If you use a UNIX system, you need to manage access rights to allow script write data to 'cache' folder.
+5. If you use a UNIX system, you need to manage access rights to allow script write data to 'cache' folder.
