@@ -1,8 +1,5 @@
 <?php
 
-// Turn off all error reporting
-error_reporting(0);
-ini_set('display_errors',0);
 /**
  * @package World of Warcraft Armory
  * @version Release 4.50
@@ -25,6 +22,10 @@ ini_set('display_errors',0);
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  **/
 
+ // Turn off all error reporting
+error_reporting(0);
+ini_set('display_errors',0);
+ 
 if(!defined('__ARMORY__')) {
     die('Direct access to this file not allowed!');
 }
@@ -465,11 +466,11 @@ Class Characters {
             // Get race and class strings
             $race_class = Armory::$aDB->selectRow("
             SELECT
-            `armory_races`.`name_%s` AS `race`,
-            `armory_classes`.`name_%s` AS `class`
-            FROM `armory_races` AS `armory_races`
-            LEFT JOIN `armory_classes` AS `armory_classes` ON `armory_classes`.`id`=%d
-            WHERE `armory_races`.`id`=%d", Armory::GetLocale(), Armory::GetLocale(), $player_data['class'], $player_data['race']);
+            `ARMORYDBPREFIX_races`.`name_%s` AS `race`,
+            `ARMORYDBPREFIX_classes`.`name_%s` AS `class`
+            FROM `ARMORYDBPREFIX_races` AS `ARMORYDBPREFIX_races`
+            LEFT JOIN `ARMORYDBPREFIX_classes` AS `ARMORYDBPREFIX_classes` ON `ARMORYDBPREFIX_classes`.`id`=%d
+            WHERE `ARMORYDBPREFIX_races`.`id`=%d", Armory::GetLocale(), Armory::GetLocale(), $player_data['class'], $player_data['race']);
             if(!$race_class) {
                 Armory::Log()->writeError('%s : unable to find class/race text strings for player %d (name: %s, raceID: %d, classID: %d)', __METHOD__, $player_data['guid'], $player_data['name'], $player_data['race'], $player_data['class']);
                 unset($player_data);
@@ -541,7 +542,7 @@ Class Characters {
      * @return   bool
      **/
     private function HandleChosenTitleInfo() {
-        $title_data = Armory::$aDB->selectRow("SELECT `title_F_%s` AS `titleF`, `title_M_%s` AS `titleM`, `place` FROM `armory_titles` WHERE `id`=%d", Armory::GetLocale(), Armory::GetLocale(), $this->chosenTitle);
+        $title_data = Armory::$aDB->selectRow("SELECT `title_F_%s` AS `titleF`, `title_M_%s` AS `titleM`, `place` FROM `ARMORYDBPREFIX_titles` WHERE `id`=%d", Armory::GetLocale(), Armory::GetLocale(), $this->chosenTitle);
         if(!$title_data) {
             Armory::Log()->writeError('%s: player %d (%s) has wrong chosenTitle id (%d) or there is no data for %s locale (locId: %d)', __METHOD__, $this->guid, $this->name, $this->chosenTitle, Armory::GetLocale(), Armory::GetLoc());
             return false;
@@ -1144,7 +1145,7 @@ Class Characters {
             Armory::Log()->writeError('%s : unable to get data from DB for player %d (%s)', __METHOD__, $this->guid, $this->name);
             return false;
         }
-        $class_talents = Armory::$aDB->select("SELECT * FROM `armory_talents` WHERE `TalentTab` IN (%s) ORDER BY `TalentTab`, `Row`, `Col`", $tab_class);
+        $class_talents = Armory::$aDB->select("SELECT * FROM `ARMORYDBPREFIX_talents` WHERE `TalentTab` IN (%s) ORDER BY `TalentTab`, `Row`, `Col`", $tab_class);
         if(!$class_talents) {
             Armory::Log()->writeError('%s : unable to find talents for class %d (tabs are: %d, %d, %d)', __METHOD__, $this->GetClass(), $tab_class[0], $tab_class[1], $tab_class[2]);
             return false;
@@ -1234,7 +1235,7 @@ Class Characters {
         }
         if($this->m_server == SERVER_TRINITY) {
             for($i = 0; $i < 3; $i++) {
-                $current_tab = Armory::$aDB->select("SELECT * FROM `armory_talents` WHERE `TalentTab`=%d ORDER BY `TalentTab`, `Row`, `Col`", $tab_class[$i]);
+                $current_tab = Armory::$aDB->select("SELECT * FROM `ARMORYDBPREFIX_talents` WHERE `TalentTab`=%d ORDER BY `TalentTab`, `Row`, `Col`", $tab_class[$i]);
                 if(!$current_tab) {
                     continue;
                 }
@@ -1268,7 +1269,7 @@ Class Characters {
                 if(!isset($tab_class[$i])) {
                     continue;
                 }
-                $current_tab = Armory::$aDB->select("SELECT `TalentID`, `TalentTab`, `Row`, `Col` FROM `armory_talents` WHERE `TalentTab`=%d ORDER BY `TalentTab`, `Row`, `Col`", $tab_class[$i]);
+                $current_tab = Armory::$aDB->select("SELECT `TalentID`, `TalentTab`, `Row`, `Col` FROM `ARMORYDBPREFIX_talents` WHERE `TalentTab`=%d ORDER BY `TalentTab`, `Row`, `Col`", $tab_class[$i]);
                 if(!$current_tab) {
                     continue;
                 }
@@ -1326,10 +1327,10 @@ Class Characters {
             switch($this->m_server) {
                 case SERVER_MANGOS:
                     if(in_array(Armory::GetLocale(), array('ru_ru', 'en_gb', 'zh_cn'))) {
-                        $current_glyph = Armory::$aDB->selectRow("SELECT `name_%s` AS `name`, `description_%s` AS `effect`, `type` FROM `armory_glyphproperties` WHERE `id`=%d", Armory::GetLocale(), Armory::GetLocale(), $glyph['glyph']);
+                        $current_glyph = Armory::$aDB->selectRow("SELECT `name_%s` AS `name`, `description_%s` AS `effect`, `type` FROM `ARMORYDBPREFIX_glyphproperties` WHERE `id`=%d", Armory::GetLocale(), Armory::GetLocale(), $glyph['glyph']);
                     }
                     else {
-                        $current_glyph = Armory::$aDB->selectRow("SELECT `name_en_gb` AS `name`, `description_en_gb` AS `effect`, `type` FROM `armory_glyphproperties` WHERE `id`=%d", $glyph['glyph']);
+                        $current_glyph = Armory::$aDB->selectRow("SELECT `name_en_gb` AS `name`, `description_en_gb` AS `effect`, `type` FROM `ARMORYDBPREFIX_glyphproperties` WHERE `id`=%d", $glyph['glyph']);
                     }
                     $data[$glyph['spec']][$i] = array(
                         'effect' => str_replace('"', '&quot;', $current_glyph['effect']),
@@ -1346,7 +1347,7 @@ Class Characters {
                     break;
                 case SERVER_TRINITY:
                     for($j = 1; $j < 7; $j++) {
-                        $current_glyph = Armory::$aDB->selectRow("SELECT `name_%s` AS `name`, `description_%s` AS `effect`, `type` FROM `armory_glyphproperties` WHERE `id`=%d", Armory::GetLocale(), Armory::GetLocale(), $glyph['glyph' . $j]);
+                        $current_glyph = Armory::$aDB->selectRow("SELECT `name_%s` AS `name`, `description_%s` AS `effect`, `type` FROM `ARMORYDBPREFIX_glyphproperties` WHERE `id`=%d", Armory::GetLocale(), Armory::GetLocale(), $glyph['glyph' . $j]);
                         if(!$current_glyph) {
                             continue;
                         }
@@ -1381,7 +1382,7 @@ Class Characters {
             Armory::Log()->writeError('%s : class not provided', __METHOD__);
             return false;
         }
-		return Armory::$aDB->selectCell("SELECT `name_%s` FROM `armory_talent_icons` WHERE `class`=%d AND `spec`=%d", Armory::GetLocale(), $this->class, $spec);
+		return Armory::$aDB->selectCell("SELECT `name_%s` FROM `ARMORYDBPREFIX_talent_icons` WHERE `class`=%d AND `spec`=%d", Armory::GetLocale(), $this->class, $spec);
 	}
 
     /**
@@ -1397,7 +1398,7 @@ Class Characters {
             Armory::Log()->writeError('%s : class not provided', __METHOD__);
             return false;
         }
-        return Armory::$aDB->selectCell("SELECT `icon` FROM `armory_talent_icons` WHERE `class`=%d AND `spec`=%d LIMIT 1", $this->class, $tree);
+        return Armory::$aDB->selectCell("SELECT `icon` FROM `ARMORYDBPREFIX_talent_icons` WHERE `class`=%d AND `spec`=%d LIMIT 1", $this->class, $tree);
     }
 
     /**
@@ -1415,7 +1416,7 @@ Class Characters {
         $p = array();
         $i = 0;
         foreach($professions as $prof) {
-            $p[$i] = Armory::$aDB->selectRow("SELECT `id`, `name_%s` AS `name`, `icon` FROM `armory_professions` WHERE `id`=%d LIMIT 1", Armory::GetLocale(), $prof['skill']);
+            $p[$i] = Armory::$aDB->selectRow("SELECT `id`, `name_%s` AS `name`, `icon` FROM `ARMORYDBPREFIX_professions` WHERE `id`=%d LIMIT 1", Armory::GetLocale(), $prof['skill']);
             $p[$i]['value'] = $prof['value'];
             $p[$i]['key'] = str_replace('-sm', '', (isset($p[$i]['icon'])) ? $p[$i]['icon'] : '' );
             $p[$i]['max'] = 450;
@@ -1517,7 +1518,7 @@ Class Characters {
             if(!($faction['flags']&FACTION_FLAG_VISIBLE) || $faction['flags'] & (FACTION_FLAG_HIDDEN | FACTION_FLAG_INVISIBLE_FORCED)) {
                 continue;
             }
-            $factionReputation[$i] = Armory::$aDB->selectRow("SELECT `id`, `category`, `name_%s` AS `name`, `key` FROM `armory_faction` WHERE `id`=%d", Armory::GetLocale(), $faction['faction']);
+            $factionReputation[$i] = Armory::$aDB->selectRow("SELECT `id`, `category`, `name_%s` AS `name`, `key` FROM `ARMORYDBPREFIX_faction` WHERE `id`=%d", Armory::GetLocale(), $faction['faction']);
             if($faction['standing'] > 42999) {
                 $factionReputation[$i]['reputation'] = 42999;
             }
@@ -1534,7 +1535,7 @@ Class Characters {
         $in_process = true;
         $id = $faction;
         while($in_process) {
-            $id = Armory::$aDB->selectCell("SELECT `category` FROM `armory_faction` WHERE `id` = %d", $id);
+            $id = Armory::$aDB->selectCell("SELECT `category` FROM `ARMORYDBPREFIX_faction` WHERE `id` = %d", $id);
             if($id > 0) {
                 $path[] = $id;
             }
@@ -2645,9 +2646,9 @@ Class Characters {
         $key = 0;
         $feed_data = array();
         // Strings
-        $feed_strings = Armory::$aDB->select("SELECT `id`, `string_%s` AS `string` FROM `armory_string` WHERE `id` IN (13, 14, 15, 16, 17, 18)", Armory::GetLocale());
+        $feed_strings = Armory::$aDB->select("SELECT `id`, `string_%s` AS `string` FROM `ARMORYDBPREFIX_string` WHERE `id` IN (13, 14, 15, 16, 17, 18)", Armory::GetLocale());
         if(!$feed_strings) {
-            Armory::Log()->writeError('%s : unable to load strings from armory_string (current locale: %s; locId: %d)', __METHOD__, Armory::GetLocale(), Armory::GetLoc());
+            Armory::Log()->writeError('%s : unable to load strings from ARMORYDBPREFIX_string (current locale: %s; locId: %d)', __METHOD__, Armory::GetLocale(), Armory::GetLoc());
             return false;
         }
         $_strings = array();
@@ -2735,7 +2736,7 @@ Class Characters {
                     if(!$item) {
                         continue;
                     }
-                    $item_icon = Armory::$aDB->selectCell("SELECT `icon` FROM `armory_icons` WHERE `displayid`=%d", $item['displayid']);
+                    $item_icon = Armory::$aDB->selectCell("SELECT `icon` FROM `ARMORYDBPREFIX_icons` WHERE `displayid`=%d", $item['displayid']);
                     // Is item equipped?
                     if($this->IsItemEquipped($event_data)) {
                         $item_slot = $item['InventoryType'];
@@ -2773,7 +2774,7 @@ Class Characters {
                             $DifficultyEntry = $event['data'];
                         }
                     }
-                    $criterias = Armory::$aDB->select("SELECT `referredAchievement` FROM `armory_achievement_criteria` WHERE `data` = %d", $DifficultyEntry);
+                    $criterias = Armory::$aDB->select("SELECT `referredAchievement` FROM `ARMORYDBPREFIX_achievement_criteria` WHERE `data` = %d", $DifficultyEntry);
                     if(!$criterias || !is_array($criterias)) {
                         continue;
                     }
@@ -2783,7 +2784,7 @@ Class Characters {
                     if(!$achievement_ids || !is_array($achievement_ids)) {
                         continue;
                     }
-                    $achievement = Armory::$aDB->selectRow("SELECT `id`, `name_%s` AS `name` FROM `armory_achievement` WHERE `id` IN (%s) AND `flags`=1 AND `dungeonDifficulty`=%d", Armory::GetLocale(), $achievement_ids, $dungeonDifficulty);
+                    $achievement = Armory::$aDB->selectRow("SELECT `id`, `name_%s` AS `name` FROM `ARMORYDBPREFIX_achievement` WHERE `id` IN (%s) AND `flags`=1 AND `dungeonDifficulty`=%d", Armory::GetLocale(), $achievement_ids, $dungeonDifficulty);
                     if(!$achievement || !is_array($achievement)) {
                         continue;
                     }
@@ -2838,12 +2839,12 @@ Class Characters {
         $enchItemData = array();
         $enchItemDisplayId = 0;
         if($enchantment > 0) {
-            $originalSpell = Armory::$aDB->selectCell("SELECT `id` FROM `armory_spellenchantment` WHERE `Value`=%d", $enchantment);
+            $originalSpell = Armory::$aDB->selectCell("SELECT `id` FROM `ARMORYDBPREFIX_spellenchantment` WHERE `Value`=%d", $enchantment);
             if($originalSpell > 0) {
                 $enchItemData = Armory::$wDB->selectRow("SELECT `entry`, `displayid` FROM `item_template` WHERE `spellid_1`=%d LIMIT 1", $originalSpell);
                 if($enchItemData) {
                     // Item
-                    $enchItemDisplayId = Armory::$aDB->selectCell("SELECT `icon` FROM `armory_icons` WHERE `displayid`=%d", $enchItemData['displayid']);
+                    $enchItemDisplayId = Armory::$aDB->selectCell("SELECT `icon` FROM `ARMORYDBPREFIX_icons` WHERE `displayid`=%d", $enchItemData['displayid']);
                 }
                 else {
                     // Spell
@@ -3089,7 +3090,7 @@ Class Characters {
                 );
                 break;
             case SERVER_TRINITY:
-                $talent_spells = Armory::$aDB->selectRow("SELECT `Rank_1`, `Rank_2`, `Rank_3`, `Rank_4`, `Rank_5` FROM `armory_talents` WHERE `TalentID` = %d LIMIT 1", $talent_id);
+                $talent_spells = Armory::$aDB->selectRow("SELECT `Rank_1`, `Rank_2`, `Rank_3`, `Rank_4`, `Rank_5` FROM `ARMORYDBPREFIX_talents` WHERE `TalentID` = %d LIMIT 1", $talent_id);
                 if(!$talent_spells || !is_array($talent_spells) || ($rank >= 0 && !isset($talent_spells['Rank_' . $rank + 1]))) {
                     Armory::Log()->writeError('%s : talent ranks for talent %d was not found in DB!', __METHOD__, $talent_id);
                     return false;

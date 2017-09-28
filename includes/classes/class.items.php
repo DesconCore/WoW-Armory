@@ -369,7 +369,7 @@ Class Items {
             case 'questreward':
                 $QuestLoot = Armory::$wDB->select
                 ("
-                SELECT `Id` AS `id`, `Title` AS `Title`, `Level` AS `Level`, `MinLevel` AS `MinLevel`, `SuggestedPlayers` AS `SuggestedPlayers`
+                SELECT `Id` AS `id`, `LogTitle` AS `LogTitle`, `QuestLevel` AS `QuestLevel`, `MinLevel` AS `MinLevel`, `SuggestedGroupNum` AS `SuggestedGroupNum`
                 FROM `quest_template`
                 WHERE `RewardChoiceItemId1` = %d OR `RewardChoiceItemId2` = %d OR `RewardChoiceItemId3` = %d OR
                       `RewardChoiceItemId4` = %d OR `RewardChoiceItemId5` = %d OR `RewardChoiceItemId6` = %d",
@@ -382,7 +382,7 @@ Class Items {
                 foreach($QuestLoot as $qItem) {
                     $lootTable[$i] = $qItem;
                     if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($qItem['id'], 'title');
+                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($qItem['id'], 'LogTitle');
                     }
                     $lootTable[$i]['area'] = Mangos::GetQuestInfo($qItem['id'], 'map');
                     $i++;
@@ -393,15 +393,15 @@ Class Items {
                 if(!is_array($QuestStart)) {
                     return false;
                 }
-                $lootTable = Armory::$wDB->selectRow("SELECT `Id` AS `id`, `Title` AS `Title`, `Level` AS `level`, `MinLevel` AS `MinLevel`, `SuggestedPlayers` AS `SuggestedPlayers` FROM `quest_template` WHERE `Id`=%d", $QuestStart);
+                $lootTable = Armory::$wDB->selectRow("SELECT `Id` AS `id`, `LogTitle` AS `LogTitle`, `QuestLevel` AS `QuestLevel`, `MinLevel` AS `MinLevel`, `SuggestedGroupNum` AS `SuggestedGroupNum` FROM `quest_template` WHERE `Id`=%d", $QuestStart);
                 if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                    $lootTable['name'] = Mangos::GetQuestInfo($QuestStart, 'title');
+                    $lootTable['name'] = Mangos::GetQuestInfo($QuestStart, 'LogTitle');
                 }
-                $lootTable['name'] = Mangos::GetQuestInfo($QuestStart, 'title');
+                $lootTable['name'] = Mangos::GetQuestInfo($QuestStart, 'LogTitle');
                 $lootTable['area'] =  Mangos::GetQuestInfo($QuestStart, 'map');
                 break;
             case 'providedfor':
-                $QuestInfo = Armory::$wDB->select("SELECT `Id` AS `Id`, `Level` AS `level`, `Title` AS `Title`, `MinLevel` AS `MinLevel`, `SuggestedPlayers` AS `SuggestedPlayers` FROM `quest_template` WHERE `SourceItemId`=%d", $item);
+                $QuestInfo = Armory::$wDB->select("SELECT `Id` AS `Id`, `QuestLevel` AS `QuestLevel`, `LogTitle` AS `LogTitle`, `MinLevel` AS `MinLevel`, `SuggestedGroupNum` AS `SuggestedGroupNum` FROM `quest_template` WHERE `StartItem`=%d", $item);
                 if(!is_array($QuestInfo)) {
                     return false;
                 }
@@ -409,14 +409,14 @@ Class Items {
                 foreach($QuestInfo as $quest) {
                     $lootTable[$i] = $quest;
                     if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'title');
+                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'LogTitle');
                     }
                     $lootTable[$i]['area'] = Mangos::GetQuestInfo($quest['id'], 'map');
                 }
                 break;
             case 'objectiveof':
                 $QuestInfo = Armory::$wDB->select("
-                SELECT `Id` AS `id`, `Level` AS `level`, `Title` AS `Title`, `MinLevel` AS `MinLevel`, `SuggestedPlayers` AS `SuggestedPlayers`
+                SELECT `Id` AS `id`, `QuestLevel` AS `QuestLevel`, `LogTitle` AS `LogTitle`, `MinLevel` AS `MinLevel`, `SuggestedGroupNum` AS `SuggestedGroupNum`
                     FROM `quest_template`
                         WHERE `RequiredItemId1`=%d OR `RequiredItemId2`=%d OR `RequiredItemId3`=%d OR `RequiredItemId4`=%d OR `RequiredItemId5`=%d", $item, $item, $item, $item, $item);
                 if(!is_array($QuestInfo)) {
@@ -426,7 +426,7 @@ Class Items {
                 foreach($QuestInfo as $quest) {
                     $lootTable[$i] = $quest;
                     if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'title');
+                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'LogTitle');
                     }
                     $lootTable[$i]['area'] = Mangos::GetQuestInfo($quest['id'], 'map');
                 }
