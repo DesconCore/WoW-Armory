@@ -35,7 +35,7 @@ Class Mangos {
      * @param    int $id
      * @return   int
      **/
-    public function GetSkillIDFromItemID($id) {
+    public static function GetSkillIDFromItemID($id) {
         if($id == 0) {
             return SKILL_UNARMED;
         }
@@ -104,7 +104,7 @@ Class Mangos {
      * @param    string $infoType
      * @return   mixed
      **/
-    public function GetQuestInfo($quest, $infoType) {
+    public static function GetQuestInfo($quest, $infoType) {
         switch($infoType) {
             case 'title':
                 if(Armory::GetLocale() == 'en_gb' || Armory::GetLocale() == 'en_us') {
@@ -139,7 +139,7 @@ Class Mangos {
      * @param    float $percent
      * @return   string
      **/
-    public function GetDropRate($percent) {
+    public static function GetDropRate($percent) {
         if($percent == 100) {
             return 6;
         }
@@ -171,7 +171,7 @@ Class Mangos {
      * @param    string $infoType
      * @return   mixed
      **/
-    public function GetGameObjectInfo($entry, $infoType) {
+    public static function GetGameObjectInfo($entry, $infoType) {
         $info = false;
         switch($infoType) {
             case 'name':
@@ -214,7 +214,7 @@ Class Mangos {
      * @param    bool $isBoss = false
      * @return   string
      **/
-    public function GetNPCName($npc, $isBoss = false) {
+    public static function GetNPCName($npc, $isBoss = false) {
         $creature_id = $npc;
         // If npc is boss we need to find him/her original ID (to prevent names like "Bronjahm (1)", etc.)
         if($isBoss) {
@@ -260,7 +260,7 @@ Class Mangos {
      * @param    string $infoType
      * @return   mixed
      **/
-    public function GetNpcInfo($npc, $infoType) {
+    public static function GetNpcInfo($npc, $infoType) {
         $info = null;
         switch($infoType) {
             case 'maxlevel':
@@ -447,7 +447,7 @@ Class Mangos {
      * @param    int $money
      * @return   array
      **/
-    public function GetMoney($money) {
+    public static function GetMoney($money) {
         $getMoney['gold'] = floor($money/(100*100));
         $money = $money-$getMoney['gold']*100*100;
         $getMoney['silver'] = floor($money/100);
@@ -463,7 +463,7 @@ Class Mangos {
      * @param    int $costId
      * @return   array
      **/
-    public function GetExtendedCost($costId) {
+    public static function GetExtendedCost($costId) {
         if($costId == 0) {
             return false;
         }
@@ -493,7 +493,7 @@ Class Mangos {
      * @param    int $costId
      * @return   array
      **/
-    public function GetPvPExtendedCost($costId) {
+    public static function GetPvPExtendedCost($costId) {
         $costInfo = Armory::$aDB->selectRow("SELECT `arenaPoints` AS `arena`, `honorPoints` AS `honor` FROM `ARMORYDBPREFIX_extended_cost` WHERE `id`=%d", $costId);
         if(!$costInfo || ($costInfo['arena'] == 0 && $costInfo['honor'] == 0)) {
             return false;
@@ -511,7 +511,7 @@ Class Mangos {
      * @param    int $item_id
      * @return   int
      **/
-    public function GenerateLootPercent($boss_id, $db_table, $item_id) {
+    public static function GenerateLootPercent($boss_id, $db_table, $item_id) {
         $allowed_tables = array(
             'creature_loot_template'   => true,
             'disenchant_loot_template' => true,
@@ -559,7 +559,7 @@ Class Mangos {
      * @param    int $itemID
      * @return   int
      **/
-    public function GetVendorExtendedCost($itemID) {
+    public static function GetVendorExtendedCost($itemID) {
         $costId = Armory::$wDB->selectCell("SELECT `ExtendedCost` FROM `npc_vendor` WHERE `item`=%d LIMIT 1", $itemID);
         if($costId < 0) {
             $costId = abs($costId);
