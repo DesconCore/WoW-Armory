@@ -1,4 +1,4 @@
-## Introduction
+Introduction
 
 The World of Warcraft Armory is a vast searchable database of information for World of Warcraft - taken straight from the real servers and presented in a user-friendly interface
 
@@ -7,13 +7,13 @@ WARNING: You must not remove and/or change any Blizzard's copyrights in any file
 World of Warcraft™, Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.
 The data contained herein is proprietary to Blizzard Entertainment, Inc. You are granted a limited license to make personal use of the information contained herein for non-commercial purposes only.
 
-## Requirements
+Requirements
 
 1. Apache HTTP Server with mod_rewrite
 2. PHP 5.3 or higher with XMLWriter package installed and enabled (XMLWriter is installed and enabled by default since PHP 5.1.2)
 3. MySQL 5 Server or higher
 
-## Install
+Install
 
 1. Go to the patch folder and upload armory.sql (Will automatically create the database `armory`).
 2. Rename includes/classes/configuration.php.default to configuration.php and edit this file (read comments).
