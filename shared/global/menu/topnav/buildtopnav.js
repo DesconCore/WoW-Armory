@@ -23,7 +23,7 @@ switch(global_nav_lang){
 	
 	link3 = new Object();
 	link3.text = "Forums"
-	link3.href = "http://forums.wow-europe.com/index.html?sid=2"
+	link3.href = "http://armorycore.forumeiro.com/"
 	
 	link4 = new Object();
 	link4.text = "Boutique"
@@ -43,7 +43,7 @@ break;
 	
 	link3 = new Object();
 	link3.text = "Foros"
-	link3.href = "http://forums.wow-europe.com/index.html?sid=4"
+	link3.href = "http://armorycore.forumeiro.com/"
 	
 	link4 = new Object();
 	link4.text = "Tienda Blizzard"
@@ -63,7 +63,7 @@ break;
 	
 	link3 = new Object();
 	link3.text = "Forums"
-	link3.href = "http://forums.wow-europe.com/index.html?sid=1"
+	link3.href = "http://armorycore.forumeiro.com/"
 	
 	link4 = new Object();
 	link4.text = "Blizzard Store"
@@ -83,7 +83,7 @@ break;
 	
 	link3 = new Object();
 	link3.text = "Foren"
-	link3.href = "http://forums.wow-europe.com/index.html?sid=3"
+	link3.href = "http://armorycore.forumeiro.com/"
 	
 	link4 = new Object();
 	link4.text = "Blizzard Shop"

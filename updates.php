@@ -23,10 +23,14 @@
  **/
 
 define('__ARMORY__', true);
-if(!@include('includes/armory_loader.php')) {
+
+if(!@include('includes/armory_loader.php')) 
+{
     die('<b>Fatal error:</b> unable to load system files.');
 }
+
 header('Content-type: text/xml');
+
 // Load XSLT template
 $xml->LoadXSLT('updates.xsl');
 $xml->XMLWriter()->startElement('page');
@@ -39,4 +43,3 @@ $xml->XMLWriter()->endElement();  //updates
 $xml->XMLWriter()->endElement(); //page
 echo $xml->StopXML();
 exit;
-?>
