@@ -1,0 +1,61 @@
+From 5fa80aaf7641e24062c36b09797465e59131521d Mon Sep 17 00:00:00 2001
+From: Grimgravy <sr.alansantos@hotmail.com>
+Date: Sun, 8 Oct 2017 20:23:14 -0300
+Subject: [PATCH] update wow-armory
+
+---
+ src/game/Battlegrounds/Battleground.cpp | 8 +++++++-
+ src/game/Entities/Player/Player.cpp     | 1 +
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+
+diff --git a/src/game/Battlegrounds/Battleground.cpp b/src/game/Battlegrounds/Battleground.cpp
+index 1e286fe..149574e 100644
+--- a/src/game/Battlegrounds/Battleground.cpp
++++ b/src/game/Battlegrounds/Battleground.cpp
+@@ -804,16 +804,22 @@ void Battleground::EndBattleground(TeamId winnerTeamId)
+ 				uint32 maxChartID;
+ 				QueryResult result = CharacterDatabase.PQuery("SELECT MAX(gameid) FROM armory_game_chart");
+ 				if (!result)
++				{
+ 					maxChartID = 0;
++				}
+ 				else
++				{
+ 					maxChartID = (*result)[0].GetUInt32();
+ 
++				}
+ 				uint32 gameID = maxChartID + 1;
+ 				for (BattlegroundScoreMap::const_iterator itr = GetPlayerScoresBegin(); itr != GetPlayerScoresEnd(); ++itr)
+ 				{
+ 					Player *player = ObjectAccessor::FindPlayer(itr->first);
+ 					if (!player)
++					{
+ 						continue;
++					}
+ 					uint32 plTeamID = player->GetArenaTeamId(winnerArenaTeam->GetSlot());
+ 					int changeType;
+ 					uint32 resultRating;
+@@ -835,7 +841,7 @@ void Battleground::EndBattleground(TeamId winnerTeamId)
+ 					}
+ 					std::ostringstream sql_query;
+ 					//                                                        gameid,              teamid,                     guid,                    changeType,             ratingChange,               teamRating,                  damageDone,                          deaths,                          healingDone,                           damageTaken,,                           healingTaken,                         killingBlows,                      mapId,                 start,                   end
+-					sql_query << "INSERT INTO armory_game_chart (`gameid`,`teamid`,`guid`,`changeType`,`ratingChange`,`teamRating`,`damageDone`,`deaths`,`healingDone`,`damageTaken`,`healingTaken`,`killingBlows`,`mapId`,`start`,`end`) VALUES ('" << gameID << "', '" << resultTeamID << "', '" << player->GetGUID() << "', '" << changeType << "', '" << ratingChange << "', '" << resultRating << "', '" << itr->second->DamageDone << "', '" << itr->second->Deaths << "', '" << itr->second->HealingDone << "', '" << itr->second->DamageTaken << "', '" << itr->second->HealingTaken << "', '" << itr->second->KillingBlows << "', '" << m_MapId << "', '" << m_StartTime << "', '" << m_EndTime << "')";
++					sql_query << "INSERT INTO armory_game_chart (`gameid`,`teamid`,`guid`,`changeType`,`ratingChange`,`teamRating`,`damageDone`,`deaths`,`healingDone`,`damageTaken`,`healingTaken`,`killingBlows`,`mapId`,`start`,`end`) VALUES ('" << gameID << "', '" << resultTeamID << "', '" << player->GetGUID() << "', '" << changeType << "', '" << ratingChange  << "', '" << resultRating << "', '" << itr->second->DamageDone << "', '" << itr->second->Deaths << "', '" << itr->second->HealingDone << "', '" << itr->second->DamageTaken << "', '" << itr->second->HealingTaken << "', '" << itr->second->KillingBlows << "', '" << m_MapId << "', '" << m_StartTime << "', '" << m_EndTime << "')";
+ 					CharacterDatabase.Execute(sql_query.str().c_str());
+ 				}
+ 				/** World of Warcraft Armory **/
+diff --git a/src/game/Entities/Player/Player.cpp b/src/game/Entities/Player/Player.cpp
+index a2a295d..b170cd7 100644
+--- a/src/game/Entities/Player/Player.cpp
++++ b/src/game/Entities/Player/Player.cpp
+@@ -5037,6 +5037,7 @@ void Player::DeleteFromDB(uint64 playerguid, uint32 accountId, bool updateRealmC
+ 			stmt = CharacterDatabase.GetPreparedStatement(CHAR_DEL_FEED_LOG);
+ 			stmt->setUInt32(0, guid);
+ 			trans->Append(stmt);
++			
+ 			trans->PAppend("DELETE FROM armory_character_stats WHERE guid = '%u'", guid);
+ 			trans->PAppend("DELETE FROM character_feed_log WHERE guid = '%u'", guid);
+ 			/** World of Warcraft Armory **/
+-- 
+2.10.1.windows.1
+
