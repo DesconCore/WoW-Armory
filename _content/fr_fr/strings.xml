@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><strs>
+﻿<?xml version="1.0" encoding="UTF-8"?><strs>
 	<str id="armory.item-tooltip.armor">Armure</str>
 	<str id="armory.item-tooltip.dps">points de dégâts par seconde</str>
 	<str id="armory.item-tooltip.block">Blocage</str>
@@ -251,7 +251,7 @@
 		<str id="pin.unpin">désépingler ce personnage</str>
 
 		<str id="labels.privacy">Politique de confidentialité en ligne</str>
-		<str id="labels.copyright">©2010 Blizzard Entertainment, Inc. Tous droits réservés.</str>
+		<str id="labels.copyright">©2017 Blizzard Entertainment, Inc. Tous droits réservés.</str>
 		<str id="labels.proprietary">Les données contenues sur ce site sont la propriété de Blizzard Entertainment, Inc.  Une licence limitée vous est accordée pour la seule utilisation personnelle et non commerciale des informations  hébergées sur ce site.</str>
 
 		<str id="searchBox.search-the-armory">Chercher dans l’Armurerie</str>

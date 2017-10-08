@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><strs>
+﻿<?xml version="1.0" encoding="UTF-8"?><strs>
 	<str id="armory.item-tooltip.armor">Armor</str>
 	<str id="armory.item-tooltip.dps">damage per second</str>
 	<str id="armory.item-tooltip.block">Block</str>
@@ -258,7 +258,7 @@
 		<str id="pin.unpin">unpin this character</str>
 
 		<str id="labels.privacy">Online Privacy Policy</str>
-		<str id="labels.copyright">©2010 Blizzard Entertainment, Inc. All rights reserved.</str>
+		<str id="labels.copyright">©2017 Blizzard Entertainment, Inc. All rights reserved.</str>
 		<str id="labels.proprietary">The data contained herein is proprietary to Blizzard Entertainment, Inc.  You are granted a limited license to make personal use of the information contained herein for non-commercial purposes only.</str>
 
 		<str id="searchBox.search-the-armory">Search the Armory</str>
