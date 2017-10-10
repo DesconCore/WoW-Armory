@@ -382,7 +382,7 @@ Class Items {
                 foreach($QuestLoot as $qItem) {
                     $lootTable[$i] = $qItem;
                     if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($qItem['id'], 'title');
+                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($qItem['id'], 'LogTitle');
                     }
                     $lootTable[$i]['area'] = Mangos::GetQuestInfo($qItem['id'], 'map');
                     $i++;
@@ -395,9 +395,9 @@ Class Items {
                 }
                 $lootTable = Armory::$wDB->selectRow("SELECT `Id` AS `id`, `LogTitle` AS `LogTitle`, `QuestLevel` AS `QuestLevel`, `MinLevel` AS `MinLevel`, `SuggestedGroupNum` AS `SuggestedGroupNum` FROM `quest_template` WHERE `Id`=%d", $QuestStart);
                 if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                    $lootTable['name'] = Mangos::GetQuestInfo($QuestStart, 'title');
+                    $lootTable['name'] = Mangos::GetQuestInfo($QuestStart, 'LogTitle');
                 }
-                $lootTable['name'] = Mangos::GetQuestInfo($QuestStart, 'title');
+                $lootTable['name'] = Mangos::GetQuestInfo($QuestStart, 'LogTitle');
                 $lootTable['area'] =  Mangos::GetQuestInfo($QuestStart, 'map');
                 break;
             case 'providedfor':
@@ -409,7 +409,7 @@ Class Items {
                 foreach($QuestInfo as $quest) {
                     $lootTable[$i] = $quest;
                     if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'title');
+                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'LogTitle');
                     }
                     $lootTable[$i]['area'] = Mangos::GetQuestInfo($quest['id'], 'map');
                 }
@@ -426,7 +426,7 @@ Class Items {
                 foreach($QuestInfo as $quest) {
                     $lootTable[$i] = $quest;
                     if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'title');
+                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'LogTitle');
                     }
                     $lootTable[$i]['area'] = Mangos::GetQuestInfo($quest['id'], 'map');
                 }

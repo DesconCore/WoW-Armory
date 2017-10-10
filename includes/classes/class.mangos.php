@@ -106,7 +106,7 @@ Class Mangos {
      **/
     public static function GetQuestInfo($quest, $infoType) {
         switch($infoType) {
-            case 'title':
+            case 'LogTitle':
                 if(Armory::GetLocale() == 'en_gb' || Armory::GetLocale() == 'en_us') {
                     $info = Armory::$wDB->selectCell("SELECT `LogTitle` FROM `quest_template` WHERE `ID`=%d", $quest);
                 }
