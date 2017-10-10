@@ -1,0 +1,150 @@
+From 227f71e423f481325dfe13b2316092f3d4220c13 Mon Sep 17 00:00:00 2001
+From: Grimgravy <sr.alansantos@hotmail.com>
+Date: Tue, 10 Oct 2017 08:28:50 -0300
+Subject: [PATCH] configuration added
+
+---
+ src/game/Achievements/AchievementMgr.cpp |  5 +++++
+ src/game/Entities/Item/Item.cpp          | 13 +++++++++----
+ src/game/Entities/Unit/Unit.cpp          | 13 ++++++++++---
+ src/game/World/World.cpp                 |  4 ++++
+ src/game/World/World.h                   |  1 +
+ src/worldserver/worldserver.conf.dist    |  7 +++++++
+ 6 files changed, 36 insertions(+), 7 deletions(-)
+
+diff --git a/src/game/Achievements/AchievementMgr.cpp b/src/game/Achievements/AchievementMgr.cpp
+index b92c094..81637a4 100644
+--- a/src/game/Achievements/AchievementMgr.cpp
++++ b/src/game/Achievements/AchievementMgr.cpp
+@@ -2134,7 +2134,12 @@ void AchievementMgr::CompletedAchievement(AchievementEntry const* achievement)
+         return;
+ 
+     SendAchievementEarned(achievement);
++
++	/** World of Warcraft Armory **/
++	if (sWorld->getBoolConfig(CONFIG_ARMORY_ENABLE))
+ 	GetPlayer()->CreateWowarmoryFeed(1, achievement->ID, 0, 0);
++	/** World of Warcraft Armory **/
++
+     CompletedAchievementData& ca = m_completedAchievements[achievement->ID];
+     ca.date = time(NULL);
+     ca.changed = true;
+diff --git a/src/game/Entities/Item/Item.cpp b/src/game/Entities/Item/Item.cpp
+index e6b7ac6..d4f5d40 100644
+--- a/src/game/Entities/Item/Item.cpp
++++ b/src/game/Entities/Item/Item.cpp
+@@ -266,12 +266,17 @@ bool Item::Create(uint32 guidlow, uint32 itemid, Player const* owner)
+ 
+     SetUInt32Value(ITEM_FIELD_DURATION, itemProto->Duration);
+     SetUInt32Value(ITEM_FIELD_CREATE_PLAYED_TIME, 0);
+-	if (itemProto->Quality > 2 && itemProto->Flags != 2048 && (itemProto->Class == ITEM_CLASS_WEAPON || itemProto->Class == ITEM_CLASS_ARMOR))
++
++	/** World of Warcraft Armory **/
++	if (sWorld->getBoolConfig(CONFIG_ARMORY_ENABLE))
+ 	{
+-		if (!GetOwner())
+-			return true;
+-		GetOwner()->CreateWowarmoryFeed(2, itemid, guidlow, itemProto->Quality);
++	    if (itemProto->Quality > 2 && itemProto->Flags != 2048 && (itemProto->Class == ITEM_CLASS_WEAPON || itemProto->Class == ITEM_CLASS_ARMOR))
++	    {
++		    if (!GetOwner())
++			    return true;
++		}   GetOwner()->CreateWowarmoryFeed(2, itemid, guidlow, itemProto->Quality);
+ 	}
++	/** World of Warcraft Armory **/
+     return true;
+ }
+ 
+diff --git a/src/game/Entities/Unit/Unit.cpp b/src/game/Entities/Unit/Unit.cpp
+index 409abb5..0cb73b6 100644
+--- a/src/game/Entities/Unit/Unit.cpp
++++ b/src/game/Entities/Unit/Unit.cpp
+@@ -842,6 +842,7 @@ uint32 Unit::DealDamage(Unit* attacker, Unit* victim, uint32 damage, CleanDamage
+                 bg->UpdatePlayerScore(killer, SCORE_DAMAGE_DONE, damage);
+ 				
+ 				/** World of Warcraft Armory **/
++				if (sWorld->getBoolConfig(CONFIG_ARMORY_ENABLE))
+ 				if (Battleground *bg = ((Player*)victim)->GetBattleground())
+ 				{
+ 					bg->UpdatePlayerScore(((Player*)victim), SCORE_DAMAGE_TAKEN, damage);
+@@ -10044,6 +10045,7 @@ int32 Unit::DealHeal(Unit* healer, Unit* victim, uint32 addhealth)
+ 	/** World of Warcraft Armory **/
+ 	if (Player* player = victim->ToPlayer())
+ 	{
++		if (sWorld->getBoolConfig(CONFIG_ARMORY_ENABLE))
+ 	    if (Battleground *bg = victim->ToPlayer()->GetBattleground())
+ 		    bg->UpdatePlayerScore((Player*)victim, SCORE_HEALING_TAKEN, gain);
+ 	}
+@@ -16550,11 +16552,16 @@ void Unit::Kill(Unit* killer, Unit* victim, bool durabilityLoss, WeaponAttackTyp
+ 
+             if (instanceMap->IsDungeon() && player)
+                 if (instanceMap->IsRaidOrHeroicDungeon())
+-                    if (creature->GetCreatureTemplate()->flags_extra & CREATURE_FLAG_EXTRA_INSTANCE_BIND)
++				{
++					if (creature->GetCreatureTemplate()->flags_extra & CREATURE_FLAG_EXTRA_INSTANCE_BIND)
+ 					{
+-                        instanceMap->ToInstanceMap()->PermBindAllPlayers();
+-					    creditedPlayer->CreateWowarmoryFeed(3, creature->GetCreatureTemplate()->Entry, 0, 0);
++						instanceMap->ToInstanceMap()->PermBindAllPlayers();
++						/** World of Warcraft Armory **/
++						if (sWorld->getBoolConfig(CONFIG_ARMORY_ENABLE))
++							creditedPlayer->CreateWowarmoryFeed(3, creature->GetCreatureTemplate()->Entry, 0, 0);
++						/** World of Warcraft Armory **/
+ 					}
++				}
+         }
+     }
+ 
+diff --git a/src/game/World/World.cpp b/src/game/World/World.cpp
+index e7cdd9a..dbf93bd 100644
+--- a/src/game/World/World.cpp
++++ b/src/game/World/World.cpp
+@@ -1228,12 +1228,16 @@ void World::LoadConfigSettings(bool reload)
+     m_bool_configs[CONFIG_AUTOBROADCAST] = sConfigMgr->GetBoolDefault("AutoBroadcast.On", false);
+     m_int_configs[CONFIG_AUTOBROADCAST_CENTER] = sConfigMgr->GetIntDefault("AutoBroadcast.Center", 0);
+     m_int_configs[CONFIG_AUTOBROADCAST_INTERVAL] = sConfigMgr->GetIntDefault("AutoBroadcast.Timer", 60000);
++
+     if (reload)
+     {
+         m_timers[WUPDATE_AUTOBROADCAST].SetInterval(m_int_configs[CONFIG_AUTOBROADCAST_INTERVAL]);
+         m_timers[WUPDATE_AUTOBROADCAST].Reset();
+     }
+ 
++	/** World of Warcraft Armory **/
++	m_bool_configs[CONFIG_ARMORY_ENABLE] = sConfigMgr->GetBoolDefault("Armory.Enable", true);
++
+     // MySQL ping time interval
+     m_int_configs[CONFIG_DB_PING_INTERVAL] = sConfigMgr->GetIntDefault("MaxPingTime", 30);
+ 
+diff --git a/src/game/World/World.h b/src/game/World/World.h
+index 96eecf0..69b7d74 100644
+--- a/src/game/World/World.h
++++ b/src/game/World/World.h
+@@ -150,6 +150,7 @@ enum WorldBoolConfigs
+     CONFIG_DBC_ENFORCE_ITEM_ATTRIBUTES,
+     CONFIG_PRESERVE_CUSTOM_CHANNELS,
+     CONFIG_WINTERGRASP_ENABLE,
++	CONFIG_ARMORY_ENABLE,
+     CONFIG_PDUMP_NO_PATHS,
+     CONFIG_PDUMP_NO_OVERWRITE,
+     CONFIG_FREE_DUAL_SPEC, // pussywizard
+diff --git a/src/worldserver/worldserver.conf.dist b/src/worldserver/worldserver.conf.dist
+index 5ad7a5b..90d19e0 100644
+--- a/src/worldserver/worldserver.conf.dist
++++ b/src/worldserver/worldserver.conf.dist
+@@ -3027,5 +3027,12 @@ PlayerDump.DisallowPaths = 1
+ 
+ PlayerDump.DisallowOverwrite = 1
+ 
++#    Armory.Enable
++#        Description: Activates the WowArmory.
++#        Default:     0 - (Disable)
++#                     1 - (Enable)
++
++Armory.Enable = 1
++
+ #
+ ###################################################################################################
+-- 
+2.10.1.windows.1
+
