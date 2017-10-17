@@ -1248,7 +1248,7 @@ Class Utils {
      * @return   string
      **/
 
-    public function GetArmoryString($id) {
+    public static function GetArmoryString($id) {
         if (Armory::$cache->exists('armory-strings'))
         {
             $strings = Armory::$cache->fetch('armory-strings');
