@@ -1,4 +1,4 @@
-﻿Last updated: Mar-5-2013
+﻿Last updated: Out-10-2017
 
 Attention!
 Currently 3D Viewer is not yet fully completed - there's no saving character poses, full screen mode
@@ -19,7 +19,7 @@ Directory tree:
          |- spells
 
 If you find a bug, please report them here:
-https://github.com/Takenbacon/wowarmory/issues?state=open
+https://github.com/grimgravy/WoW-Armory/issues
 
 Download link for 3D Viewer Models:
 http://www.mediafire.com/file/l7brab31hkvmh78/models.rar
