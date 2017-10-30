@@ -88,7 +88,7 @@ Class Items {
      * @param    int $displayId = 0
      * @return   string
      **/
-    public function GetItemIcon($itemID, $displayId = 0) {
+    public static function GetItemIcon($itemID, $displayId = 0) {
         if($displayId == 0) {
             $displayId = Armory::$wDB->selectCell("SELECT `displayid` FROM `item_template` WHERE `entry`=%d LIMIT 1", $itemID);
         }
