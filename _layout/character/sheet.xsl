@@ -294,16 +294,15 @@
 			  </xsl:choose>
               </div>
               
-             
-             
           <!-- Character mini-Feed  -->
             <div class="character_act">
             <div class="char_feed_title">
             	<div class="share_container">
             	<xsl:if test="document(concat('../../character-model.xml?rhtml=false&amp;',character/@charUrl))/page/character/@owned = '1'">
-                <a href="http://apps.facebook.com/wow-armory" onclick="window.open(this.href); return false;" class="share_fb_icon staticTip" onmouseover="setTipText('{$loc/strs/custom-rss/str[@id='facebook_link']}')"></a>
+                <a target="_blank" alt="facebook" title="Facebook" href="http://apps.facebook.com/wow-armory" onclick="window.open(this.href); return false;" class="fa fa-2x fa-facebook"></a>
+				<a target="_blank" alt="twitter" title="Twitter" href="http://twitter.com" onclick="window.open(this.href); return false;" class="fa fa-2x fa-twitter"></a>
                 </xsl:if>
-				<a href="character-feed.atom?{character/@charUrl}" onclick="location.href='custom-rss.xml?{character/@charUrl}'; return false;" class="share_rss_icon"></a>
+				<a target="_blank" alt="feed" title="Feed" href="character-feed.atom?{character/@charUrl}" onclick="location.href='custom-rss.xml?{character/@charUrl}'; return false;" class="fa fa-2x fa-feed"></a>
 				</div>            	
                 <xsl:value-of select="$loc/strs/custom-rss/str[@id='recent_act']" />
             </div>

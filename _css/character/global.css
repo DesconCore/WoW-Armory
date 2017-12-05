@@ -94,12 +94,8 @@ a#bmcLink:hover { background-position:top right; }
 .feed_icon a { background:center no-repeat; display:block; }
 .td_icon { width:45px; }
 
-.share_container { position:absolute; right:13px; top:-11px;}
-.share_rss_icon, .share_fb_icon { height:31px; width:31px; display:block; float:right; }
-.share_rss_icon:hover, .share_fb_icon:hover { background-position:bottom; }
-.share_rss_icon { background:url(../../images/rss_icon.gif); }
-.share_fb_icon { background:url(../../images/facebook_icon.gif); }
-
+.share_container { position:absolute; right:13px; top:-11px; }
+.share_container a { color:gray; text-decoration:none; font-size: 1.5em; letter-spacing:10px; text-shadow:3px 3px 3px silver;}
 
 .statsOrange, .stats_rarity5 { color:#c24e00; }
 .statsPurple, .stats_rarity4 { color:#5716a8; }
