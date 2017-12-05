@@ -1,67 +1,63 @@
-From cba1204c7cd0cfa634c22847e20c48682db31bcb Mon Sep 17 00:00:00 2001
+From 5af0a7ce12591f48fc1bae0ec9a86e9861b57b4b Mon Sep 17 00:00:00 2001
 From: Grimgravy <sr.alansantos@hotmail.com>
-Date: Sat, 7 Oct 2017 22:18:38 -0300
-Subject: [PATCH] wow armory
+Date: Mon, 20 Nov 2017 12:09:31 -0200
+Subject: [PATCH] Implementation of wow-armory(website)
 
 ---
- .../Database/Implementation/CharacterDatabase.cpp  |  4 +
- .../Database/Implementation/CharacterDatabase.h    |  4 +
+ .../Database/Implementation/CharacterDatabase.cpp  |  2 +
+ .../Database/Implementation/CharacterDatabase.h    |  2 +
  src/game/Achievements/AchievementMgr.cpp           |  1 +
- src/game/Battlegrounds/Battleground.cpp            | 48 ++++++++++++
- src/game/Battlegrounds/Battleground.h              |  9 ++-
- src/game/Entities/Item/Item.cpp                    |  6 ++
- src/game/Entities/Player/Player.cpp                | 88 ++++++++++++++++++++++
- src/game/Entities/Player/Player.h                  | 23 ++++++
- src/game/Entities/Unit/Unit.cpp                    | 19 ++++-
- 9 files changed, 200 insertions(+), 2 deletions(-)
+ src/game/Battlegrounds/Battleground.cpp            | 51 +++++++++++++
+ src/game/Battlegrounds/Battleground.h              |  8 +-
+ src/game/Entities/Item/Item.cpp                    |  8 ++
+ src/game/Entities/Player/Player.cpp                | 89 +++++++++++++++++++++-
+ src/game/Entities/Player/Player.h                  | 26 ++++++-
+ src/game/Entities/Unit/Unit.cpp                    | 22 +++++-
+ 9 files changed, 203 insertions(+), 6 deletions(-)
 
 diff --git a/modules/worldengine/nucleus/src/Database/Implementation/CharacterDatabase.cpp b/modules/worldengine/nucleus/src/Database/Implementation/CharacterDatabase.cpp
-index a656b66..01e3da2 100644
+index a656b66..7d4893f 100644
 --- a/modules/worldengine/nucleus/src/Database/Implementation/CharacterDatabase.cpp
 +++ b/modules/worldengine/nucleus/src/Database/Implementation/CharacterDatabase.cpp
-@@ -467,6 +467,10 @@ void CharacterDatabaseConnection::DoPrepareStatements()
+@@ -467,6 +467,8 @@ void CharacterDatabaseConnection::DoPrepareStatements()
      PrepareStatement(CHAR_DEL_CHAR_GLYPHS, "DELETE FROM character_glyphs WHERE guid = ?", CONNECTION_ASYNC);
      PrepareStatement(CHAR_DEL_CHAR_TALENT, "DELETE FROM character_talent WHERE guid = ?", CONNECTION_ASYNC);
      PrepareStatement(CHAR_DEL_CHAR_SKILLS, "DELETE FROM character_skills WHERE guid = ?", CONNECTION_ASYNC);
-+	/** World of Warcraft Armory **/
 +	PrepareStatement(CHAR_DEL_ARMORY_STATS, "DELETE FROM armory_character_stats WHERE guid = ?", CONNECTION_ASYNC);
 +	PrepareStatement(CHAR_DEL_FEED_LOG, "DELETE FROM character_feed_log WHERE guid = ?", CONNECTION_ASYNC);
-+	/** World of Warcraft Armory **/
      PrepareStatement(CHAR_UDP_CHAR_HONOR_POINTS, "UPDATE characters SET totalHonorPoints = ? WHERE guid = ?", CONNECTION_ASYNC);
      PrepareStatement(CHAR_UDP_CHAR_ARENA_POINTS, "UPDATE characters SET arenaPoints = ? WHERE guid = ?", CONNECTION_ASYNC);
      PrepareStatement(CHAR_UDP_CHAR_MONEY, "UPDATE characters SET money = ? WHERE guid = ?", CONNECTION_ASYNC);
 diff --git a/modules/worldengine/nucleus/src/Database/Implementation/CharacterDatabase.h b/modules/worldengine/nucleus/src/Database/Implementation/CharacterDatabase.h
-index 7ec0d09..1a55469 100644
+index 7ec0d09..eb15dd0 100644
 --- a/modules/worldengine/nucleus/src/Database/Implementation/CharacterDatabase.h
 +++ b/modules/worldengine/nucleus/src/Database/Implementation/CharacterDatabase.h
-@@ -410,6 +410,10 @@ enum CharacterDatabaseStatements
+@@ -410,6 +410,8 @@ enum CharacterDatabaseStatements
      CHAR_DEL_CHAR_GLYPHS,
      CHAR_DEL_CHAR_TALENT,
      CHAR_DEL_CHAR_SKILLS,
-+	/** World of Warcraft Armory **/
 +	CHAR_DEL_ARMORY_STATS,
 +	CHAR_DEL_FEED_LOG,
-+	/** World of Warcraft Armory **/
      CHAR_UDP_CHAR_HONOR_POINTS,
      CHAR_UDP_CHAR_ARENA_POINTS,
      CHAR_UDP_CHAR_MONEY,
 diff --git a/src/game/Achievements/AchievementMgr.cpp b/src/game/Achievements/AchievementMgr.cpp
-index 881bc09..b92c094 100644
+index c30a53a..7358e49 100644
 --- a/src/game/Achievements/AchievementMgr.cpp
 +++ b/src/game/Achievements/AchievementMgr.cpp
-@@ -2134,6 +2134,7 @@ void AchievementMgr::CompletedAchievement(AchievementEntry const* achievement)
+@@ -2133,6 +2133,7 @@ void AchievementMgr::CompletedAchievement(AchievementEntry const* achievement)
+     if (achievement->flags & ACHIEVEMENT_FLAG_COUNTER || HasAchieved(achievement->ID))
          return;
  
-     SendAchievementEarned(achievement);
 +	GetPlayer()->CreateWowarmoryFeed(1, achievement->ID, 0, 0);
+     SendAchievementEarned(achievement);
      CompletedAchievementData& ca = m_completedAchievements[achievement->ID];
      ca.date = time(NULL);
-     ca.changed = true;
 diff --git a/src/game/Battlegrounds/Battleground.cpp b/src/game/Battlegrounds/Battleground.cpp
-index 1d38161..1e286fe 100644
+index 144eb65..4789308 100644
 --- a/src/game/Battlegrounds/Battleground.cpp
 +++ b/src/game/Battlegrounds/Battleground.cpp
-@@ -800,6 +800,46 @@ void Battleground::EndBattleground(TeamId winnerTeamId)
+@@ -800,6 +800,49 @@ void Battleground::EndBattleground(TeamId winnerTeamId)
                  SetArenaTeamRatingChangeForTeam(winnerTeamId, winnerChange);
                  SetArenaTeamRatingChangeForTeam(GetOtherTeamId(winnerTeamId), loserChange);
  
@@ -69,10 +65,13 @@ index 1d38161..1e286fe 100644
 +				uint32 maxChartID;
 +				QueryResult result = CharacterDatabase.PQuery("SELECT MAX(gameid) FROM armory_game_chart");
 +				if (!result)
++				{
 +					maxChartID = 0;
-+				else
++				}
++				else 
++				{
 +					maxChartID = (*result)[0].GetUInt32();
-+
++				}
 +				uint32 gameID = maxChartID + 1;
 +				for (BattlegroundScoreMap::const_iterator itr = GetPlayerScoresBegin(); itr != GetPlayerScoresEnd(); ++itr)
 +				{
@@ -99,20 +98,20 @@ index 1d38161..1e286fe 100644
 +						ratingChange = loserChange;
 +					}
 +					std::ostringstream sql_query;
-+					//                                                        gameid,              teamid,                     guid,                    changeType,             ratingChange,               teamRating,                  damageDone,                          deaths,                          healingDone,                           damageTaken,,                           healingTaken,                         killingBlows,                      mapId,                 start,                   end
++					//                                                                                                                                                                                                                                  gameid,             teamid,                   guid,                          changeType,             ratingChange,             teamRating,                  damageDone,                          deaths,                          healingDone,                           damageTaken,,                           healingTaken,                         killingBlows,                      mapId,                 start,                   end
 +					sql_query << "INSERT INTO armory_game_chart (`gameid`,`teamid`,`guid`,`changeType`,`ratingChange`,`teamRating`,`damageDone`,`deaths`,`healingDone`,`damageTaken`,`healingTaken`,`killingBlows`,`mapId`,`start`,`end`) VALUES ('" << gameID << "', '" << resultTeamID << "', '" << player->GetGUID() << "', '" << changeType << "', '" << ratingChange << "', '" << resultRating << "', '" << itr->second->DamageDone << "', '" << itr->second->Deaths << "', '" << itr->second->HealingDone << "', '" << itr->second->DamageTaken << "', '" << itr->second->HealingTaken << "', '" << itr->second->KillingBlows << "', '" << m_MapId << "', '" << m_StartTime << "', '" << m_EndTime << "')";
 +					CharacterDatabase.Execute(sql_query.str().c_str());
 +				}
 +				/** World of Warcraft Armory **/
-+
++				
                  // pussywizard: arena logs in database
                  uint32 fightId = sArenaTeamMgr->GetNextArenaLogId();
                  uint32 currOnline = (uint32)(sWorld->GetActiveSessionCount());
-@@ -1374,6 +1414,14 @@ void Battleground::UpdatePlayerScore(Player* player, uint32 type, uint32 value,
+@@ -1374,6 +1417,14 @@ void Battleground::UpdatePlayerScore(Player* player, uint32 type, uint32 value,
                      itr2->second.HealingDone += value;
              }
              break;
-+		/** World of Warcraft Armory **/
++			/** World of Warcraft Armory **/
 +		case SCORE_DAMAGE_TAKEN:
 +			itr->second->DamageTaken += value;              // Damage Taken
 +			break;
@@ -124,64 +123,67 @@ index 1d38161..1e286fe 100644
              sLog->outError("Battleground::UpdatePlayerScore: unknown score type (%u) for BG (map: %u, instance id: %u)!",
                  type, m_MapId, m_InstanceID);
 diff --git a/src/game/Battlegrounds/Battleground.h b/src/game/Battlegrounds/Battleground.h
-index 4ca4de3..e47095a 100644
+index 4ca4de3..11f3e30 100644
 --- a/src/game/Battlegrounds/Battleground.h
 +++ b/src/game/Battlegrounds/Battleground.h
-@@ -216,6 +216,9 @@ enum ScoreType
+@@ -216,6 +216,10 @@ enum ScoreType
      //SOTA
      SCORE_DESTROYED_DEMOLISHER  = 18,
      SCORE_DESTROYED_WALL        = 19,
++	
 +	/** World of Warcraft Armory **/
 +	SCORE_DAMAGE_TAKEN          = 20,
 +	SCORE_HEALING_TAKEN         = 21
  };
  
  enum ArenaType
-@@ -252,7 +255,7 @@ enum BattlegroundStartingEventsIds
+@@ -252,7 +256,7 @@ enum BattlegroundStartingEventsIds
  struct BattlegroundScore
  {
      BattlegroundScore(Player* player) : KillingBlows(0), Deaths(0), HonorableKills(0), BonusHonor(0),
 -        DamageDone(0), HealingDone(0), player(player)
-+		DamageDone(0), HealingDone(0), DamageTaken(0), HealingTaken(0), player(player) //ARMORY MOD
++        DamageDone(0), HealingDone(0), DamageTaken(0), HealingTaken(0), player(player) //ARMORY MOD
      { }
  
      virtual ~BattlegroundScore() { }                        //virtual destructor is used when deleting score from scores map
-@@ -263,6 +266,10 @@ struct BattlegroundScore
+@@ -263,6 +267,8 @@ struct BattlegroundScore
      uint32 BonusHonor;
      uint32 DamageDone;
      uint32 HealingDone;
-+	/** World of Warcraft Armory **/
 +	uint32 DamageTaken;
 +	uint32 HealingTaken;
-+	/** World of Warcraft Armory **/
      Player* player;
  
      uint32 GetKillingBlows() const { return KillingBlows; }
 diff --git a/src/game/Entities/Item/Item.cpp b/src/game/Entities/Item/Item.cpp
-index 9a5e553..e6b7ac6 100644
+index 9a5e553..dbb5293 100644
 --- a/src/game/Entities/Item/Item.cpp
 +++ b/src/game/Entities/Item/Item.cpp
-@@ -266,6 +266,12 @@ bool Item::Create(uint32 guidlow, uint32 itemid, Player const* owner)
+@@ -266,6 +266,14 @@ bool Item::Create(uint32 guidlow, uint32 itemid, Player const* owner)
  
      SetUInt32Value(ITEM_FIELD_DURATION, itemProto->Duration);
      SetUInt32Value(ITEM_FIELD_CREATE_PLAYED_TIME, 0);
++	
 +	if (itemProto->Quality > 2 && itemProto->Flags != 2048 && (itemProto->Class == ITEM_CLASS_WEAPON || itemProto->Class == ITEM_CLASS_ARMOR))
 +	{
 +		if (!GetOwner())
-+			return true;
++		    return true;
 +		GetOwner()->CreateWowarmoryFeed(2, itemid, guidlow, itemProto->Quality);
 +	}
++
      return true;
  }
  
 diff --git a/src/game/Entities/Player/Player.cpp b/src/game/Entities/Player/Player.cpp
-index da82a0c..a2a295d 100644
+index 41c4f3a..ce76abc 100644
 --- a/src/game/Entities/Player/Player.cpp
 +++ b/src/game/Entities/Player/Player.cpp
-@@ -5029,6 +5029,18 @@ void Player::DeleteFromDB(uint64 playerguid, uint32 accountId, bool updateRealmC
+@@ -5028,7 +5028,19 @@ void Player::DeleteFromDB(uint64 playerguid, uint32 accountId, bool updateRealmC
+             stmt = CharacterDatabase.GetPreparedStatement(CHAR_DEL_CHAR_SKILLS);
              stmt->setUInt32(0, guid);
              trans->Append(stmt);
- 
+-
++			
 +			/** World of Warcraft Armory **/
 +			stmt = CharacterDatabase.GetPreparedStatement(CHAR_DEL_ARMORY_STATS);
 +			stmt->setUInt32(0, guid);
@@ -197,23 +199,20 @@ index da82a0c..a2a295d 100644
              CharacterDatabase.CommitTransaction(trans);
              break;
          }
-@@ -17641,6 +17653,11 @@ bool Player::LoadFromDB(uint32 guid, SQLQueryHolder *holder)
+@@ -17640,6 +17652,9 @@ bool Player::LoadFromDB(uint32 guid, SQLQueryHolder *holder)
+         CharacterDatabase.Execute(stmt);
          return false;
      }
- 
-+	/** World of Warcraft Armory **/
-+	// Cleanup old Wowarmory feeds
-+	InitWowarmoryFeeds();
-+	/** World of Warcraft Armory **/
 +	
++	// Cleanup old Wowarmory feeds
++    InitWowarmoryFeeds();
+ 
      // overwrite possible wrong/corrupted guid
      SetUInt64Value(OBJECT_FIELD_GUID, MAKE_NEW_GUID(guid, 0, HIGHGUID_PLAYER));
- 
-@@ -19554,6 +19571,35 @@ void Player::SaveToDB(bool create, bool logout)
-         _SaveStats(trans);
+@@ -19555,6 +19570,35 @@ void Player::SaveToDB(bool create, bool logout)
  
      CharacterDatabase.CommitTransaction(trans);
-+	
+ 
 +	/* World of Warcraft Armory */
 +	// Place this code AFTER CharacterDatabase.CommitTransaction(); to avoid some character saving errors.
 +	// Wowarmory feeds
@@ -226,29 +225,31 @@ index da82a0c..a2a295d 100644
 +		    //                      guid                    type                        data                    date                            counter                   difficulty                        item_guid                      item_quality
 +		    sWowarmory << "(" << (*iter).guid << ", " << (*iter).type << ", " << (*iter).data << ", " << uint64((*iter).date) << ", " << (*iter).counter << ", " << uint32((*iter).difficulty) << ", " << (*iter).item_guid << ", " << (*iter).item_quality << ")";
 +		    if (iter != m_wowarmory_feeds.end() - 1)
-+			   sWowarmory << ",";
++			    sWowarmory << ",";
 +		}
 +		CharacterDatabase.PExecute(sWowarmory.str().c_str());
 +		// Clear old saved feeds from storage - they are not required for server core.
 +		InitWowarmoryFeeds();
++	
++	    // Character stats
++	    std::ostringstream ps;
++	    time_t t = time(NULL);
++	    CharacterDatabase.PExecute("DELETE FROM armory_character_stats WHERE guid = %u", GetGUIDLow());
++	    ps << "INSERT INTO armory_character_stats (guid, data, save_date) VALUES (" << GetGUIDLow() << ", '";
++	    for (uint16 i = 0; i < m_valuesCount; ++i)
++	    ps << GetUInt32Value(i) << " ";
++	    ps << "', " << uint64(t) << ");";
++	    CharacterDatabase.PExecute(ps.str().c_str());
 +	}
-+	// Character stats
-+	std::ostringstream ps;
-+	time_t t = time(NULL);
-+	CharacterDatabase.PExecute("DELETE FROM armory_character_stats WHERE guid = %u", GetGUIDLow());
-+	ps << "INSERT INTO armory_character_stats (guid, data, save_date) VALUES (" << GetGUIDLow() << ", '";
-+	for (uint16 i = 0; i < m_valuesCount; ++i)
-+	ps << GetUInt32Value(i) << " ";
-+	ps << "', " << uint64(t) << ");";
-+	CharacterDatabase.PExecute(ps.str().c_str());
-+	/* World of Warcraft Armory */
- 
++	    
      // save pet (hunter pet level and experience and all type pets health/mana).
      if (Pet* pet = GetPet())
-@@ -27239,6 +27285,48 @@ void Player::_SaveInstanceTimeRestrictions(SQLTransaction& trans)
+         pet->SavePetToDB(PET_SAVE_AS_CURRENT, logout);
+@@ -27220,6 +27264,49 @@ void Player::_LoadBrewOfTheMonth(PreparedQueryResult result)
      }
  }
  
++
 +void Player::InitWowarmoryFeeds()
 +{
 +	// Clear feeds
@@ -266,20 +267,20 @@ index da82a0c..a2a295d 100644
 +		sLog->outError("[Wowarmory]: player is not initialized, unable to create log entry!");
 +		return;
 +	}
-+	
++
 +	if (type <= 0 || type > 3)
 +	{
 +		sLog->outError("[Wowarmory]: unknown feed type: %d, ignore.", type);
 +		return;
 +	}
-+	
++
 +	if (data == 0)
 +	{
 +		sLog->outError("[Wowarmory]: empty data (GUID: %u), ignore.", GetGUIDLow());
 +		return;
 +	}
 +	WowarmoryFeedEntry feed;
-+	feed.guid = GetGUIDLow();
++    feed.guid = GetGUIDLow();
 +	feed.type = type;
 +	feed.data = data;
 +	feed.difficulty = type == 3 ? GetMap()->GetDifficulty() : 0;
@@ -291,14 +292,14 @@ index da82a0c..a2a295d 100644
 +	m_wowarmory_feeds.push_back(feed);
 +}
 +
- bool Player::IsInWhisperWhiteList(uint64 guid)
+ void Player::_SaveInstanceTimeRestrictions(SQLTransaction& trans)
  { 
-     for (WhisperListContainer::const_iterator itr = WhisperList.begin(); itr != WhisperList.end(); ++itr)
+     if (_instanceResetTimes.empty())
 diff --git a/src/game/Entities/Player/Player.h b/src/game/Entities/Player/Player.h
-index a0f3ec0..ac4b6cc 100644
+index a0f3ec0..4112d54 100644
 --- a/src/game/Entities/Player/Player.h
 +++ b/src/game/Entities/Player/Player.h
-@@ -1075,6 +1075,22 @@ private:
+@@ -1075,6 +1075,21 @@ private:
      bool _isPvP;
  };
  
@@ -316,34 +317,44 @@ index a0f3ec0..ac4b6cc 100644
 +};
 +
 +typedef std::vector<WowarmoryFeedEntry> WowarmoryFeeds;
-+/* World of Warcraft Armory */
 +
  class Player : public Unit, public GridObject<Player>
  {
      friend class WorldSession;
-@@ -2388,6 +2404,11 @@ class Player : public Unit, public GridObject<Player>
+@@ -2388,7 +2403,11 @@ class Player : public Unit, public GridObject<Player>
  
          void SendCinematicStart(uint32 CinematicSequenceId);
          void SendMovieStart(uint32 MovieId);
+-
 +		
 +		/* World of Warcraft Armory */
 +		void CreateWowarmoryFeed(uint32 type, uint32 data, uint32 item_guid, uint32 item_quality);
 +		void InitWowarmoryFeeds();
-+		/* World of Warcraft Armory */
- 
++		
          /*********************************************************/
          /***                 INSTANCE SYSTEM                   ***/
-@@ -2930,6 +2951,8 @@ class Player : public Unit, public GridObject<Player>
+         /*********************************************************/
+@@ -2930,7 +2949,7 @@ class Player : public Unit, public GridObject<Player>
          uint32 m_timeSyncTimer;
          uint32 m_timeSyncClient;
          uint32 m_timeSyncServer;
-+		// World of Warcraft Armory Feeds
-+		WowarmoryFeeds m_wowarmory_feeds;
- 
+-
++		
          InstanceTimeMap _instanceResetTimes;
          uint32 _pendingBindId;
+         uint32 _pendingBindTimer;
+@@ -2938,6 +2957,9 @@ class Player : public Unit, public GridObject<Player>
+         // duel health and mana reset attributes
+         uint32 healthBeforeDuel;
+         uint32 manaBeforeDuel;
++		
++		// World of Warcraft Armory Feeds
++		WowarmoryFeeds m_wowarmory_feeds;
+ };
+ 
+ void AddItemsSetItem(Player*player, Item* item);
 diff --git a/src/game/Entities/Unit/Unit.cpp b/src/game/Entities/Unit/Unit.cpp
-index 5166c71..409abb5 100644
+index 5166c71..208e8e6 100644
 --- a/src/game/Entities/Unit/Unit.cpp
 +++ b/src/game/Entities/Unit/Unit.cpp
 @@ -840,6 +840,14 @@ uint32 Unit::DealDamage(Unit* attacker, Unit* victim, uint32 damage, CleanDamage
@@ -357,38 +368,40 @@ index 5166c71..409abb5 100644
 +					bg->UpdatePlayerScore(((Player*)victim), SCORE_DAMAGE_TAKEN, damage);
 +				}
 +				/** World of Warcraft Armory **/
-+
++				
                  killer->UpdateAchievementCriteria(ACHIEVEMENT_CRITERIA_TYPE_DAMAGE_DONE, damage, 0, victim); // pussywizard: InBattleground() optimization
              }
              //killer->UpdateAchievementCriteria(ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_HIT_DEALT, damage); // pussywizard: optimization
-@@ -10033,6 +10041,12 @@ int32 Unit::DealHeal(Unit* healer, Unit* victim, uint32 addhealth)
+@@ -10032,6 +10040,13 @@ int32 Unit::DealHeal(Unit* healer, Unit* victim, uint32 addhealth)
+         //player->UpdateAchievementCriteria(ACHIEVEMENT_CRITERIA_TYPE_TOTAL_HEALING_RECEIVED, gain); // pussywizard: optimization
          //player->UpdateAchievementCriteria(ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_HEALING_RECEIVED, addhealth); // pussywizard: optimization
      }*/
- 
++	
 +	/** World of Warcraft Armory **/
 +	if (Player* player = victim->ToPlayer())
 +	{
 +	    if (Battleground *bg = victim->ToPlayer()->GetBattleground())
 +		    bg->UpdatePlayerScore((Player*)victim, SCORE_HEALING_TAKEN, gain);
 +	}
+ 
      return gain;
  }
- 
-@@ -16531,13 +16545,16 @@ void Unit::Kill(Unit* killer, Unit* victim, bool durabilityLoss, WeaponAttackTyp
+@@ -16531,13 +16546,16 @@ void Unit::Kill(Unit* killer, Unit* victim, bool durabilityLoss, WeaponAttackTyp
          if (creature->GetInstanceId())
          {
              Map* instanceMap = creature->GetMap();
 -            //Player* creditedPlayer = GetCharmerOrOwnerPlayerOrPlayerItself();
-+            Player* creditedPlayer = killer ? killer->GetCharmerOrOwnerPlayerOrPlayerItself() : NULL; //???
++			Player* creditedPlayer = killer->GetCharmerOrOwnerPlayerOrPlayerItself();
              // TODO: do instance binding anyway if the charmer/owner is offline
  
-             if (instanceMap->IsDungeon() && player)
+-            if (instanceMap->IsDungeon() && player)
++            if (instanceMap->IsDungeon() && creditedPlayer)
                  if (instanceMap->IsRaidOrHeroicDungeon())
                      if (creature->GetCreatureTemplate()->flags_extra & CREATURE_FLAG_EXTRA_INSTANCE_BIND)
 +					{
                          instanceMap->ToInstanceMap()->PermBindAllPlayers();
 +					    creditedPlayer->CreateWowarmoryFeed(3, creature->GetCreatureTemplate()->Entry, 0, 0);
-+					}
++					}	
          }
      }
  
