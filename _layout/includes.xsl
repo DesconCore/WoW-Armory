@@ -56,7 +56,7 @@
     <script type="text/javascript" src="shared/global/third-party/jquery/jquery.tablesorter.pager.js"></script>
 	<script type="text/javascript" src="shared/global/third-party/jquery/jquery.bgiframe.min.js"></script>	
     <script type="text/javascript" src="shared/global/third-party/jquery/jquery.color.js"></script>
-	<script type="text/javascript" src="shared/global/third-party/sarissa/0.9.9.3/sarissa.js"></script>
+	<script type="text/javascript" src="shared/global/third-party/sarissa/sarissa.js"></script>
 	<script type="text/javascript" src="_js/common.js"></script>
 	<script type="text/javascript" src="_js/armory.js"></script>
 	
