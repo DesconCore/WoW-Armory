@@ -51,7 +51,7 @@ input.search-filter {color:#818181 !important;letter-spacing:-1px}
 .parch-front a.search-options:hover {background-position:0 -31px}
 .search-option-container {float:left;position:relative;z-index:99;height:31px;width:1px;}
 .parch-front .search-module {position:relative;top:135px;height:35px;}
-.parch-front .search-module .search-icon {position:absolute;top:-18px;left:222px;height:43px;width:41px;display:block;background:url('../images/icons/search-glass.gif') no-repeat 0 0;}
+.parch-front .search-module .search-icon {position:absolute;top:-18px;left:211px;height:46px;width:46px;display:block;background:url('../images/icons/Icon-search-gold.png') no-repeat 0 0;}
 .on{background-position:0 -31px !important}
 .specify-search{position:absolute;top:5px;right:25px;background:url('../images/inner-bg.png')}
 .specify-search-container{position:relative;top:-5px;left:-5px;width:150px;background:#510100;padding:3px;z-index:99}
