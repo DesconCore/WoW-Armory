@@ -278,7 +278,7 @@ Class Arenateams {
             case SERVER_MANGOS:
                 $current_count = $db->selectCell("SELECT COUNT(`arena_team`.`arenateamid`) FROM `arena_team` AS `arena_team` LEFT JOIN `arena_team_stats` AS `arena_team_stats` ON `arena_team_stats`.`arenateamid` = `arena_team`.`arenateamid` WHERE `arena_team`.`type` = %d AND `arena_team_stats`.`rank` > 0", $type);
 		 break;
-            case TRINITY_SERVER:
+            case SERVER_TRINITY:
 	        $current_count = $db->selectCell("SELECT COUNT(`arena_team`.`arenateamid`) FROM `arena_team` AS `arena_team` WHERE `arena_team`.`type` = %d AND `arena_team`.`rank` > 0", $type);
                 break;
                 }	 			 

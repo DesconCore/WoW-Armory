@@ -307,7 +307,7 @@ Class Utils {
      * @access   public
      * @return   array
      **/
-    public function GetActiveCharacter() {
+    public static function GetActiveCharacter() {
         if(!isset($_SESSION['accountId'])) {
             return false;
         }
@@ -497,7 +497,7 @@ Class Utils {
      * @param    int $value
      * @param    int $unitClass
      **/
-    public function ComputePetBonus($stat, $value, $unitClass) {
+    public static function ComputePetBonus($stat, $value, $unitClass) {
         $hunter_pet_bonus = array(0.22, 0.1287, 0.3, 0.4, 0.35, 0.0, 0.0, 0.0);
         $warlock_pet_bonus = array(0.0, 0.0, 0.3, 0.4, 0.35, 0.15, 0.57, 0.3);
         if($unitClass == CLASS_WARLOCK) {
@@ -527,7 +527,7 @@ Class Utils {
      * @param    int $num
      * @return   float
      **/
-    public function GetFloatValue($value, $num) {
+    public static function GetFloatValue($value, $num) {
         $txt = unpack('f', pack('L', $value));
         return round($txt[1], $num);
     }
@@ -541,7 +541,7 @@ Class Utils {
      * @param    int $id
      * @return   int
      **/
-    public function GetRatingCoefficient($rating, $id) {
+    public static function GetRatingCoefficient($rating, $id) {
         if(!is_array($rating)) {
             return 1; // Do not return 0 because it will cause division by zero error.
         }
@@ -590,7 +590,7 @@ Class Utils {
      * @param    string $string
      * @return   string
      **/
-    public function escape($string) {
+    public static function escape($string) {
         return !get_magic_quotes_gpc() ? addslashes($string) : $string;
     }
 
@@ -602,7 +602,7 @@ Class Utils {
      * @param    int $min
      * @return   int
      **/
-    public function GetPercent($max, $min) {
+    public static function GetPercent($max, $min) {
         $percent = $max / 100;
         if($percent == 0) {
             return 0;
@@ -797,7 +797,7 @@ Class Utils {
      * @param    int $class
      * @return   float
      **/
-    public function GetAttackPowerForStat($statIndex, $effectiveStat, $class) {
+    public static function GetAttackPowerForStat($statIndex, $effectiveStat, $class) {
         $ap = 0;
         if($statIndex == STAT_STRENGTH) {
             switch($class) {
@@ -839,7 +839,7 @@ Class Utils {
      * @param    float $agility
      * @return   float
      **/
-    public function GetCritChanceFromAgility($rating, $class, $agility) {
+    public static function GetCritChanceFromAgility($rating, $class, $agility) {
         if(!is_array($rating)) {
             return -1;
         }
@@ -863,7 +863,7 @@ Class Utils {
      * @param    float $intellect
      * @return   float
      **/
-    public function GetSpellCritChanceFromIntellect($rating, $class, $intellect) {
+    public static function GetSpellCritChanceFromIntellect($rating, $class, $intellect) {
         if(!is_array($rating)) {
             return 0;
         }
@@ -883,7 +883,7 @@ Class Utils {
      * @param    int $class
      * @return   float
      **/
-    public function GetHRCoefficient($rating, $class) {
+    public static function GetHRCoefficient($rating, $class) {
         if(!is_array($rating)) {
             return 0;
         }
@@ -907,7 +907,7 @@ Class Utils {
      * @param    int $class
      * @return   float
      **/
-    public function GetMRCoefficient($rating, $class) {
+    public static function GetMRCoefficient($rating, $class) {
         if(!is_array($rating)) {
             return 0;
         }
@@ -930,7 +930,7 @@ Class Utils {
      * @param    int $id
      * @return   int
      **/
-    public function GetSkillIDFromItemID($id) {
+    public static function GetSkillIDFromItemID($id) {
         if($id == 0) {
             return SKILL_UNARMED;
         }
@@ -970,7 +970,7 @@ Class Utils {
      * @param    array $char_data
      * @return   array
      **/
-    public function GetSkillInfo($id, $char_data) {
+    public static function GetSkillInfo($id, $char_data) {
         $skillInfo = array(0,0,0,0,0,0);
         for ($i = 0; $i < 128; $i++) {
             if(($char_data[PLAYER_SKILL_INFO_1_1 + $i * 3] & 0x0000FFFF) == $id) {
@@ -1132,7 +1132,7 @@ Class Utils {
      * @param    int $seconds
      * @return   string
      **/
-    public function GetTimeText($seconds) {
+    public static function GetTimeText($seconds) {
         $strings_array = array(
             'en_gb' => array(
                 'days', 'hours', 'min', 'sec'
@@ -1182,7 +1182,7 @@ Class Utils {
      * @param    int $index
      * @return   string
      **/
-    public function GetRadius($index) {
+    public static function GetRadius($index) {
         $gSpellRadiusIndex = array(
              '7' => array(2,0,2),
              '8' => array(5,0,5),

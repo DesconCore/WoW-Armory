@@ -64,7 +64,7 @@ Class Items {
      * @param    int $itemID
      * @return   string
      **/
-    public function GetItemName($itemID) {
+    public static function GetItemName($itemID) {
         if(Armory::GetLocale() == 'en_gb' || Armory::GetLocale() == 'en_us') {
             $itemName = Armory::$wDB->selectCell("SELECT `name` FROM `item_template` WHERE `entry`=%d LIMIT 1", $itemID);
         }
@@ -708,7 +708,7 @@ Class Items {
      * @todo     Add more cases
      * @return   string
      **/
-    public function GetItemInfo($itemID, $type) {
+    public static function GetItemInfo($itemID, $type) {
         switch($type) {
             case 'quality':
                 $info = Armory::$wDB->selectCell("SELECT `Quality` FROM `item_template` WHERE `entry`=%d LIMIT 1", $itemID);
