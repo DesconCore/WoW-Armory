@@ -1,0 +1,16 @@
+DELETE FROM `armory_spell_duration` WHERE `id`=592;
+INSERT INTO `armory_spell_duration` (`id`, `duration_1`, `duration_2`, `duration_3`) VALUES (592, 400, 0, 400);
+DELETE FROM `armory_spell_duration` WHERE `id`=593;
+INSERT INTO `armory_spell_duration` (`id`, `duration_1`, `duration_2`, `duration_3`) VALUES (593, 300, 0, 300);
+DELETE FROM `armory_spell_duration` WHERE `id`=594;
+INSERT INTO `armory_spell_duration` (`id`, `duration_1`, `duration_2`, `duration_3`) VALUES (594, 660000, 0, 660000);
+DELETE FROM `armory_spell_duration` WHERE `id`=596;
+INSERT INTO `armory_spell_duration` (`id`, `duration_1`, `duration_2`, `duration_3`) VALUES (596, 900, 0, 900);
+DELETE FROM `armory_spell_duration` WHERE `id`=597;
+INSERT INTO `armory_spell_duration` (`id`, `duration_1`, `duration_2`, `duration_3`) VALUES (597, 4700, 0, 4700);
+DELETE FROM `armory_spell_duration` WHERE `id`=598;
+INSERT INTO `armory_spell_duration` (`id`, `duration_1`, `duration_2`, `duration_3`) VALUES (598, 3600, 0, 3600);
+DELETE FROM `armory_spell_duration` WHERE `id`=600;
+INSERT INTO `armory_spell_duration` (`id`, `duration_1`, `duration_2`, `duration_3`) VALUES (600, 42000, 0, 42000);
+DELETE FROM `armory_spell_duration` WHERE `id`=602;
+INSERT INTO `armory_spell_duration` (`id`, `duration_1`, `duration_2`, `duration_3`) VALUES (602, 480000, 0, 480000);
