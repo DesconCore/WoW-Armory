@@ -409,9 +409,13 @@ Class Items {
                 foreach($QuestInfo as $quest) {
                     $lootTable[$i] = $quest;
                     if(Armory::GetLocale() != 'en_gb' || Armory::GetLocale() != 'en_us') {
-                        $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'LogTitle');
+                        if (empty($lootTable[$i])) {
+                            $lootTable[$i]['name'] = Mangos::GetQuestInfo($quest['id'], 'LogTitle');
+                        }
                     }
-                    $lootTable[$i]['area'] = Mangos::GetQuestInfo($quest['id'], 'map');
+                    if (empty($lootTable[$i])) {
+                        $lootTable[$i]['area'] = Mangos::GetQuestInfo($quest['id'], 'map');
+                    }
                 }
                 break;
             case 'objectiveof':

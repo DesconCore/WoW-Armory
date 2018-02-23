@@ -179,7 +179,7 @@ Class Mangos {
                     $info = Armory::$wDB->selectCell("SELECT `name` FROM `gameobject_template` WHERE `entry`=%d", $entry);
                 }
                 else {
-                    $info = Armory::$wDB->selectCell("SELECT `name_loc%d` FROM `locales_gameobject` WHERE `entry`=%d", Armory::GetLoc(), $entry);
+                    $info = Armory::$wDB->selectCell("SELECT `name` FROM `gameobject_template_locale` WHERE `entry`=%d", Armory::GetLoc(), $entry);
                     if(!$info) {
                         $info = Armory::$wDB->selectCell("SELECT `name` FROM `gameobject_template` WHERE `entry`=%d", $entry);
                     }
