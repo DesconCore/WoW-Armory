@@ -90,8 +90,13 @@ Class Characters {
      * @category Characters class
      * @access   private
      **/
-    private $playerBytes = false;
-    private $playerBytes2 = false;
+    private $skin = false;
+    private $face = false;
+    private $hairStyle = false;
+    private $hairColor = false;
+    private $facialStyle = false;
+    private $bankSlots = false;
+    private $restState = false;
     private $playerFlags = false;
 
     /**
@@ -399,8 +404,13 @@ Class Characters {
             `characters`.`gender`,
             `characters`.`level`,
             `characters`.`money`,
-            `characters`.`playerBytes`,
-            `characters`.`playerBytes2`,
+            `characters`.`skin`,
+	    `characters`.`face`,
+	    `characters`.`hairStyle`,
+	    `characters`.`hairColor`,
+	    `characters`.`facialStyle`,
+            `characters`.`bankSlots`,
+            `characters`.`restState`,
             `characters`.`playerFlags`,
             `characters`.`talentGroupsCount`,
             `characters`.`activeTalentGroup`,
@@ -704,7 +714,7 @@ Class Characters {
      * @return   array
      **/
     public function GetPlayerBytes() {
-        return array('playerBytes' => $this->playerBytes, 'playerBytes2' => $this->playerBytes2, 'playerFlags' => $this->playerFlags);
+        return array('face' => $this->face, 'face' => $this->hairStyle, 'hairStyle' =>$this->hairColor, 'hairColor' =>$this->facialStyle, 'facialStyle' =>$this->bankSlots, 'bankSlots' =>$this->restState, 'playerFlags' => $this->playerFlags);
     }
 
     /**
