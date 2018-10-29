@@ -27,39 +27,14 @@ if(!defined('__ARMORY__')) {
 }
 
 Class Achievements {
-
-    /**
-     * Character guid
-     * @category Achievements class
-     * @access   public
-     **/
+    
     public $guid = 0;
-
-    /**
-     * Character achievement points
-     * @category Achievements class
-     * @access   public
-     **/
     public $pts = 0;
-
-    /**
-     * Achievement ID
-     * @category Achievements class
-     * @access   public
-     **/
     public $achId = -1;
-
-    /**
-     * Character achievements count
-     * @category Achievements class
-     * @access   private
-     **/
+    
     private $m_count = 0;
-
     private $b_isInitialized = false;
-
     private $db = null;
-
     private $achievements_storage = array();
     private $achievements_progress_storage = array();
     private $achievements_id = array();

@@ -28,60 +28,18 @@ if(!defined('__ARMORY__')) {
 
 Class Guilds {
 
-    /**
-     * Player guid
-     * @category Guilds class
-     * @access   public
-     **/
      public $guid = 0;
-
-     /**
-      * Guild ID
-      * @category Guilds class
-      * @access   public
-      **/
      private $guildId = 0;
-
-     /**
-      * Guild name
-      * @category Guilds class
-      * @access   public
-      **/
      private $guildName = null;
-
-     /**
-      * Guild tabard style
-      * @category Guilds class
-      * @access   public
-      **/
      public $guildtabard = null;
      private $emblemstyle = 0;
      private $emblemcolor = 0;
      private $borderstyle = 0;
      private $bordercolor = 0;
      private $bgcolor = 0;
-
-     /**
-      * Guild Leader GUID
-      * @category Guilds class
-      * @access   public
-      **/
      public $guildleaderguid = 0;
-
-     /**
-      * Guild faction
-      * @category Guilds class
-      * @access   public
-      **/
      private $guildFaction = 0;
-
      private $guildBankMoney = 0;
-
-     /**
-      * Server type
-      * @category Guilds class
-      * @access   private
-      **/
      private $m_server = null;
 
      /**

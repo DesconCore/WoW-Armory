@@ -28,19 +28,8 @@ if(!defined('__ARMORY__')) {
 
 Class Items {
 
-    /**
-     * Not used now
-     **/
-    public $itemId;
-
-    /**
-     * $charGuid used by item-tooltip.php (enchantments, sockets & item durability for current character)
-     **/
+    public $itemID;
     public $charGuid;
-
-    /**
-     * ItemDisplayInfo holder
-     **/
     private $itemDisplayInfo = array();
 
     /**

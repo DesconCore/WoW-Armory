@@ -32,64 +32,13 @@ if(!defined('__ARMORY__')) {
 
 Class Characters {
 
-    /**
-     * Player guid
-     * @category Characters class
-     * @access   private
-     **/
+   // Character Fields
     private $guid = false;
-
-    /**
-     * Player name
-     * @category Characters class
-     * @access   private
-     **/
     private $name = false;
-
-    /**
-     * Player race id
-     * @category Characters class
-     * @access   private
-     **/
     private $race = false;
-
-    /**
-     * Player class id
-     * @category Characters class
-     * @access   private
-     **/
     private $class = false;
-
-    /**
-     * Player gender
-     * (0 - male, 1 - female)
-     * @category Characters class
-     * @access   private
-     **/
     private $gender = false;
-
-    /**
-     * Player level
-     * @category Characters class
-     * @access   private
-     **/
     private $level = false;
-
-    /**
-     * Player money amount
-     **/
-    private $money;
-
-    /**
-     * Players last updated date
-     */
-    private $lastUpdated;
-
-    /**
-     * Player model display info
-     * @category Characters class
-     * @access   private
-     **/
     private $skin = false;
     private $face = false;
     private $hairStyle = false;
@@ -98,181 +47,39 @@ Class Characters {
     private $bankSlots = false;
     private $restState = false;
     private $playerFlags = false;
-
-    /**
-     * Player title ID
-     * @category Characters class
-     * @access   private
-     **/
     private $chosenTitle = false;
-
-    /**
-     * Player health value
-     * @category Characters class
-     * @access   private
-     **/
     private $health = false;
-
-    /**
-     * Player powers values
-     * @category Characters class
-     * @access   private
-     **/
     private $power1 = false;
     private $power2 = false;
     private $power3 = false;
-
-    /**
-     * Account ID
-     * (currently not used)
-     * @category Characters class
-     * @access   private
-     **/
-    private $account = false;
-
-    /**
-     * Talent specs count
-     * @category Characters class
-     * @access   private
-     **/
     private $talentGroupsCount = false;
-
-    /**
-     * Active talent spec ID
-     * (0 or 1)
-     * @category Characters class
-     * @access   private
-     **/
     private $activeTalentGroup = false;
-
-    /**
-     * Player faction
-     * (1 - Horde, 0 - Alliance)
-     * @category Characters class
-     * @access   private
-     **/
-    private $faction = false;
-
-    /**
-     * Array with player stats constants
-     * (depends on character level)
-     * @category Characters class
-     * @access   private
-     **/
-    private $rating = false;
-
-    /**
-     * Player title data
-     * (prefix, suffix, titleId)
-     * @category Characters class
-     * @access   private
-     **/
-    private $character_title = array('prefix' => null, 'suffix' => null, 'titleId' => null);
-
-    /**
-     * Player guild ID
-     * @category Characters class
-     * @access   private
-     **/
-    private $guild_id = false;
-
-    /**
-     * Player guild name
-     * @category Characters class
-     * @access   private
-     **/
-    private $guild_name = false;
-
-    /**
-     * Player guild rank ID
-     * @category Characters class
-     * @access   private
-     **/
-    private $guild_rank_id = false;
-
-    /**
-     * Player guild rank name
-     * @category Characters class
-     * @access   private
-     **/
-    private $guild_rank_name = false;
-
-    /**
-     * $this->class text
-     * @category Characters class
-     * @access   private
-     **/
-    private $classText = false;
-
-    /**
-     * $this->race text
-     * @category Characters class
-     * @access   private
-     **/
-    private $raceText = false;
-
-    /**
-     * Equipped item IDs
-     * @category Characters class
-     * @access   private
-     **/
     private $equipmentCache = false;
 
-    /**
-     * Database handler
-     * @category Characters class
-     * @access   private
-     **/
-    private $db = null;
-
-    /**
-     * Character realm name
-     * @category Characters class
-     * @access   private
-     **/
-    private $realmName = false;
-
-    /**
-     * Character realm ID
-     * @category Characters class
-     * @access   private
-     **/
-    private $realmID = false;
-
-    /**
-     * Achievement MGR
-     * @category Characters class
-     * @access   private
-     **/
-    private $m_achievementMgr = null;
-
-    /**
-     * Equipped items storage
-     * @category Characters class
-     * @access   private
-     **/
-    private $m_items;
-
-    /**
-     * Server type (SERVER_MANGOS or SERVER_TRINITY)
-     * @category Characters class
-     * @access   private
-     **/
+    // Extra Variables
     private $m_server = null;
+    private $realmName = false;
+    private $realmID = false;
+    private $money;
+    private $lastUpdated;
+    private $account = false;
 
-    /**
-     * Character feed data
-     **/
+    private $faction = false;
+    private $rating = false;
+    private $character_title = array('prefix' => null, 'suffix' => null, 'titleId' => null);
+    private $guild_id = false;
+    private $guild_name = false;
+    private $guild_rank_id = false;
+    private $guild_rank_name = false;
+    
+    // Storages
+    private $m_items;
+    private $classText = false;
+    private $raceText = false;
+    private $db = null;
+    private $m_achievementMgr = null;
     private $feed_data = array();
-
-    /**
-     * Character data
-     **/
     private $char_data = array();
-
-    /**
-     *
-     **/
     private $load_options = array();
 
     public function Characters() {
@@ -405,10 +212,10 @@ Class Characters {
             `characters`.`level`,
             `characters`.`money`,
             `characters`.`skin`,
-	    `characters`.`face`,
-	    `characters`.`hairStyle`,
-	    `characters`.`hairColor`,
-	    `characters`.`facialStyle`,
+	        `characters`.`face`,
+	        `characters`.`hairStyle`,
+	        `characters`.`hairColor`,
+	        `characters`.`facialStyle`,
             `characters`.`bankSlots`,
             `characters`.`restState`,
             `characters`.`playerFlags`,
@@ -1340,7 +1147,7 @@ Class Characters {
                         $current_glyph = Armory::$aDB->selectRow("SELECT `name_%s` AS `name`, `description_%s` AS `effect`, `type` FROM `ARMORYDBPREFIX_glyphproperties` WHERE `id`=%d", Armory::GetLocale(), Armory::GetLocale(), $glyph['glyph']);
                     }
                     else {
-                        $current_glyph = Armory::$aDB->selectRow("SELECT `name_en_gb` AS `name`, `description_en_gb` AS `effect`, `type` FROM `ARMORYDBPREFIX_glyphproperties` WHERE `id`=%d", $glyph['glyph']);
+                        $current_glyph = Armory::$aDB->selectRow("SELECT `name_%s` AS `name`, `description_%s` AS `effect`, `type` FROM `ARMORYDBPREFIX_glyphproperties` WHERE `id`=%d", $glyph['glyph']);
                     }
                     $data[$glyph['spec']][$i] = array(
                         'effect' => str_replace('"', '&quot;', $current_glyph['effect']),

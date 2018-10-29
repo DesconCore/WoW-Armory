@@ -24,9 +24,6 @@
 
 Class ArmoryDebug {
 
-    /**
-     * Log config
-     **/
     private $config;
     private $file = '';
 

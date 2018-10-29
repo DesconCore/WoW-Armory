@@ -28,33 +28,10 @@ if(!defined('__ARMORY__')) {
 
 Class Utils {
 
-    /**
-     * Account ID
-     * @category Utils class
-     * @access   public
-     **/
-    public $accountId;
-
-    /**
-     * Username
-     * @category Utils class
-     * @access   public
-     **/
-    public $username;
-
-    /**
-     * Password
-     * @category Utils class
-     * @access   public
-     **/
-    public $password;
-
-    /**
-     * Login-password hash (SHA1)
-     * @category Utils class
-     * @access   public
-     **/
-    public $shaHash;
+    public static $accountId;
+    public static $username;
+    public static $password;
+    public static $shaHash;
 
     /**
      * User authorization
