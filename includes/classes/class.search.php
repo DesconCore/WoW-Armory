@@ -869,7 +869,7 @@ Class SearchMgr {
                 $sql .= ",
                 `creature_loot_template`.`entry`,
                 `creature_loot_template`.`item`,
-                `creature_loot_template`.`ChanceOrQuestChance`
+                `creature_loot_template`.`chance`
                 FROM `item_template` AS `item_template`
                 LEFT JOIN `creature_loot_template` AS `creature_loot_template` ON `creature_loot_template`.`item`=`item_template`.`entry`
                 WHERE";

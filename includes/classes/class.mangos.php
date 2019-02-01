@@ -523,23 +523,23 @@ Class Mangos {
         if(!isset($allowed_tables[$db_table])) {
             return 0;
         }
-        $lootTable = Armory::$wDB->select("SELECT `ChanceOrQuestChance`, `groupid`, `mincountOrRef`, `item` FROM `%s` WHERE `entry`=%d", $db_table, $boss_id);
+        $lootTable = Armory::$wDB->select("SELECT `chance`, `groupid`, `mincount`, `item` FROM `%s` WHERE `entry`=%d", $db_table, $boss_id);
         if(!$lootTable) {
             return 0;
         }
         $percent = 0;
         foreach($lootTable as $loot) {
-            if($loot['ChanceOrQuestChance'] > 0 && $loot['item'] == $item_id) {
-                $percent = $loot['ChanceOrQuestChance'];
+            if($loot['chance'] > 0 && $loot['item'] == $item_id) {
+                $percent = $loot['chance'];
             }
-            elseif($loot['ChanceOrQuestChance'] == 0 && $loot['item'] == $item_id) {
+            elseif($loot['chance'] == 0 && $loot['item'] == $item_id) {
                 $current_group = $loot['groupid'];
                 $percent = 0;
                 $i = 0;
                 foreach($lootTable as $tLoot) {
                     if($tLoot['groupid'] == $current_group) {
-                        if($tLoot['ChanceOrQuestChance'] > 0) {
-                            $percent += $tLoot['ChanceOrQuestChance'];
+                        if($tLoot['chance'] > 0) {
+                            $percent += $tLoot['chance'];
                         }
                         else {
                             $i++;
